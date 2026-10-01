@@ -104,9 +104,12 @@ it('invites people the inviter can see, and withdraws an invitation together wit
         ->and($this->people->invite($o->a1, $event, [$o->a2->person_id]))->toBe(0)
         ->and(journalCount('events.invitation.sent'))->toBe(2)
         ->and(fn () => $this->people->invite($o->a2, $event, [$o->balti1->person_id]))->toThrow(AuthorizationException::class)
-        // The head of the organizer's branch reaches the event; the head of another branch does not.
-        ->and($this->people->invite($o->headA, $event, [$o->headA->person_id]))->toBe(1)
-        ->and(fn () => $this->people->invite($o->headB, $event, [$o->headB->person_id]))->toThrow(AuthorizationException::class);
+        // Running an event takes the sight of it: the head of the organizer's branch does not see a private event until invited.
+        ->and(fn () => $this->people->invite($o->headA, $event, [$o->orgHead->person_id]))->toThrow(AuthorizationException::class)
+        ->and($this->people->invite($o->a1, $event, [$o->headA->person_id, $o->headB->person_id]))->toBe(2)
+        ->and($this->people->invite($o->headA, $event, [$o->regionHead->person_id]))->toBe(1)
+        // The head of another branch sees it now, and still does not run it.
+        ->and(fn () => $this->people->invite($o->headB, $event, [$o->orgHead->person_id]))->toThrow(AuthorizationException::class);
 
     $notice = $o->b1->notifications()->sole();
     expect($notice->data['title'])->toContain('Ședință închisă')
@@ -229,7 +232,7 @@ it('tells the people going about a new time and about a cancellation', function 
     Notification::fake();
     $o = $this->org;
     $event = ($this->event)($o->a1, ['reminder_minutes' => [120]]);
-    $this->people->invite($o->a1, $event, [$o->a2->person_id, $o->b1->person_id]);
+    $this->people->invite($o->a1, $event, [$o->a2->person_id, $o->b1->person_id, $o->headA->person_id]);
     $this->people->respond($o->b1, $event, EventAttendee::DECLINED);
 
     $this->events->update($o->a1, $event, ['title' => 'Întâlnire mutată', 'starts_at' => now()->addDays(3)->setTime(19, 0)]);

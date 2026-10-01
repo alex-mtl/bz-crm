@@ -40,6 +40,8 @@ class SocialDemoSeeder extends Seeder
 
     public const string RULES = 'Community rules: be kind, stay on topic, no personal data in posts';
 
+    public const string WEEKLY_NEWS = 'Rezultatele săptămânii';
+
     public const string CHISINAU = 'Adunarea activului din municipiul Chișinău';
 
     public const string CENTRU_POLL = 'Când organizăm ieșirea în sectorul Centru?';
@@ -216,6 +218,8 @@ class SocialDemoSeeder extends Seeder
         $this->by('org_head', fn (User $elena) => app(ManagePosts::class)->pin($elena, $welcome, PostPin::GLOBAL));
         $this->at(27, fn () => $this->publish('hr', self::HR_NOTICE.': контакты, навыки, языки. Это помогает находить нужных людей.', ['visibility' => Post::PUBLIC]));
         $this->at(26, fn () => $this->publish('moderator', self::RULES.'. Reports go to the moderators of your region.', ['visibility' => Post::PUBLIC]));
+        // Exactly a week ago: whatever the weekday of seeding, it falls into "the previous week" of the weekly digest.
+        $this->at(7, fn () => $this->publish('org_head', self::WEEKLY_NEWS.': 3 filiale au depășit planul de contacte, 2 evenimente au avut loc.', ['visibility' => Post::PUBLIC]));
 
         foreach (['branch_a_head' => 'support', 'branch_a_employee_1' => 'like', 'balti_employee_1' => 'like', 'branch_b_employee_1' => 'celebrate', 'volunteer' => 'thanks'] as $key => $reaction) {
             $this->react($key, $welcome, $reaction);

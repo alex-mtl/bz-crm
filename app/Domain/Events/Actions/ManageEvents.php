@@ -91,7 +91,7 @@ final readonly class ManageEvents
      */
     public function update(User $actor, Event $event, array $data, bool $following = false): Event
     {
-        $this->authorization->authorize($actor, 'events.update', $event);
+        $this->visibility->authorizeManaging($actor, 'events.update', $event);
         if ($event->isCancelled()) {
             throw EventRuleViolation::because('cancelled');
         }
@@ -138,7 +138,7 @@ final readonly class ManageEvents
 
     public function cancel(User $actor, Event $event, string $reason, bool $following = false): void
     {
-        $this->authorization->authorize($actor, 'events.update', $event);
+        $this->visibility->authorizeManaging($actor, 'events.update', $event);
         $reason = trim($reason);
         if ($reason === '') {
             throw EventRuleViolation::because('reason_required');
@@ -177,7 +177,7 @@ final readonly class ManageEvents
      */
     public function publishResults(User $actor, Event $event, ?string $results, array $files = [], array $photos = []): Event
     {
-        $this->authorization->authorize($actor, 'events.results.publish', $event);
+        $this->visibility->authorizeManaging($actor, 'events.results.publish', $event);
         if ($event->isCancelled()) {
             throw EventRuleViolation::because('cancelled');
         }

@@ -4,7 +4,10 @@ declare(strict_types=1);
 
 namespace App\Domain\Social\Notifications;
 
+use App\Domain\Identity\Models\User;
 use App\Domain\Notifications\Concerns\RoutesByPreference;
+use App\Domain\Social\Models\Post;
+use App\Domain\Social\PostVisibility;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Notification;
@@ -38,6 +41,20 @@ final class SocialNotice extends Notification implements ShouldQueue
     public function category(): string
     {
         return in_array($this->kind, [self::WARNING, self::MUTED, self::HIDDEN], true) ? 'moderation' : 'social';
+    }
+
+    /**
+     * Checked at the moment of delivery: a notice about a post that its recipient can no longer see — hidden,
+     * deleted or narrowed while the notice waited in the queue — is not delivered (ТЗ §37).
+     */
+    public function shouldSend(object $notifiable, string $channel): bool
+    {
+        if ($this->postId === null || $this->category() === 'moderation' || ! $notifiable instanceof User) {
+            return true;
+        }
+        $post = Post::query()->find($this->postId);
+
+        return $post !== null && app(PostVisibility::class)->canSee($notifiable, $post);
     }
 
     /**

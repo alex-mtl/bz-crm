@@ -11,6 +11,7 @@ use App\Domain\Events\Models\Event;
 use App\Domain\Geo\Models\Territory;
 use App\Domain\Groups\GroupAccess;
 use App\Domain\Identity\Models\User;
+use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Query\Builder as QueryBuilder;
 
@@ -81,6 +82,22 @@ final readonly class EventVisibility
     public function canSee(User $user, Event $event): bool
     {
         return $this->visibleTo($user)->whereKey($event->id)->exists();
+    }
+
+    /**
+     * Running an event takes both the right and the sight of it: a head reaches the events of their people
+     * (the scope of the role), but not a private event or an event of a secret group they are not part of.
+     */
+    public function authorizeManaging(User $user, string $code, Event $event): void
+    {
+        if (! $this->authorization->can($user, $code, $event) || ! $this->canSee($user, $event)) {
+            throw new AuthorizationException(__('access.denied'));
+        }
+    }
+
+    public function mayManage(User $user, string $code, Event $event): bool
+    {
+        return $this->authorization->can($user, $code, $event) && $this->canSee($user, $event);
     }
 
     /**

@@ -5,7 +5,9 @@ namespace Database\Seeders;
 use App\Domain\Audit\JournalContext;
 use App\Domain\Identity\Models\User;
 use Database\Seeders\Demo\CrmDemoSeeder;
+use Database\Seeders\Demo\EventsDemoSeeder;
 use Database\Seeders\Demo\IdentityDemoSeeder;
+use Database\Seeders\Demo\NotificationsDemoSeeder;
 use Database\Seeders\Demo\OrganizationDemoSeeder;
 use Database\Seeders\Demo\Personas;
 use Database\Seeders\Demo\ProfilesDemoSeeder;
@@ -31,14 +33,26 @@ class DemoSeeder extends Seeder
 
         app(JournalContext::class)->asSystem('seeder:demo')->startCorrelation();
 
-        $this->call([
-            IdentityDemoSeeder::class,
-            OrganizationDemoSeeder::class,
-            ProfilesDemoSeeder::class,
-            WorkDemoSeeder::class,
-            CrmDemoSeeder::class,
-            SocialDemoSeeder::class,
-        ]);
+        // The history is built in order and at its own dates: queued work runs at once, inside the step that
+        // caused it (so a notification is dated by the demo clock, not by the moment a worker got to it), and
+        // no letter leaves the application — the addresses of the demo world do not exist.
+        $before = [config('queue.default'), config('mail.default')];
+        config(['queue.default' => 'sync', 'mail.default' => 'array']);
+
+        try {
+            $this->call([
+                IdentityDemoSeeder::class,
+                OrganizationDemoSeeder::class,
+                ProfilesDemoSeeder::class,
+                WorkDemoSeeder::class,
+                CrmDemoSeeder::class,
+                SocialDemoSeeder::class,
+                EventsDemoSeeder::class,
+                NotificationsDemoSeeder::class,
+            ]);
+        } finally {
+            config(['queue.default' => $before[0], 'mail.default' => $before[1]]);
+        }
     }
 
     public static function ensureAllowed(): void

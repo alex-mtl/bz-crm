@@ -45,7 +45,7 @@ final readonly class EventParticipation
     public function invite(User $actor, Event $event, array $personIds): int
     {
         $this->ensureOpen($event);
-        $this->authorization->authorize($actor, 'events.invite', $event);
+        $this->visibility->authorizeManaging($actor, 'events.invite', $event);
         $people = Person::query()->whereKey(array_values(array_unique(array_map('intval', $personIds))))->get();
         foreach ($people as $person) {
             $this->authorization->authorize($actor, 'people.read', $person);
@@ -64,7 +64,7 @@ final readonly class EventParticipation
     public function inviteBulk(User $actor, Event $event, Builder $people): int
     {
         $this->ensureOpen($event);
-        $this->authorization->authorize($actor, 'events.invite', $event);
+        $this->visibility->authorizeManaging($actor, 'events.invite', $event);
         $this->authorization->authorize($actor, 'events.invite.bulk');
 
         $candidates = $this->authorization->scopeQuery($actor, 'events.invite.bulk', $people)
@@ -83,7 +83,7 @@ final readonly class EventParticipation
      */
     public function uninvite(User $actor, Event $event, Person $person): void
     {
-        $this->authorization->authorize($actor, 'events.invite', $event);
+        $this->visibility->authorizeManaging($actor, 'events.invite', $event);
         $attendee = EventAttendee::query()->where('event_id', $event->id)->where('person_id', $person->id)->first();
         if ($attendee === null) {
             return;
@@ -141,7 +141,7 @@ final readonly class EventParticipation
      */
     public function markAttendance(User $actor, Event $event, Person $person, bool $attended): EventAttendee
     {
-        $this->authorization->authorize($actor, 'events.attendance.mark', $event);
+        $this->visibility->authorizeManaging($actor, 'events.attendance.mark', $event);
         $this->ensureOpen($event);
         if (! $event->hasStarted()) {
             throw EventRuleViolation::because('not_started');

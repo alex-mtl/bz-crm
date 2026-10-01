@@ -37,6 +37,7 @@ use App\Support\Spreadsheet\Spreadsheet;
 use Database\Seeders\Demo\CrmDemoSeeder as Crm;
 use Database\Seeders\Demo\Personas;
 use Illuminate\Auth\Access\AuthorizationException;
+use Illuminate\Support\Facades\DB;
 use Livewire\Livewire;
 
 /*
@@ -134,7 +135,9 @@ it('keeps the references of tasks, leads, appeals, interactions and relations wh
         'interactions' => Interaction::query()->where('person_id', $doina->id)->pluck('id')->all(),
         'relations' => PersonRelation::query()->where('person_id', $doina->id)->orWhere('related_person_id', $doina->id)->count(),
     ];
-    expect($before['leads'])->toHaveCount(2)->and($before['appeals'])->toHaveCount(1)->and($before['interactions'])->toHaveCount(3)->and($before['relations'])->toBe(2);
+    expect($before['leads'])->toHaveCount(2)->and($before['appeals'])->toHaveCount(1)->and($before['relations'])->toBe(2)
+        // A call, a meeting, a visit recorded by hand — and, since phase 5, the visit of the event she was marked present at.
+        ->and($before['interactions'])->toHaveCount(4);
 
     // The newer card stays, the older one — with all the history — is merged into it.
     $merge = app(MergePeople::class)(Personas::user('hr'), $second, $doina);
@@ -143,6 +146,8 @@ it('keeps the references of tasks, leads, appeals, interactions and relations wh
         ->and(Appeal::query()->whereKey($before['appeals'])->value('person_id'))->toBe($second->id)
         ->and(Interaction::query()->whereKey($before['interactions'])->pluck('person_id')->unique()->all())->toBe([$second->id])
         ->and(Task::query()->find($task->id)->subject_person_id)->toBe($second->id)
+        ->and(DB::table('event_attendees')->where('person_id', $second->id)->where('attended', true)->count())->toBe(1)
+        ->and(DB::table('event_attendees')->where('person_id', $doina->id)->count())->toBe(0)
         ->and(PersonRelation::query()->where('person_id', $second->id)->orWhere('related_person_id', $second->id)->count())->toBe(2)
         ->and($doina->fresh())->duplicate_of_person_id->toBe($second->id)->isArchived()->toBeTrue()
         ->and($merge->snapshot['last_name'])->toBe('Vrabie')

@@ -9,6 +9,7 @@ use App\Domain\CRM\SegmentQuery;
 use App\Domain\Events\Actions\EventParticipation;
 use App\Domain\Events\Actions\ManageEvents;
 use App\Domain\Events\CalendarExport;
+use App\Domain\Events\EventVisibility;
 use App\Domain\Events\Models\Event;
 use App\Domain\Events\Models\EventAttendee;
 use App\Domain\Groups\GroupAccess;
@@ -61,7 +62,7 @@ class ViewEvent extends ViewRecord
 
     private function may(string $code): bool
     {
-        return app(AuthorizationService::class)->can($this->actor(), $code, $this->event());
+        return app(EventVisibility::class)->mayManage($this->actor(), $code, $this->event());
     }
 
     public function getTitle(): string

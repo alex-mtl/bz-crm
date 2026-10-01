@@ -146,7 +146,7 @@ class EventResource extends Resource
 
     public static function reminderLabel(int $minutes): string
     {
-        $key = 'events.ui.reminders.'.$minutes;
+        $key = 'events.ui.reminders.m'.$minutes;
 
         return Lang::has($key) ? __($key) : __('events.ui.reminder_minutes', ['count' => $minutes]);
     }

@@ -4,7 +4,9 @@ declare(strict_types=1);
 
 namespace App\Domain\Events\Notifications;
 
+use App\Domain\Events\EventVisibility;
 use App\Domain\Events\Models\Event;
+use App\Domain\Identity\Models\User;
 use App\Domain\Notifications\Concerns\RoutesByPreference;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -34,6 +36,15 @@ final class EventNotice extends Notification implements ShouldQueue
     public function category(): string
     {
         return $this->kind === self::REMINDER ? 'event_reminders' : 'events';
+    }
+
+    /**
+     * Checked at the moment of delivery, not of sending: if the invitation was withdrawn while the notice waited
+     * in the queue, nothing is delivered (ТЗ §37).
+     */
+    public function shouldSend(object $notifiable, string $channel): bool
+    {
+        return ! $notifiable instanceof User || app(EventVisibility::class)->canSee($notifiable, $this->event);
     }
 
     /**
