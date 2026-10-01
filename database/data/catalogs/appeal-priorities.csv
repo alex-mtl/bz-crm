@@ -1,0 +1,5 @@
+code,name_ro,name_ru,name_en,first_response_hours,due_days,weight,is_system,unverified
+low,Scăzută,Низкий,Low,72,0,10,0,ro|en
+normal,Normală,Обычный,Normal,48,0,20,1,ro|en
+high,Înaltă,Высокий,High,8,3,30,0,ro|en
+urgent,Urgentă,Срочный,Urgent,2,1,40,0,ro|en

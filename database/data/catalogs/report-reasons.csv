@@ -1,0 +1,7 @@
+code,name_ro,name_ru,name_en,is_system,unverified
+insult,Insultă sau hărțuire,Оскорбление или травля,Insult or harassment,0,ro|en
+spam,Spam,Спам,Spam,0,ro|en
+false_info,Informație falsă,Ложная информация,False information,0,ro|en
+confidential,Date confidențiale,Конфиденциальные данные,Confidential data,0,ro|en
+off_topic,În afara subiectului,Не по теме,Off topic,0,ro|en
+other,Alt motiv,Другое,Other,1,ro|en

@@ -1,0 +1,9 @@
+code,name_ro,name_ru,name_en,is_system,unverified
+website_form,Formular de pe site,Форма на сайте,Website form,0,ro|en
+phone_call,Apel telefonic,Телефонный звонок,Phone call,0,ro|en
+event,Eveniment,Мероприятие,Event,0,ro|en
+door_to_door,Din ușă în ușă,Обход,Door to door,0,ro|en
+recommendation,Recomandare,Рекомендация,Recommendation,0,ro|en
+social_media,Rețele sociale,Социальные сети,Social media,0,ro|en
+import,Import,Импорт,Import,1,ro|en
+other,Altele,Другое,Other,1,ro|en

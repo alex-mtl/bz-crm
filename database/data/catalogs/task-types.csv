@@ -1,0 +1,23 @@
+code,name_ro,name_ru,name_en,requires_review,is_system,phase,description_ru,unverified
+assignment,Sarcină,Поручение,Assignment,1,1,2,"Поручение сотруднику от постановщика; закрывается через проверку (ФО §6.8.4)",ro|en
+request,Solicitare internă,Внутренний запрос,Internal request,0,0,2,"Запрос коллеге или подразделению: информация, помощь, согласование",ro|en
+meeting,Întâlnire,Встреча,Meeting,0,0,2,"Подготовка и проведение встречи, итоги — в описании или чате задачи",ro|en
+call,Apel,Звонок,Call,0,0,2,"Позвонить человеку; предметом может быть человек без учётной записи (Д-15)",ro|en
+discussion,Discuție,Обсуждение,Discussion,0,0,2,"Задача, созданная из ветки обсуждения (ФО §6.6.3)",ro|en
+control_procedure,Procedură de control,Контрольная процедура,Control procedure,1,0,2,"Регулярная контрольная процедура по регламенту (ФО §5.2)",ro|en
+check,Verificare,Проверка,Check,1,0,2,"Проверка человека, документа или факта (ФО §5.1 — «Проверка»)",ro|en
+report,Raport,Отчёт,Report,1,0,2,"Подготовка отчёта, в том числе повторяющегося — «еженедельный отчёт» (ФО §6.8.2)",ro|en
+document_preparation,Pregătirea documentului,Подготовка документа,Document preparation,1,0,2,"Документ, который перед закрытием проверяет постановщик",ro|en
+logistics,Logistică și resurse,Логистика и ресурсы,Logistics and resources,0,0,2,"Транспорт, материалы, закупки для проекта или мероприятия (ФО §6.8.5)",ro|en
+data_update,Actualizarea datelor,Актуализация данных,Data update,0,0,2,"Исправить или дополнить данные: карточку, дубль, переназначение (Д-10, Д-15)",ro|en
+incident,Incident,Инцидент,Incident,1,0,2,"Срочная ситуация, требующая реакции и разбора",ro|en
+other,Altele,Прочее,Other,0,1,2,"Задача, не подходящая под другие типы",ro|en
+appeal_handling,Soluționarea solicitării,Работа с обращением,Appeal handling,1,0,3,"Обработка обращения гражданина (ФО §6.9.3); связана с Appeal",ro|en
+lead_follow_up,Contact cu candidatul,Контакт с кандидатом,Lead follow-up,0,0,3,"Следующий шаг по лиду в воронке вовлечения (ФО §6.9.2)",ro|en
+content_preparation,Pregătirea publicației,Подготовка публикации,Content preparation,1,0,4,"Подготовка поста или материала; публикация после проверки",ro|en
+moderation_case,Caz de moderare,Модерационный случай,Moderation case,0,0,4,"Разбор жалобы на контент (ФО §6.4.4)",ro|en
+event_preparation,Pregătirea evenimentului,Подготовка мероприятия,Event preparation,0,0,5,"Задачи по организации мероприятия (ФО §6.7)",ro|en
+field_visit,Deplasare în teren,Выход в поле,Field visit,0,0,7,"Обход домов и квартир (ФО §6.11)",ro|en
+follow_up_visit,Revenire,Повторный визит,Follow-up visit,0,0,7,"«Вернуться 12.10» — повторный визит по квартире (ФО §6.11)",ro|en
+mentoring,Sarcina mentorului,Задача наставника,Mentoring task,0,0,8,"Задача наставника в плане новичка (ФО §6.12)",ro|en
+onboarding_step,Etapă de integrare,Шаг онбординга,Onboarding step,0,0,8,"Шаг onboarding-цепочки кандидата (ФО §6.12)",ro|en

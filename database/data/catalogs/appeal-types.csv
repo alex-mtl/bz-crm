@@ -1,0 +1,7 @@
+code,name_ro,name_ru,name_en,due_days,is_system,unverified
+website_request,Cerere de pe site,Заявка с сайта,Website request,3,0,ro|en
+complaint,Plângere,Жалоба,Complaint,10,0,ro|en
+help_request,Cerere de ajutor,Запрос помощи,Request for help,5,0,ro|en
+proposal,Propunere,Предложение,Proposal,14,0,ro|en
+question,Întrebare,Вопрос,Question,3,0,ro|en
+other,Altele,Прочее,Other,7,1,ro|en

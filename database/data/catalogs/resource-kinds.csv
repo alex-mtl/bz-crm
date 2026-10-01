@@ -1,0 +1,5 @@
+code,name_ro,name_ru,name_en,unit,is_system,unverified
+people,Oameni,Люди,People,persoane,1,ro|en
+money,Bani,Деньги,Money,MDL,1,ro|en
+transport,Transport,Транспорт,Transport,unități,1,ro|en
+materials,Materiale,Материалы,Materials,bucăți,1,ro|en

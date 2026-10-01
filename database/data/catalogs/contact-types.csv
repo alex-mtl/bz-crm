@@ -1,0 +1,11 @@
+code,name_ro,name_ru,name_en,field_group,is_system,unverified
+phone,Telefon,Телефон,Phone,contacts,1,ro|en
+email,E-mail,Email,E-mail,contacts,1,ro|en
+telegram,Telegram,Telegram,Telegram,messengers,0,
+whatsapp,WhatsApp,WhatsApp,WhatsApp,messengers,0,
+viber,Viber,Viber,Viber,messengers,0,
+signal,Signal,Signal,Signal,messengers,0,
+facebook,Facebook,Facebook,Facebook,messengers,0,
+instagram,Instagram,Instagram,Instagram,messengers,0,
+tiktok,TikTok,TikTok,TikTok,messengers,0,
+website,Site web,Сайт,Website,messengers,0,ro|en

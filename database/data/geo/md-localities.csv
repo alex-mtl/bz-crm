@@ -1,0 +1,1799 @@
+# GeoNames (geonames.org), CC BY 4.0 — populated places of Moldova, district assigned by point-in-polygon on geoBoundaries
+geonameid,name,raion,lat,lng,population,type
+829921,Albinița,anenii-noi,46.89165,29.1842,0,PPL
+617702,"Anenii Noi",anenii-noi,46.87795,29.23503,8250,PPLA
+618632,Asnășeni,anenii-noi,46.99472,29.23194,0,PPL
+618606,Balmaz,anenii-noi,46.79774,29.28533,0,PPL
+618596,Barcareni,anenii-noi,46.78278,29.17722,0,PPL
+618591,Batîc,anenii-noi,46.79614,29.19053,0,PPL
+618575,Beriozchi,anenii-noi,46.87197,29.25785,0,PPL
+618527,Botnărești,anenii-noi,46.93004,29.15988,0,PPL
+829920,"Botnăreștii Noi",anenii-noi,46.92158,29.16597,0,PPL
+618486,Bulboaca,anenii-noi,46.88379,29.30809,0,PPL
+618161,Calfa,anenii-noi,46.9046,29.38049,0,PPL
+829928,"Calfa Nouă",anenii-noi,46.91419,29.35824,0,PPL
+618108,Chetrosu,anenii-noi,46.92152,29.03815,0,PPL
+618078,Chirca,anenii-noi,46.92148,29.10925,0,PPL
+618446,Ciobanovca,anenii-noi,46.81484,29.19331,0,PPL
+617732,"Cobusca Nouă",anenii-noi,46.93303,29.20798,0,PPL
+617353,"Cobusca Veche",anenii-noi,46.96923,29.1814,0,PPL
+617967,Crețoaia,anenii-noi,46.86627,29.13431,0,PPL
+618397,Delacău,anenii-noi,47.09903,29.30487,0,PPL
+618332,Floreni,anenii-noi,46.93709,28.99201,0,PPL
+618330,Florești,anenii-noi,46.99744,29.18092,0,PPL
+618352,Geamănă,anenii-noi,46.82143,29.13953,0,PPL
+618217,"Gura Bîcului",anenii-noi,46.92981,29.45984,3401,PPL
+618308,Gălilești,anenii-noi,46.90583,29.345,0,PPL
+618207,Hîrbovăț,anenii-noi,46.84298,29.36004,0,PPL
+829965,"Hîrbovățul Nou",anenii-noi,46.83266,29.27793,0,PPL
+617921,Larga,anenii-noi,46.76275,29.1608,0,PPL
+617866,Maximovca,anenii-noi,47.00948,29.01664,0,PPL
+617822,Mereni,anenii-noi,46.96278,29.05599,0,PPL
+617823,"Merenii Noi",anenii-noi,46.92594,29.0624,1514,PPL
+617800,Mirnoe,anenii-noi,46.80283,29.22688,0,PPL
+617762,Nicolaevca,anenii-noi,46.76889,29.1959,0,PPL
+617649,"Ochiul Roșu",anenii-noi,46.76781,29.10981,0,PPL
+617594,Petrovca,anenii-noi,46.97568,29.0857,0,PPL
+617590,Picus,anenii-noi,46.75086,29.09467,0,PPL
+617544,Puhăceni,anenii-noi,47.08949,29.34655,0,PPL
+617636,Pădureț,anenii-noi,46.78299,29.20054,0,PPL
+617495,Roșcani,anenii-noi,46.89534,29.30884,0,PPL
+824139,Ruseni,anenii-noi,46.88654,29.19588,0,PPL
+617468,Salcia,anenii-noi,46.94426,29.16979,0,PPL
+617397,Scroafa,anenii-noi,46.77889,29.25417,0,PPL
+617374,Socoleni,anenii-noi,46.90736,29.18907,0,PPL
+617362,Speia,anenii-noi,47.01005,29.29798,0,PPL
+617251,Telița,anenii-noi,46.95708,29.3068,0,PPL
+829968,"Telița Nouă",anenii-noi,46.98111,29.28601,0,PPL
+617236,Todirești,anenii-noi,46.90922,29.08313,0,PPL
+617705,"Troița Nouă",anenii-noi,46.79089,29.26297,0,PPL
+617149,Varnița,anenii-noi,46.86606,29.46636,4000,PPL
+829925,"Varnița Nouă",anenii-noi,46.92607,29.2682,0,PPL
+617038,Zolotievca,anenii-noi,46.73833,29.18925,0,PPL
+617426,Șerpeni,anenii-noi,47.02199,29.35083,0,PPL
+617196,Țînțăreni,anenii-noi,46.90294,29.13528,0,PPL
+618605,Bălți,balti,47.76291,27.92854,125000,PPLA
+617069,Elizaveta,balti,47.78177,28.01738,0,PPL
+829860,Pămînteni,balti,47.76021,27.89594,0,PPL
+617478,Sadovoe,balti,47.77829,27.79613,0,PPL
+618664,Abaclia,basarabeasca,46.36016,28.94221,0,PPL
+618594,Basarabeasca,basarabeasca,46.33352,28.96165,10809,PPLA
+618593,Bașcalia,basarabeasca,46.30856,28.78666,0,PPL
+864964,Bogdanovca,basarabeasca,46.51118,28.93423,0,PPL
+618137,Carabetovca,basarabeasca,46.41386,28.91509,0,PPL
+7731674,Carapetovca,basarabeasca,46.41,28.91,0,PPL
+708978,"Gara Giber",basarabeasca,46.46667,29.01667,0,PPL
+618182,Iordanovca,basarabeasca,46.39294,28.90767,0,PPL
+618179,Iserlia,basarabeasca,46.48438,28.95457,0,PPL
+618174,Ivanovca,basarabeasca,46.50601,28.94818,0,PPL
+617480,Sadaclia,basarabeasca,46.44852,28.87973,0,PPL
+617402,Schinoasa-Sat,basarabeasca,46.47667,28.95917,0,PPL
+618577,Bender,bender,46.83158,29.47671,110175,PPLA
+618609,Balasinești,briceni,48.24495,26.96102,0,PPL
+618573,Berlinți,briceni,48.31049,26.93698,0,PPL
+824182,Bezeda,briceni,48.15914,27.00137,0,PPL
+829580,Bocicăuți,briceni,48.29266,27.17528,0,PPL
+618550,Bogdănești,briceni,48.14034,27.001,0,PPL
+618510,Briceni,briceni,48.36302,27.07847,9900,PPLA
+10201354,Brichany,briceni,48.33772,27.07063,0,PPL
+618485,Bulboaca,briceni,48.37141,27.20391,0,PPL
+618607,Bălcăuți,briceni,48.28573,27.20175,0,PPL
+824080,"Caracușenii Noi",briceni,48.32474,27.02588,0,PPL
+617338,"Caracușenii Vechi",briceni,48.2714,27.07274,0,PPL
+618046,Colicăuți,briceni,48.31044,27.1496,0,PPL
+618015,Corjeuți,briceni,48.21554,27.04711,0,PPL
+617989,Coteala,briceni,48.33073,26.86295,0,PPL
+617987,Cotiujeni,briceni,48.34717,26.9377,0,PPL
+617961,Criva,briceni,48.27403,26.67122,0,PPL
+618372,Drepcăuți,briceni,48.27318,26.72821,0,PPL
+618578,Ghilavăț,briceni,48.28861,26.94611,0,PPL
+618228,Grimești,briceni,48.13294,26.97307,0,PPL
+618229,Grimăncăuți,briceni,48.39261,27.08895,0,PPL
+618224,Gromadzeni,briceni,48.3,26.95,0,PPL
+829590,Groznița,briceni,48.25888,27.23885,0,PPL
+617750,"Halahora de Jos",briceni,48.2289,27.17049,0,PPL
+617133,"Halahora de Sus",briceni,48.25658,27.18263,0,PPL
+618266,Hlina,briceni,48.29319,26.87282,0,PPL
+617920,Larga,briceni,48.37339,26.84217,0,PPL
+617897,Lipcani,briceni,48.26221,26.81014,0,PPL
+617827,Medveja,briceni,48.36277,26.7876,0,PPL
+824086,Mihăileni,briceni,48.24599,27.25143,0,PPL
+617839,Mărcăuți,briceni,48.3138,27.22388,0,PPL
+829594,"Mărcăuții Noi",briceni,48.29704,27.22831,0,PPL
+829690,Pavlovca,briceni,48.37858,26.873,0,PPL
+617610,Pererița,briceni,48.20838,26.91798,0,PPL
+829691,Slobozia-Medveja,briceni,48.38185,26.74942,0,PPL
+617388,Slobozia-Șirăuți,briceni,48.24437,26.87543,0,PPL
+617275,Tabani,briceni,48.31134,27.10025,0,PPL
+617245,Tețcani,briceni,48.18087,26.97555,0,PPL
+617225,Trebisăuți,briceni,48.35448,27.18757,0,PPL
+617223,Trestieni,briceni,48.27067,27.13111,0,PPL
+687785,Zalucha,briceni,48.31667,26.7,0,PPL
+617421,Șirăuți,briceni,48.23977,26.84235,0,PPL
+617933,Alexanderfeld,cahul,45.80855,28.42812,0,PPL
+618652,Alexandrești,cahul,46.05028,28.4125,0,PPL
+617285,"Alexandru Ioan Cuza",cahul,45.59692,28.45039,0,PPL
+617752,"Andrușul de Jos",cahul,45.98491,28.22042,0,PPL
+617135,"Andrușul de Sus",cahul,46.00879,28.24611,0,PPL
+618624,Badicu-Nou,cahul,46.09472,28.24472,0,PPL
+618625,"Badicul Moldovenesc",cahul,46.09513,28.26486,0,PPL
+618599,Bairamcea,cahul,45.9275,28.35861,0,PPL
+618588,Baurci-Moldoveni,cahul,46.03054,28.22834,0,PPL
+618563,Borceag,cahul,46.05247,28.5226,0,PPL
+618504,Brînza,cahul,45.67541,28.17378,0,PPL
+618489,Bucuria,cahul,45.96577,28.35005,0,PPL
+618477,Burlacu,cahul,46.04729,28.41474,0,PPL
+618478,Burlăceni,cahul,45.75958,28.50566,0,PPL
+618473,Burtovka,cahul,45.85,28.23333,0,PPL
+618456,Cahul,cahul,45.90456,28.19516,34492,PPLA
+864989,Cazaclia,cahul,45.97139,28.33917,0,PPL
+618539,"Chioselia Mare",cahul,46.09982,28.48992,0,PPL
+618077,Chircani,cahul,46.08805,28.17388,0,PPL
+864990,Ciorâta,cahul,45.96639,28.30306,0,PPL
+618047,Colibași,cahul,45.71783,28.18148,0,PPL
+617996,Cotihana,cahul,45.93833,28.24344,0,PPL
+617336,"Crihana Veche",cahul,45.84664,28.19464,0,PPL
+617953,Cucoara,cahul,46.05333,28.17178,0,PPL
+617926,Cîșlița-Prut,cahul,45.53914,28.1709,1104,PPL
+618376,Doina,cahul,46.11194,28.32886,0,PPL
+618328,Focșani,cahul,45.93111,28.20056,0,PPL
+824156,Frumușica,cahul,46.08337,28.47419,0,PPL
+618346,Făgădău,cahul,45.85361,28.29528,0,PPL
+618282,Ghibanu,cahul,46.02139,28.20833,0,PPL
+618351,Gigălboaia,cahul,45.93694,28.41194,0,PPL
+618349,Giurgiulești,cahul,45.48167,28.19722,3074,PPL
+618237,Greceni,cahul,45.72167,28.39167,0,PPL
+864987,Greceni,cahul,45.76168,28.53182,0,PPL
+618213,Gura-Larga,cahul,46.07556,28.22528,0,PPL
+618296,Găvănoasa,cahul,45.75659,28.38456,0,PPL
+618256,Huluboaia,cahul,46.06583,28.33333,0,PPL
+618211,Hutulu,cahul,45.86246,28.29923,0,PPL
+617078,"Iasnaia Poleana",cahul,46.14117,28.30498,0,PPL
+617212,Iujnoe,cahul,45.74905,28.47793,0,PPL
+617730,"Larga Nouă",cahul,46.07153,28.22358,0,PPL
+617352,"Larga Veche",cahul,46.06867,28.24302,0,PPL
+617684,Lebedenco,cahul,45.86259,28.28892,0,PPL
+617886,Lopățica,cahul,45.93059,28.41201,0,PPL
+617882,Lucești,cahul,45.98945,28.33,0,PPL
+617846,Manta,cahul,45.8071,28.18089,0,PPL
+617784,Moscovei,cahul,45.93417,28.35556,0,PPL
+617318,"Moscovei Vechi",cahul,45.91167,28.37639,0,PPL
+617785,Moscovei-Constantinescu,cahul,45.91667,28.36667,0,PPL
+617504,Moscovei-Răzeși,cahul,45.89917,28.38917,0,PPL
+864985,Netush,cahul,45.76917,28.47333,0,PPL
+864981,Nicolaevca,cahul,45.75665,28.37619,0,PPL
+864984,"Novoye Aleksandrovo",cahul,45.81444,28.43333,0,PPL
+617635,Paicu,cahul,46.03769,28.15547,0,PPL
+617625,Parushovka,cahul,45.82083,28.43639,0,PPL
+617623,Pașcani,cahul,45.82497,28.18276,0,PPL
+617615,Pelinei,cahul,45.82776,28.32083,0,PPL
+617453,"Pelinei Noui",cahul,45.84528,28.31583,0,PPL
+617493,Roșu,cahul,45.95773,28.19642,0,PPL
+618623,Rumeanțev,cahul,46.11248,28.28363,0,PPL
+617384,"Slobozia Mare",cahul,45.5787,28.17397,0,PPL
+617361,Spicoasa,cahul,46.03415,28.37612,0,PPL
+617305,Stoianovca,cahul,46.0275,28.20444,0,PPL
+864982,Sătuc,cahul,45.80241,28.35361,0,PPL
+617265,"Taraclia de Salcie",cahul,46.01281,28.41955,0,PPL
+617261,"Tartaul de Salcie",cahul,45.96977,28.41057,0,PPL
+617222,Tretești,cahul,46,28.16667,0,PPL
+617671,"Trifeștii Noi",cahul,45.94819,28.35478,0,PPL
+864991,Tudorești,cahul,45.96471,28.40177,0,PPL
+617258,Tătărești,cahul,46.02497,28.34692,0,PPL
+617173,Ursoaia,cahul,45.85159,28.31496,0,PPL
+617165,"Vadul lui Isac",cahul,45.76318,28.17122,0,PPL
+864983,"Valya Gavanosa",cahul,45.82861,28.38556,0,PPL
+864977,Viduca,cahul,45.78472,28.17333,0,PPL
+617115,Vladimirovca,cahul,45.78764,28.36476,0,PPL
+617161,Văleni,cahul,45.632,28.17605,0,PPL
+617029,Zîrnești,cahul,46.01207,28.16294,0,PPL
+618619,Bahmut,calarasi,47.32347,28.11454,0,PPL
+618618,Bahu,calarasi,47.42209,28.46632,0,PPL
+618516,Bravicea,calarasi,47.36082,28.43645,0,PPL
+618497,Buda,calarasi,47.21128,28.21692,0,PPL
+618488,Bularda,calarasi,47.35611,28.22222,0,PPL
+618166,Căbăiești,calarasi,47.21693,28.14558,0,PPL
+618454,Călărași,calarasi,47.25548,28.30953,14066,PPLA
+618393,Dereneu,calarasi,47.38158,28.24521,0,PPL
+10191516,Duma,calarasi,47.37473,28.26383,0,PPL
+618324,Frumoasa,calarasi,47.33088,28.39962,0,PPL
+618270,Hirova,calarasi,47.41121,28.28203,0,PPL
+618259,Hoginești,calarasi,47.37025,28.31912,0,PPL
+618249,Horodiște,calarasi,47.20958,28.2527,0,PPL
+618291,Hîrboveț,calarasi,47.34015,28.31177,0,PPL
+618199,Hîrjauca,calarasi,47.32439,28.22134,0,PPL
+831037,Leordoaia,calarasi,47.34419,28.15314,0,PPL
+617825,Meleșeni,calarasi,47.37474,28.38655,0,PPL
+829774,Muzhik,calarasi,47.3013,28.20762,0,PPL
+617779,Mîndra,calarasi,47.31877,28.26354,0,PPL
+617755,Nișcani,calarasi,47.26902,28.34507,0,PPL
+617743,Novaci,calarasi,47.23631,28.26291,0,PPL
+617644,Onișcani,calarasi,47.36686,28.28327,0,PPL
+829775,Oricova,calarasi,47.29945,28.23606,0,PPL
+617632,Palanca,calarasi,47.33474,28.20367,0,PPL
+829777,Parcani,calarasi,47.29639,28.37376,0,PPL
+617599,Peticeni,calarasi,47.23695,28.20583,0,PPL
+617587,Pitușca,calarasi,47.23602,28.42247,0,PPL
+829776,"Podul Lung",calarasi,47.26051,28.23882,0,PPL
+617533,Pîrjolteni,calarasi,47.1976,28.24017,0,PPL
+617619,Păulești,calarasi,47.26886,28.37194,0,PPL
+617518,Răciula,calarasi,47.3058,28.34709,0,PPL
+617515,Rădeni,calarasi,47.3958,28.21306,0,PPL
+617479,Sadova,calarasi,47.19235,28.34436,0,PPL
+617674,"Seliștea Nouă",calarasi,47.23357,28.31351,0,PPL
+617408,Sipoteni,calarasi,47.27988,28.19655,0,PPL
+831038,Sverida,calarasi,47.35305,28.29456,0,PPL
+617439,Săseni,calarasi,47.36813,28.50019,0,PPL
+617250,Temeleuți,calarasi,47.2538,28.07343,0,PPL
+829773,Tochile,calarasi,47.30737,28.17209,0,PPL
+617188,Tuzara,calarasi,47.24243,28.304,2456,PPL
+617175,Ursari,calarasi,47.22139,28.18781,0,PPL
+617110,Vălcineț,calarasi,47.26808,28.12694,0,PPL
+617669,"Vărzăreștii Noi",calarasi,47.23351,28.44431,0,PPL
+617203,Țibirica,calarasi,47.37148,28.36685,0,PPL
+618659,Acui,cantemir,46.1872,28.42544,0,PPL
+618660,"Acui de Jos",cantemir,46.17806,28.43361,0,PPL
+864951,"Acui de Sus",cantemir,46.19639,28.4175,0,PPL
+618651,Alexandrovca,cantemir,46.22926,28.2679,0,PPL
+618638,Antonești,cantemir,46.33273,28.21605,0,PPL
+618587,Baimaclia,cantemir,46.18749,28.38888,0,PPL
+7645589,Bobocica,cantemir,46.22468,28.45987,0,PPL
+618466,Butuceni,cantemir,46.2525,28.33889,0,PPL
+618143,Cania,cantemir,46.2763,28.23051,0,PPL
+618452,Cantemir,cantemir,46.27749,28.20052,3829,PPLA
+618141,Capaclia,cantemir,46.32949,28.40106,0,PPL
+618070,Chioselia,cantemir,46.14099,28.40564,0,PPL
+618445,Ciobalaccia,cantemir,46.17243,28.28305,0,PPL
+618056,Cociulia,cantemir,46.35681,28.41505,0,PPL
+618035,Constantinești,cantemir,46.11055,28.21307,0,PPL
+618005,Coștangalia,cantemir,46.10983,28.38663,0,PPL
+617981,Crăciun,cantemir,46.23308,28.35099,0,PPL
+617924,Cîietu,cantemir,46.13721,28.48126,0,PPL
+617929,Cîrpești,cantemir,46.25937,28.33929,0,PPL
+617928,Cîșla,cantemir,46.141,28.33489,0,PPL
+618388,Dimitrova,cantemir,46.15933,28.46808,0,PPL
+617067,Enichioi,cantemir,46.219,28.41562,0,PPL
+618333,Flocoasa,cantemir,46.1526,28.2496,0,PPL
+864952,Floricica,cantemir,46.23504,28.41102,0,PPL
+618153,Flămânda,cantemir,46.16528,28.15806,0,PPL
+618292,Ghioltosu,cantemir,46.19333,28.16096,0,PPL
+618244,Gotești,cantemir,46.13592,28.17625,0,PPL
+617687,"Goteștii Noi",cantemir,46.13139,28.17806,0,PPL
+618302,Haragîș,cantemir,46.28942,28.378,0,PPL
+618204,Hîrtop,cantemir,46.23457,28.25052,0,PPL
+618307,Hănăseni,cantemir,46.34885,28.33252,0,PPL
+617066,Iepureni,cantemir,46.26241,28.21945,0,PPL
+618193,Ilashkova,cantemir,46.21778,28.30333,0,PPL
+617911,Leca,cantemir,46.30824,28.20406,0,PPL
+617899,Lingura,cantemir,46.23139,28.32283,0,PPL
+617918,Lărguța,cantemir,46.30255,28.31978,0,PPL
+617865,"Malaya Kozhdangliya",cantemir,46.13139,28.34611,0,PPL
+617868,Măcrești,cantemir,46.24389,28.34444,0,PPL
+617713,Novo-Konstantinovka,cantemir,46.11694,28.18333,0,PPL
+617586,Pleșeni,cantemir,46.35637,28.34252,0,PPL
+617585,Plopi,cantemir,46.20831,28.21327,0,PPL
+617567,Popovca,cantemir,46.24846,28.3097,0,PPL
+617563,Porumbești,cantemir,46.31123,28.27767,0,PPL
+617477,Sadîc,cantemir,46.26988,28.51857,0,PPL
+617304,Stoianovca,cantemir,46.25917,28.16444,0,PPL
+864948,Suhat,cantemir,46.16211,28.34448,0,PPL
+617267,Taraclia,cantemir,46.21537,28.51825,0,PPL
+617268,Taraclia,cantemir,46.21954,28.2261,0,PPL
+617262,Tartaul,cantemir,46.20671,28.32039,952,PPL
+617237,Toceni,cantemir,46.36679,28.21792,0,PPL
+10194157,Tsolika,cantemir,46.19415,28.4787,0,PPL
+617189,Tutovanu,cantemir,46.18306,28.29444,0,PPL
+617259,Tătărășeni,cantemir,46.34222,28.30253,0,PPL
+617121,Victoria,cantemir,46.17833,28.29167,0,PPL
+617118,Vișniovca,cantemir,46.3326,28.44797,1800,PPL
+617090,Vîlcele,cantemir,46.38155,28.25249,0,PPL
+617047,Zereshty,cantemir,46.18333,28.16667,0,PPL
+617435,Șamalia,cantemir,46.2715,28.43671,0,PPL
+864947,Șofranovca,cantemir,46.1242,28.36028,0,PPL
+617722,Țiganca,cantemir,46.23036,28.15546,0,PPL
+617718,"Țiganca Nouă",cantemir,46.20464,28.17589,0,PPL
+7645591,Țolica,cantemir,46.19504,28.48111,0,PPL
+617208,Țărăncuța,cantemir,46.10758,28.41019,0,PPL
+618620,Baccealia,causeni,46.69306,29.28289,0,PPL
+618586,Baimaclia,causeni,46.58945,29.09652,0,PPL
+864966,Baurci,causeni,46.65769,28.95022,0,PPL
+7730804,"Chircăeștii Noi",causeni,46.62256,29.03719,0,PPL
+617935,Chircăiești,causeni,46.66667,29.03333,0,PPL
+618075,Chircăiești,causeni,46.71913,29.52592,0,PPL
+618076,"Chircăieștii Noi",causeni,46.66395,28.97197,0,PPL
+618067,Chițcani,causeni,46.78296,29.61682,9000,PPL
+617931,Cirnățeni,causeni,46.65446,29.49314,0,PPL
+618413,Ciuflești,causeni,46.62284,29.00075,0,PPL
+618034,Constantinovca,causeni,46.72246,29.11305,0,PPL
+618029,Copanca,causeni,46.71924,29.6197,0,PPL
+618008,Coșcalia,causeni,46.68546,29.15698,0,PPL
+824140,Cremenciug,causeni,46.7061,29.67405,1094,PPL
+617943,Cureni,causeni,46.7175,29.10778,0,PPL
+617680,"Cîrnățenii Noi",causeni,46.64918,29.13898,0,PPL
+618455,Căinari,causeni,46.68196,29.04833,0,PPL
+617337,Căușanii-Vechi,causeni,46.64722,29.44028,0,PPL
+618120,Căușeni,causeni,46.63738,29.41087,21690,PPLA
+824144,Florica,causeni,46.68944,29.2224,0,PPL
+829956,"Fîrladenii Noi",causeni,46.75131,29.30261,0,PPL
+618343,Fîrlădeni,causeni,46.78888,29.36521,0,PPL
+618231,Grigorievca,causeni,46.69173,29.33011,0,PPL
+618236,Grădinița,causeni,46.65228,29.58391,0,PPL
+618198,Gîsca,causeni,46.78156,29.42826,0,PPL
+618103,Hagimus,causeni,46.75519,29.48502,0,PPL
+618190,Il'yanka,causeni,46.48278,29.26972,0,PPL
+13426736,Kaynary,causeni,46.67307,29.09975,0,PPL
+617905,Leuntea,causeni,46.66409,29.58914,0,PPL
+617728,"Marianca Nouă",causeni,46.64361,29.25222,0,PPL
+617128,"Marianca de Sus",causeni,46.64668,29.31348,0,PPL
+864133,Merenești,causeni,46.77551,29.53378,0,PPL
+617642,Opaci,causeni,46.58088,29.34827,0,PPL
+617605,Pervomaisc,causeni,46.69857,29.09089,1306,PPL
+829951,Plop,causeni,46.71043,29.21977,0,PPL
+617583,Plop-Știubei,causeni,46.67256,29.52294,0,PPL
+617289,Surchiceni,causeni,46.6215,29.05497,0,PPL
+617472,Săiți,causeni,46.49754,29.40303,0,PPL
+617467,Sălcuța,causeni,46.59544,29.24882,0,PPL
+831486,"Sălcuța Nouă",causeni,46.63237,29.19088,0,PPL
+617269,Taraclia,causeni,46.5678,29.11796,0,PPL
+617231,Tocuz,causeni,46.52631,29.29943,0,PPL
+829952,Tricolici,causeni,46.73812,29.23968,0,PPL
+617271,Tănătari,causeni,46.72566,29.41519,0,PPL
+617672,"Tănătarti Noi",causeni,46.73989,29.32116,0,PPL
+617183,Ucrainca,causeni,46.43229,29.27548,1559,PPL
+617174,Ursoaia,causeni,46.70507,29.44623,0,PPL
+617717,"Ursoaia Nouă",causeni,46.72954,29.33317,0,PPL
+829949,"Valea Verde",causeni,46.698,29.59724,0,PPL
+829950,Zahorna,causeni,46.74014,29.59855,0,PPL
+617055,Zaim,causeni,46.61939,29.34825,0,PPL
+831435,Zviozdocica,causeni,46.47886,29.32428,0,PPL
+617314,Ștefănești,causeni,46.70466,29.37444,0,PPL
+618523,Brăila,chisinau,46.91233,28.84293,0,PPL
+618501,Bubuieci,chisinau,46.98658,28.93993,0,PPL
+618496,Budești,chisinau,47.06601,29.00461,0,PPL
+829807,Buneți,chisinau,47.08337,28.90945,0,PPL
+829664,Bîc,chisinau,46.965,28.93727,0,PPL
+618627,Băcioi,chisinau,46.91404,28.89908,0,PPL
+618127,Cartușe,chisinau,47.01583,28.74111,0,PPL
+829806,Ceroborta,chisinau,47.09441,28.95245,0,PPL
+829808,Cheltuitori,chisinau,47.06507,28.92464,0,PPL
+618426,Chișinău,chisinau,47.00902,28.85938,635994,PPLC
+824153,Ciorescu,chisinau,47.13,28.88937,6870,PPL
+618054,Codru,chisinau,46.97648,28.819,15934,PPL
+618045,Colonița,chisinau,47.04238,28.95666,0,PPL
+865514,Costiujeni,chisinau,46.955,28.82944,0,PPL
+617965,Cricova,chisinau,47.13835,28.86156,7400,PPL
+829805,Cruzești,chisinau,47.07969,28.97297,0,PPL
+829656,Dobrogea,chisinau,46.88431,28.98776,0,PPL
+618356,Durlești,chisinau,47.02156,28.76303,26308,PPL
+829654,Frumușica,chisinau,46.89819,28.90239,0,PPL
+618342,Făurești,chisinau,47.14571,28.89632,0,PPL
+618281,Ghidighici,chisinau,47.09428,28.77299,0,PPL
+617966,Goian,chisinau,47.13415,28.90945,0,PPL
+617686,"Goianul Nou",chisinau,47.11721,28.89984,0,PPL
+618240,Grătiești,chisinau,47.09855,28.82478,0,PPL
+618101,Hatmana,chisinau,46.97083,28.97028,0,PPL
+7730787,Hrușeva,chisinau,47.10253,28.94006,0,PPL
+618219,Hulboaca,chisinau,47.11911,28.79755,0,PPL
+864974,Humulești,chisinau,46.99648,28.97645,0,PPL
+618630,Otovaska-Byk,chisinau,47.01115,28.88772,0,PPL
+617507,Revaca,chisinau,46.90906,28.94214,0,PPL
+617221,Străisteni,chisinau,46.90629,28.85782,0,PPL
+617317,Stăuceni,chisinau,47.09643,28.86791,5700,PPL
+617276,Syruchan,chisinau,47.1075,29.05444,0,PPL
+617279,Sîngera,chisinau,46.91557,28.96673,7200,PPL
+617234,Tohatin,chisinau,47.06203,28.94473,0,PPL
+617211,Trușeni,chisinau,47.07164,28.68081,0,PPL
+617164,"Vadul lui Vodă",chisinau,47.09009,29.0757,5300,PPL
+824134,Vatra,chisinau,47.0746,28.73685,3800,PPL
+618657,Albina,cimislia,46.70594,28.6423,0,PPL
+618650,Aleksandrovka,cimislia,46.51194,28.66056,0,PPL
+618633,Artimonovca,cimislia,46.5968,28.58981,0,PPL
+618590,Batîr,cimislia,46.57579,29.00263,0,PPL
+618555,Blyumental',cimislia,46.64806,28.69944,0,PPL
+617740,"Bogdanovca Nouă",cimislia,46.49375,28.84247,0,PPL
+617357,"Bogdanovca Veche",cimislia,46.47439,28.82467,0,PPL
+864970,Broscari,cimislia,46.67667,28.74667,0,PPL
+618490,Bukhna,cimislia,46.65056,28.81639,0,PPL
+618444,Cenac,cimislia,46.47474,28.6374,0,PPL
+7730790,Cicur-Minjir,cimislia,46.42878,28.78986,0,PPL
+618406,Cimișlia,cimislia,46.52629,28.7649,12464,PPLA
+618411,Ciucur-Mingir,cimislia,46.43892,28.75524,0,PPL
+618559,Codreni,cimislia,46.6757,28.88324,0,PPL
+618126,Coștangalia,cimislia,46.61786,28.80175,0,PPL
+864957,Dimitrovca,cimislia,46.48539,28.71691,0,PPL
+617073,Ecaterinovca,cimislia,46.58336,28.7473,0,PPL
+618336,Fetița,cimislia,46.69357,28.67317,0,PPL
+618241,Gradiște,cimislia,46.60813,28.75879,0,PPL
+618216,"Gura Galbenei",cimislia,46.69423,28.70781,0,PPL
+618203,Hîrtop,cimislia,46.65376,28.68065,0,PPL
+617083,Ialpug,cimislia,46.64964,28.58736,0,PPL
+617084,Ialpugeni,cimislia,46.58545,28.61975,0,PPL
+7731670,Ialpujeni,cimislia,46.577,28.67,0,PPL
+617062,Iurievca,cimislia,46.66857,28.76471,0,PPL
+864969,"Ivanovca Nouă",cimislia,46.74556,28.6974,0,PPL
+617043,Javgur,cimislia,46.53983,28.61511,0,PPL
+617894,Lipoveni,cimislia,46.73352,28.7598,0,PPL
+617606,Marienfeld,cimislia,46.59806,28.61861,0,PPL
+617867,Maximeni,cimislia,46.57135,28.59614,0,PPL
+617824,Mereni,cimislia,46.67372,28.64918,0,PPL
+617812,Mihailovca,cimislia,46.55239,28.92996,0,PPL
+617782,Munteni,cimislia,46.70502,28.76377,0,PPL
+10194079,"Novyy Selemet",cimislia,46.5947,28.81612,0,PPL
+617562,Porumbrei,cimislia,46.68942,28.81312,0,PPL
+617551,Prisaca,cimislia,46.65521,28.6007,0,PPL
+617475,Sagaidac,cimislia,46.66217,28.8457,0,PPL
+829642,"Sagaidacul Nou",cimislia,46.69268,28.8505,0,PPL
+617452,Satul-Nou,cimislia,46.61527,28.90788,1910,PPL
+829638,Schinoșica,cimislia,46.72863,28.78868,0,PPL
+617448,Selemet,cimislia,46.57778,28.92639,3449,PPL
+617290,Suric,cimislia,46.63018,28.87488,0,PPL
+617226,Topala,cimislia,46.46074,28.6744,0,PPL
+617213,Troițcoe,cimislia,46.51361,29.02702,0,PPL
+617155,"Valea Perjei",cimislia,46.62194,28.72297,0,PPL
+829655,Zloți,cimislia,46.6948,28.8953,0,PPL
+618592,Boșcana,criuleni,47.12802,29.00103,0,PPL
+618615,Bâlăbănești,criuleni,47.06843,29.13584,0,PPL
+618611,Bălășecți,criuleni,47.26588,29.04463,0,PPL
+618604,Bălțata,criuleni,47.05255,29.04835,0,PPL
+617129,"Bălțata de Sus",criuleni,47.0658,29.03504,0,PPL
+829804,Chetroasa,criuleni,47.12206,28.97958,0,PPL
+618432,Cimișeni,criuleni,47.01201,29.12923,0,PPL
+618420,Ciopleni,criuleni,47.13053,28.95091,0,PPL
+618013,Corjova,criuleni,47.09724,29.17356,0,PPL
+618010,Coșernița,criuleni,47.11903,29.04666,0,PPL
+618403,Criuleni,criuleni,47.2134,29.15847,6932,PPLA
+617960,Cruglic,criuleni,47.21793,29.02615,0,PPL
+829665,Dolinnoe,criuleni,47.02412,28.9967,0,PPL
+618373,Drăsliceni,criuleni,47.15698,28.78154,0,PPL
+617341,"Dubăsarii Vechi",criuleni,47.13486,29.19941,0,PPL
+618221,Hrușova,criuleni,47.13637,28.95168,0,PPL
+618201,"Hîrtopul Mare",criuleni,47.22715,28.94143,0,PPL
+618200,"Hîrtopul Mic",criuleni,47.24852,28.93048,0,PPL
+618170,Izbiște,criuleni,47.22139,29.00194,0,PPL
+618177,Ișnovăț,criuleni,47.23329,28.86442,0,PPL
+617041,Jevreni,criuleni,47.25838,29.06303,0,PPL
+617890,Logănești,criuleni,47.17355,28.7873,0,PPL
+617834,Mașcăuți,criuleni,47.29068,29.00118,0,PPL
+617806,Miclești,criuleni,47.23985,28.80516,0,PPL
+829809,Măgdăcești,criuleni,47.14164,28.82426,0,PPL
+617862,Mălălești,criuleni,47.0834,29.13294,0,PPL
+864907,"Mălăleștii Noi",criuleni,47.07886,29.14261,0,PPL
+829895,Mărdăreuca,criuleni,47.11765,29.00325,0,PPL
+617662,Ohrincea,criuleni,47.22084,29.06045,0,PPL
+617643,Onițcani,criuleni,47.14648,29.07045,0,PPL
+617621,Pașcani,criuleni,47.16967,28.8325,0,PPL
+829810,Ratuș,criuleni,47.1667,28.80748,0,PPL
+617481,Rîșcova,criuleni,47.25233,28.84659,0,PPL
+617528,Răculești,criuleni,47.27067,29.068,0,PPL
+617474,Sagaidac,criuleni,47.02609,29.02755,0,PPL
+829897,"Sagaidacul de Sus",criuleni,47.04803,29.02473,0,PPL
+617386,Slobozia-Dușca,criuleni,47.16654,29.12052,0,PPL
+617312,Stețcani,criuleni,47.23586,28.82095,0,PPL
+617159,"Valea Coloniței",criuleni,47.02338,28.97812,0,PPL
+617152,"Valea Satului",criuleni,47.03657,29.00223,0,PPL
+829896,Văduleni,criuleni,47.0706,29.0782,0,PPL
+829865,Zoloceni,criuleni,47.24624,29.13856,0,PPL
+617060,Zăicana,criuleni,47.16799,28.95278,0,PPL
+618634,Arionești,donduseni,48.372,27.85027,0,PPL
+618600,Baraboi,donduseni,48.08454,27.62007,0,PPL
+712456,Berdichi,donduseni,48.18333,27.65,0,PPL
+10201351,Borosyany,donduseni,48.28437,27.73564,0,PPL
+618515,Braicău,donduseni,48.30335,27.73381,0,PPL
+618512,Briceni,donduseni,48.35628,27.70293,14132,PPL
+618509,Briceva,donduseni,48.11418,27.64938,0,PPL
+829548,Caraiman,donduseni,48.1081,27.56384,0,PPL
+618436,Cernoleuca,donduseni,48.31216,27.56388,0,PPL
+618065,Climăuți,donduseni,48.31263,27.61565,0,PPL
+829557,"Codrenii Noi",donduseni,48.14384,27.57664,0,PPL
+618025,Corbu,donduseni,48.26539,27.57748,0,PPL
+617964,Crișcăuți,donduseni,48.26636,27.85554,0,PPL
+618382,Dondușeni,donduseni,48.24268,27.6101,9435,PPLA
+829556,Elenovca,donduseni,48.12524,27.62733,0,PPL
+617068,Elizavetovca,donduseni,48.27815,27.71659,0,PPL
+618327,Frasin,donduseni,48.13733,27.55174,0,PPL
+618246,Horodiște,donduseni,48.26526,27.79174,0,PPL
+617787,Moșana,donduseni,48.32194,27.68998,0,PPL
+829579,Octeabrscoe,donduseni,48.33889,27.66971,0,PPL
+824215,Pivniceni,donduseni,48.27681,27.52748,0,PPL
+617584,Plop,donduseni,48.25422,27.70448,0,PPL
+617573,Pocrovca,donduseni,48.32885,27.86115,0,PPL
+617514,"Rediul Mare",donduseni,48.23206,27.52086,0,PPL
+617404,Scăieni,donduseni,48.17793,27.58697,0,PPL
+617293,Sudarca,donduseni,48.30536,27.78488,0,PPL
+617253,Teleșeuca,donduseni,48.28206,27.90208,0,PPL
+617720,"Teleșeuca Nouă",donduseni,48.28139,27.88861,0,PPL
+617186,Tîrnova,donduseni,48.16598,27.66148,0,PPL
+617206,Țaul,donduseni,48.2126,27.68145,0,PPL
+618635,Antoneuca,drochia,48.0759,27.69469,0,PPL
+618595,Baroncea,drochia,48.03369,27.91462,0,PPL
+829542,"Baroncea Nouă",drochia,47.99738,27.85128,0,PPL
+829562,Ceapaevca,drochia,48.20477,27.8726,0,PPL
+618106,Chetrosu,drochia,48.07391,27.8977,0,PPL
+617994,Cotova,drochia,48.16102,27.95111,0,PPL
+618385,Dominteni,drochia,47.95563,27.95346,0,PPL
+618370,Drochia,drochia,48.03686,27.81242,16080,PPLA
+618371,Drochia,drochia,48.1142,27.80996,0,PPL
+618313,Fîntînița,drochia,48.11005,27.69343,0,PPL
+829554,Ghizdita,drochia,48.10381,27.73221,0,PPL
+618235,Gribova,drochia,48.01404,27.93163,0,PPL
+829551,"Holoșnița Nouă",drochia,48.11605,27.93386,0,PPL
+618537,"Hăsnășenii Mari",drochia,47.91798,27.988,0,PPL
+617701,"Hăsnășenii Noi",drochia,47.85513,27.90705,0,PPL
+829561,Iliciovca,drochia,48.15687,27.88013,0,PPL
+617101,Lazo,drochia,47.88917,27.925,0,PPL
+617845,Maramonovca,drochia,48.20236,27.79789,0,PPL
+617817,Miciurin,drochia,47.98837,27.79205,0,PPL
+829858,Mikhaylyany,drochia,47.96917,27.94528,0,PPL
+617795,"Moara de Piatră",drochia,47.89172,28.00156,0,PPL
+617893,Mîndîc,drochia,48.14755,27.79634,0,PPL
+617869,Măcăreuca,drochia,48.14164,27.97798,0,PPL
+617757,Nicoreni,drochia,47.97029,27.70764,0,PPL
+617650,"Ochiul Alb",drochia,48.01847,27.67184,0,PPL
+617631,Palanca,drochia,48.12424,27.91215,0,PPL
+617614,Pelinia,drochia,47.87589,27.83163,0,PPL
+617600,Pervomaiscoe,drochia,48.08736,27.72325,0,PPL
+617598,Petreni,drochia,47.94505,27.95448,0,PPL
+829856,"Popeștii Noi",drochia,47.97718,27.98743,0,PPL
+829701,"Popeștii de Jos",drochia,48.071,28.025,0,PPL
+617569,"Popeștii de Sus",drochia,48.08806,28.02556,1463,PPL
+829550,Sergheuca,drochia,48.06314,27.72849,0,PPL
+617315,Shtefaneshty,drochia,47.88778,28.01556,0,PPL
+617378,Sofia,drochia,47.94476,27.86484,0,PPL
+829857,Valeny,drochia,47.96083,27.93944,0,PPL
+617045,Zgurița,drochia,48.11981,28.01452,0,PPL
+829553,"Șalvirii Noi",drochia,48.14383,27.91904,0,PPL
+617436,"Șalvirii Vechi",drochia,48.19888,27.84476,0,PPL
+617410,Șuri,drochia,48.09519,27.85702,0,PPL
+829543,"Șurii Noi",drochia,48.06434,27.79929,0,PPL
+618267,Țarigrad,drochia,48.04647,27.76474,4655,PPL
+618057,Cocieri,dubasari,47.3017,29.11755,4151,PPLA
+618014,Corjova,dubasari,47.28766,29.12962,0,PPL
+618006,Coșnița,dubasari,47.14635,29.13449,0,PPL
+618379,Doroțcaia,dubasari,47.17229,29.20356,0,PPL
+618258,Holercani,dubasari,47.31235,29.06958,0,PPL
+617840,Marcăuți,dubasari,47.35424,29.05915,0,PPL
+617854,Molovata,dubasari,47.34974,29.11447,0,PPL
+617855,"Molovata Nouă",dubasari,47.34546,29.09271,0,PPL
+617654,Oxentea,dubasari,47.38261,29.1197,0,PPL
+617574,Pohrebea,dubasari,47.18133,29.16706,0,PPL
+617534,Pîrîta,dubasari,47.10092,29.12112,0,PPL
+617500,Roghi,dubasari,47.32206,29.13986,0,PPL
+617170,Ustia,dubasari,47.25524,29.12406,3295,PPL
+830829,Vasilievca,dubasari,47.36899,29.30519,0,PPL
+618642,Alexeevca,edinet,48.09378,27.26191,0,PPL
+618653,Alexăndreni,edinet,48.14845,27.26159,0,PPL
+618557,Bleșteni,edinet,48.12035,27.21962,0,PPL
+618502,Brînzeni,edinet,48.08362,27.17513,0,PPL
+618518,Brătușeni,edinet,48.07129,27.40124,0,PPL
+829545,"Brătușenii Noi",edinet,48.06167,27.4831,0,PPL
+618476,Burlănești,edinet,48.12671,27.12993,0,PPL
+618464,Buzdugeni,edinet,48.1072,27.15699,0,PPL
+829549,"Bădragii Noi",edinet,48.06204,27.07601,0,PPL
+617346,"Bădragii Vechi",edinet,48.03712,27.10896,0,PPL
+829559,"Carul Frumos",edinet,48.17639,27.52472,0,PPL
+618441,Cepeleuți,edinet,48.30264,27.31383,0,PPL
+617733,"Chetroșica Nouă",edinet,48.11725,27.4769,0,PPL
+829544,"Chetroșica Veche",edinet,48.11939,27.40417,0,PPL
+617925,Chiurt,edinet,48.06131,27.34291,0,PPL
+829592,Clișcăuți,edinet,48.28312,27.32076,0,PPL
+618036,Constantinovca,edinet,48.24851,27.10944,0,PPL
+829581,Corpaci,edinet,48.00819,27.13941,0,PPL
+617682,"Cuconeștii Noi",edinet,47.98718,27.20613,0,PPL
+617332,"Cuconeștii Vechi",edinet,47.96683,27.14845,0,PPL
+617947,Cupcini,edinet,48.11023,27.3839,0,PPL
+617076,Edineț,edinet,48.17319,27.30075,22872,PPLA
+618337,Fetești,edinet,48.16372,27.09898,0,PPL
+618314,"Fîntîna Albă",edinet,48.16028,27.43245,0,PPL
+618300,Gașpar,edinet,48.15678,27.49836,0,PPL
+618255,Goleni,edinet,48.2095,27.43286,0,PPL
+618253,Gordinești,edinet,48.15926,27.16981,0,PPL
+829583,"Gordineștii Noi",edinet,48.16961,27.22522,0,PPL
+618208,Hancăuți,edinet,48.04864,27.19039,0,PPL
+618290,Heredeuca,edinet,48.04567,27.13595,0,PPL
+618264,Hlinaia,edinet,48.22193,27.25333,0,PPL
+829591,"Hlinaia Mică",edinet,48.25335,27.26936,0,PPL
+618274,Hîncăuți,edinet,48.27463,27.30845,0,PPL
+617887,Lopatnic,edinet,48.13506,27.05596,0,PPL
+617564,Onești,edinet,48.06678,27.276,0,PPL
+617626,Parcova,edinet,48.15228,27.405,0,PPL
+829589,Poiana,edinet,48.24981,27.35435,0,PPL
+617523,Rotunda,edinet,48.24202,27.30733,0,PPL
+617488,Ruseni,edinet,48.20181,27.41583,0,PPL
+829599,Rîngaci,edinet,48.31008,27.34238,0,PPL
+829585,Slobodca,edinet,48.20724,27.3705,0,PPL
+617306,Stolniceni,edinet,48.04004,27.34668,0,PPL
+617248,Terebna,edinet,48.04968,27.25019,0,PPL
+617215,Trinca,edinet,48.20939,27.11566,0,PPL
+617185,Tîrnova,edinet,48.20424,27.1762,0,PPL
+10201353,Vanchikautsy,edinet,48.31125,27.2826,0,PPL
+617123,Viișoara,edinet,48.09527,27.04498,0,PPL
+829584,Volodeni,edinet,48.11627,27.20491,0,PPL
+617061,Zăbriceni,edinet,48.07364,27.25265,0,PPL
+617416,Șofrîncani,edinet,48.04842,27.41324,0,PPL
+617703,"Albinețul Nou",falesti,47.58131,27.61935,0,PPL
+617347,"Albinețul Vechi",falesti,47.559,27.63544,0,PPL
+829872,Beleuți,falesti,47.66475,27.90416,0,PPL
+618547,Bocani,falesti,47.51915,27.89242,0,PPL
+618546,Bocșa,falesti,47.47111,27.64972,0,PPL
+618480,Burghelea,falesti,47.53996,27.86425,0,PPL
+618122,Catranîc,falesti,47.59621,27.803,0,PPL
+863767,Catranîc,falesti,47.62342,27.77606,0,PPL
+618109,Chetriș,falesti,47.59604,27.44757,0,PPL
+829875,"Chetrișul Nou",falesti,47.62599,27.50843,0,PPL
+617739,"Ciolacu Nou",falesti,47.48494,27.83139,0,PPL
+617356,"Ciolacu Vechi",falesti,47.47645,27.86097,0,PPL
+829868,Ciuluc,falesti,47.63594,27.78764,0,PPL
+618152,Comarovca,falesti,47.69038,27.90573,0,PPL
+617683,"Cosmenii Noui",falesti,47.51028,27.55028,0,PPL
+617333,"Cuzmenii Vechi",falesti,47.52643,27.56615,0,PPL
+618158,Călinești,falesti,47.56315,27.48592,0,PPL
+618154,Călugăr,falesti,47.54031,27.68733,0,PPL
+829887,Doltu,falesti,47.53722,27.82306,0,PPL
+618366,Drujineni,falesti,47.52531,27.53219,0,PPL
+617074,Egorovca,falesti,47.61664,27.75843,0,PPL
+12625796,"Fabrica de Zahăr",falesti,47.53265,27.74188,0,PPLL
+13426717,Faleshty,falesti,47.54938,27.74044,0,PPL
+829880,Frumușica,falesti,47.51502,27.6863,0,PPL
+618340,Făgădău,falesti,47.44221,27.80294,0,PPL
+618344,Fălești,falesti,47.57667,27.71264,14377,PPLA
+617691,"Făleștii Noi",falesti,47.57423,27.74523,0,PPL
+618263,Glinjeni,falesti,47.60037,27.89309,0,PPL
+618099,Hiliuți,falesti,47.6693,27.76275,0,PPL
+618097,Hitrești,falesti,47.54844,27.77603,0,PPL
+618250,Horești,falesti,47.43184,27.58047,0,PPL
+617735,"Hrubna Nouă",falesti,47.40643,27.61519,0,PPL
+618306,Hîncești,falesti,47.54896,27.50234,0,PPL
+829879,Hîrtop,falesti,47.47969,27.70696,0,PPL
+617070,Ilenuța,falesti,47.63495,27.7119,0,PPL
+829871,Ivanovca,falesti,47.65672,27.87995,0,PPL
+618169,Izvoare,falesti,47.43474,27.66838,0,PPL
+618178,Ișcălău,falesti,47.57152,27.82258,0,PPL
+617889,Logofteni,falesti,47.62389,27.5681,0,PPL
+617881,Lucăceni,falesti,47.45715,27.59605,0,PPL
+617791,Moldoveanca,falesti,47.62382,27.61396,0,PPL
+617780,Musteața,falesti,47.51138,27.64635,0,PPL
+617826,Măgura,falesti,47.48852,27.9322,0,PPL
+829886,"Măgura Nouă",falesti,47.50613,27.95185,0,PPL
+617844,Mărăndeni,falesti,47.66498,27.83153,0,PPL
+617770,Natalievca,falesti,47.6976,27.88979,0,PPL
+11204802,Navirnets,falesti,47.58333,27.56667,0,PPL
+7730794,Navîrneți,falesti,47.58247,27.57167,0,PPL
+829881,Nicolaevca,falesti,47.50063,27.70059,0,PPL
+617769,Năvîrneț,falesti,47.58875,27.5613,0,PPL
+617727,"Obreja Nouă",falesti,47.67537,27.6943,0,PPL
+617351,"Obreja Veche",falesti,47.67995,27.66045,0,PPL
+617604,Pervomaisc,falesti,47.63302,27.97625,0,PPL
+617595,Pietrosu,falesti,47.50242,27.92036,0,PPL
+829885,"Pietrosul Nou",falesti,47.58207,27.76865,0,PPL
+829888,Pocrovca,falesti,47.46579,27.87448,0,PPL
+617571,Pompa,falesti,47.65498,27.94366,0,PPL
+617565,Popovca,falesti,47.7091,27.86916,0,PPL
+617545,Pruteni,falesti,47.49843,27.55168,0,PPL
+617538,Pînzăreni,falesti,47.62027,27.67791,0,PPL
+829876,"Pînzărenii Noi",falesti,47.60269,27.64374,0,PPL
+617536,Pîrlița,falesti,47.74079,27.80486,0,PPL
+829877,"Rediul de Jos",falesti,47.51013,27.60159,0,PPL
+829878,"Rediul de Sus",falesti,47.52578,27.60711,0,PPL
+617492,Risipeni,falesti,47.46084,27.66577,0,PPL
+617510,Răuțel,falesti,47.71319,27.82583,0,PPL
+829866,"Răuțelul Nou",falesti,47.70104,27.74613,0,PPL
+617395,Scumpia,falesti,47.47038,27.7374,0,PPL
+617673,"Socii Noi",falesti,47.53737,27.64594,0,PPL
+863766,"Socii Vechi",falesti,47.52552,27.67704,0,PPL
+617286,Suvorovca,falesti,47.6407,27.88974,0,PPL
+617724,"Sărata Nouă",falesti,47.4993,27.79135,0,PPL
+617350,"Sărata Veche",falesti,47.50259,27.74709,0,PPL
+617274,Taxobeni,falesti,47.38938,27.59047,0,PPL
+829884,Unteni,falesti,47.41612,27.57898,0,PPL
+617153,"Valea Rusului",falesti,47.47386,27.58572,0,PPL
+829883,Vrănești,falesti,47.40868,27.59996,0,PPL
+617414,Șoltoaia,falesti,47.45734,27.81446,0,PPL
+617209,Țapoc,falesti,47.7082,27.89638,0,PPL
+618654,Alexandrovca,floresti,47.95401,28.13017,0,PPL
+618644,Alexeevca,floresti,47.94275,28.28662,0,PPL
+831057,Antonovca,floresti,47.78683,28.21389,0,PPL
+618564,Bezeni,floresti,47.97699,28.11811,0,PPL
+618552,Bobulești,floresti,47.8808,28.35096,0,PPL
+618474,Bursuc,floresti,47.97236,28.74019,0,PPL
+618622,Băhrinești,floresti,47.85657,28.24431,0,PPL
+618125,Cașunca,floresti,47.78605,28.39416,0,PPL
+618443,Cenușa,floresti,47.84453,28.38687,0,PPL
+618438,Cernița,floresti,47.96407,28.46735,0,PPL
+618081,Chirilovca,floresti,47.96208,28.32858,0,PPL
+618440,Ciripcău,floresti,47.98425,28.38295,0,PPL
+618407,Ciutulești,floresti,47.76191,28.39384,0,PPL
+618009,Coșernița,floresti,47.93971,28.46561,0,PPL
+617748,"Cuhureștii de Jos",floresti,47.93009,28.59292,0,PPL
+617132,"Cuhureștii de Sus",floresti,47.92376,28.55825,0,PPL
+617949,Cunicea,floresti,47.90786,28.64649,0,PPL
+618139,Căprești,floresti,47.75417,28.46333,0,PPL
+618383,Domulgeni,floresti,47.79187,28.43623,0,PPL
+618389,Dumitreni,floresti,47.97087,28.31866,0,PPL
+618329,Florești,floresti,47.89168,28.29339,16759,PPLA
+618322,Frumușica,floresti,47.95988,28.11833,0,PPL
+617736,"Frumușica Nouă",floresti,47.87684,28.05952,0,PPL
+831056,Frunzești,floresti,47.78429,28.18509,0,PPL
+831068,Făgădău,floresti,47.93547,28.52606,0,PPL
+618275,Ghindești,floresti,47.85482,28.37679,2100,PPL
+618214,"Gura Camencii",floresti,47.89097,28.3547,0,PPL
+618215,"Gura Căinarului",floresti,47.86318,28.18311,0,PPL
+618209,Gvozdova,floresti,47.90452,28.35043,0,PPL
+618284,Hîrtop,floresti,47.88168,28.45845,0,PPL
+618192,Illiciovca,floresti,47.93646,28.06589,0,PPL
+831066,"Ion Vodă",floresti,47.72543,28.32799,0,PPL
+618171,Ivanovca,floresti,47.90763,28.15519,0,PPL
+618167,Izvoare,floresti,47.97825,28.13114,0,PPL
+617044,Japca,floresti,47.98091,28.70413,0,PPL
+617878,Lunga,floresti,47.85833,28.21972,0,PPL
+617553,Maiscoe,floresti,47.91153,28.04829,0,PPL
+617809,Mihailovca,floresti,47.79882,28.25458,0,PPL
+617836,Mărculești,floresti,47.88369,28.24609,0,PPL
+617837,Mărculești,floresti,47.86897,28.24109,2400,PPL
+831065,Mărinești,floresti,47.73183,28.38308,0,PPL
+617760,Nicolaevca,floresti,47.76129,28.29279,0,PPL
+831067,Nicolaevca,floresti,47.91859,28.52855,0,PPL
+617772,Năpadova,floresti,48.01969,28.5952,0,PPL
+617100,Octeabriscoe,floresti,47.95506,28.53593,0,PPL
+7730856,Pistrueni,floresti,47.70153,28.40408,0,PPL
+617558,Poeana,floresti,47.91194,28.63333,0,PPL
+617556,Prajila,floresti,47.84066,28.20697,0,PPL
+617550,Prodănești,floresti,47.74062,28.48299,0,PPL
+617327,"Prodăneștii Vechi",floresti,47.71461,28.44432,0,PPL
+617540,Putinești,floresti,47.8358,28.11851,0,PPL
+617676,Roșietici,floresti,47.83049,28.40271,0,PPL
+617324,"Roșieticii Vechi",floresti,47.81306,28.4,0,PPL
+617677,"Rădulenii Noi",floresti,47.9571,28.24656,0,PPL
+617326,"Rădulenii Vechi",floresti,47.98476,28.26413,0,PPL
+617403,Scăieni,floresti,47.96944,28.12611,0,PPL
+617437,Sevirova,floresti,47.9265,28.15077,0,PPL
+617294,Stîrceni,floresti,47.87634,28.3651,0,PPL
+617427,Sîrbești,floresti,47.80103,28.32621,0,PPL
+617441,Sănătăuca,floresti,48.01312,28.67515,0,PPL
+617249,Temeleuți,floresti,47.97949,28.49956,0,PPL
+617202,Tipordei,floresti,47.93544,28.61518,0,PPL
+617554,Tirgul-Vertiujeni,floresti,48.03013,28.53297,0,PPL
+617219,Trifănești,floresti,47.944,28.13125,0,PPL
+617178,Unchitești,floresti,47.92847,28.52791,0,PPL
+617154,"Valea Rădoaiei",floresti,47.75527,28.26266,0,PPL
+617126,Vertlujeni,floresti,47.99495,28.53731,0,PPL
+617147,Vărvăreuca,floresti,47.87967,28.31438,0,PPL
+617139,Văscăuți,floresti,47.95519,28.51072,0,PPL
+824213,Zarojeni,floresti,47.86568,28.16197,0,PPL
+617052,Zăluceni,floresti,48.05113,28.55473,0,PPL
+617413,Ștefănești,floresti,47.7319,28.43784,0,PPL
+617192,Țîra,floresti,47.8421,28.40361,0,PPL
+618647,Alexeevca,gagauzia,46.02539,28.56835,0,PPL
+618629,Avdarma,gagauzia,46.25158,28.83814,0,PPL
+618589,Baurci,gagauzia,46.09623,28.67635,0,PPL
+618572,Beșalma,gagauzia,46.16913,28.64695,0,PPL
+618571,Beșghioz,gagauzia,46.11916,28.87439,0,PPL
+618491,Bugeac,gagauzia,46.36554,28.6625,1800,PPL
+618133,Carbalia,gagauzia,45.87235,28.44935,0,PPL
+618114,Cazaclia,gagauzia,46.00729,28.66272,0,PPL
+618450,Ceadîr-Lunga,gagauzia,46.06169,28.83078,22700,PPL
+617489,"Chioselia Rusă",gagauzia,46.08494,28.51184,0,PPL
+618079,Chiriet-Lunga,gagauzia,46.20924,28.94521,0,PPL
+618072,Chirsova,gagauzia,46.23062,28.64755,0,PPL
+618422,"Cioc Maidan",gagauzia,46.36587,28.82059,0,PPL
+618428,Cișmichioi,gagauzia,45.54694,28.38115,0,PPL
+618405,Comrat,gagauzia,46.29488,28.65713,22911,PPLA
+618404,Congaz,gagauzia,46.10744,28.59303,13406,PPL
+618038,"Congazcicul de Jos",gagauzia,46.31229,28.57169,0,PPL
+618037,"Congazcicul de Sus",gagauzia,46.33158,28.56418,0,PPL
+618028,Copceac,gagauzia,45.84916,28.69201,0,PPL
+864949,"Cortenul Nou",gagauzia,46.00715,28.57036,0,PPL
+618144,Cotovscoe,gagauzia,46.16203,28.51417,0,PPL
+864986,"Cătun Vulcănești",gagauzia,45.6825,28.47917,0,PPL
+618391,Dermengi,gagauzia,45.87957,28.41354,0,PPL
+618390,Dezghingea,gagauzia,46.42207,28.61791,0,PPL
+7731672,Dezghinja,gagauzia,46.44,28.65,0,PPL
+618360,Dudulești,gagauzia,46.32724,28.51537,0,PPL
+618348,Etulia,gagauzia,45.53874,28.44169,0,PPL
+864976,"Etulia Nouă",gagauzia,45.5162,28.43801,0,PPL
+618339,Ferapontievca,gagauzia,46.23235,28.77441,0,PPL
+618294,Gaidar,gagauzia,46.10836,28.76617,0,PPL
+618189,"Imeni Kirsev",gagauzia,46.33333,28.56667,0,PPL
+618350,Joltai,gagauzia,46.17905,28.87277,0,PPL
+864992,Shlenger,gagauzia,45.99806,28.57194,0,PPL
+617281,Svetlîi,gagauzia,46.01743,28.56822,0,PPL
+617230,Tomai,gagauzia,46.18546,28.76634,0,PPL
+617096,Vulcănești,gagauzia,45.68492,28.40613,14352,PPL
+618540,Balatina,glodeni,47.69459,27.34349,0,PPL
+618562,Bisericani,glodeni,47.64314,27.32945,0,PPL
+618503,Brînzeni,glodeni,47.81412,27.36303,0,PPL
+618470,Butești,glodeni,47.79685,27.33316,0,PPL
+618110,Cajba,glodeni,47.72566,27.43912,0,PPL
+618150,Camenca,glodeni,47.82683,27.36262,0,PPL
+618147,Camencuța,glodeni,47.83626,27.44948,0,PPL
+618073,Chirpiți,glodeni,47.82417,27.61833,0,PPL
+618415,Ciuciulea,glodeni,47.65899,27.48475,0,PPL
+617334,"Clococenii Vechi",glodeni,47.71854,27.41575,0,PPL
+618060,Cobani,glodeni,47.76718,27.32195,0,PPL
+863765,Cot,glodeni,47.65348,27.337,0,PPL
+617954,Cuhnești,glodeni,47.6568,27.37453,0,PPL
+618399,Danu,glodeni,47.83077,27.49663,0,PPL
+617652,Dușmani,glodeni,47.7195,27.48032,0,PPL
+617690,"Fundurii Noi",glodeni,47.75547,27.65381,0,PPL
+617340,"Fundurii Vechi",glodeni,47.74195,27.71693,0,PPL
+618261,Glodeni,glodeni,47.77467,27.51753,10146,PPLA
+618269,Hîjdieni,glodeni,47.76964,27.45985,0,PPL
+617086,Iabloana,glodeni,47.80873,27.61797,0,PPL
+617716,"Iablona Nouă",glodeni,47.81556,27.61306,0,PPL
+863764,"Iablona Veche",glodeni,47.79861,27.62556,0,PPL
+617679,"Limbenii Noi",glodeni,47.72399,27.62507,0,PPL
+617330,"Limbenii Vechi",glodeni,47.69151,27.60822,0,PPL
+829863,Lipovăț,glodeni,47.72645,27.36787,0,PPL
+829864,"Moara Domnească",glodeni,47.62363,27.41671,0,PPL
+617859,Molești,glodeni,47.8023,27.34793,0,PPL
+617759,Nicolaevca,glodeni,47.82272,27.55421,0,PPL
+617593,Petrunea,glodeni,47.75023,27.57835,0,PPL
+617440,Serghieni,glodeni,47.6485,27.35123,0,PPL
+829862,Soroca,glodeni,47.80447,27.56259,0,PPL
+617297,Sturzovca,glodeni,47.80394,27.72198,0,PPL
+617295,Stîrcea,glodeni,47.79312,27.52561,0,PPL
+617228,"Tomeștii Noi",glodeni,47.66667,27.35,0,PPL
+617227,"Tomeștii Vechi",glodeni,47.65531,27.33634,0,PPL
+617168,Ustia,glodeni,47.66242,27.59273,0,PPL
+617124,Viișoara,glodeni,47.61731,27.44804,0,PPL
+829652,Anini,hincesti,46.8899,28.4643,0,PPL
+618554,Bobeica,hincesti,46.98441,28.46064,0,PPL
+618549,Boghiceni,hincesti,46.96407,28.30795,0,PPL
+618524,Bozieni,hincesti,46.74997,28.64599,0,PPL
+829649,Brătianovca,hincesti,46.73979,28.46309,0,PPL
+618463,Bujor,hincesti,46.92444,28.26293,0,PPL
+618468,Buțeni,hincesti,46.82559,28.67343,0,PPL
+618544,Bălceana,hincesti,46.84475,28.40874,0,PPL
+618134,Caracui,hincesti,46.69997,28.54286,0,PPL
+618107,Chetroșeni,hincesti,46.96253,28.27033,0,PPL
+864972,"Chetroșenii Noi",hincesti,46.97639,28.27167,0,PPL
+618425,Cioara,hincesti,46.73495,28.22243,0,PPL
+618416,Ciuciuleni,hincesti,47.02257,28.40904,0,PPL
+824137,Cornești,hincesti,47,28.32784,0,PPL
+829648,Coroliovca,hincesti,46.71086,28.47128,0,PPL
+618002,Costești,hincesti,46.87372,28.20592,0,PPL
+617990,"Cotul Morii",hincesti,46.86987,28.11807,0,PPL
+617976,Crasnoarmeiscoe,hincesti,46.82034,28.27458,0,PPL
+618155,Călmățui,hincesti,46.78386,28.21142,0,PPL
+618128,Cărpineanca,hincesti,46.6962,28.47098,0,PPL
+618129,Cărpineni,hincesti,46.7647,28.34427,0,PPL
+618121,Cățeleni,hincesti,46.92223,28.18386,0,PPL
+618402,Dahnovici,hincesti,46.97416,28.48307,0,PPL
+618400,Dancu,hincesti,46.75818,28.20716,10000,PPL
+618374,Drăgușeni,hincesti,46.98277,28.44684,0,PPL
+617693,"Drăgușenii Noi",hincesti,47.04579,28.42425,0,PPL
+618362,Dubovca,hincesti,46.74914,28.60741,0,PPL
+829639,Feteasca,hincesti,46.78813,28.1898,0,PPL
+829651,Frasin,hincesti,46.88924,28.19429,0,PPL
+618317,"Fundul Galbenei",hincesti,46.88018,28.62757,0,PPL
+618312,Fîrlădeni,hincesti,46.78626,28.69033,0,PPL
+618093,Horjești,hincesti,46.71324,28.34652,0,PPL
+864913,Horodca,hincesti,47.05916,28.45464,0,PPL
+617993,Hîncești,hincesti,46.83089,28.58999,16900,PPLA
+618173,Ivanovca,hincesti,46.89449,28.18562,0,PPL
+13426730,Ivanovka,hincesti,46.85718,28.19987,0,PPL
+829637,Kokocheny,hincesti,46.66972,28.30667,0,PPL
+617902,Leușeni,hincesti,46.81169,28.19695,0,PPL
+617891,Logănești,hincesti,46.90528,28.54434,0,PPL
+617922,Lăpușna,hincesti,46.88673,28.41187,0,PPL
+829646,Marchet,hincesti,46.7015,28.2314,0,PPL
+617820,Mereșeni,hincesti,46.79508,28.54158,0,PPL
+617803,Mingir,hincesti,46.66929,28.32927,0,PPL
+617801,Mirești,hincesti,46.969,28.25407,0,PPL
+617796,Mlădinești,hincesti,46.96333,28.37667,0,PPL
+617767,Negrea,hincesti,46.81016,28.39402,0,PPL
+617764,Nemțeni,hincesti,46.90552,28.12193,0,PPL
+617664,Obileni,hincesti,46.87835,28.16305,0,PPL
+617646,Onești,hincesti,46.86222,28.25128,0,PPL
+864971,"Oneștii Noi",hincesti,46.85389,28.245,0,PPL
+617622,Pașcani,hincesti,46.97729,28.36668,0,PPL
+617612,Pereni,hincesti,47.00162,28.37511,0,PPL
+617601,Pervomaiscoe,hincesti,46.88236,28.3205,0,PPL
+617578,Pogănești,hincesti,46.69249,28.23192,1462,PPLL
+829653,Rusca,hincesti,46.87611,28.47639,0,PPL
+617450,Secăreni,hincesti,47.0264,28.33235,0,PPL
+864912,"Secăreni Noi",hincesti,47.01806,28.32944,0,PPL
+617443,Semionovca,hincesti,46.69834,28.30389,0,PPL
+617379,Sofia,hincesti,46.84401,28.37623,0,PPL
+617308,Stolniceni,hincesti,46.96081,28.50002,0,PPL
+617299,Strîmbeni,hincesti,46.86539,28.26171,0,PPL
+617460,"Sărata Mereșeni",hincesti,46.80053,28.50215,0,PPL
+617461,Sărata-Galbenă,hincesti,46.73469,28.51561,0,PPL
+617456,Sărăteni,hincesti,46.8576,28.16729,0,PPL
+617273,Tălăiești,hincesti,46.80028,28.26639,0,PPL
+864967,Tălăieștii-Noi,hincesti,46.79528,28.26889,0,PPL
+864968,Tălăieștii-Vechi,hincesti,46.81417,28.28139,0,PPL
+829647,"Valea Florii",hincesti,46.71351,28.43755,0,PPL
+617581,Voinescu,hincesti,46.64882,28.29976,0,PPL
+617364,Șipoteni,hincesti,46.94193,28.45353,0,PPL
+618649,Alexandrovca,ialoveni,46.72587,29.0206,0,PPL
+618597,Bardar,ialoveni,46.90273,28.66982,0,PPL
+618494,Budăi,ialoveni,46.81272,28.97434,0,PPL
+618603,Bălțați,ialoveni,46.84195,28.95321,0,PPL
+7730789,Cigârleni,ialoveni,46.77153,28.78808,0,PPL
+618433,Cigîrleni,ialoveni,46.75615,28.82803,0,PPL
+618001,Costești,ialoveni,46.86549,28.76235,0,PPL
+618132,Cărbuna,ialoveni,46.71173,28.95396,0,PPL
+618401,Dănceni,ialoveni,46.96372,28.70567,0,PPL
+618305,Gangura,ialoveni,46.73315,29.00756,0,PPL
+618299,Găureni,ialoveni,46.82968,28.84106,0,PPL
+618304,Hansca,ialoveni,46.83318,28.75136,0,PPL
+618089,Homuteanovca,ialoveni,46.72501,29.05709,0,PPL
+618251,Horești,ialoveni,46.8254,28.87427,0,PPL
+618245,Horodca,ialoveni,47.04577,28.48958,0,PPL
+618196,Ialoveni,ialoveni,46.94357,28.78153,14915,PPLA
+618183,Ioneasca,ialoveni,46.75,28.75,0,PPL
+829815,Karpino,ialoveni,46.99083,28.59889,0,PPL
+617856,Malcoci,ialoveni,47.02583,28.63151,0,PPL
+617848,Manoilești,ialoveni,46.95917,28.60222,0,PPL
+617851,"Mileștii Mici",ialoveni,46.90644,28.80233,0,PPL
+829640,"Mileștii Noi",ialoveni,46.74583,28.96308,0,PPL
+617798,Misovca,ialoveni,46.76573,29.00516,0,PPL
+617864,Molești,ialoveni,46.78756,28.7769,0,PPL
+617756,Nimoreni,ialoveni,47.00731,28.66768,0,PPL
+829658,"Piatra Albă",ialoveni,46.93316,28.81857,0,PPL
+617557,Pojăreni,ialoveni,46.88707,28.69128,0,PPL
+617543,Puhoi,ialoveni,46.8233,29.03704,0,PPL
+617675,"Ruseștii Noi",ialoveni,46.92755,28.65115,0,PPL
+617323,"Ruseștii Vechi",ialoveni,46.91943,28.62523,0,PPL
+617505,Răzeni,ialoveni,46.76884,28.89976,0,PPL
+617380,Sociteni,ialoveni,46.94188,28.72162,0,PPL
+617288,Suruceni,ialoveni,46.97911,28.66331,0,PPL
+617182,Ulmu,ialoveni,47.01842,28.54643,2693,PPL
+824143,Văratic,ialoveni,46.81059,29.06411,0,PPL
+617141,Văsieni,ialoveni,46.96666,28.59216,0,PPL
+617034,Zîmbreni,ialoveni,46.83887,28.84595,0,PPL
+617194,Țipala,ialoveni,46.83028,28.97422,0,PPL
+618570,Beștemac,leova,46.52604,28.52892,0,PPL
+618532,Borogani,leova,46.37074,28.52127,0,PPL
+864955,Bulgari,leova,46.49111,28.40583,0,PPL
+618585,Băiuș,leova,46.44744,28.47371,0,PPL
+618111,Cazangic,leova,46.50843,28.43498,0,PPL
+618451,Ceadîr,leova,46.67168,28.40656,0,PPL
+618061,Cneazevca,leova,46.6324,28.50363,0,PPL
+864954,"Cociulia Nouă",leova,46.44194,28.47333,0,PPL
+618048,Colibabovca,leova,46.65206,28.4258,0,PPL
+7730792,Congazcic,leova,46.34622,28.52239,0,PPL
+617985,Covurlui,leova,46.59056,28.40144,0,PPL
+617946,Cupcui,leova,46.51705,28.35814,0,PPL
+617945,Cuporani,leova,46.37431,28.3578,0,PPL
+617932,"Cîmpul Drept",leova,46.56543,28.51362,0,PPL
+618066,Cîzlar,leova,46.65083,28.525,0,PPL
+618335,Filipeni,leova,46.44149,28.32587,0,PPL
+618323,Frumușica,leova,46.55614,28.42796,0,PPL
+618318,"Fund Saratsika",leova,46.63833,28.55556,0,PPL
+10194158,Gyrtop,leova,46.4926,28.50566,0,PPL
+617689,"Hanăsenii Noi",leova,46.41829,28.25513,0,PPL
+7730786,"Hănășenii de Prut",leova,46.39586,28.27408,0,PPL
+617081,Iargara,leova,46.4252,28.42676,5600,PPL
+617912,Lebedevka,leova,46.48806,28.4525,0,PPL
+617904,Leova,leova,46.48195,28.25298,14301,PPLA
+617799,Meșeni,leova,46.41897,28.46556,0,PPL
+617833,Mătăsaru,leova,46.55944,28.24722,0,PPL
+864953,Nicolaevca,leova,46.39083,28.25266,0,PPL
+617641,Orac,leova,46.66691,28.46012,0,PPL
+864962,Pitești,leova,46.50246,28.5452,0,PPL
+617498,Romanovca,leova,46.45942,28.35245,0,PPL
+617447,Seliște,leova,46.52751,28.42976,0,PPL
+618062,"Staraya Knyazevka",leova,46.63417,28.50306,0,PPL
+617277,Sîrma,leova,46.52668,28.24909,0,PPL
+617459,"Sărata Nouă",leova,46.49307,28.38843,0,PPL
+617458,Sărata-Răzeși,leova,46.61553,28.26508,0,PPL
+617457,Sărăteni,leova,46.60959,28.46625,0,PPL
+617723,"Sărățica Nouă",leova,46.57275,28.54602,0,PPL
+617454,"Sărățica Veche",leova,46.60237,28.53011,0,PPL
+617243,Tigheci,leova,46.3877,28.37726,0,PPL
+617241,Tigichanka,leova,46.46583,28.26,0,PPL
+617233,Tochile-Răducani,leova,46.57698,28.2443,0,PPL
+617229,Tomai,leova,46.57352,28.32178,0,PPL
+617707,"Tomaiul Nou",leova,46.62899,28.55255,0,PPL
+618482,Troian,leova,46.54094,28.46362,0,PPL
+864960,"Troian 2",leova,46.53889,28.47806,0,PPL
+617706,Troița,leova,46.56295,28.46512,0,PPL
+617214,Troițca,leova,46.61139,28.54778,0,PPL
+864963,Usăteni,leova,46.63167,28.55333,0,PPL
+617122,Victoria,leova,46.61613,28.41484,0,PPL
+617097,Vozneseni,leova,46.58295,28.46864,0,PPL
+618662,Afumați,nisporeni,46.98444,28.21056,0,PPL
+618543,Boldurești,nisporeni,47.1347,28.05406,0,PPL
+618533,Bolțun,nisporeni,47.02465,28.28683,0,PPL
+13426728,Bratuleny,nisporeni,47.15532,27.96514,0,PPL
+618520,Brătuleni,nisporeni,47.1245,27.96247,0,PPL
+618475,Bursuc,nisporeni,47.09662,28.29867,0,PPL
+618616,Băcșeni,nisporeni,47.08951,28.0173,0,PPL
+618613,Bălănești,nisporeni,47.20801,28.0643,0,PPL
+618608,Bălăurești,nisporeni,46.93747,28.13521,0,PPL
+618598,Bărboieni,nisporeni,47.02018,28.06002,0,PPL
+829769,Chilișoaia,nisporeni,47.11338,28.0281,0,PPL
+618419,Ciorești,nisporeni,47.16565,28.22094,0,PPL
+7731675,Ciorăști,nisporeni,47.15,28.2,0,PPL
+618408,Ciutești,nisporeni,47.17743,28.12204,0,PPL
+617963,Cristești,nisporeni,47.0575,28.28375,0,PPL
+617930,Cîrnești,nisporeni,47.17571,27.99724,0,PPL
+618159,Călimănești,nisporeni,46.94673,28.18905,0,PPL
+618368,Drojdieni,nisporeni,46.93761,28.22399,0,PPL
+618222,Grozești,nisporeni,47.00033,28.07774,0,PPL
+618298,Găureni,nisporeni,47.19948,28.08698,0,PPL
+618100,Heleșteni,nisporeni,46.96159,28.18391,0,PPL
+618180,Isăicani,nisporeni,47.06646,28.02676,0,PPL
+617063,Iurceni,nisporeni,47.07954,28.25985,0,PPL
+829768,Luminița,nisporeni,47.08353,28.0769,0,PPL
+617842,Marinici,nisporeni,46.96883,28.16353,0,PPL
+617804,Milești,nisporeni,47.22273,28.03932,0,PPL
+617774,Mîrzoaia,nisporeni,47.03317,28.26531,0,PPL
+617753,Nisporeni,nisporeni,47.08025,28.17098,11718,PPLA
+10193048,Odaya,nisporeni,47.0087,28.20067,0,PPL
+829767,Odobești,nisporeni,47.05142,28.07062,0,PPL
+617624,Păruceni,nisporeni,47.1513,28.1014,0,PPL
+617445,Seliște,nisporeni,47.16769,28.13225,0,PPL
+829766,Selișteni,nisporeni,47.06224,28.06866,0,PPL
+617368,Soltănești,nisporeni,47.05787,28.11146,0,PPL
+617151,"Valea -Trestieni",nisporeni,47.07143,28.0686,0,PPL
+617094,Vulcănești,nisporeni,47.15399,28.1906,0,PPL
+617089,Vînători,nisporeni,47.18483,28.10249,0,PPL
+617145,Vărzărești,nisporeni,47.10523,28.19296,0,PPL
+617048,Zberoaia,nisporeni,46.96896,28.10506,0,PPL
+617431,Șendreni,nisporeni,47.12672,28.18386,0,PPL
+617419,Șișcani,nisporeni,46.98231,28.20904,0,PPL
+829571,Berezovca,ocnita,48.38183,27.77943,0,PPL
+618458,Bîrlădeni,ocnita,48.26504,27.42448,0,PPL
+618457,Bîrnova,ocnita,48.42329,27.53371,0,PPL
+618163,Calarașovca,ocnita,48.42493,27.79298,0,PPL
+618063,Clocușna,ocnita,48.42817,27.34973,0,PPL
+618055,Codreni,ocnita,48.43143,27.7177,0,PPL
+618023,Corestăuți,ocnita,48.35153,27.26671,0,PPL
+618394,Dîngeni,ocnita,48.34717,27.48371,0,PPL
+618320,Frunză,ocnita,48.41365,27.59243,0,PPL
+829596,Grinăuți,ocnita,48.31331,27.46713,0,PPL
+824214,Grinăuți-Moldova,ocnita,48.28034,27.45069,0,PPL
+618225,Grinăuți-Raia,ocnita,48.28594,27.42895,0,PPL
+618206,Gîrbova,ocnita,48.37388,27.6198,0,PPL
+618095,Hădărăuți,ocnita,48.37101,27.33935,0,PPL
+617907,Lencăuți,ocnita,48.43309,27.65107,0,PPL
+617896,Lipnic,ocnita,48.39489,27.51443,0,PPL
+829570,Maiovca,ocnita,48.37046,27.39383,0,PPL
+617819,Mereșeuca,ocnita,48.43129,27.68425,0,PPL
+617813,Mihălășeni,ocnita,48.32358,27.42385,0,PPL
+7730791,Naslaucea,ocnita,48.43264,27.58467,0,PPL
+617771,Naslavcea,ocnita,48.47118,27.58324,0,PPL
+617659,Ocnița,ocnita,48.38231,27.43864,9325,PPLA
+10201352,Oknitsa,ocnita,48.41077,27.47874,0,PPL
+618631,Otaci,ocnita,48.44,27.79,8400,PPL
+617634,Paladea,ocnita,48.24804,27.42577,0,PPL
+13426755,Redyu-Mare,ocnita,48.27138,27.48295,0,PPL
+617487,Rujnița,ocnita,48.25661,27.43654,0,PPL
+617451,Sauca,ocnita,48.37331,27.73036,0,PPL
+829598,Stălinești,ocnita,48.33549,27.26539,0,PPL
+617179,Unguri,ocnita,48.39869,27.87025,0,PPL
+617136,Verejeni,ocnita,48.4394,27.61746,0,PPL
+617109,Vălcineț,ocnita,48.45139,27.73234,0,PPL
+831044,Andreevca,orhei,47.53839,28.87489,0,PPL
+618574,Berezlogi,orhei,47.43699,28.93388,0,PPL
+618558,Biești,orhei,47.51696,28.85717,0,PPL
+618541,Bolohan,orhei,47.43137,28.87483,0,PPL
+618505,Breanova,orhei,47.41641,28.6502,0,PPL
+618522,Brănești,orhei,47.30526,28.92856,0,PPL
+618517,Brăviceni,orhei,47.43247,28.65924,0,PPL
+618492,Budăi,orhei,47.43215,28.82101,0,PPL
+618487,Bulăiești,orhei,47.47693,28.97931,0,PPL
+618465,Butuceni,orhei,47.30161,28.96727,239,PPL
+618151,Camencea,orhei,47.27991,28.68746,0,PPL
+618086,Chiperceni,orhei,47.52197,28.83799,0,PPL
+618434,Cihoreni,orhei,47.50638,28.86172,0,PPL
+618421,Ciocîlteni,orhei,47.49432,28.60996,0,PPL
+618427,Cișmea,orhei,47.41515,28.75365,0,PPL
+618064,Clișova,orhei,47.47243,28.57839,0,PPL
+617708,Crihana,orhei,47.52262,28.72016,0,PPL
+618050,Cucuruzeni,orhei,47.48838,28.72561,0,PPL
+831221,"Cucuruzenii de Sus",orhei,47.54445,28.70284,0,PPL
+831032,Curchi,orhei,47.33664,28.65709,0,PPL
+618354,Dișcova,orhei,47.37809,28.59831,0,PPL
+618380,Donici,orhei,47.28634,28.66896,0,PPL
+831254,Fedoreuca,orhei,47.48962,28.63965,0,PPL
+618316,Furceni,orhei,47.33693,28.9255,0,PPL
+618283,Ghetlova,orhei,47.37543,28.53083,0,PPL
+618218,Hulboaca,orhei,47.38113,28.5551,0,PPL
+618268,Hîjdieni,orhei,47.45909,28.91472,0,PPL
+617169,Inculeț,orhei,47.44939,28.72203,0,PPL
+618181,Isacova,orhei,47.3686,28.71957,0,PPL
+618175,Ivancea,orhei,47.28579,28.85698,0,PPL
+618168,Izvuare,orhei,47.55251,28.95573,0,PPL
+617042,Jeloboc,orhei,47.35618,28.9116,0,PPL
+617744,"Jora de Jos",orhei,47.46641,29.10704,0,PPL
+617359,"Jora de Mijloc",orhei,47.47609,29.09404,0,PPL
+617127,"Jora de Sus",orhei,47.48574,29.0769,0,PPL
+617888,Lopatna,orhei,47.49477,29.05158,0,PPL
+617880,Lucășeuca,orhei,47.33691,28.75974,0,PPL
+831033,Mana,orhei,47.33889,28.68444,0,PPL
+617797,Mitoc,orhei,47.38703,28.78442,0,PPL
+617789,Morovaia,orhei,47.29841,28.99701,0,PPL
+617788,Morozeni,orhei,47.37792,28.6358,0,PPL
+617776,Mîrzaci,orhei,47.48992,28.99604,0,PPL
+617775,Mîrzești,orhei,47.49998,28.99958,0,PPL
+617861,Mălăiești,orhei,47.46224,28.66584,0,PPL
+831039,Neculăieuca,orhei,47.35985,28.69271,0,PPL
+831107,Noroceni,orhei,47.37793,28.51705,0,PPL
+617658,Ocnița-Răzeși,orhei,47.47537,28.72323,0,PPL
+617657,Ocnița-Țărani,orhei,47.45838,28.72471,0,PPL
+617638,Orhei,orhei,47.38503,28.82535,24918,PPLA
+7730820,Oxintea,orhei,47.39061,29.02269,0,PPL
+617883,Pelivan,orhei,47.4078,28.7786,0,PPL
+831025,Pelivan,orhei,47.40388,28.77573,0,PPL
+617609,Peresecina,orhei,47.25509,28.76891,0,PPL
+617916,Piatra,orhei,47.36315,28.89623,0,PPL
+617572,Pocșești,orhei,47.24993,28.68496,0,PPL
+824126,Podgoreni,orhei,47.56112,28.77868,0,PPL
+617575,Pohrebeni,orhei,47.55629,28.90942,0,PPL
+617549,Progress,orhei,47.35491,28.81429,0,PPL
+617539,Puțintei,orhei,47.37411,28.58098,0,PPL
+7730870,Puțuntei,orhei,47.43281,28.55972,0,PPL
+617577,Păhărniceni,orhei,47.37292,28.88289,0,PPL
+617446,Seliște,orhei,47.33511,28.78485,0,PPL
+617405,Sirota,orhei,47.52778,28.77694,0,PPL
+618094,Slobozia-Hodorogea,orhei,47.50977,28.87421,0,PPL
+617313,Step-Soci,orhei,47.45256,28.79102,0,PPL
+617287,Susleni,orhei,47.41239,28.99034,0,PPL
+617466,Sămănanca,orhei,47.26686,28.73149,0,PPL
+829793,Tabăra,orhei,47.33141,28.56458,0,PPL
+617252,Teleșeu,orhei,47.26692,28.70274,0,PPL
+617224,Trebujeni,orhei,47.31336,28.97418,0,PPL
+617184,Tîrzieni,orhei,47.44349,28.62516,0,PPL
+617138,Vatici,orhei,47.33966,28.62379,0,PPL
+617099,Voroteț,orhei,47.55917,28.85468,0,PPL
+617088,Vîprova,orhei,47.37902,28.57072,0,PPL
+617087,Vîșcăuți,orhei,47.43129,29.07554,0,PPL
+617057,Zahoreni,orhei,47.57673,28.72775,0,PPL
+617037,Zorile,orhei,47.4592,28.74046,899,PPL
+13426726,Zorile,orhei,47.42891,28.73149,0,PPL
+617434,Șercani,orhei,47.51294,28.93137,0,PPL
+830848,Boșernița,rezina,47.78648,28.98131,0,PPL
+618498,Bușâuca,rezina,47.64023,28.98949,0,PPL
+618471,Bușăuca,rezina,47.59245,28.79058,0,PPL
+618429,Cinișeuți,rezina,47.69735,28.85747,0,PPL
+618418,Cioma,rezina,47.77044,28.97543,0,PPL
+618051,Cogîlniceni,rezina,47.63518,28.82083,0,PPL
+617937,Cuizăuca,rezina,47.61346,28.81645,0,PPL
+617072,Echimăuți,rezina,47.69381,28.90138,0,PPL
+618277,Ghiduleni,rezina,47.61074,28.74328,0,PPL
+618254,Gordinești,rezina,47.69426,28.80333,0,PPL
+618248,Horodiște,rezina,47.61394,28.94498,0,PPL
+618195,Ignăței,rezina,47.68156,28.66167,0,PPL
+617923,Lalova,rezina,47.56525,29.01918,0,PPL
+617898,Lipceni,rezina,47.80852,28.871,0,PPL
+617832,Mateuți,rezina,47.80951,28.92783,0,PPL
+617818,Meșeni,rezina,47.66336,28.63755,0,PPL
+617747,"Mincenii de Jos",rezina,47.63549,28.87435,0,PPL
+617131,"Mincenii de Sus",rezina,47.6495,28.89176,0,PPL
+830818,Nistreni,rezina,47.54014,29.00866,0,PPL
+617637,Otac,rezina,47.58857,28.82864,0,PPL
+617617,Peciște,rezina,47.71526,28.70727,0,PPL
+617611,Pereni,rezina,47.65581,28.77977,0,PPL
+617589,Piscărești,rezina,47.76007,28.81168,0,PPL
+831049,Pripiceni-Curchi,rezina,47.68519,28.77986,0,PPL
+617552,Pripiceni-Răzeși,rezina,47.6872,28.76136,0,PPL
+617568,Păpăuți,rezina,47.79589,28.9238,0,PPL
+617502,Rezina,rezina,47.74857,28.96769,9806,PPLA
+864934,"Rezina Sat",rezina,47.73889,28.96667,0,PPL
+831209,Roșcani,rezina,47.64712,28.7398,0,PPL
+864923,"Roșcanii de Jos",rezina,47.64667,28.7375,0,PPL
+824217,"Roșcanii de Sus",rezina,47.63001,28.76835,0,PPL
+617471,Saharna,rezina,47.69107,28.97458,2365,PPL
+617725,"Saharna Nouă",rezina,47.67677,28.95578,0,PPL
+617309,Sitohnia,rezina,47.72778,28.96083,0,PPL
+617392,Slobozia-Horodișțe,rezina,47.59808,28.93777,0,PPL
+617371,Solonceni,rezina,47.82845,29.00458,0,PPL
+617310,Stodolna,rezina,47.55,29.01667,0,PPL
+617278,Sîrcova,rezina,47.74215,28.7876,0,PPL
+617263,Tarasova,rezina,47.8777,28.96007,0,PPL
+617216,Trifești,rezina,47.67503,28.80484,0,PPL
+617205,Țahnăuți,rezina,47.74245,28.85959,0,PPL
+617207,Țareuca,rezina,47.75001,28.8823,0,PPL
+617201,Țipova,rezina,47.6032,28.98026,0,PPL
+824102,Alexăndrești,riscani,47.89398,27.43201,0,PPL
+618640,Aluniș,riscani,47.84704,27.65408,0,PPL
+863762,Armanca,riscani,47.98602,27.52514,0,PPL
+618628,Avrămeni,riscani,47.7851,27.26585,0,PPL
+617697,"Borosenii Noi",riscani,47.98863,27.47267,0,PPL
+618521,Braniște,riscani,47.79827,27.25296,0,PPL
+618483,Bulhac,riscani,47.92281,27.67453,0,PPL
+829852,"Bălanu Nou",riscani,47.96116,27.50147,0,PPL
+618442,Cepăria,riscani,47.93236,27.71511,0,PPL
+829855,Ciobanovca,riscani,47.8909,27.75782,0,PPL
+829547,Ciubara,riscani,48.07637,27.53921,0,PPL
+618031,Copăceanca,riscani,47.96694,27.55056,0,PPL
+617873,Corlăteni,riscani,47.82862,27.8447,0,PPL
+618000,Costești,riscani,47.85791,27.25947,0,PPL
+617681,"Cucuieții Noi",riscani,47.89296,27.41923,0,PPL
+617331,"Cucuieții Vechi",riscani,47.90782,27.43264,0,PPL
+829530,Druța,riscani,47.96542,27.29705,0,PPL
+618357,Dumeni,riscani,47.91113,27.20271,0,PPL
+618355,Duruitoarea,riscani,47.87719,27.26069,0,PPL
+617692,"Duruitoarea Nouă",riscani,47.89614,27.24561,0,PPL
+829846,Dămășcani,riscani,47.86769,27.305,0,PPL
+7731671,Goloșeni,riscani,47.86,27.41,0,PPL
+618227,Grinăuți,riscani,47.88177,27.78177,0,PPL
+618311,Gălășeni,riscani,47.87098,27.34053,0,PPL
+618098,Hiliuți,riscani,47.93007,27.38926,0,PPL
+618247,Horodiște,riscani,47.95369,27.26303,0,PPL
+863759,Ivănești,riscani,47.88778,27.41722,0,PPL
+617874,Lupăria,riscani,47.87793,27.55428,0,PPL
+617858,Malinovscoe,riscani,47.88445,27.50647,0,PPL
+617807,Mihăileni,riscani,48.04017,27.61681,0,PPL
+829546,"Mihăilenii Noi",riscani,48.03341,27.53413,0,PPL
+617786,Moșeni,riscani,48.02861,27.45501,0,PPL
+617860,Mălăiești,riscani,47.88468,27.34719,0,PPL
+863763,Nihoreni,riscani,47.93556,27.56194,0,PPL
+617592,Petrușeni,riscani,47.84828,27.31216,0,PPL
+618367,Pociumbeni,riscani,47.97799,27.30432,0,PPL
+617580,Pociumbăuți,riscani,47.99723,27.32185,0,PPL
+617548,Proscureni,riscani,47.86241,27.25848,0,PPL
+617532,Pîrjota,riscani,47.95668,27.43104,0,PPL
+617620,Păscăuți,riscani,47.83496,27.27869,0,PPL
+617520,Recea,riscani,47.89429,27.67117,0,PPL
+829849,Reteni,riscani,47.81138,27.25458,0,PPL
+829850,Reteni-Vasileuți,riscani,47.80756,27.26045,0,PPL
+617482,Rîșcani,riscani,47.94829,27.56669,12893,PPLA
+617530,Răcăria,riscani,47.9105,27.61335,0,PPL
+617527,Rămăzan,riscani,47.98613,27.61571,0,PPL
+617280,Singureni,riscani,47.82417,27.85444,0,PPL
+829854,Slobozia-Recea,riscani,47.85379,27.69933,0,PPL
+617298,Sturzeni,riscani,47.9171,27.46133,0,PPL
+617282,Sverdiac,riscani,47.89575,27.72842,0,PPL
+617172,Ușurei,riscani,47.8919,27.59438,0,PPL
+617144,Vasileuți,riscani,48.00748,27.51175,0,PPL
+617150,Văratic,riscani,47.9172,27.26067,0,PPL
+617049,Zăicani,riscani,47.97604,27.36898,0,PPL
+617430,Șaptebani,riscani,47.89939,27.3472,0,PPL
+617412,Știubeieni,riscani,48.03095,27.51452,0,PPL
+617411,Șumna,riscani,47.92131,27.70595,0,PPL
+618645,Alexeuca,singerei,47.6891,28.28779,0,PPL
+618655,Alexăndreni,singerei,47.80719,28.07781,0,PPL
+618636,Antonovca,singerei,47.67445,28.23691,0,PPL
+617699,"Bilicenii Noi",singerei,47.69498,28.03478,0,PPL
+617345,"Bilicenii Vechi",singerei,47.6558,28.04734,15479,PPL
+830975,Biruința,singerei,47.81353,28.07004,4700,PPL
+618553,Bobletici,singerei,47.46662,28.0547,0,PPL
+618621,Bocancea-Schit,singerei,47.51185,28.13537,0,PPL
+831027,Bondareuca,singerei,47.57036,28.16734,0,PPL
+618514,Brejeni,singerei,47.57993,28.1415,0,PPL
+831226,Bursuceni,singerei,47.48824,28.0164,0,PPL
+618610,Bălășești,singerei,47.66052,28.35182,0,PPL
+618083,Chirileni,singerei,47.69114,28.19608,0,PPL
+617915,Chișcăreni,singerei,47.56116,28.01615,0,PPL
+618414,Ciuciuieni,singerei,47.55779,28.12807,0,PPL
+831190,Clișcăuți,singerei,47.60885,28.29169,0,PPL
+829870,"Coada Iazului",singerei,47.65355,27.99337,0,PPL
+618030,Copăceni,singerei,47.61577,28.23422,0,PPL
+617852,"Cotiujenii Mici",singerei,47.70295,28.30539,0,PPL
+618024,Cotovca,singerei,47.85294,27.97431,0,PPL
+617983,Cozești,singerei,47.56875,28.18244,0,PPL
+618007,Coșcodeni,singerei,47.48943,28.05777,0,PPL
+617958,Cubolta,singerei,47.87263,28.03211,0,PPL
+617738,"Dobrogea Nouă",singerei,47.82943,27.94409,0,PPL
+617355,"Dobrogea Veche",singerei,47.84029,27.93285,0,PPL
+618375,Drăgănești,singerei,47.71895,28.25219,0,PPL
+618358,Dumbrăvița,singerei,47.47963,28.10759,0,PPL
+831174,Evghenievca,singerei,47.67015,28.22103,0,PPL
+618334,Flămînzeni,singerei,47.49889,28.09,0,PPL
+618325,Frătești,singerei,47.67583,28.34111,0,PPL
+618295,Gavrilovca,singerei,47.64294,28.25604,0,PPL
+618230,Grigorești,singerei,47.7993,28.05909,0,PPL
+618232,Grigorăuca,singerei,47.62038,28.19824,0,PPL
+618212,Gura-Oituz,singerei,47.70324,28.34676,0,PPL
+617688,"Heciul Nou",singerei,47.7752,28.05936,0,PPL
+617339,"Heciul Vechi",singerei,47.79744,28.10011,0,PPL
+617668,"Iezărenii Noi",singerei,47.60136,28.09794,0,PPL
+617320,"Iezărenii Vechi",singerei,47.56559,28.08777,0,PPL
+824109,Izvoare,singerei,47.71701,28.19615,0,PPL
+617895,Lipovanca,singerei,47.67746,27.9868,0,PPL
+617810,Mihailovca,singerei,47.59016,28.26242,0,PPL
+617828,"Mîndreștii Noi",singerei,47.71899,28.02712,0,PPL
+831061,Mărinești,singerei,47.72547,28.06064,0,PPL
+831054,Mărășești,singerei,47.86319,28.06917,0,PPL
+617761,Nicolaevca,singerei,47.61181,28.02048,0,PPL
+617651,Octeabrscoe,singerei,47.71422,27.94972,0,PPL
+10190317,Ozërnoye,singerei,47.83073,27.9688,0,PPL
+617613,Pepeni,singerei,47.63688,28.34141,0,PPL
+831200,"Pepenii Noi",singerei,47.65281,28.338,0,PPL
+617296,Petropavlovca,singerei,47.59686,28.2047,0,PPL
+617596,Petrovca,singerei,47.66359,28.22041,0,PPL
+617555,Prepelița,singerei,47.58822,28.34053,0,PPL
+617630,Pălăria,singerei,47.68579,27.93854,0,PPL
+831188,Romanovca,singerei,47.65753,28.29542,0,PPL
+617531,Rădoaia,singerei,47.72435,28.16179,0,PPL
+617522,Răzălăi,singerei,47.64164,28.35762,0,PPL
+617449,Sacarovca,singerei,47.70633,28.21054,0,PPL
+617391,Slobozia-Chișcăreni,singerei,47.57402,28.0107,0,PPL
+617390,Slobozia-Măgura,singerei,47.48613,27.96459,0,PPL
+617393,Sloveanca,singerei,47.65854,28.38342,0,PPL
+617914,Sîngerei,singerei,47.63694,28.1407,14600,PPLA
+617721,"Sîngereii Noi",singerei,47.72296,28.08596,0,PPL
+617220,Trifănești,singerei,47.74294,28.09713,0,PPL
+617719,"Tăura Nouă",singerei,47.54875,27.90402,0,PPL
+617348,"Tăura Veche",singerei,47.53889,27.951,0,PPL
+831058,"Valea Norocului",singerei,47.76521,28.20239,0,PPL
+617158,"Valea lui Vlad",singerei,47.48197,28.12826,0,PPL
+617113,Vladimireuca,singerei,47.65906,28.2329,0,PPL
+831264,Vrănești,singerei,47.62413,28.0988,0,PPL
+831191,Șestaci,singerei,47.62248,28.28981,0,PPL
+617210,Țambula,singerei,47.69689,27.92447,0,PPL
+617193,Țipletești,singerei,47.81704,28.12303,0,PPL
+831055,Țiplești,singerei,47.82485,28.14625,0,PPL
+618656,Alcedar,soldanesti,47.86828,28.87503,0,PPL
+618085,Chipeșca,soldanesti,47.76223,28.60792,0,PPL
+617749,"Climăuții de Jos",soldanesti,47.94804,28.79658,0,PPL
+618059,Cobîlnea,soldanesti,47.8654,28.67022,0,PPL
+617997,Cot,soldanesti,47.98005,28.7784,0,PPL
+617988,"Cotiujenii Mari",soldanesti,47.84503,28.55514,0,PPL
+617944,Curătura,soldanesti,47.87614,28.91177,0,PPL
+618012,Cușelăuca,soldanesti,47.8787,28.55636,0,PPL
+617938,Cușmirca,soldanesti,47.90535,28.70545,0,PPL
+618386,Dobrușa,soldanesti,47.78655,28.59342,0,PPL
+618315,Fuzăuca,soldanesti,47.74237,28.74698,0,PPL
+618297,Găuzeni,soldanesti,47.75539,28.56462,0,PPL
+618262,Hligeni,soldanesti,47.82061,28.8784,0,PPL
+831048,Lelina,soldanesti,47.925,28.74722,0,PPL
+617816,Mihuleni,soldanesti,47.8306,28.83727,0,PPL
+831045,Odaia,soldanesti,47.8563,28.84709,0,PPL
+617647,Olișcani,soldanesti,47.80004,28.70943,0,PPL
+824100,Parcani,soldanesti,47.81796,28.83693,0,PPL
+617576,Pohoarna,soldanesti,47.8312,28.49837,0,PPL
+617559,Poiana,soldanesti,47.88679,28.85641,0,PPL
+10191517,"Poselok Rogozhany",soldanesti,47.8311,28.44343,0,PPL
+617519,Recești,soldanesti,47.78808,28.56314,0,PPL
+824101,Rogojeni,soldanesti,47.82579,28.40739,0,PPL
+617524,Răspopeni,soldanesti,47.7429,28.62025,0,PPL
+617470,Salcia,soldanesti,47.9486,28.734,0,PPL
+617375,Socola,soldanesti,47.90698,28.81557,0,PPL
+617465,Sămășcani,soldanesti,47.75476,28.69259,0,PPL
+617163,Vadul-Rașcov,soldanesti,47.92948,28.82333,0,PPL
+617056,Zahorna,soldanesti,47.7956,28.5543,0,PPL
+617425,Șestaci,soldanesti,47.86013,28.75453,0,PPL
+617422,Șipca,soldanesti,47.8484,28.80834,0,PPL
+617372,Șoldănești,soldanesti,47.81618,28.79841,6160,PPLA
+829715,"Alexandru cel Bun",soroca,48.09667,28.34013,0,PPL
+829708,Balinți,soroca,48.32292,28.0215,0,PPL
+618545,Bulboci,soroca,48.04166,28.08247,0,PPL
+829699,"Bulbocii Noi",soroca,48.05933,28.11636,0,PPL
+618626,Bădiceni,soroca,48.20337,28.05257,0,PPL
+618617,Băxani,soroca,48.12605,28.09244,0,PPL
+618439,Cerlina,soroca,48.08149,28.6079,0,PPL
+618003,Cosăuți,soroca,48.2266,28.28037,0,PPL
+617968,Cremenciug,soroca,48.27567,28.08459,390,PPL
+617942,Cureșnița,soroca,48.2285,28.17503,0,PPL
+829702,"Cureșnița Nouă",soroca,48.18031,28.12141,0,PPL
+618116,"Căinarii Vechi",soroca,48.00569,28.12103,0,PPL
+618364,Dubna,soroca,48.01398,28.31275,0,PPL
+618359,Dumbrăveni,soroca,48.05209,28.2252,0,PPL
+618392,Dărcăuți,soroca,48.22626,27.98341,0,PPL
+829704,"Dărcăuții Noi",soroca,48.21018,27.99863,0,PPL
+617075,Egoreni,soroca,48.20162,28.35953,0,PPL
+829698,Floriceni,soroca,48.02075,28.01503,0,PPL
+829705,Grigorăuca,soroca,48.20897,28.09648,0,PPL
+618257,Holoșnița,soroca,48.24767,28.17638,0,PPL
+618092,Hristici,soroca,48.11859,28.1781,0,PPL
+617079,Iarova,soroca,48.31731,28.04502,0,PPL
+829710,Inundeni,soroca,48.12839,28.35493,0,PPL
+829709,Iorjnița,soroca,48.19281,28.21387,0,PPL
+617892,Livezi,soroca,48.23552,28.04897,0,PPL
+829713,Lugovoe,soroca,48.06942,28.1806,0,PPL
+829565,"Malaya Tatarovka",soroca,48.28153,27.99385,0,PPL
+617857,Mălcăuți,soroca,48.21472,27.94341,0,PPL
+7730798,Nemereuca,soroca,48.09722,28.50342,0,PPL
+617765,Nimereuca,soroca,48.11296,28.53361,0,PPL
+617661,Oclanda,soroca,48.28925,28.05826,0,PPL
+617655,Ocolina,soroca,48.1216,28.25721,0,PPL
+617627,Parcani,soroca,48.0617,28.28659,0,PPL
+829566,Poienița,soroca,48.29891,27.93948,0,PPL
+617535,Pîrlița,soroca,48.07524,28.20928,0,PPL
+617529,Racovăt,soroca,48.07892,28.40257,0,PPL
+617517,Redi-Cereșnovăț,soroca,48.06339,28.31266,0,PPL
+617992,"Regina Maria",soroca,48.05666,28.14176,0,PPL
+617491,Rublenița,soroca,48.16959,28.21129,0,PPL
+829703,"Rublenița Nouă",soroca,48.15277,28.13617,0,PPL
+617490,Rudi,soroca,48.33076,27.89906,0,PPL
+829711,Ruslanovca,soroca,48.1187,28.37176,0,PPL
+617400,Schineni,soroca,48.09338,28.09504,0,PPL
+829700,"Schinenii Noi",soroca,48.07173,28.10275,0,PPL
+829564,"Slobozia Nouă",soroca,48.2602,27.98438,0,PPL
+617385,Slobozia-Cremene,soroca,48.03656,28.42059,0,PPL
+617383,Slobozia-Vânăncău,soroca,48.06846,28.46836,0,PPL
+829706,Sobari,soroca,48.23297,28.0642,0,PPL
+617370,Soloneț,soroca,47.99888,28.40455,0,PPL
+617367,Soroca,soroca,48.15659,28.28489,27423,PPLA
+617303,Stoicani,soroca,48.02644,28.36167,0,PPL
+829568,Tolocănești,soroca,48.30665,27.91056,0,PPL
+617218,Trifăuți,soroca,48.16129,28.37909,0,PPL
+617256,"Tătărăuca Nouă",soroca,48.31681,27.97303,0,PPL
+617349,"Tătărăuca Veche",soroca,48.29843,27.98229,0,PPL
+829707,Valea,soroca,48.24408,28.06163,0,PPL
+829714,"Vanița Mică",soroca,48.10086,28.17441,0,PPL
+829712,Vanțina,soroca,48.09787,28.18906,0,PPL
+617143,Vasilcau,soroca,48.13916,28.42214,0,PPL
+617117,Visoca,soroca,48.24549,27.9225,0,PPL
+617105,Voloave,soroca,48.09331,28.28726,0,PPL
+617106,Volovița,soroca,48.10306,28.32052,0,PPL
+617111,Vădeni,soroca,48.0118,28.22477,0,PPL
+617102,Vărăncău,soroca,48.06723,28.5126,0,PPL
+824096,Zastînca,soroca,48.13119,28.29348,0,PPL
+617429,Șeptelici,soroca,48.20039,28.15557,0,PPL
+617415,Șolcani,soroca,48.17221,28.11025,0,PPL
+617204,Țepilova,soroca,48.12363,28.22795,0,PPL
+829937,Afanasievca,stanga-nistrului,47.32272,29.25345,0,PPL
+618648,Alexandrovca,stanga-nistrului,48.03039,28.55387,0,PPL
+617742,"Alexandrovca Nouă",stanga-nistrului,47.29956,29.3031,0,PPL
+618639,Andreevca,stanga-nistrului,47.76417,29.16912,0,PPL
+617358,"Andriasevca Veche",stanga-nistrului,46.82078,29.97098,0,PPL
+617741,"Andriașevca Nouă",stanga-nistrului,46.83555,29.95429,0,PPL
+618568,Basarabca,stanga-nistrului,47.57677,29.16063,0,PPL
+618581,Beloci,stanga-nistrului,47.88696,28.9782,0,PPL
+618556,"Blijnii Hutor",stanga-nistrului,46.88754,29.64651,7292,PPL
+829722,Bodeni,stanga-nistrului,48.08121,28.78114,0,PPL
+618535,"Bol'shoy Fontan",stanga-nistrului,47.26111,29.18722,0,PPL
+618531,Bosca,stanga-nistrului,47.30559,29.36715,0,PPL
+618508,Broșteni,stanga-nistrului,47.88132,29.26781,0,PPL
+618506,Bruslachi,stanga-nistrului,47.27995,29.37963,0,PPL
+864910,Bukhta,stanga-nistrului,47.7725,29.17361,0,PPL
+830828,Buschi,stanga-nistrului,47.71577,29.07297,0,PPL
+618469,Butor,stanga-nistrului,47.04225,29.40528,3102,PPL
+618467,Butuceni,stanga-nistrului,47.52915,29.02907,0,PPL
+618462,Bâcioc,stanga-nistrului,46.92482,29.48148,0,PPL
+829938,Calinovca,stanga-nistrului,47.31186,29.25025,0,PPL
+618453,Camenca,stanga-nistrului,48.03233,28.69899,11072,PPL
+618135,Caragaș,stanga-nistrului,46.78095,29.68298,0,PPL
+618130,Carmanova,stanga-nistrului,47.26023,29.50241,0,PPL
+618123,Caterinovca,stanga-nistrului,47.93408,28.86799,0,PPL
+618437,Cernița,stanga-nistrului,47.03015,29.51932,0,PPL
+618074,Chirov,stanga-nistrului,47.65053,29.09722,0,PPL
+618423,Cioburciu,stanga-nistrului,46.68521,29.7538,0,PPL
+617984,Coicova,stanga-nistrului,47.40908,29.24394,0,PPL
+618049,Colbasna,stanga-nistrului,47.78323,29.20542,0,PPL
+618043,Colosova,stanga-nistrului,47.33667,29.56222,0,PPL
+618044,Colosova,stanga-nistrului,47.32886,29.56596,0,PPL
+617714,"Comisarovca Nouă",stanga-nistrului,47.33056,29.34722,1059,PPL
+618032,Constantinovca,stanga-nistrului,47.98784,28.8586,0,PPL
+618033,Constantinovca,stanga-nistrului,46.85199,29.85069,0,PPL
+618016,Corotna,stanga-nistrului,46.63326,29.85633,0,PPL
+617995,Cotovca,stanga-nistrului,47.28432,29.47846,0,PPL
+617731,"Coșnița Nouă",stanga-nistrului,47.31351,29.33126,0,PPL
+617979,"Crasnaia Besarabia",stanga-nistrului,47.28442,29.58763,0,PPL
+617978,"Crasnaia Gorca",stanga-nistrului,47.13187,29.31861,0,PPL
+617977,Crasnencoe,stanga-nistrului,47.84813,29.14029,0,PPL
+617973,Crasnoe,stanga-nistrului,46.643,29.823,4200,PPL
+829966,Crasnoe,stanga-nistrului,47.18153,29.36139,0,PPL
+617975,Crasnogorca,stanga-nistrului,46.96396,29.4603,0,PPL
+617969,"Crasnâi Vinogradari",stanga-nistrului,47.29848,29.27926,0,PPL
+617970,"Crasnăi Octeabri",stanga-nistrului,48.01282,28.54876,0,PPL
+617934,Cuzmin,stanga-nistrului,48.09577,28.63047,0,PPL
+618396,Delacău,stanga-nistrului,47.12854,29.29906,0,PPL
+830824,Dimitrova,stanga-nistrului,47.87773,29.14351,0,PPL
+618387,Dnestrovsc,stanga-nistrului,46.624,29.906,10426,PPL
+618377,"Doibani Doi",stanga-nistrului,47.40415,29.21274,0,PPL
+618378,"Doibani Unul",stanga-nistrului,47.39276,29.2051,0,PPL
+618365,Dubăsari,stanga-nistrului,47.26562,29.16667,23254,PPL
+618361,Dubău,stanga-nistrului,47.4302,29.28036,0,PPL
+618353,Dzerjinscoe,stanga-nistrului,47.22443,29.183,0,PPL
+618341,Fedoseevca,stanga-nistrului,47.2333,29.53729,0,PPL
+618321,Frunză,stanga-nistrului,46.82889,29.88629,0,PPL
+829718,Frunzăuca,stanga-nistrului,48.15635,28.58691,0,PPL
+618287,Gherșunovca,stanga-nistrului,47.71898,29.16468,0,PPL
+618278,Ghidirim,stanga-nistrului,47.71425,28.97919,0,PPL
+618243,Goian,stanga-nistrului,47.37799,29.16228,0,PPL
+617666,"Goianul Nou",stanga-nistrului,47.3861,29.31948,0,PPL
+618303,Haraba,stanga-nistrului,47.89461,29.08737,0,PPL
+618301,Harmațca,stanga-nistrului,47.42261,29.08812,0,PPL
+618197,Hlinaia,stanga-nistrului,46.63735,29.81526,0,PPL
+618265,Hlinaia,stanga-nistrului,47.22805,29.41342,0,PPL
+618090,Hrustoveni,stanga-nistrului,48.09741,28.72765,0,PPL
+618220,Hrușca,stanga-nistrului,48.11176,28.57095,0,PPL
+618234,Hryhoriopol,stanga-nistrului,47.15413,29.30008,9456,PPL
+617064,Hârjău,stanga-nistrului,47.80476,29.00771,0,PPL
+618202,Hârtop,stanga-nistrului,47.25364,29.36615,0,PPL
+617085,Iagorlîc,stanga-nistrului,47.39038,29.16064,6,PPL
+831046,Iantarnoe,stanga-nistrului,47.9026,28.84023,0,PPL
+829969,India,stanga-nistrului,47.04618,29.3869,0,PPL
+618172,Ivanovca,stanga-nistrului,47.87784,29.17411,0,PPL
+617040,Jura,stanga-nistrului,47.51768,29.04272,0,PPL
+618156,"Kalkatova Balka",stanga-nistrului,46.85583,29.67056,0,PPL
+618087,"Khutor Vladimirovka",stanga-nistrului,46.83389,29.79472,0,PPL
+617910,Lenin,stanga-nistrului,47.66906,29.19017,0,PPL
+617879,Lunga,stanga-nistrului,47.24302,29.18722,3217,PPL
+617729,"Lunga Nouă",stanga-nistrului,47.2856,29.27442,0,PPL
+830826,"Lâsaia Gora",stanga-nistrului,47.74251,29.0763,0,PPL
+617872,Mahala,stanga-nistrului,47.26667,29.14972,0,PPL
+617830,Maiac,stanga-nistrului,47.23727,29.38498,1500,PPL
+829967,Marian,stanga-nistrului,47.23478,29.332,0,PPL
+617811,Mihailovca,stanga-nistrului,47.48465,29.11837,0,PPL
+617808,"Mihailovca Nouă",stanga-nistrului,47.79493,29.1227,0,PPL
+617794,Mocearovca,stanga-nistrului,47.23949,29.5505,0,PPL
+617793,Mocra,stanga-nistrului,47.62829,29.15214,0,PPL
+617792,Mocreachi,stanga-nistrului,47.27366,29.38121,0,PPL
+618534,"Molochișul Mare",stanga-nistrului,47.85739,29.04697,0,PPL
+617850,"Molochișul Mic",stanga-nistrului,47.93365,29.03365,0,PPL
+617863,Mălăiești,stanga-nistrului,46.98367,29.5548,0,PPL
+617763,Nezavertailovca,stanga-nistrului,46.59694,29.93763,4742,PPL
+617758,Nicolscoe,stanga-nistrului,46.87881,29.86117,0,PPL
+830817,"Novaia Jizni",stanga-nistrului,47.65558,29.07818,0,PPL
+617712,Novocotovsc,stanga-nistrului,46.76726,29.95757,482,PPL
+617710,Novosavițcaia,stanga-nistrului,46.80349,29.8678,0,PPL
+617704,Novovladimirovca,stanga-nistrului,46.93987,29.52017,0,PPL
+617660,Ocnița,stanga-nistrului,48.13278,28.63558,815,PPL
+617091,Ofatinți,stanga-nistrului,47.66593,28.99829,0,PPL
+617628,Parcani,stanga-nistrului,46.8509,29.51513,0,PPL
+617602,Pervomaisc,stanga-nistrului,46.73253,29.9617,7300,PPL
+617603,Pervomaisc,stanga-nistrului,47.67896,29.21536,0,PPL
+617582,Plopi,stanga-nistrului,47.95977,29.16068,1277,PPL
+703078,Pobeda,stanga-nistrului,47.35151,29.4976,0,PPL
+830823,Pobeda,stanga-nistrului,47.62086,29.19604,0,PPL
+617579,Podoimița,stanga-nistrului,48.00472,28.75611,0,PPL
+617726,"Pohrebea Nouă",stanga-nistrului,47.30987,29.37919,0,PPL
+617570,Popencu,stanga-nistrului,47.59988,29.0064,0,PPL
+617561,"Posëlok Starogo Nomer Pervyy",stanga-nistrului,47.88361,29.13333,0,PPL
+617560,"Posëlok Starogo Nomer Vtoroy",stanga-nistrului,47.85028,29.2,0,PPL
+617146,Prioziornoe,stanga-nistrului,46.79536,29.93161,0,PPL
+617591,Pâcalova,stanga-nistrului,47.76249,29.10902,0,PPL
+617526,Rașcov,stanga-nistrului,47.95668,28.8239,0,PPL
+824097,Rotari,stanga-nistrului,48.10427,28.81269,0,PPL
+617486,Rîbnița,stanga-nistrului,47.76817,29.01,55455,PPL
+831047,Sadchi,stanga-nistrului,47.89931,28.86066,0,PPL
+617476,Safronovka,stanga-nistrului,46.83333,29.85,0,PPL
+864911,Samsonovka,stanga-nistrului,47.76083,29.16667,0,PPL
+617438,Severinovca,stanga-nistrului,48.06398,28.72466,0,PPL
+617381,Slobozia,stanga-nistrului,46.72927,29.70446,15356,PPL
+617389,Slobozia-Rașcov,stanga-nistrului,47.95086,28.94837,0,PPL
+617417,Smalena,stanga-nistrului,47.75808,29.07468,0,PPL
+829720,Socolovca,stanga-nistrului,48.06167,28.83659,0,PPL
+10201419,Solnecinoo,stanga-nistrului,48.03953,28.63631,0,PPL
+830827,Sovietscoe,stanga-nistrului,47.95425,29.14467,0,PPL
+617363,Speia,stanga-nistrului,46.98283,29.32558,0,PPL
+830831,Stanislavca,stanga-nistrului,47.69407,29.20547,0,PPL
+617300,Stroiești,stanga-nistrului,47.88944,28.93327,0,PPL
+617291,Sucleia,stanga-nistrului,46.82379,29.66468,0,PPL
+830830,"Suhaia Râbnița",stanga-nistrului,47.80079,29.18141,0,PPL
+617455,Sărăței,stanga-nistrului,47.82766,29.02161,0,PPL
+617260,Tașlâc,stanga-nistrului,47.0743,29.39424,0,PPL
+617244,Telu,stanga-nistrului,46.95732,29.39641,0,PPL
+617239,Tiraspol,stanga-nistrului,46.84275,29.6284,157000,PPLA
+617053,"Tiraspolul Nou",stanga-nistrului,46.83,29.564,2200,PPL
+617232,Tocmagiu,stanga-nistrului,46.94462,29.37822,0,PPL
+617247,Târnauca,stanga-nistrului,46.81242,29.5545,0,PPL
+617167,Uiutnoe,stanga-nistrului,46.84174,29.8673,0,PPL
+824118,Ulmu,stanga-nistrului,47.74717,29.10569,0,PPL
+830825,"Ulmul Mic",stanga-nistrului,47.75333,29.12162,0,PPL
+617162,"Vadul Turcului",stanga-nistrului,47.93057,28.98683,0,PPL
+617160,"Valea Adâncă",stanga-nistrului,48.00456,28.83826,0,PPL
+617142,Vasilievca,stanga-nistrului,47.93963,29.11102,0,PPL
+617125,Vesioloe,stanga-nistrului,47.20243,29.55423,0,PPL
+617120,Vinogradnoe,stanga-nistrului,47.08322,29.49096,0,PPL
+617114,Vladimirovca,stanga-nistrului,46.84498,29.82898,0,PPL
+830822,Vladimirovca,stanga-nistrului,47.62139,29.09311,0,PPL
+829717,Voitovca,stanga-nistrului,48.10571,28.60489,0,PPL
+617103,Vărăncău,stanga-nistrului,47.70498,29.11779,0,PPL
+617050,Zaporojeț,stanga-nistrului,47.58893,29.13789,0,PPL
+617036,Zăzuleni,stanga-nistrului,47.61371,28.99116,0,PPL
+864909,Żurka,stanga-nistrului,47.49228,29.11267,0,PPL
+694174,Șevcenco,stanga-nistrului,47.58786,29.18359,0,PPL
+617423,Șipca,stanga-nistrului,47.16683,29.50936,0,PPL
+617200,Țâbuleuca,stanga-nistrului,47.40472,29.10606,0,PPL
+618104,Adjiler,stefan-voda,46.49278,29.62083,0,PPL
+618658,Alava,stefan-voda,46.50929,29.56825,0,PPL
+618637,Antonești,stefan-voda,46.49387,29.84724,0,PPL
+618513,Brezoaia,stefan-voda,46.52225,29.45658,0,PPL
+618136,Carahasani,stefan-voda,46.46633,29.81175,0,PPL
+618424,Cioburciu,stefan-voda,46.60133,29.70678,0,PPL
+618027,Copceac,stefan-voda,46.45087,29.5228,0,PPL
+618022,Crocmaz,stefan-voda,46.45135,29.98525,0,PPL
+618140,Căplani,stefan-voda,46.38521,29.87242,0,PPL
+617065,Ermoclia,stefan-voda,46.58045,29.51203,0,PPL
+618338,Feștelița,stefan-voda,46.54333,29.56658,0,PPL
+617917,Lazo,stefan-voda,46.4872,29.57567,0,PPL
+617745,"Marianca de Jos",stefan-voda,46.52075,29.60439,0,PPL
+617648,Olănești,stefan-voda,46.49659,29.92115,0,PPL
+617633,Palanca,stefan-voda,46.40861,30.09611,2020,PPL
+617566,Popeasca,stefan-voda,46.59995,29.5343,0,PPL
+617542,Purcari,stefan-voda,46.53814,29.86192,0,PPL
+617525,Răscăieți,stefan-voda,46.57346,29.78265,0,PPL
+831483,"Răscăieți Noi",stefan-voda,46.53297,29.77545,0,PPL
+617444,Semionovca,stefan-voda,46.51678,29.5136,0,PPL
+617387,Slobozia,stefan-voda,46.5082,29.73871,0,PPL
+617272,Talmaza,stefan-voda,46.63679,29.66651,0,PPL
+617190,Tudora,stefan-voda,46.43661,30.04492,1767,PPL
+686731,Tudorovo,stefan-voda,46.43333,30.05,0,PPL
+831482,Viișoara,stefan-voda,46.54637,29.82538,0,PPL
+617107,Volintiri,stefan-voda,46.42733,29.60632,0,PPL
+617284,"Ștefan Vodă",stefan-voda,46.51294,29.66223,7700,PPLA
+617316,Ștefănești,stefan-voda,46.44563,29.68944,0,PPL
+618459,Bucovăț,straseni,47.19064,28.45802,1600,PPL
+618080,Chirianca,straseni,47.2567,28.53019,0,PPL
+618447,Ciobanovca,straseni,47.14762,28.50287,0,PPL
+618053,Codreanca,straseni,47.28662,28.59203,0,PPL
+617982,Cojușna,straseni,47.09459,28.66188,0,PPL
+618039,Condrița,straseni,47.05608,28.5676,0,PPL
+618138,Căpriana,straseni,47.11778,28.50249,0,PPL
+617541,Dolna,straseni,47.12189,28.27033,1155,PPL
+618583,Drăgușeni,straseni,47.21464,28.66607,0,PPL
+617940,Făgureni,straseni,47.1466,28.56321,0,PPL
+618293,Ghelăuza,straseni,47.19264,28.59607,0,PPL
+618239,Greblești,straseni,47.23962,28.61011,0,PPL
+618309,Gălești,straseni,47.22704,28.49136,0,PPL
+829812,"Găleștii Noi",straseni,47.20985,28.49621,0,PPL
+618210,Huzun,straseni,47.12176,28.32321,0,PPL
+617884,Lozova,straseni,47.13569,28.38369,0,PPL
+617875,Lupa-Recea,straseni,47.31436,28.59233,0,PPL
+617805,Micleușeni,straseni,47.12795,28.30872,0,PPL
+617815,Micăuți,straseni,47.17058,28.74798,0,PPL
+617835,Mărtinești,straseni,47.23528,28.60694,0,PPL
+617768,Negrești,straseni,47.17971,28.62365,0,PPL
+617645,Onești,straseni,47.28101,28.54729,0,PPL
+617629,Pănășești,straseni,47.15556,28.52021,0,PPL
+829813,Rassvet,straseni,47.20565,28.4277,0,PPL
+617521,Recea,straseni,47.22443,28.57792,0,PPL
+829811,Romănești,straseni,47.22554,28.71143,0,PPL
+617494,Roșcani,straseni,47.14809,28.67769,0,PPL
+617516,Rădeni,straseni,47.20677,28.69864,0,PPL
+829798,Saca,straseni,47.19425,28.61142,0,PPL
+617399,Scoreni,straseni,47.06824,28.60794,0,PPL
+617406,Sireți,straseni,47.13407,28.71369,0,PPL
+617311,Stejăreni,straseni,47.10825,28.417,0,PPL
+617302,Strășeni,straseni,47.14216,28.60774,19225,PPLA
+617257,Tătărești,straseni,47.20472,28.53758,0,PPL
+617098,Voinova,straseni,47.27131,28.48755,0,PPL
+617104,Vorniceni,straseni,47.1527,28.43077,0,PPL
+617051,Zamciogi,straseni,47.20502,28.72216,0,PPL
+617035,Zubrești,straseni,47.2417,28.5241,0,PPL
+617199,Țigănești,straseni,47.30093,28.55057,0,PPL
+617746,"Albota de Jos",taraclia,45.94228,28.48573,0,PPL
+617130,"Albota de Sus",taraclia,45.96996,28.47545,0,PPL
+618641,Aluatu,taraclia,45.86557,28.58304,0,PPL
+618614,Balabanu,taraclia,45.93387,28.57603,0,PPL
+618561,"Bisericuța-de Jos",taraclia,45.89611,28.5275,0,PPL
+618495,Budăi,taraclia,45.84727,28.46403,0,PPL
+618115,Cairaclia,taraclia,45.77805,28.62344,0,PPL
+617734,"Carbalia Nouă",taraclia,45.85694,28.45417,0,PPL
+617418,Cealîc,taraclia,45.99565,28.55279,0,PPL
+618082,Chirilovca,taraclia,45.81556,28.57338,0,PPL
+618409,Ciumai,taraclia,45.78117,28.56727,0,PPL
+618071,Corten,taraclia,46.01504,28.73567,0,PPL
+618105,Hagichioi,taraclia,45.92402,28.46332,0,PPL
+618285,Hîrtop,taraclia,45.91866,28.49216,0,PPL
+864988,Mirnoe,taraclia,45.73541,28.57811,0,PPL
+617781,Musaitu,taraclia,45.82047,28.502,0,PPL
+824164,Novosiolovca,taraclia,45.9003,28.59856,0,PPL
+618560,Orehovca,taraclia,45.9075,28.52836,0,PPL
+617496,Roșița,taraclia,46.0319,28.47549,0,PPL
+824165,Salcia,taraclia,45.87376,28.51319,0,PPL
+617463,Samurza,taraclia,45.97603,28.56103,0,PPL
+617376,Sofievca,taraclia,46.00923,28.47079,0,PPL
+617270,Taraclia,taraclia,45.90321,28.66628,13512,PPLA
+617187,Tvardița,taraclia,46.14826,28.96491,5800,PPL
+617156,"Valea Perjei",taraclia,46.02895,28.92769,0,PPL
+617119,Vinogradovca,taraclia,45.80263,28.5327,0,PPL
+618548,Bogzești,telenesti,47.42176,28.42713,0,PPL
+617696,"Brînzenii Noi",telenesti,47.65834,28.48577,0,PPL
+617343,"Brînzenii Vechi",telenesti,47.65768,28.47298,0,PPL
+618493,Budăi,telenesti,47.45728,28.34828,0,PPL
+618601,Bănești,telenesti,47.57026,28.38368,0,PPL
+617700,"Băneștii Noi",telenesti,47.58244,28.40018,0,PPL
+831050,Chersac,telenesti,47.63703,28.58272,0,PPL
+618068,Chiștelnița,telenesti,47.5688,28.66106,0,PPL
+831196,"Chițcanii Noi",telenesti,47.56474,28.48533,0,PPL
+617335,"Chițcanii Vechi",telenesti,47.59182,28.50075,0,PPL
+831026,Ciofu,telenesti,47.56283,28.21909,0,PPL
+618410,Ciulucani,telenesti,47.50528,28.34306,0,PPL
+831243,Codru,telenesti,47.46459,28.2682,0,PPL
+831256,"Codrul Nou",telenesti,47.54669,28.57567,0,PPL
+618017,Coropceni,telenesti,47.47496,28.52209,0,PPL
+617980,Crăsnășeni,telenesti,47.433,28.39828,0,PPL
+617956,Cucioaia,telenesti,47.46022,28.18563,0,PPL
+831113,"Cucioaia Nouă",telenesti,47.48463,28.16608,0,PPL
+617927,Cîșla,telenesti,47.49345,28.22609,0,PPL
+618112,Căzănești,telenesti,47.61354,28.47415,0,PPL
+831051,Dobrușa,telenesti,47.614,28.55649,0,PPL
+831261,Flutura,telenesti,47.68833,28.5475,0,PPL
+618288,Ghermănești,telenesti,47.44011,28.51692,0,PPL
+618276,Ghiliceni,telenesti,47.48136,28.2022,0,PPL
+618271,Hirișeni,telenesti,47.4357,28.28283,0,PPL
+831070,Hîrtop,telenesti,47.70612,28.48418,0,PPL
+618185,Inești,telenesti,47.50458,28.39703,0,PPL
+617901,Leușeni,telenesti,47.48283,28.43561,0,PPL
+617814,Mihălașa,telenesti,47.49551,28.34111,0,PPL
+831244,"Mihălașa Nouă",telenesti,47.5033,28.2982,0,PPL
+831224,Mîndra,telenesti,47.5362,28.52533,0,PPL
+617778,Mîndrești,telenesti,47.50525,28.27687,9280,PPL
+617766,Negureni,telenesti,47.60149,28.5086,0,PPL
+618186,Nucăreni,telenesti,47.59757,28.58379,0,PPL
+617640,Ordășei,telenesti,47.68507,28.49824,0,PPL
+617588,Pistruieni,telenesti,47.69232,28.48974,0,PPL
+831069,"Pistruienii Noi",telenesti,47.69858,28.41761,0,PPL
+824115,Ratuș,telenesti,47.53923,28.50408,0,PPL
+617398,Scorțeni,telenesti,47.64151,28.64563,0,PPL
+617292,Suhuluceni,telenesti,47.46555,28.51973,0,PPL
+831225,"Sărătenii Noi",telenesti,47.50851,28.49967,0,PPL
+617322,"Sărătenii Vechi",telenesti,47.52652,28.55447,0,PPL
+617254,Telenești,telenesti,47.50179,28.36478,6633,PPLA
+617670,"Târșițeii Noui",telenesti,47.68222,28.57222,0,PPL
+617321,Tîrșiței,telenesti,47.69076,28.57721,0,PPL
+617166,Vadul-Leca,telenesti,47.62498,28.46358,0,PPL
+831199,"Vadul-Leca Nou",telenesti,47.61611,28.43492,0,PPL
+617137,Verejeni,telenesti,47.53343,28.46988,0,PPL
+617140,Văsieni,telenesti,47.46002,28.44351,0,PPL
+831255,Zahareuca,telenesti,47.53137,28.59979,0,PPL
+617046,Zgărdești,telenesti,47.53058,28.1905,0,PPL
+617059,Zăicani,telenesti,47.52222,28.50273,0,PPL
+617195,Țînțăreni,telenesti,47.57195,28.56297,0,PPL
+618661,Agronomovca,ungheni,47.34875,27.89244,0,PPL
+618646,Alexeevca,ungheni,47.26899,27.93695,0,PPL
+618576,Bereshty,ungheni,47.23333,27.78333,0,PPL
+829835,Blindești,ungheni,47.31338,27.68,0,PPL
+617698,"Boghenii Noi",ungheni,47.42777,28.00796,0,PPL
+617344,"Boghenii Vechi",ungheni,47.39679,28.02783,0,PPL
+618500,Buciumeni,ungheni,47.3709,27.71315,0,PPL
+618484,Bulhac,ungheni,47.4284,27.74332,0,PPL
+618481,Bumbăta,ungheni,47.34125,27.97414,0,PPL
+617751,"Buzduganii de Jos",ungheni,47.14487,27.822,0,PPL
+617134,"Buzduganii de Sus",ungheni,47.15829,27.86379,0,PPL
+618472,Bușila,ungheni,47.38926,27.80995,0,PPL
+618435,Cetireni,ungheni,47.21999,27.91548,0,PPL
+618084,Chirileni,ungheni,47.38005,27.77645,0,PPL
+863770,Cioropcani,ungheni,47.39622,27.69421,0,PPL
+617694,"Cioropcanii Noui",ungheni,47.39694,27.69639,0,PPL
+617342,"Cioropcanii Vechi",ungheni,47.395,27.71139,0,PPL
+618040,Condrătești,ungheni,47.41384,28.10499,0,PPL
+618020,Cornești,ungheni,47.37009,27.99784,0,PPL
+618021,Cornești,ungheni,47.35856,28.00809,0,PPL
+618018,Cornova,ungheni,47.39467,28.17313,0,PPL
+617999,Costuleni,ungheni,47.08083,27.91156,0,PPL
+618011,Coșeni,ungheni,47.44188,27.92538,0,PPL
+617939,Curtoaia,ungheni,47.39268,28.1019,0,PPL
+831237,Drujba,ungheni,47.43237,28.07336,0,PPL
+618398,Dănuțeni,ungheni,47.18361,27.80722,0,PPL
+829838,Elizavetovca,ungheni,47.2425,27.76111,0,PPL
+829882,Floreni,ungheni,47.34678,27.66458,0,PPL
+829890,Florești,ungheni,47.38525,27.71635,0,PPL
+617737,"Florițoaia Nouă",ungheni,47.16557,27.93126,0,PPL
+617354,"Florițoaia Veche",ungheni,47.20146,27.90447,0,PPL
+618326,Frăsinești,ungheni,47.03611,28.00294,0,PPL
+618289,Gherman,ungheni,47.36261,27.60542,0,PPL
+618223,Grozasca,ungheni,47.17793,27.89796,0,PPL
+829891,Grăseni,ungheni,47.35663,27.83779,0,PPL
+618091,Hristoforovca,ungheni,47.35731,27.91859,0,PPL
+618272,Hîrcești,ungheni,47.39417,28.08658,0,PPL
+829889,Izvoreni,ungheni,47.43076,27.97632,0,PPL
+831234,Leordoaia,ungheni,47.33772,28.13766,0,PPL
+617900,Lidovca,ungheni,47.27736,27.89859,0,PPL
+617829,Medeleni,ungheni,47.29566,27.69182,0,PPL
+617802,Mircești,ungheni,47.40362,27.99903,0,PPL
+617678,"Morenii Noi",ungheni,47.11756,27.912,0,PPL
+617329,"Morenii Vechi",ungheni,47.1325,27.86974,0,PPL
+617777,Mînzatești,ungheni,47.3969,28.06697,0,PPL
+617870,Măcărești,ungheni,47.05266,27.97251,0,PPL
+617871,Măgurele,ungheni,47.46034,27.97055,0,PPL
+617847,Mănoilești,ungheni,47.23729,27.87919,0,PPL
+863769,"Negurenii Noi",ungheni,47.39682,27.8899,0,PPL
+617328,"Negurenii Vechi",ungheni,47.41261,27.88049,0,PPL
+829836,"Novaia Nicolaevca",ungheni,47.26956,27.84437,0,PPL
+617773,Năpădeni,ungheni,47.40145,28.14729,0,PPL
+617597,Petrești,ungheni,47.30636,27.74644,0,PPL
+831034,Poiana,ungheni,47.3904,28.00165,0,PPL
+831035,Pojarna,ungheni,47.3324,28.09111,0,PPL
+617537,Pîrlița,ungheni,47.31778,27.87192,0,PPL
+617503,Rezina,ungheni,47.21578,27.87646,0,PPL
+617497,Romanovca,ungheni,47.37468,27.97082,0,PPL
+617325,"Rădenii Vechi",ungheni,47.30066,28.00052,0,PPL
+617396,Sculeni,ungheni,47.33013,27.62511,0,PPL
+617442,Semeni,ungheni,47.26861,27.75194,0,PPL
+13426725,Sineshty,ungheni,47.4274,28.04004,0,PPL
+617409,Sinești,ungheni,47.39647,28.04809,0,PPL
+617307,Stolniceni,ungheni,47.41111,27.71389,0,PPL
+829837,Săghieni,ungheni,47.24654,27.97469,0,PPL
+617246,Teșcureni,ungheni,47.41125,27.95138,0,PPL
+617235,Todirești,ungheni,47.31695,27.82245,0,PPL
+617180,Ungheni,ungheni,47.21023,27.80013,34422,PPLA
+617176,Unțești,ungheni,47.23,27.91,0,PPL
+617157,"Valea Mare",ungheni,47.14177,27.83162,0,PPL
+831036,Veverița,ungheni,47.34528,28.10304,0,PPL
+617092,Vulpești,ungheni,47.23583,27.90806,0,PPL
+617058,Zagarancea,ungheni,47.24504,27.766,0,PPL
+617667,"Zăzulenii Noi",ungheni,47.38906,27.87416,0,PPL
+617319,"Zăzulenii Vechi",ungheni,47.40869,27.85843,0,PPL
+617424,Șicovăț,ungheni,47.10783,27.90595,0,PPL
+617197,Țîghira,ungheni,47.44642,27.89993,0,PPL

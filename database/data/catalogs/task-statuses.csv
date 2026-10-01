@@ -1,0 +1,10 @@
+code,name_ro,name_ru,name_en,category,is_system,unverified
+draft,Ciornă,Черновик,Draft,none,1,ro|en
+backlog,Backlog,Бэклог,Backlog,todo,1,ro|en
+todo,De făcut,К выполнению,To do,todo,1,ro|en
+in_progress,În lucru,В работе,In progress,in_progress,1,ro|en
+blocked,Blocată,Заблокирована,Blocked,in_progress,1,ro|en
+on_hold,Suspendată,Приостановлена,On hold,in_progress,1,ro|en
+in_review,În verificare,На проверке,In review,in_progress,1,ro|en
+done,Finalizată,Завершена,Done,done,1,ro|en
+canceled,Anulată,Отменена,Canceled,done,1,ro|en

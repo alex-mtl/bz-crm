@@ -1,0 +1,7 @@
+code,name_ro,name_ru,name_en,is_system,unverified
+not_interested,Nu este interesat(ă),Не заинтересован(а),Not interested,0,ro|en
+no_contact,Nu răspunde,Не выходит на связь,No contact,0,ro|en
+moved_away,S-a mutat,Переехал(а),Moved away,0,ro|en
+no_time,Nu are timp,Нет времени,No time,0,ro|en
+duplicate,Dublură,Дубль,Duplicate,0,ro|en
+other,Alt motiv,Другая причина,Other,1,ro|en

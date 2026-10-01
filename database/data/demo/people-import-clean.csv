@@ -1,0 +1,4 @@
+first_name;last_name;email;phone;person_type;territory_code;birth_date;gender;source_code
+Ilie;Demo-Cebanu;ilie.cebanu@demo.bz-crm.test;+373 69 310 001;supporter;cahul;1979-06-21;male;event
+Nadejda;Demo-Stoian;nadejda.stoian@demo.bz-crm.test;+373 69 310 002;supporter;cahul;1991-09-05;female;event
+Gheorghe;Demo-Taran;;+373 69 310 003;supporter;cahul;1968-01-30;male;event

@@ -1,0 +1,5 @@
+code,name_ro,name_ru,name_en,weight,is_system,unverified
+low,Scăzută,Низкий,Low,10,1,ro|en
+medium,Medie,Средний,Medium,20,1,ro|en
+high,Înaltă,Высокий,High,30,1,ro|en
+critical,Critică,Критичный,Critical,40,1,ro|en

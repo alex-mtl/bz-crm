@@ -1,0 +1,10 @@
+code,name_ro,name_ru,name_en,inverse,is_system,unverified
+invited,A invitat,Пригласил(а),Invited,invited_by,1,ro|en
+invited_by,Invitat(ă) de,Приглашён(а) кем,Invited by,invited,1,ro|en
+spouse,Soț / soție,Супруг(а),Spouse,spouse,0,ro|en
+relative,Rudă,Родственник,Relative,relative,0,ro|en
+colleague,Coleg(ă),Коллега,Colleague,colleague,0,ro|en
+friend,Prieten(ă),Друг,Friend,friend,0,ro|en
+neighbour,Vecin(ă),Сосед(ка),Neighbour,neighbour,0,ro|en
+mentor,Mentor al,Наставник для,Mentor of,mentee,0,ro|en
+mentee,Îndrumat(ă) de,Подопечный у,Mentored by,mentor,0,ro|en

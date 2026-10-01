@@ -1,0 +1,9 @@
+first_name;last_name;email;phone;person_type;territory_code;birth_date;gender;source_code
+Aurelia;Demo-Munteanu;aurelia.munteanu@demo.bz-crm.test;+373 69 300 001;supporter;chisinau/sectorul-centru;1988-03-14;female;event
+Vlad;Demo-Rusu;vlad.rusu@demo.bz-crm.test;+373 69 300 002;supporter;chisinau/sectorul-centru;1995-11-02;male;event
+;Demo-Fără-Prenume;;+373 69 300 003;supporter;chisinau/sectorul-centru;;;event
+Marcel;Demo-Email-Greșit;marcel-at-demo;+373 69 300 004;supporter;chisinau/sectorul-centru;;;event
+Sanda;Demo-Teritoriu-Necunoscut;;+373 69 300 005;supporter;chisinau/sectorul-inexistent;;;event
+Dorin;Demo-Tip-Greșit;;+373 69 300 006;extraterestru;chisinau/sectorul-centru;;;event
+Aurelia;Demo-Munteanu-Bis;aurelia.munteanu@demo.bz-crm.test;;supporter;chisinau/sectorul-centru;;;event
+Doina;Demo-Vrabie-Dublură;;+373 69 201 001;supporter;chisinau/sectorul-centru;;;event

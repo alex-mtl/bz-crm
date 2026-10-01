@@ -1,0 +1,333 @@
+LAW MASTER LIST: 1684 entries, with GeoNames coordinates: 1605, without: 79
+law pairs: 1684, alignment gaps: 3, low-similarity pairs (<0.70): 17
+geonames localities: 1797 | matched in unit: 1593 | matched globally (unique): 16 | ambiguous: 0 | unmatched: 188
+
+== manual corrections
+telenesti: Chițcanii Noi / Ciulucani — русские названия переставлены местами при выравнивании, исправлено
+taraclia: Borceag — есть в румынском приложении 3, нет в русском; русское название взято из той же записи в районе Кахул (Борчаг)
+
+== alignment gaps (source typos, not data loss)
+criuleni: — ↔ Рышкова Рышкова
+drochia: — ↔ Сергеука
+leova: — ↔ Сэрата-Резэшь
+
+== low similarity (checked)
+anenii-noi: Geamăna ↔ Джямэна (0.67)
+calarasi: Bahmut, loc.st.cf ↔ Бахмут, н.п.ж-д.ст. (0.64)
+causeni: Căinari, loc.st.cf ↔ Кэинарь, н.п.ж.-д.ст. (0.67)
+causeni: Zaim, loc.st.cf ↔ Заим, н.п.ж.-д.ст. (0.57)
+cimislia: Zloți, loc.st.cf ↔ Злоць, н.п.ж.-д.ст. (0.61)
+drochia: Ghizdita, loc.st.cf ↔ Гиздита, н.п.ж.-д.ст. (0.67)
+drochia: Pelinia, loc.st.cf ↔ Пелиния, н.п.ж.-д.ст. (0.64)
+falesti: Catranîc, loc.st.cf ↔ Катранык, н.п.ж.-д.ст. (0.69)
+floresti: Țîra, loc.st.cf ↔ Цыра, н.п.ж.-д.ст. (0.57)
+straseni: Zamciogi ↔ Замчоджь (0.62)
+soldanesti: Cobîlea, loc.st.cf ↔ Кобыля, н.п. ж.-д. ст. (0.59)
+soldanesti: Rogojeni, loc.st.cf ↔ Рогожень, н.п.ж.-д. ст. (0.69)
+ungheni: Buciumeni, loc.st.cf ↔ Бучумень, н.п.ж.-д.ст. (0.67)
+ungheni: Petrești, loc.st.cf ↔ Петрешть, н.п.ж.-д.ст. (0.69)
+gagauzia: Bugeac ↔ Буджяк (0.62)
+gagauzia: Etulia, loc.st.cf ↔ Етулия, н.п.ж.-д.ст. (0.62)
+stanga-nistrului: Cobasna, loc.st.cf ↔ Кобасна, н.п.ж.-д.ст. (0.67)
+
+== official localities without GeoNames coordinates (79)
+chisinau: Sectorul Botanica
+chisinau: Sectorul Buiucani
+chisinau: Sectorul Centru
+chisinau: Sectorul Ciocana
+chisinau: Sectorul Rîșcani
+chisinau: Condrița
+chisinau: Dumbrava
+chisinau: Văduleni
+bender: Proteagailovca
+anenii-noi: Ochiul Roș
+basarabeasca: Carabiber
+briceni: Beleavinți
+briceni: Chirilovca
+cantemir: Victorovca
+calarasi: Hîrbovăț
+causeni: Tănătarii Noi
+cimislia: Satul Nou
+criuleni: Zolonceni
+criuleni: Bălăbănești
+criuleni: Mălăiești
+criuleni: Mălăieștii Noi
+criuleni: Porumbeni
+criuleni: Bălășești
+donduseni: Octeabriscoe
+donduseni: Boroseni
+dubasari: Mahala
+edinet: Vancicăuți
+edinet: Iachimeni
+falesti: Măgureanca
+floresti: Iliciovca
+floresti: Tîrgul Vertiujeni
+floresti: Vertiujeni
+glodeni: Movileni
+hincesti: Sărata-Mereșeni
+hincesti: Secărenii Noi
+leova: Hîrtop
+nisporeni: Valea Nîrnovei
+nisporeni: Odaia
+nisporeni: Valea-Trestieni
+ocnita: Rediul Mare
+ocnita: Paustova
+orhei: Clișova Nouă
+orhei: Ocnița-Răzești
+orhei: Pohorniceni
+orhei: Izvoare
+rezina: Ciorna
+rezina: Stohnaia
+rezina: Buciușca
+riscani: Balanul Nou
+singerei: Octeabriscoe
+soroca: Balinții Noi
+soroca: Vanțina Mică
+soroca: Decebal
+soroca: Niorcani
+soroca: Slobozia-Vărăncău
+straseni: Gornoe
+straseni: Ciobanca
+soldanesti: Cobîlea
+soldanesti: Cobîlea
+soldanesti: Glinjeni
+stefan-voda: Răscăieții Noi
+taraclia: Dermengi
+taraclia: Cortenul Nou
+taraclia: Borceag
+telenesti: Zăicanii Noi
+telenesti: Bondareuca
+gagauzia: Cioc-Maidan
+stanga-nistrului: Solnecinoe
+stanga-nistrului: Grigoriopol
+stanga-nistrului: Cobasna
+stanga-nistrului: Cobasna
+stanga-nistrului: Crasnîi Octeabri
+stanga-nistrului: Doibani I
+stanga-nistrului: Doibani II
+stanga-nistrului: Hlinaia (Grigoriopol)
+stanga-nistrului: Hlinaia (Slobozia)
+stanga-nistrului: Hristoforovca
+stanga-nistrului: Podoima
+stanga-nistrului: Teiu
+
+== GeoNames records not in the official list (219)
+anenii-noi: Asnășeni (618632)
+anenii-noi: Barcareni (618596)
+anenii-noi: Gălilești (618308)
+anenii-noi: Ochiul Roșu (617649)
+anenii-noi: Petrovca (617594)
+anenii-noi: Pădureț (617636)
+anenii-noi: Scroafa (617397)
+anenii-noi: Varnița Nouă (829925)
+balti: Bălți (618605)
+balti: Pămînteni (829860)
+basarabeasca: Carapetovca (7731674)
+basarabeasca: Gara Giber (708978)
+basarabeasca: Schinoasa-Sat (617402)
+bender: Bender (618577)
+briceni: Brichany (10201354)
+briceni: Ghilavăț (618578)
+briceni: Gromadzeni (618224)
+briceni: Zalucha (687785)
+cahul: Alexandrești (618652)
+cahul: Badicu-Nou (618624)
+cahul: Bairamcea (618599)
+cahul: Burtovka (618473)
+cahul: Cazaclia (864989)
+cahul: Ciorâta (864990)
+cahul: Focșani (618328)
+cahul: Făgădău (618346)
+cahul: Ghibanu (618282)
+cahul: Gigălboaia (618351)
+cahul: Greceni (864987)
+cahul: Gura-Larga (618213)
+cahul: Moscovei Vechi (617318)
+cahul: Moscovei-Constantinescu (617785)
+cahul: Moscovei-Răzeși (617504)
+cahul: Netush (864985)
+cahul: Novoye Aleksandrovo (864984)
+cahul: Parushovka (617625)
+cahul: Pelinei Noui (617453)
+cahul: Stoianovca (617305)
+cahul: Valya Gavanosa (864983)
+cahul: Viduca (864977)
+calarasi: Hîrboveț (618291)
+calarasi: Muzhik (829774)
+calarasi: Tochile (829773)
+cantemir: Acui de Jos (618660)
+cantemir: Acui de Sus (864951)
+cantemir: Butuceni (618466)
+cantemir: Flămânda (618153)
+cantemir: Goteștii Noi (617687)
+cantemir: Ilashkova (618193)
+cantemir: Malaya Kozhdangliya (617865)
+cantemir: Măcrești (617868)
+cantemir: Novo-Konstantinovka (617713)
+cantemir: Taraclia (617268)
+cantemir: Tsolika (10194157)
+cantemir: Tutovanu (617189)
+cantemir: Victoria (617121)
+cantemir: Zereshty (617047)
+causeni: Chircăeștii Noi (7730804)
+causeni: Chircăiești (618075)
+causeni: Cureni (617943)
+causeni: Căușanii-Vechi (617337)
+causeni: Il'yanka (618190)
+causeni: Kaynary (13426736)
+causeni: Marianca Nouă (617728)
+causeni: Tănătarti Noi (617672)
+chisinau: Cartușe (618127)
+chisinau: Chișinău (618426)
+chisinau: Costiujeni (865514)
+chisinau: Hatmana (618101)
+chisinau: Hrușeva (7730787)
+chisinau: Otovaska-Byk (618630)
+chisinau: Syruchan (617276)
+cimislia: Aleksandrovka (618650)
+cimislia: Blyumental' (618555)
+cimislia: Broscari (864970)
+cimislia: Bukhna (618490)
+cimislia: Cicur-Minjir (7730790)
+cimislia: Ialpugeni (617084)
+cimislia: Novyy Selemet (10194079)
+cimislia: Satul-Nou (617452)
+criuleni: Bâlăbănești (618615)
+criuleni: Bălășecți (618611)
+criuleni: Mălălești (617862)
+criuleni: Mălăleștii Noi (864907)
+criuleni: Văduleni (829896)
+criuleni: Zoloceni (829865)
+donduseni: Berdichi (712456)
+donduseni: Borosyany (10201351)
+donduseni: Octeabrscoe (829579)
+drochia: Drochia (618371)
+drochia: Mikhaylyany (829858)
+drochia: Shtefaneshty (617315)
+drochia: Valeny (829857)
+edinet: Alexăndreni (618653)
+edinet: Carul Frumos (829559)
+edinet: Heredeuca (618290)
+edinet: Vanchikautsy (10201353)
+falesti: Catranîc (863767)
+falesti: Cosmenii Noui (617683)
+falesti: Faleshty (13426717)
+falesti: Navirnets (11204802)
+falesti: Navîrneți (7730794)
+floresti: Illiciovca (618192)
+floresti: Mărculești (617837)
+floresti: Nicolaevca (831067)
+floresti: Pistrueni (7730856)
+floresti: Poeana (617558)
+floresti: Tirgul-Vertiujeni (617554)
+floresti: Vertlujeni (617126)
+gagauzia: Cioc Maidan (618422)
+gagauzia: Cortenul Nou (864949)
+gagauzia: Cătun Vulcănești (864986)
+gagauzia: Dermengi (618391)
+gagauzia: Dezghinja (7731672)
+gagauzia: Imeni Kirsev (618189)
+gagauzia: Shlenger (864992)
+glodeni: Chirpiți (618073)
+glodeni: Iablona Nouă (617716)
+glodeni: Iablona Veche (863764)
+hincesti: Chetroșenii Noi (864972)
+hincesti: Ivanovka (13426730)
+hincesti: Kokocheny (829637)
+hincesti: Mlădinești (617796)
+hincesti: Oneștii Noi (864971)
+hincesti: Secăreni Noi (864912)
+hincesti: Sărata Mereșeni (617460)
+hincesti: Tălăieștii-Noi (864967)
+hincesti: Tălăieștii-Vechi (864968)
+ialoveni: Cigîrleni (618433)
+ialoveni: Ioneasca (618183)
+ialoveni: Karpino (829815)
+ialoveni: Manoilești (617848)
+leova: Bulgari (864955)
+leova: Congazcic (7730792)
+leova: Fund Saratsika (618318)
+leova: Gyrtop (10194158)
+leova: Hănășenii de Prut (7730786)
+leova: Lebedevka (617912)
+leova: Mătăsaru (617833)
+leova: Staraya Knyazevka (618062)
+leova: Tigichanka (617241)
+leova: Troian 2 (864960)
+leova: Troițca (617214)
+leova: Usăteni (864963)
+nisporeni: Afumați (618662)
+nisporeni: Bratuleny (13426728)
+nisporeni: Ciorăști (7731675)
+nisporeni: Odaya (10193048)
+nisporeni: Valea -Trestieni (617151)
+ocnita: Naslaucea (7730791)
+ocnita: Oknitsa (10201352)
+ocnita: Redyu-Mare (13426755)
+orhei: Izvuare (618168)
+orhei: Ocnița-Răzeși (617658)
+orhei: Oxintea (7730820)
+orhei: Pelivan (831025)
+orhei: Progress (617549)
+orhei: Puțuntei (7730870)
+orhei: Păhărniceni (617577)
+orhei: Zorile (13426726)
+rezina: Bușâuca (618498)
+rezina: Cioma (618418)
+rezina: Rezina Sat (864934)
+rezina: Sitohnia (617309)
+rezina: Stodolna (617310)
+riscani: Bălanu Nou (829852)
+riscani: Copăceanca (618031)
+riscani: Goloșeni (7731671)
+singerei: Bondareuca (831027)
+singerei: Frătești (618325)
+singerei: Octeabrscoe (617651)
+singerei: Ozërnoye (10190317)
+soldanesti: Cobîlnea (618059)
+soldanesti: Hligeni (618262)
+soldanesti: Poselok Rogozhany (10191517)
+soroca: Malaya Tatarovka (829565)
+soroca: Nemereuca (7730798)
+soroca: Poienița (829566)
+soroca: Slobozia-Vânăncău (617383)
+soroca: Vanița Mică (829714)
+stanga-nistrului: Bol'shoy Fontan (618535)
+stanga-nistrului: Bukhta (864910)
+stanga-nistrului: Colbasna (618049)
+stanga-nistrului: Colosova (618044)
+stanga-nistrului: Constantinovca (618033)
+stanga-nistrului: Crasnoe (829966)
+stanga-nistrului: Crasnăi Octeabri (617970)
+stanga-nistrului: Doibani Doi (618377)
+stanga-nistrului: Doibani Unul (618378)
+stanga-nistrului: Hlinaia (618265)
+stanga-nistrului: Hrustoveni (618090)
+stanga-nistrului: Hryhoriopol (618234)
+stanga-nistrului: Kalkatova Balka (618156)
+stanga-nistrului: Khutor Vladimirovka (618087)
+stanga-nistrului: Mahala (617872)
+stanga-nistrului: Pervomaisc (617603)
+stanga-nistrului: Pobeda (830823)
+stanga-nistrului: Posëlok Starogo Nomer Pervyy (617561)
+stanga-nistrului: Posëlok Starogo Nomer Vtoroy (617560)
+stanga-nistrului: Safronovka (617476)
+stanga-nistrului: Samsonovka (864911)
+stanga-nistrului: Solnecinoo (10201419)
+stanga-nistrului: Telu (617244)
+stanga-nistrului: Vladimirovca (830822)
+stanga-nistrului: Żurka (864909)
+stefan-voda: Adjiler (618104)
+stefan-voda: Răscăieți Noi (831483)
+stefan-voda: Tudorovo (686731)
+straseni: Ciobanovca (618447)
+straseni: Condrița (618039)
+taraclia: Bisericuța-de Jos (618561)
+taraclia: Carbalia Nouă (617734)
+telenesti: Târșițeii Noui (617670)
+ungheni: Bereshty (618576)
+ungheni: Cioropcanii Noui (617694)
+ungheni: Cioropcanii Vechi (617342)
+ungheni: Cornești (618021)
+ungheni: Dănuțeni (618398)
+ungheni: Sineshty (13426725)

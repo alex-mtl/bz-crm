@@ -1,0 +1,8 @@
+code,name_ro,name_ru,name_en,is_system,unverified
+call,Apel telefonic,Звонок,Phone call,1,ro|en
+meeting,Întâlnire,Встреча,Meeting,1,ro|en
+message,Mesaj,Сообщение,Message,0,ro|en
+email,E-mail,Письмо,E-mail,0,ro|en
+event_visit,Participare la eveniment,Посещение мероприятия,Event attendance,0,ro|en
+door_visit,Vizită la domiciliu,Обход,Door-to-door visit,0,ro|en
+note,Notă,Заметка,Note,1,ro|en

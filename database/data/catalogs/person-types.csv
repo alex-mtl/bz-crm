@@ -1,0 +1,11 @@
+code,name_ro,name_ru,name_en,is_system,unverified
+employee,Angajat,Сотрудник,Employee,1,ro|en
+volunteer,Voluntar,Волонтёр,Volunteer,1,ro|en
+candidate,Candidat,Кандидат,Candidate,1,ro|en
+supporter,Susținător,Сторонник,Supporter,1,ro|en
+applicant,Solicitant,Заявитель,Applicant,1,ro|en
+partner,Partener,Партнёр,Partner,1,ro|en
+newcomer,Începător,Новичок,Newcomer,0,ro|en
+activist,Activist,Активист,Activist,0,ro|en
+member,Membru,Член организации,Member,0,ro|en
+inactive,Inactiv,Неактивен,Inactive,0,ro|en

@@ -1,0 +1,36 @@
+<?php
+
+return [
+    'names' => [
+        'person_types' => 'Tipuri de persoane',
+        'task_types' => 'Tipuri de sarcini',
+        'territory_levels' => 'Niveluri de teritorii',
+        'task_statuses' => 'Statusuri ale sarcinilor',
+        'task_priorities' => 'Priorități ale sarcinilor',
+        'resource_kinds' => 'Tipuri de resurse',
+        'contact_types' => 'Tipuri de contacte',
+        'profile_covers' => 'Coperți de profil',
+        'person_relation_types' => 'Tipuri de legături între persoane',
+        'interaction_kinds' => 'Tipuri de interacțiuni',
+        'contact_sources' => 'Surse',
+        'lead_loss_reasons' => 'Motive de pierdere a lead-ului',
+        'appeal_types' => 'Tipuri de adresări',
+        'appeal_priorities' => 'Priorități ale adresărilor',
+        'reaction_types' => 'Reacții',
+        'report_reasons' => 'Motive de reclamație',
+    ],
+    'proposal_statuses' => [
+        'pending' => 'În examinare',
+        'approved' => 'Aprobată',
+        'rejected' => 'Respinsă',
+    ],
+    'errors' => [
+        'system_item' => 'Elementul de sistem nu poate fi dezactivat sau unificat.',
+        'different_catalogs' => 'Se pot unifica doar elemente diferite ale aceluiași nomenclator.',
+        'already_reviewed' => 'Propunerea a fost deja examinată.',
+        'rejection_needs_comment' => 'Pentru respingere indicați motivul.',
+        'unknown_property' => 'Proprietate necunoscută a nomenclatorului: :key.',
+        'justification_required' => 'Indicați de ce este necesar elementul nou.',
+    ],
+    'unverified' => 'Traducere neverificată',
+];

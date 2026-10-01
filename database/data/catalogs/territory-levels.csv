@@ -1,0 +1,6 @@
+code,name_ro,name_ru,name_en,depth,is_system,unverified
+country,Țară,Страна,Country,0,1,
+macro_region,Macroregiune,Макрорегион,Macro-region,1,1,
+district,Raion / municipiu,Район / муниципий,District / municipality,2,1,
+locality,Localitate,Населённый пункт,Locality,3,1,
+sector,Sector,Сектор,Sector,3,1,

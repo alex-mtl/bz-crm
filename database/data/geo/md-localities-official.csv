@@ -1,0 +1,1685 @@
+unit_slug,name_ro,name_ru,name_en,railway_station,geonameid,lat,lng
+chisinau,"Sectorul Botanica","Сектор Ботаника","Sectorul Botanica",0,,,
+chisinau,"Sectorul Buiucani","Сектор Буюкань","Sectorul Buiucani",0,,,
+chisinau,"Sectorul Centru","Сектор Чентру","Sectorul Centru",0,,,
+chisinau,"Sectorul Ciocana","Сектор Чокана","Sectorul Ciocana",0,,,
+chisinau,"Sectorul Rîșcani","Сектор Рышкань","Sectorul Rîșcani",0,,,
+chisinau,Durlești,Дурлешть,Durlești,0,618356,47.02156,28.76303
+chisinau,Vatra,Ватра,Vatra,0,824134,47.0746,28.73685
+chisinau,Codru,Кодру,Codru,0,618054,46.97648,28.819
+chisinau,"Vadul lui Vodă","Вадул луй Водэ","Vadul lui Vodă",0,617164,47.09009,29.0757
+chisinau,Cricova,Крикова,Cricova,0,617965,47.13835,28.86156
+chisinau,Sîngera,Сынджера,Sîngera,0,617279,46.91557,28.96673
+chisinau,Dobrogea,Доброджя,Dobrogea,0,829656,46.88431,28.98776
+chisinau,Revaca,Ревака,Revaca,0,617507,46.90906,28.94214
+chisinau,Băcioi,Бэчой,Băcioi,0,618627,46.91404,28.89908
+chisinau,Brăila,Брэила,Brăila,0,618523,46.91233,28.84293
+chisinau,Frumușica,Фрумушика,Frumușica,0,829654,46.89819,28.90239
+chisinau,Străisteni,Стрэйстень,Străisteni,0,617221,46.90629,28.85782
+chisinau,Condrița,Кондрица,Condrița,0,,,
+chisinau,Ghidighici,Гидигич,Ghidighici,0,618281,47.09428,28.77299
+chisinau,Trușeni,Трушень,Trușeni,0,617211,47.07164,28.68081
+chisinau,Dumbrava,Думбрава,Dumbrava,0,,,
+chisinau,Bubuieci,Бубуечь,Bubuieci,0,618501,46.98658,28.93993
+chisinau,Bîc,Бык,Bîc,0,829664,46.965,28.93727
+chisinau,Humulești,Хумулешть,Humulești,0,864974,46.99648,28.97645
+chisinau,Budești,Будешть,Budești,0,618496,47.06601,29.00461
+chisinau,Văduleni,Вэдулень,Văduleni,0,,,
+chisinau,Colonița,Колоница,Colonița,0,618045,47.04238,28.95666
+chisinau,Cruzești,Крузешть,Cruzești,0,829805,47.07969,28.97297
+chisinau,Ceroborta,Чероборта,Ceroborta,0,829806,47.09441,28.95245
+chisinau,Tohatin,Тохатин,Tohatin,0,617234,47.06203,28.94473
+chisinau,Buneți,Бунець,Buneți,0,829807,47.08337,28.90945
+chisinau,Cheltuitori,Келтуиторь,Cheltuitori,0,829808,47.06507,28.92464
+chisinau,Ciorescu,Чореску,Ciorescu,0,824153,47.13,28.88937
+chisinau,Făurești,Фэурешть,Făurești,0,618342,47.14571,28.89632
+chisinau,Goian,Гоян,Goian,0,617966,47.13415,28.90945
+chisinau,Grătiești,Грэтиешть,Grătiești,0,618240,47.09855,28.82478
+chisinau,Hulboaca,Хулбоака,Hulboaca,0,618219,47.11911,28.79755
+chisinau,Stăuceni,Стэучень,Stăuceni,0,617317,47.09643,28.86791
+chisinau,"Goianul Nou","Гоянул Ноу.""","Goianul Nou",0,617686,47.11721,28.89984
+balti,Elizaveta,Елизавета,Elizaveta,0,617069,47.78177,28.01738
+balti,Sadovoe,Садовое,Sadovoe,0,617478,47.77829,27.79613
+bender,Proteagailovca,Протягайловка,Proteagailovca,0,,,
+anenii-noi,"Anenii Noi","Анений Ной","Anenii Noi",0,617702,46.87795,29.23503
+anenii-noi,Albinița,Албиница,Albinița,0,829921,46.89165,29.1842
+anenii-noi,Beriozchi,Берёзки,Beriozchi,0,618575,46.87197,29.25785
+anenii-noi,"Hîrbovățul Nou","Хырбовэцул Ноу","Hîrbovățul Nou",0,829965,46.83266,29.27793
+anenii-noi,Ruseni,Русень,Ruseni,0,824139,46.88654,29.19588
+anenii-noi,Socoleni,Соколень,Socoleni,0,617374,46.90736,29.18907
+anenii-noi,Botnărești,Ботнэрешть,Botnărești,0,618527,46.93004,29.15988
+anenii-noi,Salcia,Салчия,Salcia,0,617468,46.94426,29.16979
+anenii-noi,Bulboaca,Булбоака,Bulboaca,0,618486,46.88379,29.30809
+anenii-noi,Calfa,Калфа,Calfa,0,618161,46.9046,29.38049
+anenii-noi,"Calfa Nouă","Калфа Ноуэ","Calfa Nouă",0,829928,46.91419,29.35824
+anenii-noi,Chetrosu,Кетросу,Chetrosu,0,618108,46.92152,29.03815
+anenii-noi,Todirești,Тодирешть,Todirești,0,617236,46.90922,29.08313
+anenii-noi,Chirca,Кирка,Chirca,0,618078,46.92148,29.10925
+anenii-noi,"Botnăreștii Noi","Ботнэрештий Ной","Botnăreștii Noi",0,829920,46.92158,29.16597
+anenii-noi,Ciobanovca,Чобановка,Ciobanovca,0,618446,46.81484,29.19331
+anenii-noi,Balmaz,Балмаз,Balmaz,0,618606,46.79774,29.28533
+anenii-noi,Mirnoe,Мирное,Mirnoe,0,617800,46.80283,29.22688
+anenii-noi,"Troița Nouă","Троица Ноуэ","Troița Nouă",0,617705,46.79089,29.26297
+anenii-noi,"Cobusca Nouă","Кобуска Ноуэ","Cobusca Nouă",0,617732,46.93303,29.20798
+anenii-noi,"Cobusca Veche","Кобуска Веке","Cobusca Veche",0,617353,46.96923,29.1814
+anenii-noi,Florești,Флорешть,Florești,0,618330,46.99744,29.18092
+anenii-noi,Delacău,Делакэу,Delacău,0,618397,47.09903,29.30487
+anenii-noi,Floreni,Флорень,Floreni,0,618332,46.93709,28.99201
+anenii-noi,Geamăna,Джямэна,Geamăna,0,618352,46.82143,29.13953
+anenii-noi,Batîc,Батык,Batîc,0,618591,46.79614,29.19053
+anenii-noi,"Gura Bîcului","Гура Быкулуй","Gura Bîcului",0,618217,46.92981,29.45984
+anenii-noi,Hîrbovăț,Хырбовэц,Hîrbovăț,0,618207,46.84298,29.36004
+anenii-noi,Maximovca,Максимовка,Maximovca,0,617866,47.00948,29.01664
+anenii-noi,Mereni,Мерень,Mereni,0,617822,46.96278,29.05599
+anenii-noi,"Merenii Noi","Мерений Ной","Merenii Noi",0,617823,46.92594,29.0624
+anenii-noi,"Ochiul Roș","Окюл Рош","Ochiul Roș",0,,,
+anenii-noi,Picus,Пикус,Picus,0,617590,46.75086,29.09467
+anenii-noi,Puhăceni,Пухэчень,Puhăceni,0,617544,47.08949,29.34655
+anenii-noi,Roșcani,Рошкань,Roșcani,0,617495,46.89534,29.30884
+anenii-noi,Speia,Спея,Speia,0,617362,47.01005,29.29798
+anenii-noi,Șerpeni,Шерпень,Șerpeni,0,617426,47.02199,29.35083
+anenii-noi,Telița,Телица,Telița,0,617251,46.95708,29.3068
+anenii-noi,"Telița Nouă","Телица Ноуэ","Telița Nouă",0,829968,46.98111,29.28601
+anenii-noi,Țînțăreni,Цынцэрень,Țînțăreni,0,617196,46.90294,29.13528
+anenii-noi,Crețoaia,Крецоая,Crețoaia,0,617967,46.86627,29.13431
+anenii-noi,Varnița,Варница,Varnița,0,617149,46.86606,29.46636
+anenii-noi,Zolotievca,Золотиевка,Zolotievca,0,617038,46.73833,29.18925
+anenii-noi,Larga,Ларга,Larga,0,617921,46.76275,29.1608
+anenii-noi,Nicolaevca,Николаевка,Nicolaevca,0,617762,46.76889,29.1959
+basarabeasca,Basarabeasca,Басарабяска,Basarabeasca,0,618594,46.33352,28.96165
+basarabeasca,Abaclia,Абаклия,Abaclia,0,618664,46.36016,28.94221
+basarabeasca,Bașcalia,Башкалия,Bașcalia,0,618593,46.30856,28.78666
+basarabeasca,Carabetovca,Карабетовка,Carabetovca,0,618137,46.41386,28.91509
+basarabeasca,Iordanovca,Иордановка,Iordanovca,0,618182,46.39294,28.90767
+basarabeasca,Iserlia,Исерлия,Iserlia,0,618179,46.48438,28.95457
+basarabeasca,Bogdanovca,Богдановка,Bogdanovca,0,864964,46.51118,28.93423
+basarabeasca,Carabiber,Карабибер,Carabiber,0,,,
+basarabeasca,Ivanovca,Ивановка,Ivanovca,0,618174,46.50601,28.94818
+basarabeasca,Sadaclia,Садаклия,Sadaclia,0,617480,46.44852,28.87973
+briceni,Briceni,Бричень,Briceni,0,618510,48.36302,27.07847
+briceni,Lipcani,Липкань,Lipcani,0,617897,48.26221,26.81014
+briceni,Balasinești,Баласинешть,Balasinești,0,618609,48.24495,26.96102
+briceni,Beleavinți,Белявинць,Beleavinți,0,,,
+briceni,Bălcăuți,Бэлкэуць,Bălcăuți,0,618607,48.28573,27.20175
+briceni,Bocicăuți,Бочкэуць,Bocicăuți,0,829580,48.29266,27.17528
+briceni,Berlinți,Берлинць,Berlinți,0,618573,48.31049,26.93698
+briceni,"Caracușenii Noi","Каракушений Ной","Caracușenii Noi",0,824080,48.32474,27.02588
+briceni,Bogdănești,Богдэнешть,Bogdănești,0,618550,48.14034,27.001
+briceni,Bezeda,Безеда,Bezeda,0,824182,48.15914,27.00137
+briceni,Grimești,Гримешть,Grimești,0,618228,48.13294,26.97307
+briceni,Bulboaca,Булбоака,Bulboaca,0,618485,48.37141,27.20391
+briceni,"Caracușenii Vechi","Каракушений Векь","Caracușenii Vechi",0,617338,48.2714,27.07274
+briceni,Colicăuți,Коликэуць,Colicăuți,0,618046,48.31044,27.1496
+briceni,Trestieni,Трестиень,Trestieni,0,617223,48.27067,27.13111
+briceni,Corjeuți,Коржеуць,Corjeuți,0,618015,48.21554,27.04711
+briceni,Coteala,Котяла,Coteala,0,617989,48.33073,26.86295
+briceni,Cotiujeni,Котюжень,Cotiujeni,0,617987,48.34717,26.9377
+briceni,Criva,Крива,Criva,0,617961,48.27403,26.67122
+briceni,Drepcăuți,Дрепкэуць,Drepcăuți,0,618372,48.27318,26.72821
+briceni,Grimăncăuți,Гримэнкэуць,Grimăncăuți,0,618229,48.39261,27.08895
+briceni,"Halahora de Sus","Халахора де Сус","Halahora de Sus",0,617133,48.25658,27.18263
+briceni,Chirilovca,Кириловка,Chirilovca,0,,,
+briceni,"Halahora de Jos","Халахора де Жос","Halahora de Jos",0,617750,48.2289,27.17049
+briceni,Hlina,Хлина,Hlina,0,618266,48.29319,26.87282
+briceni,Larga,Ларга,Larga,0,617920,48.37339,26.84217
+briceni,Pavlovca,Павловка,Pavlovca,0,829690,48.37858,26.873
+briceni,Mărcăuți,Мэркэуць,Mărcăuți,0,617839,48.3138,27.22388
+briceni,"Mărcăuții Noi","Мэркэуций Ной","Mărcăuții Noi",0,829594,48.29704,27.22831
+briceni,Medveja,Медвежа,Medveja,0,617827,48.36277,26.7876
+briceni,Slobozia-Medveja,Слобозия-Медвежа,Slobozia-Medveja,0,829691,48.38185,26.74942
+briceni,Mihăileni,Михэйлень,Mihăileni,0,824086,48.24599,27.25143
+briceni,Groznița,Грозница,Groznița,0,829590,48.25888,27.23885
+briceni,Pererita,Перерита,Pererita,0,617610,48.20838,26.91798
+briceni,Șirăuți,Ширэуць,Șirăuți,0,617421,48.23977,26.84235
+briceni,Slobozia-Șirăuți,Слобозия-Ширэуць,Slobozia-Șirăuți,0,617388,48.24437,26.87543
+briceni,Tabani,Табань,Tabani,0,617275,48.31134,27.10025
+briceni,Tețcani,Тецкань,Tețcani,0,617245,48.18087,26.97555
+briceni,Trebisăuți,Требисэуць,Trebisăuți,0,617225,48.35448,27.18757
+cahul,Cahul,Кахул,Cahul,0,618456,45.90456,28.19516
+cahul,Cotihana,Котихана,Cotihana,0,617996,45.93833,28.24344
+cahul,"Alexandru Ioan Cuza","Александру Иоан Куза","Alexandru Ioan Cuza",0,617285,45.59692,28.45039
+cahul,Alexanderfeld,Александерфелд,Alexanderfeld,0,617933,45.80855,28.42812
+cahul,"Andrușul de Jos","Андрушул де Жос","Andrușul de Jos",0,617752,45.98491,28.22042
+cahul,"Andrușul de Sus","Андрушул де Сус","Andrușul de Sus",0,617135,46.00879,28.24611
+cahul,"Badicul Moldovenesc","Бадикул Молдовенеск","Badicul Moldovenesc",0,618625,46.09513,28.26486
+cahul,Baurci-Moldoveni,Баурчи-Молдовень,Baurci-Moldoveni,0,618588,46.03054,28.22834
+cahul,Borceag,Борчаг,Borceag,0,618563,46.05247,28.5226
+cahul,Bucuria,Букурия,Bucuria,0,618489,45.96577,28.35005
+cahul,Burlacu,Бурлаку,Burlacu,0,618477,46.04729,28.41474
+cahul,Spicoasa,Спикоаса,Spicoasa,0,617361,46.03415,28.37612
+cahul,Burlăceni,Бурлэчень,Burlăceni,0,618478,45.75958,28.50566
+cahul,Greceni,Гречень,Greceni,0,618237,45.72167,28.39167
+cahul,Brînza,Брынза,Brînza,0,618504,45.67541,28.17378
+cahul,"Chioselia Mare","Кёселия Маре","Chioselia Mare",0,618539,46.09982,28.48992
+cahul,Frumușica,Фрумушика,Frumușica,0,824156,46.08337,28.47419
+cahul,Colibași,Колибашь,Colibași,0,618047,45.71783,28.18148
+cahul,"Crihana Veche","Крихана Веке","Crihana Veche",0,617336,45.84664,28.19464
+cahul,Cucoara,Кукоара,Cucoara,0,617953,46.05333,28.17178
+cahul,Chircani,Киркань,Chircani,0,618077,46.08805,28.17388
+cahul,Cîșlița-Prut,Кышлица-Прут,Cîșlița-Prut,0,617926,45.53914,28.1709
+cahul,Doina,Дойна,Doina,0,618376,46.11194,28.32886
+cahul,"Iasnaia Poleana","Ясная Поляна","Iasnaia Poleana",0,617078,46.14117,28.30498
+cahul,Rumeanțev,Румянцев,Rumeanțev,0,618623,46.11248,28.28363
+cahul,Găvănoasa,Гэвэноаса,Găvănoasa,0,618296,45.75659,28.38456
+cahul,Nicolaevca,Николаевка,Nicolaevca,0,864981,45.75665,28.37619
+cahul,Vladimirovca,Владимировка,Vladimirovca,0,617115,45.78764,28.36476
+cahul,Giurgiulești,Джюрджюлешть,Giurgiulești,0,618349,45.48167,28.19722
+cahul,Huluboaia,Хулубоая,Huluboaia,0,618256,46.06583,28.33333
+cahul,Iujnoe,Южное,Iujnoe,0,617212,45.74905,28.47793
+cahul,"Larga Nouă","Ларга Ноуэ","Larga Nouă",0,617730,46.07153,28.22358
+cahul,"Larga Veche","Ларга Веке","Larga Veche",0,617352,46.06867,28.24302
+cahul,Lebedenco,Лебеденко,Lebedenco,0,617684,45.86259,28.28892
+cahul,Hutulu,Хутулу,Hutulu,0,618211,45.86246,28.29923
+cahul,Ursoaia,Урсоая,Ursoaia,0,617173,45.85159,28.31496
+cahul,Lopățica,Лопэцика,Lopățica,0,617886,45.93059,28.41201
+cahul,Lucești,Лучешть,Lucești,0,617882,45.98945,28.33
+cahul,Manta,Манта,Manta,0,617846,45.8071,28.18089
+cahul,Pașcani,Пашкань,Pașcani,0,617623,45.82497,28.18276
+cahul,Moscovei,Московей,Moscovei,0,617784,45.93417,28.35556
+cahul,"Trifeștii Noi","Трифештий Ной","Trifeștii Noi",0,617671,45.94819,28.35478
+cahul,Pelinei,Пелиней,Pelinei,0,617615,45.82776,28.32083
+cahul,Sătuc,Сэтук,Sătuc,0,864982,45.80241,28.35361
+cahul,Roșu,Рошу,Roșu,0,617493,45.95773,28.19642
+cahul,"Slobozia Mare","Слобозия Маре","Slobozia Mare",0,617384,45.5787,28.17397
+cahul,"Taraclia de Salcie","Тараклия де Салчие","Taraclia de Salcie",0,617265,46.01281,28.41955
+cahul,"Tartaul de Salcie","Тартаул де Салчие","Tartaul de Salcie",0,617261,45.96977,28.41057
+cahul,Tudorești,Тудорешть,Tudorești,0,864991,45.96471,28.40177
+cahul,Tătărești,Тэтэрешть,Tătărești,0,617258,46.02497,28.34692
+cahul,"Vadul lui Isac","Вадул луй Исак","Vadul lui Isac",0,617165,45.76318,28.17122
+cahul,Văleni,Вэлень,Văleni,0,617161,45.632,28.17605
+cahul,Zîrnești,Зырнешть,Zîrnești,0,617029,46.01207,28.16294
+cahul,Paicu,Пайку,Paicu,0,617635,46.03769,28.15547
+cahul,Tretești,Третешть,Tretești,0,617222,46,28.16667
+cantemir,Cantemir,Кантемир,Cantemir,0,618452,46.27749,28.20052
+cantemir,Antonești,Антонешть,Antonești,0,618638,46.33273,28.21605
+cantemir,Leca,Лека,Leca,0,617911,46.30824,28.20406
+cantemir,Baimaclia,Баймаклия,Baimaclia,0,618587,46.18749,28.38888
+cantemir,Acui,Акуй,Acui,0,618659,46.1872,28.42544
+cantemir,Suhat,Сухат,Suhat,0,864948,46.16211,28.34448
+cantemir,Cania,Кания,Cania,0,618143,46.2763,28.23051
+cantemir,Iepureni,Епурень,Iepureni,0,617066,46.26241,28.21945
+cantemir,Capaclia,Капаклия,Capaclia,0,618141,46.32949,28.40106
+cantemir,Chioselia,Кёселия,Chioselia,0,618070,46.14099,28.40564
+cantemir,Țărăncuța,Цэрэнкуца,Țărăncuța,0,617208,46.10758,28.41019
+cantemir,Ciobalaccia,Чобалакчия,Ciobalaccia,0,618445,46.17243,28.28305
+cantemir,Flocoasa,Флокоаса,Flocoasa,0,618333,46.1526,28.2496
+cantemir,Victorovca,Викторовка,Victorovca,0,,,
+cantemir,Cîietu,Кыету,Cîietu,0,617924,46.13721,28.48126
+cantemir,Dimitrova,Димитрова,Dimitrova,0,618388,46.15933,28.46808
+cantemir,Cîrpești,Кырпешть,Cîrpești,0,617929,46.25937,28.33929
+cantemir,Cîșla,Кышла,Cîșla,0,617928,46.141,28.33489
+cantemir,Șofranovca,Шофрановка,Șofranovca,0,864947,46.1242,28.36028
+cantemir,Cociulia,Кочулия,Cociulia,0,618056,46.35681,28.41505
+cantemir,Coștangalia,Коштангалия,Coștangalia,0,618005,46.10983,28.38663
+cantemir,Enichioi,Еникёй,Enichioi,0,617067,46.219,28.41562
+cantemir,Bobocica,Бобочика,Bobocica,0,7645589,46.22468,28.45987
+cantemir,Floricica,Флоричика,Floricica,0,864952,46.23504,28.41102
+cantemir,Țolica,Цолика,Țolica,0,7645591,46.19504,28.48111
+cantemir,Gotești,Готешть,Gotești,0,618244,46.13592,28.17625
+cantemir,Constantinești,Константинешть,Constantinești,0,618035,46.11055,28.21307
+cantemir,Haragîș,Харагыш,Haragîș,0,618302,46.28942,28.378
+cantemir,Lărguța,Лэргуца,Lărguța,0,617918,46.30255,28.31978
+cantemir,Lingura,Лингура,Lingura,0,617899,46.23139,28.32283
+cantemir,Crăciun,Крэчун,Crăciun,0,617981,46.23308,28.35099
+cantemir,Popovca,Поповка,Popovca,0,617567,46.24846,28.3097
+cantemir,Pleșeni,Плешень,Pleșeni,0,617586,46.35637,28.34252
+cantemir,Hănăseni,Хэнэсень,Hănăseni,0,618307,46.34885,28.33252
+cantemir,Tătărășeni,Тэтэрэшень,Tătărășeni,0,617259,46.34222,28.30253
+cantemir,Plopi,Плопь,Plopi,0,617585,46.20831,28.21327
+cantemir,Alexandrovca,Александровка,Alexandrovca,0,618651,46.22926,28.2679
+cantemir,Hîrtop,Хыртоп,Hîrtop,0,618204,46.23457,28.25052
+cantemir,Taraclia,Тараклия,Taraclia,0,617267,46.21537,28.51825
+cantemir,Porumbești,Порумбешть,Porumbești,0,617563,46.31123,28.27767
+cantemir,Sadîc,Садык,Sadîc,0,617477,46.26988,28.51857
+cantemir,Taraclia,Тараклия,Taraclia,0,617267,46.21537,28.51825
+cantemir,Stoianovca,Стояновка,Stoianovca,0,617304,46.25917,28.16444
+cantemir,Șamalia,Шамалия,Șamalia,0,617435,46.2715,28.43671
+cantemir,Tartaul,Тартаул,Tartaul,0,617262,46.20671,28.32039
+cantemir,Toceni,Точень,Toceni,0,617237,46.36679,28.21792
+cantemir,Vîlcele,Вылчеле,Vîlcele,0,617090,46.38155,28.25249
+cantemir,Țiganca,Циганка,Țiganca,0,617722,46.23036,28.15546
+cantemir,Ghioltosu,Гёлтосу,Ghioltosu,0,618292,46.19333,28.16096
+cantemir,"Țiganca Nouă","Циганка Ноуэ","Țiganca Nouă",0,617718,46.20464,28.17589
+cantemir,Vișniovca,Вишнёвка,Vișniovca,0,617118,46.3326,28.44797
+calarasi,Călărași,Кэлэрашь,Călărași,0,618454,47.25548,28.30953
+calarasi,Oricova,Орикова,Oricova,0,829775,47.29945,28.23606
+calarasi,Bahmut,Бахмут,Bahmut,0,618619,47.32347,28.11454
+calarasi,Bahmut,Бахмут,Bahmut,1,618619,47.32347,28.11454
+calarasi,Bravicea,Бравича,Bravicea,0,618516,47.36082,28.43645
+calarasi,Buda,Буда,Buda,0,618497,47.21128,28.21692
+calarasi,Ursari,Урсарь,Ursari,0,617175,47.22139,28.18781
+calarasi,Căbăiești,Кэбэешть,Căbăiești,0,618166,47.21693,28.14558
+calarasi,Dereneu,Деренеу,Dereneu,0,618393,47.38158,28.24521
+calarasi,Bularda,Буларда,Bularda,0,618488,47.35611,28.22222
+calarasi,Duma,Дума,Duma,0,10191516,47.37473,28.26383
+calarasi,Frumoasa,Фрумоаса,Frumoasa,0,618324,47.33088,28.39962
+calarasi,Hirova,Хирова,Hirova,0,618270,47.41121,28.28203
+calarasi,Hîrjauca,Хыржаука,Hîrjauca,0,618199,47.32439,28.22134
+calarasi,Leordoaia,Леордоая,Leordoaia,0,831037,47.34419,28.15314
+calarasi,Mîndra,Мындра,Mîndra,0,617779,47.31877,28.26354
+calarasi,Palanca,Паланка,Palanca,0,617632,47.33474,28.20367
+calarasi,Hoginești,Ходжинешть,Hoginești,0,618259,47.37025,28.31912
+calarasi,Horodiște,Хородиште,Horodiște,0,618249,47.20958,28.2527
+calarasi,Meleșeni,Мелешень,Meleșeni,0,617825,47.37474,28.38655
+calarasi,Nișcani,Нишкань,Nișcani,0,617755,47.26902,28.34507
+calarasi,Onișcani,Онишкань,Onișcani,0,617644,47.36686,28.28327
+calarasi,Hîrbovăț,Хырбовэц,Hîrbovăț,0,,,
+calarasi,Sverida,Сверида,Sverida,0,831038,47.35305,28.29456
+calarasi,Păulești,Пэулешть,Păulești,0,617619,47.26886,28.37194
+calarasi,Pitușca,Питушка,Pitușca,0,617587,47.23602,28.42247
+calarasi,Pîrjolteni,Пыржолтень,Pîrjolteni,0,617533,47.1976,28.24017
+calarasi,Răciula,Рэчула,Răciula,0,617518,47.3058,28.34709
+calarasi,Parcani,Паркань,Parcani,0,829777,47.29639,28.37376
+calarasi,Rădeni,Рэдень,Rădeni,0,617515,47.3958,28.21306
+calarasi,Sadova,Садова,Sadova,0,617479,47.19235,28.34436
+calarasi,Săseni,Сэсень,Săseni,0,617439,47.36813,28.50019
+calarasi,Bahu,Баху,Bahu,0,618618,47.42209,28.46632
+calarasi,Sipoteni,Сипотень,Sipoteni,0,617408,47.27988,28.19655
+calarasi,"Podul Lung","Подул Лунг","Podul Lung",0,829776,47.26051,28.23882
+calarasi,Temeleuți,Темелеуць,Temeleuți,0,617250,47.2538,28.07343
+calarasi,Tuzara,Тузара,Tuzara,0,617188,47.24243,28.304
+calarasi,Novaci,Новачь,Novaci,0,617743,47.23631,28.26291
+calarasi,"Seliștea Nouă","Селиштя Ноуэ","Seliștea Nouă",0,617674,47.23357,28.31351
+calarasi,Peticeni,Петичень,Peticeni,0,617599,47.23695,28.20583
+calarasi,Țibirica,Цибирика,Țibirica,0,617203,47.37148,28.36685
+calarasi,Vălcineț,Вэлчинец,Vălcineț,0,617110,47.26808,28.12694
+calarasi,"Vărzăreștii Noi","Вэрзэрештий Ной","Vărzăreștii Noi",0,617669,47.23351,28.44431
+causeni,Căușeni,Кэушень,Căușeni,0,618120,46.63738,29.41087
+causeni,Căinari,Кэинарь,Căinari,0,618455,46.68196,29.04833
+causeni,Căinari,Кэинарь,Căinari,1,618455,46.68196,29.04833
+causeni,Baccealia,Бакчалия,Baccealia,0,618620,46.69306,29.28289
+causeni,Tricolici,Триколич,Tricolici,0,829952,46.73812,29.23968
+causeni,Baimaclia,Баймаклия,Baimaclia,0,618586,46.58945,29.09652
+causeni,Surchiceni,Суркичень,Surchiceni,0,617289,46.6215,29.05497
+causeni,Chircăiești,Киркэешть,Chircăiești,0,617935,46.66667,29.03333
+causeni,"Chircăieștii Noi","Киркэештий Ной","Chircăieștii Noi",0,618076,46.66395,28.97197
+causeni,Baurci,Баурчи,Baurci,0,864966,46.65769,28.95022
+causeni,Chițcani,Кицкань,Chițcani,0,618067,46.78296,29.61682
+causeni,Merenești,Меренешть,Merenești,0,864133,46.77551,29.53378
+causeni,Zahorna,Захорна,Zahorna,0,829950,46.74014,29.59855
+causeni,Ciuflești,Чуфлешть,Ciuflești,0,618413,46.62284,29.00075
+causeni,Cîrnățeni,Кырнэцень,Cîrnățeni,0,617931,46.65446,29.49314
+causeni,"Cîrnățenii Noi","Кырнэцений Ной","Cîrnățenii Noi",0,617680,46.64918,29.13898
+causeni,"Sălcuța Nouă","Сэлкуца Ноуэ","Sălcuța Nouă",0,831486,46.63237,29.19088
+causeni,Copanca,Копанка,Copanca,0,618029,46.71924,29.6197
+causeni,Coșcalia,Кошкалия,Coșcalia,0,618008,46.68546,29.15698
+causeni,Florica,Флорика,Florica,0,824144,46.68944,29.2224
+causeni,Plop,Плоп,Plop,0,829951,46.71043,29.21977
+causeni,Cremenciug,Кременчуг,Cremenciug,0,824140,46.7061,29.67405
+causeni,Fîrlădeni,Фырлэдень,Fîrlădeni,0,618343,46.78888,29.36521
+causeni,"Fîrlădenii Noi","Фырлэдений Ной","Fîrlădenii Noi",0,829956,46.75131,29.30261
+causeni,Gîsca,Гыска,Gîsca,0,618198,46.78156,29.42826
+causeni,Grădinița,Грэдиница,Grădinița,0,618236,46.65228,29.58391
+causeni,Leuntea,Леунтя,Leuntea,0,617905,46.66409,29.58914
+causeni,"Valea Verde","Валя Верде","Valea Verde",0,829949,46.698,29.59724
+causeni,Grigorievca,Григорьевка,Grigorievca,0,618231,46.69173,29.33011
+causeni,Hagimus,Хаджимус,Hagimus,0,618103,46.75519,29.48502
+causeni,Opaci,Опачь,Opaci,0,617642,46.58088,29.34827
+causeni,Pervomaisc,Первомайск,Pervomaisc,0,617605,46.69857,29.09089
+causeni,Constantinovca,Константиновка,Constantinovca,0,618034,46.72246,29.11305
+causeni,Plop-Știubei,Плоп-Штюбей,Plop-Știubei,0,617583,46.67256,29.52294
+causeni,Săiți,Сэиць,Săiți,0,617472,46.49754,29.40303
+causeni,Sălcuța,Сэлкуца,Sălcuța,0,617467,46.59544,29.24882
+causeni,Taraclia,Тараклия,Taraclia,0,617269,46.5678,29.11796
+causeni,Tănătari,Тэнэтарь,Tănătari,0,617271,46.72566,29.41519
+causeni,"Tănătarii Noi","Тэнэтарий Ной","Tănătarii Noi",0,,,
+causeni,Ștefănești,Штефэнешть,Ștefănești,0,617314,46.70466,29.37444
+causeni,"Ursoaia Nouă","Урсоая Ноуэ","Ursoaia Nouă",0,617717,46.72954,29.33317
+causeni,Tocuz,Токуз,Tocuz,0,617231,46.52631,29.29943
+causeni,Ucrainca,Украинка,Ucrainca,0,617183,46.43229,29.27548
+causeni,Zviozdocica,Звёздочка,Zviozdocica,0,831435,46.47886,29.32428
+causeni,Ursoaia,Урсоая,Ursoaia,0,617174,46.70507,29.44623
+causeni,Zaim,Заим,Zaim,0,617055,46.61939,29.34825
+causeni,"Marianca de Sus","Мариянка де Сус","Marianca de Sus",0,617128,46.64668,29.31348
+causeni,Zaim,Заим,Zaim,1,617055,46.61939,29.34825
+cimislia,Cimișlia,Чимишлия,Cimișlia,0,618406,46.52629,28.7649
+cimislia,"Bogdanovca Nouă","Богдановка Ноуэ","Bogdanovca Nouă",0,617740,46.49375,28.84247
+cimislia,"Bogdanovca Veche","Богдановка Веке","Bogdanovca Veche",0,617357,46.47439,28.82467
+cimislia,Dimitrovca,Димитровка,Dimitrovca,0,864957,46.48539,28.71691
+cimislia,Albina,Албина,Albina,0,618657,46.70594,28.6423
+cimislia,Fetița,Фетица,Fetița,0,618336,46.69357,28.67317
+cimislia,Mereni,Мерень,Mereni,0,617824,46.67372,28.64918
+cimislia,Batîr,Батыр,Batîr,0,618590,46.57579,29.00263
+cimislia,Cenac,Ченак,Cenac,0,618444,46.47474,28.6374
+cimislia,Ciucur-Mingir,Чукур-Минджир,Ciucur-Mingir,0,618411,46.43892,28.75524
+cimislia,Codreni,Кодрень,Codreni,0,618559,46.6757,28.88324
+cimislia,Zloți,Злоць,Zloți,1,829655,46.6948,28.8953
+cimislia,Ecaterinovca,Екатериновка,Ecaterinovca,0,617073,46.58336,28.7473
+cimislia,Coștangalia,Коштангалия,Coștangalia,0,618126,46.61786,28.80175
+cimislia,Gradiște,Градиште,Gradiște,0,618241,46.60813,28.75879
+cimislia,Iurievca,Юрьевка,Iurievca,0,617062,46.66857,28.76471
+cimislia,"Gura Galbenei","Гура Галбеней","Gura Galbenei",0,618216,46.69423,28.70781
+cimislia,Hîrtop,Хыртоп,Hîrtop,0,618203,46.65376,28.68065
+cimislia,Ialpug,Ялпуг,Ialpug,0,617083,46.64964,28.58736
+cimislia,Prisaca,Присака,Prisaca,0,617551,46.65521,28.6007
+cimislia,Ialpujeni,Ялпужень,Ialpujeni,0,7731670,46.577,28.67
+cimislia,Marienfeld,Мариенфелд,Marienfeld,0,617606,46.59806,28.61861
+cimislia,"Ivanovca Nouă","Ивановка Ноуэ","Ivanovca Nouă",0,864969,46.74556,28.6974
+cimislia,Javgur,Жавгур,Javgur,0,617043,46.53983,28.61511
+cimislia,Artimonovca,Артимоновка,Artimonovca,0,618633,46.5968,28.58981
+cimislia,Maximeni,Максимень,Maximeni,0,617867,46.57135,28.59614
+cimislia,Lipoveni,Липовень,Lipoveni,0,617894,46.73352,28.7598
+cimislia,Munteni,Мунтень,Munteni,0,617782,46.70502,28.76377
+cimislia,Schinoșica,Скиношика,Schinoșica,0,829638,46.72863,28.78868
+cimislia,Mihailovca,Михайловка,Mihailovca,0,617812,46.55239,28.92996
+cimislia,Porumbrei,Порумбрей,Porumbrei,0,617562,46.68942,28.81312
+cimislia,"Sagaidacul Nou","Сагайдакул Ноу","Sagaidacul Nou",0,829642,46.69268,28.8505
+cimislia,Sagaidac,Сагайдак,Sagaidac,0,617475,46.66217,28.8457
+cimislia,"Satul Nou","Сатул Ноу","Satul Nou",0,,,
+cimislia,Selemet,Селемет,Selemet,0,617448,46.57778,28.92639
+cimislia,Suric,Сурик,Suric,0,617290,46.63018,28.87488
+cimislia,Topala,Топала,Topala,0,617226,46.46074,28.6744
+cimislia,Troițcoe,Троицкое,Troițcoe,0,617213,46.51361,29.02702
+cimislia,"Valea Perjei","Валя Пержей","Valea Perjei",0,617155,46.62194,28.72297
+criuleni,Criuleni,Криулень,Criuleni,0,618403,47.2134,29.15847
+criuleni,Ohrincea,Охринча,Ohrincea,0,617662,47.22084,29.06045
+criuleni,Zolonceni,Золончень,Zolonceni,0,,,
+criuleni,Bălăbănești,Бэлэбэнешть,Bălăbănești,0,,,
+criuleni,Mălăiești,Мэлэешть,Mălăiești,0,,,
+criuleni,"Mălăieștii Noi","Мэлэештий Ной","Mălăieștii Noi",0,,,
+criuleni,Bălțata,Бэлцата,Bălțata,0,618604,47.05255,29.04835
+criuleni,"Bălțata de Sus","Бэлцата де Сус","Bălțata de Sus",0,617129,47.0658,29.03504
+criuleni,Sagaidac,Сагайдак,Sagaidac,0,617474,47.02609,29.02755
+criuleni,"Sagaidacul de Sus","Сагайдакул де Сус","Sagaidacul de Sus",0,829897,47.04803,29.02473
+criuleni,Boșcana,Бошкана,Boșcana,0,618592,47.12802,29.00103
+criuleni,Mărdăreuca,Мэрдэреука,Mărdăreuca,0,829895,47.11765,29.00325
+criuleni,Cimișeni,Чимишень,Cimișeni,0,618432,47.01201,29.12923
+criuleni,Corjova,Коржова,Corjova,0,618013,47.09724,29.17356
+criuleni,Coșernița,Кошерница,Coșernița,0,618010,47.11903,29.04666
+criuleni,Cruglic,Круглик,Cruglic,0,617960,47.21793,29.02615
+criuleni,Dolinnoe,Долинное,Dolinnoe,0,829665,47.02412,28.9967
+criuleni,"Valea Coloniței","Валя Колоницей","Valea Coloniței",0,617159,47.02338,28.97812
+criuleni,"Valea Satului","Валя Сатулуй","Valea Satului",0,617152,47.03657,29.00223
+criuleni,Drăsliceni,Дрэсличень,Drăsliceni,0,618373,47.15698,28.78154
+criuleni,Logănești,Логэнешть,Logănești,0,617890,47.17355,28.7873
+criuleni,Ratuș,Ратуш,Ratuș,0,829810,47.1667,28.80748
+criuleni,"Dubăsarii Vechi","Дубэсарий Векь","Dubăsarii Vechi",0,617341,47.13486,29.19941
+criuleni,"Hîrtopul Mare","Хыртопул Маре","Hîrtopul Mare",0,618201,47.22715,28.94143
+criuleni,"Hîrtopul Mic","Хыртопул Мик","Hîrtopul Mic",0,618200,47.24852,28.93048
+criuleni,Hrușova,Хрушова,Hrușova,0,618221,47.13637,28.95168
+criuleni,Chetroasa,Кетроаса,Chetroasa,0,829804,47.12206,28.97958
+criuleni,Ciopleni,Чоплень,Ciopleni,0,618420,47.13053,28.95091
+criuleni,Ișnovăț,Ишновэц,Ișnovăț,0,618177,47.23329,28.86442
+criuleni,Izbiște,Избиште,Izbiște,0,618170,47.22139,29.00194
+criuleni,Jevreni,Жеврень,Jevreni,0,617041,47.25838,29.06303
+criuleni,Mașcăuți,Машкэуць,Mașcăuți,0,617834,47.29068,29.00118
+criuleni,Măgdăcești,Мэгдэчешть,Măgdăcești,0,829809,47.14164,28.82426
+criuleni,Miclești,Миклешть,Miclești,0,617806,47.23985,28.80516
+criuleni,Stețcani,Стецкань,Stețcani,0,617312,47.23586,28.82095
+criuleni,Onițcani,Оницкань,Onițcani,0,617643,47.14648,29.07045
+criuleni,Pașcani,Пашкань,Pașcani,0,617621,47.16967,28.8325
+criuleni,Porumbeni,Порумбень,Porumbeni,0,,,
+criuleni,Răculești,Рэкулешть,Răculești,0,617528,47.27067,29.068
+criuleni,Bălășești,Бэлэшешть,Bălășești,0,,,
+criuleni,Rîșcova,Рышкова,Rîșcova,0,617481,47.25233,28.84659
+criuleni,Slobozia-Dușca,Слобозия-Душка,Slobozia-Dușca,0,617386,47.16654,29.12052
+criuleni,Zăicana,Зэикана,Zăicana,0,617060,47.16799,28.95278
+donduseni,Dondușeni,Дондушень,Dondușeni,0,618382,48.24268,27.6101
+donduseni,Arionești,Арионешть,Arionești,0,618634,48.372,27.85027
+donduseni,Baraboi,Барабой,Baraboi,0,618600,48.08454,27.62007
+donduseni,Briceni,Бричень,Briceni,0,618512,48.35628,27.70293
+donduseni,Cernoleuca,Чернолеука,Cernoleuca,0,618436,48.31216,27.56388
+donduseni,Climăuți,Климэуць,Climăuți,0,618065,48.31263,27.61565
+donduseni,Corbu,Корбу,Corbu,0,618025,48.26539,27.57748
+donduseni,Crișcăuți,Кришкэуць,Crișcăuți,0,617964,48.26636,27.85554
+donduseni,Dondușeni,Дондушень,Dondușeni,0,618382,48.24268,27.6101
+donduseni,Frasin,Фрасин,Frasin,0,618327,48.13733,27.55174
+donduseni,Caraiman,Карайман,Caraiman,0,829548,48.1081,27.56384
+donduseni,"Codrenii Noi","Кодрений Ной","Codrenii Noi",0,829557,48.14384,27.57664
+donduseni,Horodiște,Хородиште,Horodiște,0,618246,48.26526,27.79174
+donduseni,Moșana,Мошана,Moșana,0,617787,48.32194,27.68998
+donduseni,Octeabriscoe,Октябрьское,Octeabriscoe,0,,,
+donduseni,Pivniceni,Пивничень,Pivniceni,0,824215,48.27681,27.52748
+donduseni,Plop,Плоп,Plop,0,617584,48.25422,27.70448
+donduseni,Pocrovca,Покровка,Pocrovca,0,617573,48.32885,27.86115
+donduseni,"Rediul Mare","Редиул Маре","Rediul Mare",0,617514,48.23206,27.52086
+donduseni,Scăieni,Скэень,Scăieni,0,617404,48.17793,27.58697
+donduseni,Sudarca,Сударка,Sudarca,0,617293,48.30536,27.78488
+donduseni,Braicău,Брайкэу,Braicău,0,618515,48.30335,27.73381
+donduseni,Teleșeuca,Телешеука,Teleșeuca,0,617253,48.28206,27.90208
+donduseni,"Teleșeuca Nouă","Телешеука Ноуэ","Teleșeuca Nouă",0,617720,48.28139,27.88861
+donduseni,Tîrnova,Тырнова,Tîrnova,0,617186,48.16598,27.66148
+donduseni,Briceva,Бричева,Briceva,0,618509,48.11418,27.64938
+donduseni,Elenovca,Еленовка,Elenovca,0,829556,48.12524,27.62733
+donduseni,Țaul,Цаул,Țaul,0,617206,48.2126,27.68145
+donduseni,Elizavetovca,Елизаветовка,Elizavetovca,0,617068,48.27815,27.71659
+donduseni,Boroseni,Боросень,Boroseni,0,,,
+drochia,Drochia,Дрокия,Drochia,0,618370,48.03686,27.81242
+drochia,Antoneuca,Антонеука,Antoneuca,0,618635,48.0759,27.69469
+drochia,Baroncea,Баронча,Baroncea,0,618595,48.03369,27.91462
+drochia,"Baroncea Nouă","Баронча Ноуэ","Baroncea Nouă",0,829542,47.99738,27.85128
+drochia,Chetrosu,Кетросу,Chetrosu,0,618106,48.07391,27.8977
+drochia,Cotova,Котова,Cotova,0,617994,48.16102,27.95111
+drochia,Măcăreuca,Мэкэреука,Măcăreuca,0,617869,48.14164,27.97798
+drochia,Dominteni,Доминтень,Dominteni,0,618385,47.95563,27.95346
+drochia,Drochia,Дрокия,Drochia,0,618370,48.03686,27.81242
+drochia,Gribova,Грибова,Gribova,0,618235,48.01404,27.93163
+drochia,Fîntînița,Фынтыница,Fîntînița,0,618313,48.11005,27.69343
+drochia,Ghizdita,Гиздита,Ghizdita,1,829554,48.10381,27.73221
+drochia,"Hăsnășenii Mari","Хэснэшений Марь","Hăsnășenii Mari",0,618537,47.91798,27.988
+drochia,"Hăsnășenii Noi","Хэснэшений Ной","Hăsnășenii Noi",0,617701,47.85513,27.90705
+drochia,Lazo,Лазо,Lazo,0,617101,47.88917,27.925
+drochia,Maramonovca,Марамоновка,Maramonovca,0,617845,48.20236,27.79789
+drochia,Miciurin,Мичурин,Miciurin,0,617817,47.98837,27.79205
+drochia,"Moara de Piatră","Моара де Пятрэ","Moara de Piatră",0,617795,47.89172,28.00156
+drochia,Mîndîc,Мындык,Mîndîc,0,617893,48.14755,27.79634
+drochia,Nicoreni,Никорень,Nicoreni,0,617757,47.97029,27.70764
+drochia,"Ochiul Alb","Окюл Алб","Ochiul Alb",0,617650,48.01847,27.67184
+drochia,Palanca,Паланка,Palanca,0,617631,48.12424,27.91215
+drochia,"Holoșnița Nouă","Холошница Ноуэ","Holoșnița Nouă",0,829551,48.11605,27.93386
+drochia,"Șalvirii Noi","Шалвирий Ной","Șalvirii Noi",0,829553,48.14383,27.91904
+drochia,Pelinia,Пелиния,Pelinia,0,617614,47.87589,27.83163
+drochia,Pelinia,Пелиния,Pelinia,1,617614,47.87589,27.83163
+drochia,Pervomaiscoe,Первомайское,Pervomaiscoe,0,617600,48.08736,27.72325
+drochia,Sergheuca,Сергеука,Sergheuca,0,829550,48.06314,27.72849
+drochia,Petreni,Петрень,Petreni,0,617598,47.94505,27.95448
+drochia,"Popeștii Noi","Попештий Ной","Popeștii Noi",0,829856,47.97718,27.98743
+drochia,"Popeștii de Jos","Попештий де Жос","Popeștii de Jos",0,829701,48.071,28.025
+drochia,"Popeștii de Sus","Попештий де Сус","Popeștii de Sus",0,617569,48.08806,28.02556
+drochia,Sofia,София,Sofia,0,617378,47.94476,27.86484
+drochia,"Șalvirii Vechi","Шалвирий Векь","Șalvirii Vechi",0,617436,48.19888,27.84476
+drochia,Ceapaevca,Чапаевка,Ceapaevca,0,829562,48.20477,27.8726
+drochia,Iliciovca,Ильичёвка,Iliciovca,0,829561,48.15687,27.88013
+drochia,Șuri,Шурь,Șuri,0,617410,48.09519,27.85702
+drochia,"Șurii Noi","Шурий Ной","Șurii Noi",0,829543,48.06434,27.79929
+drochia,Țarigrad,Цариград,Țarigrad,0,618267,48.04647,27.76474
+drochia,Zgurița,Згурица,Zgurița,0,617045,48.11981,28.01452
+dubasari,Cocieri,Кочиерь,Cocieri,0,618057,47.3017,29.11755
+dubasari,Vasilievca,Васильевка,Vasilievca,0,830829,47.36899,29.30519
+dubasari,Corjova,Коржова,Corjova,0,618014,47.28766,29.12962
+dubasari,Mahala,Махала,Mahala,0,,,
+dubasari,Coșnița,Кошница,Coșnița,0,618006,47.14635,29.13449
+dubasari,Pohrebea,Похребя,Pohrebea,0,617574,47.18133,29.16706
+dubasari,Doroțcaia,Дороцкая,Doroțcaia,0,618379,47.17229,29.20356
+dubasari,Holercani,Холеркань,Holercani,0,618258,47.31235,29.06958
+dubasari,Marcăuți,Маркэуць,Marcăuți,0,617840,47.35424,29.05915
+dubasari,Molovata,Моловата,Molovata,0,617854,47.34974,29.11447
+dubasari,"Molovata Nouă","Моловата Ноуэ","Molovata Nouă",0,617855,47.34546,29.09271
+dubasari,Roghi,Роги,Roghi,0,617500,47.32206,29.13986
+dubasari,Oxentea,Оксентя,Oxentea,0,617654,47.38261,29.1197
+dubasari,Pîrîta,Пырыта,Pîrîta,0,617534,47.10092,29.12112
+dubasari,Ustia,Устия,Ustia,0,617170,47.25524,29.12406
+edinet,Edineț,Единец,Edineț,0,617076,48.17319,27.30075
+edinet,"Gordineștii Noi","Гординештий Ной","Gordineștii Noi",0,829583,48.16961,27.22522
+edinet,Cupcini,Купчинь,Cupcini,0,617947,48.11023,27.3839
+edinet,"Chetroșica Veche","Кетрошика Веке","Chetroșica Veche",0,829544,48.11939,27.40417
+edinet,Chiurt,Кюрт,Chiurt,0,617925,48.06131,27.34291
+edinet,Alexeevca,Алексеевка,Alexeevca,0,618642,48.09378,27.26191
+edinet,Bleșteni,Блештень,Bleșteni,0,618557,48.12035,27.21962
+edinet,Volodeni,Володень,Volodeni,0,829584,48.11627,27.20491
+edinet,Brătușeni,Брэтушень,Brătușeni,0,618518,48.07129,27.40124
+edinet,"Brătușenii Noi","Брэтушений Ной","Brătușenii Noi",0,829545,48.06167,27.4831
+edinet,Brînzeni,Брынзень,Brînzeni,0,618502,48.08362,27.17513
+edinet,"Bădragii Noi","Бэдраджий Ной","Bădragii Noi",0,829549,48.06204,27.07601
+edinet,"Bădragii Vechi","Бэдраджий Векь","Bădragii Vechi",0,617346,48.03712,27.10896
+edinet,Burlănești,Бурлэнешть,Burlănești,0,618476,48.12671,27.12993
+edinet,Buzdugeni,Буздуджень,Buzdugeni,0,618464,48.1072,27.15699
+edinet,Cepeleuți,Чепелеуць,Cepeleuți,0,618441,48.30264,27.31383
+edinet,Rîngaci,Рынгач,Rîngaci,0,829599,48.31008,27.34238
+edinet,Vancicăuți,Ванчикэуць,Vancicăuți,0,,,
+edinet,"Chetroșica Nouă","Кетрошика Ноуэ","Chetroșica Nouă",0,617733,48.11725,27.4769
+edinet,Corpaci,Корпач,Corpaci,0,829581,48.00819,27.13941
+edinet,"Cuconeștii Noi","Куконештий Ной","Cuconeștii Noi",0,617682,47.98718,27.20613
+edinet,"Cuconeștii Vechi","Куконештий Векь","Cuconeștii Vechi",0,617332,47.96683,27.14845
+edinet,Fetești,Фетешть,Fetești,0,618337,48.16372,27.09898
+edinet,Gașpar,Гашпар,Gașpar,0,618300,48.15678,27.49836
+edinet,Goleni,Голень,Goleni,0,618255,48.2095,27.43286
+edinet,Gordinești,Гординешть,Gordinești,0,618253,48.15926,27.16981
+edinet,Hancăuți,Ханкэуць,Hancăuți,0,618208,48.04864,27.19039
+edinet,Hincăuți,Хинкэуць,Hincăuți,0,618274,48.27463,27.30845
+edinet,Clișcăuți,Клишкэуць,Clișcăuți,0,829592,48.28312,27.32076
+edinet,Poiana,Пояна,Poiana,0,829589,48.24981,27.35435
+edinet,Hlinaia,Хлиная,Hlinaia,0,618264,48.22193,27.25333
+edinet,Lopatnic,Лопатник,Lopatnic,0,617887,48.13506,27.05596
+edinet,Parcova,Паркова,Parcova,0,617626,48.15228,27.405
+edinet,"Fîntîna Albă","Фынтына Албэ","Fîntîna Albă",0,618314,48.16028,27.43245
+edinet,Rotunda,Ротунда,Rotunda,0,617523,48.24202,27.30733
+edinet,"Hlinaia Mică","Хлиная Микэ","Hlinaia Mică",0,829591,48.25335,27.26936
+edinet,Ruseni,Русень,Ruseni,0,617488,48.20181,27.41583
+edinet,Slobodca,Слободка,Slobodca,0,829585,48.20724,27.3705
+edinet,Stolniceni,Столничень,Stolniceni,0,617306,48.04004,27.34668
+edinet,Șofrîncani,Шофрынкань,Șofrîncani,0,617416,48.04842,27.41324
+edinet,Terebna,Теребна,Terebna,0,617248,48.04968,27.25019
+edinet,Tîrnova,Тырнова,Tîrnova,0,617185,48.20424,27.1762
+edinet,Trinca,Тринка,Trinca,0,617215,48.20939,27.11566
+edinet,Constantinovca,Константиновка,Constantinovca,0,618036,48.24851,27.10944
+edinet,Iachimeni,Якимень,Iachimeni,0,,,
+edinet,Viișoara,Виишоара,Viișoara,0,617123,48.09527,27.04498
+edinet,Zăbriceni,Зэбричень,Zăbriceni,0,617061,48.07364,27.25265
+edinet,Onești,Онешть,Onești,0,617564,48.06678,27.276
+falesti,Fălești,Фэлешть,Fălești,0,618344,47.57667,27.71264
+falesti,"Fabrica de zahăr","Fabrica de Zahăr","Fabrica de zahăr",0,12625796,47.53265,27.74188
+falesti,"Albinețul Vechi","Албинецул Векь","Albinețul Vechi",0,617347,47.559,27.63544
+falesti,"Albinețul Nou","Албинецул Ноу","Albinețul Nou",0,617703,47.58131,27.61935
+falesti,"Rediul de Jos","Редиул де Жос","Rediul de Jos",0,829877,47.51013,27.60159
+falesti,"Rediul de Sus","Редиул де Сус","Rediul de Sus",0,829878,47.52578,27.60711
+falesti,Bocani,Бокань,Bocani,0,618547,47.51915,27.89242
+falesti,Catranîc,Катранык,Catranîc,0,618122,47.59621,27.803
+falesti,Călinești,Кэлинешть,Călinești,0,618158,47.56315,27.48592
+falesti,Călugăr,Кэлугэр,Călugăr,0,618154,47.54031,27.68733
+falesti,Frumușica,Фрумушика,Frumușica,0,829880,47.51502,27.6863
+falesti,"Socii Noi","Сочий Ной","Socii Noi",0,617673,47.53737,27.64594
+falesti,"Socii Vechi","Сочий Векь","Socii Vechi",0,863766,47.52552,27.67704
+falesti,"Ciolacu Nou","Чолаку Ноу","Ciolacu Nou",0,617739,47.48494,27.83139
+falesti,"Ciolacu Vechi","Чолаку Векь","Ciolacu Vechi",0,617356,47.47645,27.86097
+falesti,Făgădău,Фэгэдэу,Făgădău,0,618340,47.44221,27.80294
+falesti,Pocrovca,Покровка,Pocrovca,0,829888,47.46579,27.87448
+falesti,Șoltoaia,Шолтоая,Șoltoaia,0,617414,47.45734,27.81446
+falesti,Egorovca,Егоровка,Egorovca,0,617074,47.61664,27.75843
+falesti,Ciuluc,Чулук,Ciuluc,0,829868,47.63594,27.78764
+falesti,Catranîc,Катранык,Catranîc,1,618122,47.59621,27.803
+falesti,"Făleștii Noi","Фэлештий Ной","Făleștii Noi",0,617691,47.57423,27.74523
+falesti,"Pietrosul Nou","Петросул Ноу","Pietrosul Nou",0,829885,47.58207,27.76865
+falesti,Glinjeni,Глинжень,Glinjeni,0,618263,47.60037,27.89309
+falesti,Hiliuți,Хилиуць,Hiliuți,0,618099,47.6693,27.76275
+falesti,"Răuțelul Nou","Рэуцелул Ноу","Răuțelul Nou",0,829866,47.70104,27.74613
+falesti,Horești,Хорешть,Horești,0,618250,47.43184,27.58047
+falesti,Lucăceni,Лукэчень,Lucăceni,0,617881,47.45715,27.59605
+falesti,Unteni,Унтень,Unteni,0,829884,47.41612,27.57898
+falesti,Ilenuța,Иленуца,Ilenuța,0,617070,47.63495,27.7119
+falesti,Ișcălău,Ишкэлэу,Ișcălău,0,618178,47.57152,27.82258
+falesti,Burghelea,Бургеля,Burghelea,0,618480,47.53996,27.86425
+falesti,Doltu,Долту,Doltu,0,829887,47.53722,27.82306
+falesti,Izvoare,Извоаре,Izvoare,0,618169,47.43474,27.66838
+falesti,Logofteni,Логофтень,Logofteni,0,617889,47.62389,27.5681
+falesti,Moldoveanca,Молдовянка,Moldoveanca,0,617791,47.62382,27.61396
+falesti,Mărăndeni,Мэрэндень,Mărăndeni,0,617844,47.66498,27.83153
+falesti,Musteața,Мустяца,Musteața,0,617780,47.51138,27.64635
+falesti,Natalievca,Натальевка,Natalievca,0,617770,47.6976,27.88979
+falesti,Beleuți,Белеуць,Beleuți,0,829872,47.66475,27.90416
+falesti,Comarovca,Комаровка,Comarovca,0,618152,47.69038,27.90573
+falesti,Ivanovca,Ивановка,Ivanovca,0,829871,47.65672,27.87995
+falesti,Popovca,Поповка,Popovca,0,617565,47.7091,27.86916
+falesti,Țapoc,Цапок,Țapoc,0,617209,47.7082,27.89638
+falesti,Năvîrneț,Нэвырнец,Năvîrneț,0,617769,47.58875,27.5613
+falesti,"Obreja Veche","Обрежа Веке","Obreja Veche",0,617351,47.67995,27.66045
+falesti,"Obreja Nouă","Обрежа Ноуэ","Obreja Nouă",0,617727,47.67537,27.6943
+falesti,Pietrosu,Петросу,Pietrosu,0,617595,47.50242,27.92036
+falesti,Măgura,Мэгура,Măgura,0,617826,47.48852,27.9322
+falesti,"Măgura Nouă","Мэгура Ноуэ","Măgura Nouă",0,829886,47.50613,27.95185
+falesti,Pînzăreni,Пынзэрень,Pînzăreni,0,617538,47.62027,27.67791
+falesti,"Pînzărenii Noi","Пынзэрений Ной","Pînzărenii Noi",0,829876,47.60269,27.64374
+falesti,Pîrlița,Пырлица,Pîrlița,0,617536,47.74079,27.80486
+falesti,Pompa,Помпа,Pompa,0,617571,47.65498,27.94366
+falesti,Pervomaisc,Первомайск,Pervomaisc,0,617604,47.63302,27.97625
+falesti,Suvorovca,Суворовка,Suvorovca,0,617286,47.6407,27.88974
+falesti,Pruteni,Прутень,Pruteni,0,617545,47.49843,27.55168
+falesti,"Cuzmenii Vechi","Кузмений Векь","Cuzmenii Vechi",0,617333,47.52643,27.56615
+falesti,Drujineni,Дружинень,Drujineni,0,618366,47.52531,27.53219
+falesti,"Valea Rusului","Валя Русулуй","Valea Rusului",0,617153,47.47386,27.58572
+falesti,Răuțel,Рэуцел,Răuțel,0,617510,47.71319,27.82583
+falesti,Risipeni,Рисипень,Risipeni,0,617492,47.46084,27.66577
+falesti,Bocșa,Бокша,Bocșa,0,618546,47.47111,27.64972
+falesti,"Sărata Veche","Сэрата Веке","Sărata Veche",0,617350,47.50259,27.74709
+falesti,Hitrești,Хитрешть,Hitrești,0,618097,47.54844,27.77603
+falesti,"Sărata Nouă","Сэрата Ноуэ","Sărata Nouă",0,617724,47.4993,27.79135
+falesti,Scumpia,Скумпия,Scumpia,0,617395,47.47038,27.7374
+falesti,Hîrtop,Хыртоп,Hîrtop,0,829879,47.47969,27.70696
+falesti,Măgureanca,Мэгурянка,Măgureanca,0,,,
+falesti,Nicolaevca,Николаевка,Nicolaevca,0,829881,47.50063,27.70059
+falesti,Taxobeni,Таксобень,Taxobeni,0,617274,47.38938,27.59047
+falesti,"Hrubna Nouă","Хрубна Ноуэ","Hrubna Nouă",0,617735,47.40643,27.61519
+falesti,Vrănești,Врэнешть,Vrănești,0,829883,47.40868,27.59996
+falesti,Chetriș,Кетриш,Chetriș,0,618109,47.59604,27.44757
+falesti,"Chetrișul Nou","Кетришул Ноу","Chetrișul Nou",0,829875,47.62599,27.50843
+falesti,Hîncești,Хынчешть,Hîncești,0,618306,47.54896,27.50234
+floresti,Florești,Флорешть,Florești,0,618329,47.89168,28.29339
+floresti,Ghindești,Гиндешть,Ghindești,0,618275,47.85482,28.37679
+floresti,Mărculești,Мэркулешть,Mărculești,0,617836,47.88369,28.24609
+floresti,Alexeevca,Алексеевка,Alexeevca,0,618644,47.94275,28.28662
+floresti,Chirilovca,Кириловка,Chirilovca,0,618081,47.96208,28.32858
+floresti,Dumitreni,Думитрень,Dumitreni,0,618389,47.97087,28.31866
+floresti,"Rădulenii Noi","Рэдулений Ной","Rădulenii Noi",0,617677,47.9571,28.24656
+floresti,Băhrinești,Бэхринешть,Băhrinești,0,618622,47.85657,28.24431
+floresti,Cașunca,Кашунка,Cașunca,0,618125,47.78605,28.39416
+floresti,Cernița,Черница,Cernița,0,618438,47.96407,28.46735
+floresti,Ciripcău,Чирипкэу,Ciripcău,0,618440,47.98425,28.38295
+floresti,Ciutulești,Чутулешть,Ciutulești,0,618407,47.76191,28.39384
+floresti,"Ion Vodă","Ион Водэ","Ion Vodă",0,831066,47.72543,28.32799
+floresti,Mărinești,Мэринешть,Mărinești,0,831065,47.73183,28.38308
+floresti,Sîrbești,Сырбешть,Sîrbești,0,617427,47.80103,28.32621
+floresti,Coșernița,Кошерница,Coșernița,0,618009,47.93971,28.46561
+floresti,"Cuhureștii de Sus","Кухурештий де Сус","Cuhureștii de Sus",0,617132,47.92376,28.55825
+floresti,Nicolaevca,Николаевка,Nicolaevca,0,617760,47.76129,28.29279
+floresti,Unchitești,Ункитешть,Unchitești,0,617178,47.92847,28.52791
+floresti,Unchitești,Ункитешть,Unchitești,1,617178,47.92847,28.52791
+floresti,"Cuhureștii de Jos","Кухурештий де Жос","Cuhureștii de Jos",0,617748,47.93009,28.59292
+floresti,Țipordei,Ципордей,Țipordei,0,617202,47.93544,28.61518
+floresti,Cunicea,Кунича,Cunicea,0,617949,47.90786,28.64649
+floresti,Domulgeni,Домулджень,Domulgeni,0,618383,47.79187,28.43623
+floresti,Frumușica,Фрумушика,Frumușica,0,618322,47.95988,28.11833
+floresti,"Frumușica Nouă","Фрумушика Ноуэ","Frumușica Nouă",0,617736,47.87684,28.05952
+floresti,Ghindești,Гиндешть,Ghindești,0,618275,47.85482,28.37679
+floresti,Hîrtop,Хыртоп,Hîrtop,0,618284,47.88168,28.45845
+floresti,Țîra,Цыра,Țîra,0,617192,47.8421,28.40361
+floresti,Țîra,Цыра,Țîra,1,617192,47.8421,28.40361
+floresti,"Gura Camencii","Гура Каменчий","Gura Camencii",0,618214,47.89097,28.3547
+floresti,Bobulești,Бобулешть,Bobulești,0,618552,47.8808,28.35096
+floresti,Gvozdova,Гвоздова,Gvozdova,0,618209,47.90452,28.35043
+floresti,"Gura Căinarului","Гура Кэинарулуй","Gura Căinarului",0,618215,47.86318,28.18311
+floresti,Zarojeni,Зарожень,Zarojeni,0,824213,47.86568,28.16197
+floresti,Iliciovca,Ильичёвка,Iliciovca,0,,,
+floresti,Maiscoe,Майское,Maiscoe,0,617553,47.91153,28.04829
+floresti,Izvoare,Извоаре,Izvoare,0,618167,47.97825,28.13114
+floresti,Bezeni,Безень,Bezeni,0,618564,47.97699,28.11811
+floresti,Scăieni,Скэень,Scăieni,0,617403,47.96944,28.12611
+floresti,Japca,Жапка,Japca,0,617044,47.98091,28.70413
+floresti,Bursuc,Бурсук,Bursuc,0,618474,47.97236,28.74019
+floresti,Lunga,Лунга,Lunga,0,617878,47.85833,28.21972
+floresti,Mărculești,Мэркулешть,Mărculești,0,617836,47.88369,28.24609
+floresti,Napadova,Нападова,Napadova,0,617772,48.01969,28.5952
+floresti,Nicolaevca,Николаевка,Nicolaevca,0,617760,47.76129,28.29279
+floresti,"Valea Rădoaiei","Валя Рэдоаей","Valea Rădoaiei",0,617154,47.75527,28.26266
+floresti,Prajila,Пражила,Prajila,0,617556,47.84066,28.20697
+floresti,Antonovca,Антоновка,Antonovca,0,831057,47.78683,28.21389
+floresti,Frunzești,Фрунзешть,Frunzești,0,831056,47.78429,28.18509
+floresti,Mihailovca,Михайловка,Mihailovca,0,617809,47.79882,28.25458
+floresti,Prodănești,Продэнешть,Prodănești,0,617550,47.74062,28.48299
+floresti,Căprești,Кэпрешть,Căprești,0,618139,47.75417,28.46333
+floresti,Putinești,Путинешть,Putinești,0,617540,47.8358,28.11851
+floresti,"Rădulenii Vechi","Рэдулений Векь","Rădulenii Vechi",0,617326,47.98476,28.26413
+floresti,Roșietici,Рошиетичь,Roșietici,0,617676,47.83049,28.40271
+floresti,Cenușa,Ченуша,Cenușa,0,618443,47.84453,28.38687
+floresti,"Roșieticii Vechi","Рошиетичий Векь","Roșieticii Vechi",0,617324,47.81306,28.4
+floresti,Sănătăuca,Сэнэтэука,Sănătăuca,0,617441,48.01312,28.67515
+floresti,Sevirova,Севирова,Sevirova,0,617437,47.9265,28.15077
+floresti,Ivanovca,Ивановка,Ivanovca,0,618171,47.90763,28.15519
+floresti,Ștefănești,Штефэнешть,Ștefănești,0,617413,47.7319,28.43784
+floresti,"Prodăneștii Vechi","Продэнештий Векь","Prodăneștii Vechi",0,617327,47.71461,28.44432
+floresti,Temeleuți,Темелеуць,Temeleuți,0,617249,47.97949,28.49956
+floresti,"Tîrgul Vertiujeni","Тыргул Вертюжень","Tîrgul Vertiujeni",0,,,
+floresti,Trifănești,Трифэнешть,Trifănești,0,617219,47.944,28.13125
+floresti,Alexandrovca,Александровка,Alexandrovca,0,618654,47.95401,28.13017
+floresti,Vărvăreuca,Вэрвэреука,Vărvăreuca,0,617147,47.87967,28.31438
+floresti,Stîrceni,Стырчень,Stîrceni,0,617294,47.87634,28.3651
+floresti,Văscăuți,Вэскэуць,Văscăuți,0,617139,47.95519,28.51072
+floresti,Făgădău,Фэгэдэу,Făgădău,0,831068,47.93547,28.52606
+floresti,Octeabriscoe,Октябрьское,Octeabriscoe,0,617100,47.95506,28.53593
+floresti,Vertiujeni,Вертюжень,Vertiujeni,0,,,
+floresti,Zăluceni,Зэлучень,Zăluceni,0,617052,48.05113,28.55473
+glodeni,Glodeni,Глодень,Glodeni,0,618261,47.77467,27.51753
+glodeni,Stîrcea,Стырча,Stîrcea,0,617295,47.79312,27.52561
+glodeni,Balatina,Балатина,Balatina,0,618540,47.69459,27.34349
+glodeni,"Clococenii Vechi","Клокочений Векь","Clococenii Vechi",0,617334,47.71854,27.41575
+glodeni,Lipovăț,Липовэц,Lipovăț,0,829863,47.72645,27.36787
+glodeni,"Tomeștii Noi","Томештий Ной","Tomeștii Noi",0,617228,47.66667,27.35
+glodeni,"Tomeștii Vechi","Томештий Векь","Tomeștii Vechi",0,617227,47.65531,27.33634
+glodeni,Cajba,Кажба,Cajba,0,618110,47.72566,27.43912
+glodeni,Camenca,Каменка,Camenca,0,618150,47.82683,27.36262
+glodeni,Brînzeni,Брынзень,Brînzeni,0,618503,47.81412,27.36303
+glodeni,Butești,Бутешть,Butești,0,618470,47.79685,27.33316
+glodeni,Molești,Молешть,Molești,0,617859,47.8023,27.34793
+glodeni,Ciuciulea,Чучуля,Ciuciulea,0,618415,47.65899,27.48475
+glodeni,Cobani,Кобань,Cobani,0,618060,47.76718,27.32195
+glodeni,Cuhnești,Кухнешть,Cuhnești,0,617954,47.6568,27.37453
+glodeni,Bisericani,Бисерикань,Bisericani,0,618562,47.64314,27.32945
+glodeni,Cot,Кот,Cot,0,863765,47.65348,27.337
+glodeni,Movileni,Мовилень,Movileni,0,,,
+glodeni,Serghieni,Сергиень,Serghieni,0,617440,47.6485,27.35123
+glodeni,Danu,Дану,Danu,0,618399,47.83077,27.49663
+glodeni,Camencuța,Каменкуца,Camencuța,0,618147,47.83626,27.44948
+glodeni,Nicolaevca,Николаевка,Nicolaevca,0,617759,47.82272,27.55421
+glodeni,Dușmani,Душмань,Dușmani,0,617652,47.7195,27.48032
+glodeni,"Fundurii Noi","Фундурий Ной","Fundurii Noi",0,617690,47.75547,27.65381
+glodeni,"Fundurii Vechi","Фундурий Векь","Fundurii Vechi",0,617340,47.74195,27.71693
+glodeni,Hîjdieni,Хыждиень,Hîjdieni,0,618269,47.76964,27.45985
+glodeni,Iabloana,Яблоана,Iabloana,0,617086,47.80873,27.61797
+glodeni,Soroca,Сорока,Soroca,0,829862,47.80447,27.56259
+glodeni,"Limbenii Noi","Лимбений Ной","Limbenii Noi",0,617679,47.72399,27.62507
+glodeni,"Limbenii Vechi","Лимбений Векь","Limbenii Vechi",0,617330,47.69151,27.60822
+glodeni,Petrunea,Петруня,Petrunea,0,617593,47.75023,27.57835
+glodeni,Sturzovca,Стурзовка,Sturzovca,0,617297,47.80394,27.72198
+glodeni,Ustia,Устия,Ustia,0,617168,47.66242,27.59273
+glodeni,Viișoara,Виишоара,Viișoara,0,617124,47.61731,27.44804
+glodeni,"Moara Domnească","Моара Домняскэ","Moara Domnească",0,829864,47.62363,27.41671
+hincesti,Hîncești,Хынчешть,Hîncești,0,617993,46.83089,28.58999
+hincesti,Bălceana,Бэлчана,Bălceana,0,618544,46.84475,28.40874
+hincesti,Bobeica,Бобейка,Bobeica,0,618554,46.98441,28.46064
+hincesti,Dahnovici,Дахнович,Dahnovici,0,618402,46.97416,28.48307
+hincesti,Drăgușeni,Дрэгушень,Drăgușeni,0,618374,46.98277,28.44684
+hincesti,Boghiceni,Богичень,Boghiceni,0,618549,46.96407,28.30795
+hincesti,Bozieni,Бозиень,Bozieni,0,618524,46.74997,28.64599
+hincesti,Dubovca,Дубовка,Dubovca,0,618362,46.74914,28.60741
+hincesti,Bujor,Бужор,Bujor,0,618463,46.92444,28.26293
+hincesti,Buțeni,Буцень,Buțeni,0,618468,46.82559,28.67343
+hincesti,Caracui,Каракуй,Caracui,0,618134,46.69997,28.54286
+hincesti,Călmățui,Кэлмэцуй,Călmățui,0,618155,46.78386,28.21142
+hincesti,Cărpineni,Кэрпинень,Cărpineni,0,618129,46.7647,28.34427
+hincesti,Horjești,Хоржешть,Horjești,0,618093,46.71324,28.34652
+hincesti,Cățeleni,Кэцелень,Cățeleni,0,618121,46.92223,28.18386
+hincesti,Cioara,Чоара,Cioara,0,618425,46.73495,28.22243
+hincesti,Ciuciuleni,Чучулень,Ciuciuleni,0,618416,47.02257,28.40904
+hincesti,"Cotul Morii","Котул Морий","Cotul Morii",0,617990,46.86987,28.11807
+hincesti,Sărăteni,Сэрэтень,Sărăteni,0,617456,46.8576,28.16729
+hincesti,Crasnoarmeiscoe,Красноармейское,Crasnoarmeiscoe,0,617976,46.82034,28.27458
+hincesti,Tălăiești,Тэлэешть,Tălăiești,0,617273,46.80028,28.26639
+hincesti,Dancu,Данку,Dancu,0,618400,46.75818,28.20716
+hincesti,"Drăgușenii Noi","Дрэгушений Ной","Drăgușenii Noi",0,617693,47.04579,28.42425
+hincesti,Horodca,Хородка,Horodca,0,864913,47.05916,28.45464
+hincesti,Fîrlădeni,Фырлэдень,Fîrlădeni,0,618312,46.78626,28.69033
+hincesti,"Fundul Galbenei","Фундул Галбеней","Fundul Galbenei",0,618317,46.88018,28.62757
+hincesti,Ivanovca,Ивановка,Ivanovca,0,618173,46.89449,28.18562
+hincesti,Costești,Костешть,Costești,0,618002,46.87372,28.20592
+hincesti,Frasin,Фрасин,Frasin,0,829651,46.88924,28.19429
+hincesti,Lăpușna,Лэпушна,Lăpușna,0,617922,46.88673,28.41187
+hincesti,Anini,Анинь,Anini,0,829652,46.8899,28.4643
+hincesti,Rusca,Руска,Rusca,0,829653,46.87611,28.47639
+hincesti,Leușeni,Леушень,Leușeni,0,617902,46.81169,28.19695
+hincesti,Feteasca,Фетяска,Feteasca,0,829639,46.78813,28.1898
+hincesti,Logănești,Логэнешть,Logănești,0,617891,46.90528,28.54434
+hincesti,Mereșeni,Мерешень,Mereșeni,0,617820,46.79508,28.54158
+hincesti,Sărata-Mereșeni,Сэрата-Мерешень,Sărata-Mereșeni,0,,,
+hincesti,Mingir,Минджир,Mingir,0,617803,46.66929,28.32927
+hincesti,Semionovca,Семёновка,Semionovca,0,617443,46.69834,28.30389
+hincesti,Mirești,Мирешть,Mirești,0,617801,46.969,28.25407
+hincesti,Chetroșeni,Кетрошень,Chetroșeni,0,618107,46.96253,28.27033
+hincesti,Negrea,Негря,Negrea,0,617767,46.81016,28.39402
+hincesti,Nemțeni,Немцень,Nemțeni,0,617764,46.90552,28.12193
+hincesti,Obileni,Обилень,Obileni,0,617664,46.87835,28.16305
+hincesti,Onești,Онешть,Onești,0,617646,46.86222,28.25128
+hincesti,Strîmbeni,Стрымбень,Strîmbeni,0,617299,46.86539,28.26171
+hincesti,Pașcani,Пашкань,Pașcani,0,617622,46.97729,28.36668
+hincesti,Pereni,Перень,Pereni,0,617612,47.00162,28.37511
+hincesti,Pervomaiscoe,Первомайское,Pervomaiscoe,0,617601,46.88236,28.3205
+hincesti,Pogănești,Погэнешть,Pogănești,0,617578,46.69249,28.23192
+hincesti,Marchet,Маркет,Marchet,0,829646,46.7015,28.2314
+hincesti,Sărata-Galbenă,Сэрата-Галбенэ,Sărata-Galbenă,0,617461,46.73469,28.51561
+hincesti,Brătianovca,Брэтияновка,Brătianovca,0,829649,46.73979,28.46309
+hincesti,Cărpineanca,Кэрпинянка,Cărpineanca,0,618128,46.6962,28.47098
+hincesti,Coroliovca,Королёвка,Coroliovca,0,829648,46.71086,28.47128
+hincesti,"Valea Florii","Валя Флорий","Valea Florii",0,829647,46.71351,28.43755
+hincesti,Secăreni,Секэрень,Secăreni,0,617450,47.0264,28.33235
+hincesti,Cornești,Корнешть,Cornești,0,824137,47,28.32784
+hincesti,"Secărenii Noi","Секэрений Ной","Secărenii Noi",0,,,
+hincesti,Sofia,София,Sofia,0,617379,46.84401,28.37623
+hincesti,Stolniceni,Столничень,Stolniceni,0,617308,46.96081,28.50002
+hincesti,Șipoteni,Шипотень,Șipoteni,0,617364,46.94193,28.45353
+hincesti,Voinescu,Войнеску,Voinescu,0,617581,46.64882,28.29976
+ialoveni,Ialoveni,Яловень,Ialoveni,0,618196,46.94357,28.78153
+ialoveni,Bardar,Бардар,Bardar,0,618597,46.90273,28.66982
+ialoveni,Cărbuna,Кэрбуна,Cărbuna,0,618132,46.71173,28.95396
+ialoveni,Costești,Костешть,Costești,0,618001,46.86549,28.76235
+ialoveni,Cigîrleni,Чигырлень,Cigîrleni,0,7730789,46.77153,28.78808
+ialoveni,Gangura,Гангура,Gangura,0,618305,46.73315,29.00756
+ialoveni,Alexandrovca,Александровка,Alexandrovca,0,618649,46.72587,29.0206
+ialoveni,Homuteanovca,Хомутяновка,Homuteanovca,0,618089,46.72501,29.05709
+ialoveni,Misovca,Мисовка,Misovca,0,617798,46.76573,29.00516
+ialoveni,Dănceni,Дэнчень,Dănceni,0,618401,46.96372,28.70567
+ialoveni,Hansca,Ханска,Hansca,0,618304,46.83318,28.75136
+ialoveni,Horești,Хорешть,Horești,0,618251,46.8254,28.87427
+ialoveni,Horodca,Хородка,Horodca,0,618245,47.04577,28.48958
+ialoveni,Malcoci,Малкоч,Malcoci,0,617856,47.02583,28.63151
+ialoveni,"Mileștii Mici","Милештий Мичь","Mileștii Mici",0,617851,46.90644,28.80233
+ialoveni,"Piatra Albă","Пятра Албэ","Piatra Albă",0,829658,46.93316,28.81857
+ialoveni,Molești,Молешть,Molești,0,617864,46.78756,28.7769
+ialoveni,Nimoreni,Ниморень,Nimoreni,0,617756,47.00731,28.66768
+ialoveni,Pojăreni,Пожэрень,Pojăreni,0,617557,46.88707,28.69128
+ialoveni,Puhoi,Пухой,Puhoi,0,617543,46.8233,29.03704
+ialoveni,Răzeni,Рэзень,Răzeni,0,617505,46.76884,28.89976
+ialoveni,"Mileștii Noi","Милештий Ной","Mileștii Noi",0,829640,46.74583,28.96308
+ialoveni,"Ruseștii Noi","Русештий Ной","Ruseștii Noi",0,617675,46.92755,28.65115
+ialoveni,"Ruseștii Vechi","Русештий Векь","Ruseștii Vechi",0,617323,46.91943,28.62523
+ialoveni,Sociteni,Сочитень,Sociteni,0,617380,46.94188,28.72162
+ialoveni,Suruceni,Суручень,Suruceni,0,617288,46.97911,28.66331
+ialoveni,Țipala,Ципала,Țipala,0,617194,46.83028,28.97422
+ialoveni,Bălțați,Бэлцаць,Bălțați,0,618603,46.84195,28.95321
+ialoveni,Budăi,Будэй,Budăi,0,618494,46.81272,28.97434
+ialoveni,Ulmu,Улму,Ulmu,0,617182,47.01842,28.54643
+ialoveni,Văratic,Вэратик,Văratic,0,824143,46.81059,29.06411
+ialoveni,Văsieni,Вэсиень,Văsieni,0,617141,46.96666,28.59216
+ialoveni,Zîmbreni,Зымбрень,Zîmbreni,0,617034,46.83887,28.84595
+ialoveni,Găureni,Гэурень,Găureni,0,618299,46.82968,28.84106
+leova,Leova,Леова,Leova,0,617904,46.48195,28.25298
+leova,Iargara,Яргара,Iargara,0,617081,46.4252,28.42676
+leova,Meșeni,Мешень,Meșeni,0,617799,46.41897,28.46556
+leova,Băiuș,Бэюш,Băiuș,0,618585,46.44744,28.47371
+leova,"Cociulia Nouă","Кочулия Ноуэ","Cociulia Nouă",0,864954,46.44194,28.47333
+leova,Hîrtop,Хыртоп,Hîrtop,0,,,
+leova,Beștemac,Бештемак,Beștemac,0,618570,46.52604,28.52892
+leova,Pitești,Питешть,Pitești,0,864962,46.50246,28.5452
+leova,Borogani,Борогань,Borogani,0,618532,46.37074,28.52127
+leova,Cazangic,Казанджик,Cazangic,0,618111,46.50843,28.43498
+leova,Frumușica,Фрумушика,Frumușica,0,618323,46.55614,28.42796
+leova,Seliște,Селиште,Seliște,0,617447,46.52751,28.42976
+leova,Ceadîr,Чадыр,Ceadîr,0,618451,46.67168,28.40656
+leova,Cneazevca,Князевка,Cneazevca,0,618061,46.6324,28.50363
+leova,Cîzlar,Кызлар,Cîzlar,0,618066,46.65083,28.525
+leova,Colibabovca,Колибабовка,Colibabovca,0,618048,46.65206,28.4258
+leova,Covurlui,Ковурлуй,Covurlui,0,617985,46.59056,28.40144
+leova,Cupcui,Купкуй,Cupcui,0,617946,46.51705,28.35814
+leova,Filipeni,Филипень,Filipeni,0,618335,46.44149,28.32587
+leova,"Hănășenii Noi","Хэнэшений Ной","Hănășenii Noi",0,617689,46.41829,28.25513
+leova,Nicolaevca,Николаевка,Nicolaevca,0,864953,46.39083,28.25266
+leova,Orac,Орак,Orac,0,617641,46.66691,28.46012
+leova,Romanovca,Романовка,Romanovca,0,617498,46.45942,28.35245
+leova,"Sărata Nouă","Сэрата Ноуэ","Sărata Nouă",0,617459,46.49307,28.38843
+leova,Sărata-Răzeși,Сэрата-Рэзешь,Sărata-Răzeși,0,617458,46.61553,28.26508
+leova,Sărăteni,Сэрэтень,Sărăteni,0,617457,46.60959,28.46625
+leova,Victoria,Виктория,Victoria,0,617122,46.61613,28.41484
+leova,"Sărățica Nouă","Сэрэцика Ноуэ","Sărățica Nouă",0,617723,46.57275,28.54602
+leova,"Cîmpul Drept","Кымпул Дрепт","Cîmpul Drept",0,617932,46.56543,28.51362
+leova,Sîrma,Сырма,Sîrma,0,617277,46.52668,28.24909
+leova,Tigheci,Тигеч,Tigheci,0,617243,46.3877,28.37726
+leova,Cuporani,Купорань,Cuporani,0,617945,46.37431,28.3578
+leova,Tochile-Răducani,Токиле-Рэдукань,Tochile-Răducani,0,617233,46.57698,28.2443
+leova,Tomai,Томай,Tomai,0,617229,46.57352,28.32178
+leova,"Tomaiul Nou","Томаюл Ноу","Tomaiul Nou",0,617707,46.62899,28.55255
+leova,"Sărățica Veche","Сэрэцика Веке","Sărățica Veche",0,617454,46.60237,28.53011
+leova,Vozneseni,Вознесень,Vozneseni,0,617097,46.58295,28.46864
+leova,Troian,Троян,Troian,0,618482,46.54094,28.46362
+leova,Troița,Троица,Troița,0,617706,46.56295,28.46512
+nisporeni,Nisporeni,Ниспорень,Nisporeni,0,617753,47.08025,28.17098
+nisporeni,Bălănești,Бэлэнешть,Bălănești,0,618613,47.20801,28.0643
+nisporeni,Găureni,Гэурень,Găureni,0,618298,47.19948,28.08698
+nisporeni,Bălăurești,Бэлэурешть,Bălăurești,0,618608,46.93747,28.13521
+nisporeni,Bărboieni,Бэрбоень,Bărboieni,0,618598,47.02018,28.06002
+nisporeni,Boldurești,Болдурешть,Boldurești,0,618543,47.1347,28.05406
+nisporeni,Băcșeni,Бэкшень,Băcșeni,0,618616,47.08951,28.0173
+nisporeni,Chilișoaia,Килишоая,Chilișoaia,0,829769,47.11338,28.0281
+nisporeni,Bolțun,Болцун,Bolțun,0,618533,47.02465,28.28683
+nisporeni,Brătuleni,Брэтулень,Brătuleni,0,618520,47.1245,27.96247
+nisporeni,Cîrnești,Кырнешть,Cîrnești,0,617930,47.17571,27.99724
+nisporeni,Bursuc,Бурсук,Bursuc,0,618475,47.09662,28.29867
+nisporeni,Călimănești,Кэлимэнешть,Călimănești,0,618159,46.94673,28.18905
+nisporeni,Ciorești,Чорешть,Ciorești,0,618419,47.16565,28.22094
+nisporeni,Vulcănești,Вулкэнешть,Vulcănești,0,617094,47.15399,28.1906
+nisporeni,Ciutești,Чутешть,Ciutești,0,618408,47.17743,28.12204
+nisporeni,"Valea Nîrnovei","Валя Нырновей","Valea Nîrnovei",0,,,
+nisporeni,Cristești,Кристешть,Cristești,0,617963,47.0575,28.28375
+nisporeni,Grozești,Грозешть,Grozești,0,618222,47.00033,28.07774
+nisporeni,Iurceni,Юрчень,Iurceni,0,617063,47.07954,28.25985
+nisporeni,Mîrzoaia,Мырзоая,Mîrzoaia,0,617774,47.03317,28.26531
+nisporeni,Marinici,Маринич,Marinici,0,617842,46.96883,28.16353
+nisporeni,Heleșteni,Хелештень,Heleșteni,0,618100,46.96159,28.18391
+nisporeni,Milești,Милешть,Milești,0,617804,47.22273,28.03932
+nisporeni,Seliște,Селиште,Seliște,0,617445,47.16769,28.13225
+nisporeni,Păruceni,Пэручень,Păruceni,0,617624,47.1513,28.1014
+nisporeni,Soltănești,Солтэнешть,Soltănești,0,617368,47.05787,28.11146
+nisporeni,Șișcani,Шишкань,Șișcani,0,617419,46.98231,28.20904
+nisporeni,Drojdieni,Дрождиень,Drojdieni,0,618368,46.93761,28.22399
+nisporeni,Odaia,Одая,Odaia,0,,,
+nisporeni,Valea-Trestieni,Валя-Трестиень,Valea-Trestieni,0,,,
+nisporeni,Isăicani,Исэйкань,Isăicani,0,618180,47.06646,28.02676
+nisporeni,Luminița,Луминица,Luminița,0,829768,47.08353,28.0769
+nisporeni,Odobești,Одобешть,Odobești,0,829767,47.05142,28.07062
+nisporeni,Selișteni,Селиштень,Selișteni,0,829766,47.06224,28.06866
+nisporeni,Vărzărești,Вэрзэрешть,Vărzărești,0,617145,47.10523,28.19296
+nisporeni,Șendreni,Шендрень,Șendreni,0,617431,47.12672,28.18386
+nisporeni,Vînători,Вынэторь,Vînători,0,617089,47.18483,28.10249
+nisporeni,Zberoaia,Збероая,Zberoaia,0,617048,46.96896,28.10506
+ocnita,Ocnița,Окница,Ocnița,0,617659,48.38231,27.43864
+ocnita,Otaci,Отачь,Otaci,0,618631,48.44,27.79
+ocnita,Frunză,Фрунзэ,Frunză,0,618320,48.41365,27.59243
+ocnita,Bîrlădeni,Бырлэдень,Bîrlădeni,0,618458,48.26504,27.42448
+ocnita,Paladea,Паладя,Paladea,0,617634,48.24804,27.42577
+ocnita,Rujnița,Ружница,Rujnița,0,617487,48.25661,27.43654
+ocnita,Bîrnova,Бырнова,Bîrnova,0,618457,48.42329,27.53371
+ocnita,Calarașovca,Каларашовка,Calarașovca,0,618163,48.42493,27.79298
+ocnita,Berezovca,Березовка,Berezovca,0,829571,48.38183,27.77943
+ocnita,Clocușna,Клокушна,Clocușna,0,618063,48.42817,27.34973
+ocnita,Corestăuți,Корестэуць,Corestăuți,0,618023,48.35153,27.26671
+ocnita,Stălinești,Стэлинешть,Stălinești,0,829598,48.33549,27.26539
+ocnita,Dîngeni,Дынджень,Dîngeni,0,618394,48.34717,27.48371
+ocnita,Grinăuți,Гринэуць,Grinăuți,0,829596,48.31331,27.46713
+ocnita,Gîrbova,Гырбова,Gîrbova,0,618206,48.37388,27.6198
+ocnita,Grinăuți-Moldova,Гринэуць-Молдова,Grinăuți-Moldova,0,824214,48.28034,27.45069
+ocnita,Grinăuți-Raia,Гринэуць-Рая,Grinăuți-Raia,0,618225,48.28594,27.42895
+ocnita,"Rediul Mare","Редиул Маре","Rediul Mare",0,,,
+ocnita,Hădărăuți,Хэдэрэуць,Hădărăuți,0,618095,48.37101,27.33935
+ocnita,Lencăuți,Ленкэуць,Lencăuți,0,617907,48.43309,27.65107
+ocnita,Verejeni,Вережень,Verejeni,0,617136,48.4394,27.61746
+ocnita,Lipnic,Липник,Lipnic,0,617896,48.39489,27.51443
+ocnita,Paustova,Паустова,Paustova,0,,,
+ocnita,Mereșeuca,Мерешеука,Mereșeuca,0,617819,48.43129,27.68425
+ocnita,Mihălășeni,Михэлэшень,Mihălășeni,0,617813,48.32358,27.42385
+ocnita,Grinăuți,Гринэуць,Grinăuți,0,829596,48.31331,27.46713
+ocnita,Naslavcea,Наславча,Naslavcea,0,617771,48.47118,27.58324
+ocnita,Ocnița,Окница,Ocnița,0,617659,48.38231,27.43864
+ocnita,Maiovca,Майовка,Maiovca,0,829570,48.37046,27.39383
+ocnita,Sauca,Саука,Sauca,0,617451,48.37331,27.73036
+ocnita,Unguri,Унгурь,Unguri,0,617179,48.39869,27.87025
+ocnita,Vălcineț,Вэлчинец,Vălcineț,0,617109,48.45139,27.73234
+ocnita,Codreni,Кодрень,Codreni,0,618055,48.43143,27.7177
+orhei,Orhei,Орхей,Orhei,0,617638,47.38503,28.82535
+orhei,Berezlogi,Березлоджь,Berezlogi,0,618574,47.43699,28.93388
+orhei,Hîjdieni,Хыждиень,Hîjdieni,0,618268,47.45909,28.91472
+orhei,Biești,Биешть,Biești,0,618558,47.51696,28.85717
+orhei,Cihoreni,Чихорень,Cihoreni,0,618434,47.50638,28.86172
+orhei,Slobozia-Hodorogea,Слобозия-Ходороджя,Slobozia-Hodorogea,0,618094,47.50977,28.87421
+orhei,Bolohan,Болохан,Bolohan,0,618541,47.43137,28.87483
+orhei,Brăviceni,Брэвичень,Brăviceni,0,618517,47.43247,28.65924
+orhei,Bulăiești,Булэешть,Bulăiești,0,618487,47.47693,28.97931
+orhei,Chiperceni,Киперчень,Chiperceni,0,618086,47.52197,28.83799
+orhei,Andreevca,Андреевка,Andreevca,0,831044,47.53839,28.87489
+orhei,Voroteț,Воротец,Voroteț,0,617099,47.55917,28.85468
+orhei,Ciocîlteni,Чокылтень,Ciocîlteni,0,618421,47.49432,28.60996
+orhei,"Clișova Nouă","Клишова Ноуэ","Clișova Nouă",0,,,
+orhei,Fedoreuca,Федореука,Fedoreuca,0,831254,47.48962,28.63965
+orhei,Clișova,Клишова,Clișova,0,618064,47.47243,28.57839
+orhei,Crihana,Крихана,Crihana,0,617708,47.52262,28.72016
+orhei,"Cucuruzenii de Sus","Кукурузений де Сус","Cucuruzenii de Sus",0,831221,47.54445,28.70284
+orhei,Sirota,Сирота,Sirota,0,617405,47.52778,28.77694
+orhei,Cucuruzeni,Кукурузень,Cucuruzeni,0,618050,47.48838,28.72561
+orhei,Ocnița-Răzești,Окница-Рэзешь,Ocnița-Răzești,0,,,
+orhei,Donici,Донич,Donici,0,618380,47.28634,28.66896
+orhei,Camencea,Каменча,Camencea,0,618151,47.27991,28.68746
+orhei,Pocșești,Покшешть,Pocșești,0,617572,47.24993,28.68496
+orhei,Ghetlova,Гетлова,Ghetlova,0,618283,47.37543,28.53083
+orhei,Hulboaca,Хулбоака,Hulboaca,0,618218,47.38113,28.5551
+orhei,Noroceni,Норочень,Noroceni,0,831107,47.37793,28.51705
+orhei,Isacova,Исакова,Isacova,0,618181,47.3686,28.71957
+orhei,Ivancea,Иванча,Ivancea,0,618175,47.28579,28.85698
+orhei,Brănești,Брэнешть,Brănești,0,618522,47.30526,28.92856
+orhei,Furceni,Фурчень,Furceni,0,618316,47.33693,28.9255
+orhei,"Jora de Mijloc","Жора де Мижлок","Jora de Mijloc",0,617359,47.47609,29.09404
+orhei,"Jora de Jos","Жора де Жос","Jora de Jos",0,617744,47.46641,29.10704
+orhei,"Jora de Sus","Жора де Сус","Jora de Sus",0,617127,47.48574,29.0769
+orhei,Lopatna,Лопатна,Lopatna,0,617888,47.49477,29.05158
+orhei,Mălăiești,Мэлэешть,Mălăiești,0,617861,47.46224,28.66584
+orhei,Tîrzieni,Тырзиень,Tîrzieni,0,617184,47.44349,28.62516
+orhei,Mitoc,Миток,Mitoc,0,617797,47.38703,28.78442
+orhei,Mîrzești,Мырзешть,Mîrzești,0,617775,47.49998,28.99958
+orhei,Mîrzaci,Мырзачь,Mîrzaci,0,617776,47.48992,28.99604
+orhei,Morozeni,Морозень,Morozeni,0,617788,47.37792,28.6358
+orhei,Breanova,Брянова,Breanova,0,618505,47.41641,28.6502
+orhei,Neculăieuca,Некулэеука,Neculăieuca,0,831039,47.35985,28.69271
+orhei,Pelivan,Пеливан,Pelivan,0,617883,47.4078,28.7786
+orhei,Cișmea,Чишмя,Cișmea,0,618427,47.41515,28.75365
+orhei,Peresecina,Пересечина,Peresecina,0,617609,47.25509,28.76891
+orhei,Piatra,Пятра,Piatra,0,617916,47.36315,28.89623
+orhei,Jeloboc,Желобок,Jeloboc,0,617042,47.35618,28.9116
+orhei,Podgoreni,Подгорень,Podgoreni,0,824126,47.56112,28.77868
+orhei,Pohorniceni,Похорничень,Pohorniceni,0,,,
+orhei,Pohrebeni,Похребень,Pohrebeni,0,617575,47.55629,28.90942
+orhei,Izvoare,Извоаре,Izvoare,0,,,
+orhei,Șercani,Шеркань,Șercani,0,617434,47.51294,28.93137
+orhei,Puțintei,Пуцинтей,Puțintei,0,617539,47.37411,28.58098
+orhei,Dișcova,Дишкова,Dișcova,0,618354,47.37809,28.59831
+orhei,Vîprova,Выпрова,Vîprova,0,617088,47.37902,28.57072
+orhei,Sămănanca,Сэмэнанка,Sămănanca,0,617466,47.26686,28.73149
+orhei,Seliște,Селиште,Seliște,0,617446,47.33511,28.78485
+orhei,Lucășeuca,Лукэшеука,Lucășeuca,0,617880,47.33691,28.75974
+orhei,Mana,Мана,Mana,0,831033,47.33889,28.68444
+orhei,Step-Soci,Степ-Сочь,Step-Soci,0,617313,47.45256,28.79102
+orhei,Budăi,Будэй,Budăi,0,618492,47.43215,28.82101
+orhei,Susleni,Суслень,Susleni,0,617287,47.41239,28.99034
+orhei,Teleșeu,Телешеу,Teleșeu,0,617252,47.26692,28.70274
+orhei,Trebujeni,Требужень,Trebujeni,0,617224,47.31336,28.97418
+orhei,Butuceni,Бутучень,Butuceni,0,618465,47.30161,28.96727
+orhei,Morovaia,Моровая,Morovaia,0,617789,47.29841,28.99701
+orhei,Vatici,Ватич,Vatici,0,617138,47.33966,28.62379
+orhei,Curchi,Курки,Curchi,0,831032,47.33664,28.65709
+orhei,Tabăra,Табэра,Tabăra,0,829793,47.33141,28.56458
+orhei,Vîșcăuți,Вышкэуць,Vîșcăuți,0,617087,47.43129,29.07554
+orhei,Zahoreni,Захорень,Zahoreni,0,617057,47.57673,28.72775
+orhei,Zorile,Зориле,Zorile,0,617037,47.4592,28.74046
+orhei,Inculeț,Инкулец,Inculeț,0,617169,47.44939,28.72203
+orhei,Ocnița-Țărani,Окница-Цэрань,Ocnița-Țărani,0,617657,47.45838,28.72471
+rezina,Rezina,Резина,Rezina,0,617502,47.74857,28.96769
+rezina,Boșernița,Бошерница,Boșernița,0,830848,47.78648,28.98131
+rezina,Ciorna,Чорна,Ciorna,0,,,
+rezina,Stohnaia,Стохная,Stohnaia,0,,,
+rezina,Bușăuca,Бушэука,Bușăuca,0,618471,47.59245,28.79058
+rezina,Cinișeuți,Чинишеуць,Cinișeuți,0,618429,47.69735,28.85747
+rezina,Cogîlniceni,Когылничень,Cogîlniceni,0,618051,47.63518,28.82083
+rezina,Cuizăuca,Куйзэука,Cuizăuca,0,617937,47.61346,28.81645
+rezina,Echimăuți,Екимэуць,Echimăuți,0,617072,47.69381,28.90138
+rezina,Ghiduleni,Гидулень,Ghiduleni,0,618277,47.61074,28.74328
+rezina,"Roșcanii de Jos","Рошканий де Жос","Roșcanii de Jos",0,864923,47.64667,28.7375
+rezina,"Roșcanii de Sus","Рошканий де Сус","Roșcanii de Sus",0,824217,47.63001,28.76835
+rezina,Gordinești,Гординешть,Gordinești,0,618254,47.69426,28.80333
+rezina,Horodiște,Хородиште,Horodiște,0,618248,47.61394,28.94498
+rezina,Slobozia-Horodiște,Слобозия-Хородиште,Slobozia-Horodiște,0,617392,47.59808,28.93777
+rezina,Ignăței,Игнэцей,Ignăței,0,618195,47.68156,28.66167
+rezina,Lalova,Лалова,Lalova,0,617923,47.56525,29.01918
+rezina,Nistreni,Нистрень,Nistreni,0,830818,47.54014,29.00866
+rezina,Țîpova,Ципова,Țîpova,0,617201,47.6032,28.98026
+rezina,Lipceni,Липчень,Lipceni,0,617898,47.80852,28.871
+rezina,Mateuți,Матеуць,Mateuți,0,617832,47.80951,28.92783
+rezina,Meșeni,Мешень,Meșeni,0,617818,47.66336,28.63755
+rezina,"Mincenii de Jos","Минчений де Жос","Mincenii de Jos",0,617747,47.63549,28.87435
+rezina,"Mincenii de Sus","Минчений де Сус","Mincenii de Sus",0,617131,47.6495,28.89176
+rezina,Otac,Отак,Otac,0,617637,47.58857,28.82864
+rezina,Păpăuți,Пэпэуць,Păpăuți,0,617568,47.79589,28.9238
+rezina,Peciște,Печиште,Peciște,0,617617,47.71526,28.70727
+rezina,Pereni,Перень,Pereni,0,617611,47.65581,28.77977
+rezina,Roșcani,Рошкань,Roșcani,0,831209,47.64712,28.7398
+rezina,Pripiceni-Răzeși,Припичень-Рэзешь,Pripiceni-Răzeși,0,617552,47.6872,28.76136
+rezina,Pripiceni-Curchi,Припичень-Курки,Pripiceni-Curchi,0,831049,47.68519,28.77986
+rezina,"Saharna Nouă","Сахарна Ноуэ","Saharna Nouă",0,617725,47.67677,28.95578
+rezina,Buciușca,Бучушка,Buciușca,0,,,
+rezina,Saharna,Сахарна,Saharna,0,617471,47.69107,28.97458
+rezina,Sîrcova,Сыркова,Sîrcova,0,617278,47.74215,28.7876
+rezina,Piscărești,Пискэрешть,Piscărești,0,617589,47.76007,28.81168
+rezina,Solonceni,Солончень,Solonceni,0,617371,47.82845,29.00458
+rezina,Tarasova,Тарасова,Tarasova,0,617263,47.8777,28.96007
+rezina,Trifești,Трифешть,Trifești,0,617216,47.67503,28.80484
+rezina,Țareuca,Цареука,Țareuca,0,617207,47.75001,28.8823
+rezina,Țahnăuți,Цахнэуць,Țahnăuți,0,617205,47.74245,28.85959
+riscani,Rîșcani,Рышкань,Rîșcani,0,617482,47.94829,27.56669
+riscani,"Balanul Nou","Баланул Ноу","Balanul Nou",0,,,
+riscani,Rămăzan,Рэмэзан,Rămăzan,0,617527,47.98613,27.61571
+riscani,Costești,Костешть,Costești,0,618000,47.85791,27.25947
+riscani,Dămășcani,Дэмэшкань,Dămășcani,0,829846,47.86769,27.305
+riscani,Duruitoarea,Дуруитоаря,Duruitoarea,0,618355,47.87719,27.26069
+riscani,Păscăuți,Пэскэуць,Păscăuți,0,617620,47.83496,27.27869
+riscani,Proscureni,Проскурень,Proscureni,0,617548,47.86241,27.25848
+riscani,Alexăndrești,Алексэндрешть,Alexăndrești,0,824102,47.89398,27.43201
+riscani,"Cucuieții Noi","Кукуеций Ной","Cucuieții Noi",0,617681,47.89296,27.41923
+riscani,"Cucuieții Vechi","Кукуеций Векь","Cucuieții Vechi",0,617331,47.90782,27.43264
+riscani,Ivănești,Ивэнешть,Ivănești,0,863759,47.88778,27.41722
+riscani,Aluniș,Алуниш,Aluniș,0,618640,47.84704,27.65408
+riscani,"Borosenii Noi","Боросений Ной","Borosenii Noi",0,617697,47.98863,27.47267
+riscani,Braniște,Браниште,Braniște,0,618521,47.79827,27.25296
+riscani,Avrămeni,Аврэмень,Avrămeni,0,618628,47.7851,27.26585
+riscani,Reteni,Ретень,Reteni,0,829849,47.81138,27.25458
+riscani,Reteni-Vasileuți,Ретень-Василеуць,Reteni-Vasileuți,0,829850,47.80756,27.26045
+riscani,Corlăteni,Корлэтень,Corlăteni,0,617873,47.82862,27.8447
+riscani,"Duruitoarea Nouă","Дуруитоаря Ноуэ","Duruitoarea Nouă",0,617692,47.89614,27.24561
+riscani,Dumeni,Думень,Dumeni,0,618357,47.91113,27.20271
+riscani,Gălășeni,Гэлэшень,Gălășeni,0,618311,47.87098,27.34053
+riscani,Mălăiești,Мэлэешть,Mălăiești,0,617860,47.88468,27.34719
+riscani,Grinăuți,Гринэуць,Grinăuți,0,618227,47.88177,27.78177
+riscani,Ciobanovca,Чобановка,Ciobanovca,0,829855,47.8909,27.75782
+riscani,Hiliuți,Хилиуць,Hiliuți,0,618098,47.93007,27.38926
+riscani,Horodiște,Хородиште,Horodiște,0,618247,47.95369,27.26303
+riscani,Malinovscoe,Малиновское,Malinovscoe,0,617858,47.88445,27.50647
+riscani,Lupăria,Лупэрия,Lupăria,0,617874,47.87793,27.55428
+riscani,Mihăileni,Михэйлень,Mihăileni,0,617807,48.04017,27.61681
+riscani,Nihoreni,Нихорень,Nihoreni,0,863763,47.93556,27.56194
+riscani,Petrușeni,Петрушень,Petrușeni,0,617592,47.84828,27.31216
+riscani,Pîrjota,Пыржота,Pîrjota,0,617532,47.95668,27.43104
+riscani,Pociumbăuți,Почумбэуць,Pociumbăuți,0,617580,47.99723,27.32185
+riscani,Pociumbeni,Почумбень,Pociumbeni,0,618367,47.97799,27.30432
+riscani,Druța,Друца,Druța,0,829530,47.96542,27.29705
+riscani,Răcăria,Рэкэрия,Răcăria,0,617530,47.9105,27.61335
+riscani,Ușurei,Ушурей,Ușurei,0,617172,47.8919,27.59438
+riscani,Recea,Реча,Recea,0,617520,47.89429,27.67117
+riscani,Slobozia-Recea,Слобозия-Реча,Slobozia-Recea,0,829854,47.85379,27.69933
+riscani,Sverdiac,Свердиак,Sverdiac,0,617282,47.89575,27.72842
+riscani,Singureni,Сингурень,Singureni,0,617280,47.82417,27.85444
+riscani,Sturzeni,Стурзень,Sturzeni,0,617298,47.9171,27.46133
+riscani,Șaptebani,Шаптебань,Șaptebani,0,617430,47.89939,27.3472
+riscani,Șumna,Шумна,Șumna,0,617411,47.92131,27.70595
+riscani,Bulhac,Булхак,Bulhac,0,618483,47.92281,27.67453
+riscani,Cepăria,Чепэрия,Cepăria,0,618442,47.93236,27.71511
+riscani,Vasileuți,Василеуць,Vasileuți,0,617144,48.00748,27.51175
+riscani,Armanca,Арманка,Armanca,0,863762,47.98602,27.52514
+riscani,Ciubara,Чубара,Ciubara,0,829547,48.07637,27.53921
+riscani,"Mihăilenii Noi","Михэйлений Ной","Mihăilenii Noi",0,829546,48.03341,27.53413
+riscani,Moșeni,Мошень,Moșeni,0,617786,48.02861,27.45501
+riscani,Știubeieni,Штюбеень,Știubeieni,0,617412,48.03095,27.51452
+riscani,Văratic,Вэратик,Văratic,0,617150,47.9172,27.26067
+riscani,Zăicani,Зэикань,Zăicani,0,617049,47.97604,27.36898
+singerei,Sîngerei,Сынджерей,Sîngerei,0,617914,47.63694,28.1407
+singerei,Vrănești,Врэнешть,Vrănești,0,831264,47.62413,28.0988
+singerei,Biruința,Бируинца,Biruința,0,830975,47.81353,28.07004
+singerei,Alexăndreni,Алексэндрень,Alexăndreni,0,618655,47.80719,28.07781
+singerei,Grigorești,Григорешть,Grigorești,0,618230,47.7993,28.05909
+singerei,"Heciul Vechi","Хечул Векь","Heciul Vechi",0,617339,47.79744,28.10011
+singerei,Țiplești,Циплешть,Țiplești,0,831055,47.82485,28.14625
+singerei,Țipletești,Циплетешть,Țipletești,0,617193,47.81704,28.12303
+singerei,Bălășești,Бэлэшешть,Bălășești,0,618610,47.66052,28.35182
+singerei,Sloveanca,Словянка,Sloveanca,0,617393,47.65854,28.38342
+singerei,"Bilicenii Noi","Биличений Ной","Bilicenii Noi",0,617699,47.69498,28.03478
+singerei,Lipovanca,Липованка,Lipovanca,0,617895,47.67746,27.9868
+singerei,"Mîndreștii Noi","Мындрештий Ной","Mîndreștii Noi",0,617828,47.71899,28.02712
+singerei,"Bilicenii Vechi","Биличений Векь","Bilicenii Vechi",0,617345,47.6558,28.04734
+singerei,"Coada Iazului","Коада Язулуй","Coada Iazului",0,829870,47.65355,27.99337
+singerei,Bursuceni,Бурсучень,Bursuceni,0,831226,47.48824,28.0164
+singerei,Slobozia-Măgura,Слобозия-Мэгура,Slobozia-Măgura,0,617390,47.48613,27.96459
+singerei,Chișcăreni,Кишкэрень,Chișcăreni,0,617915,47.56116,28.01615
+singerei,Nicolaevca,Николаевка,Nicolaevca,0,617761,47.61181,28.02048
+singerei,Slobozia-Chișcăreni,Слобозия-Кишкэрень,Slobozia-Chișcăreni,0,617391,47.57402,28.0107
+singerei,Ciuciuieni,Чучуень,Ciuciuieni,0,618414,47.55779,28.12807
+singerei,Brejeni,Брежень,Brejeni,0,618514,47.57993,28.1415
+singerei,Copăceni,Копэчень,Copăceni,0,618030,47.61577,28.23422
+singerei,Antonovca,Антоновка,Antonovca,0,618636,47.67445,28.23691
+singerei,Evghenievca,Евгеньевка,Evghenievca,0,831174,47.67015,28.22103
+singerei,Gavrilovca,Гавриловка,Gavrilovca,0,618295,47.64294,28.25604
+singerei,Petrovca,Петровка,Petrovca,0,617596,47.66359,28.22041
+singerei,Vladimireuca,Владимиреука,Vladimireuca,0,617113,47.65906,28.2329
+singerei,Coșcodeni,Кошкодень,Coșcodeni,0,618007,47.48943,28.05777
+singerei,Bobletici,Боблетичь,Bobletici,0,618553,47.46662,28.0547
+singerei,Flămînzeni,Флэмынзень,Flămînzeni,0,618334,47.49889,28.09
+singerei,"Cotiujenii Mici","Котюжений Мичь","Cotiujenii Mici",0,617852,47.70295,28.30539
+singerei,Alexeuca,Алексеука,Alexeuca,0,618645,47.6891,28.28779
+singerei,Gura-Oituz,"Гура Ойтуз",Gura-Oituz,0,618212,47.70324,28.34676
+singerei,Cubolta,Куболта,Cubolta,0,617958,47.87263,28.03211
+singerei,Mărășești,Мэрэшешть,Mărășești,0,831054,47.86319,28.06917
+singerei,"Dobrogea Veche","Доброджя Веке","Dobrogea Veche",0,617355,47.84029,27.93285
+singerei,Cotovca,Котовка,Cotovca,0,618024,47.85294,27.97431
+singerei,"Dobrogea Nouă","Доброджя Ноуэ","Dobrogea Nouă",0,617738,47.82943,27.94409
+singerei,Drăgănești,Дрэгэнешть,Drăgănești,0,618375,47.71895,28.25219
+singerei,Chirileni,Кирилень,Chirileni,0,618083,47.69114,28.19608
+singerei,Sacarovca,Сакаровка,Sacarovca,0,617449,47.70633,28.21054
+singerei,Dumbrăvița,Думбрэвица,Dumbrăvița,0,618358,47.47963,28.10759
+singerei,Bocancea-Schit,Боканчя-Скит,Bocancea-Schit,0,618621,47.51185,28.13537
+singerei,"Valea lui Vlad","Валя луй Влад","Valea lui Vlad",0,617158,47.48197,28.12826
+singerei,Grigorăuca,Григорэука,Grigorăuca,0,618232,47.62038,28.19824
+singerei,Cozești,Козешть,Cozești,0,617983,47.56875,28.18244
+singerei,Petropavlovca,Петропавловка,Petropavlovca,0,617296,47.59686,28.2047
+singerei,"Heciul Nou","Хечул Ноу","Heciul Nou",0,617688,47.7752,28.05936
+singerei,Trifănești,Трифэнешть,Trifănești,0,617220,47.74294,28.09713
+singerei,"Iezărenii Vechi","Езэрений Векь","Iezărenii Vechi",0,617320,47.56559,28.08777
+singerei,"Iezărenii Noi","Езэрений Ной","Iezărenii Noi",0,617668,47.60136,28.09794
+singerei,Izvoare,Извоаре,Izvoare,0,824109,47.71701,28.19615
+singerei,"Valea Norocului","Валя Норокулуй","Valea Norocului",0,831058,47.76521,28.20239
+singerei,Pepeni,Пепень,Pepeni,0,617613,47.63688,28.34141
+singerei,"Pepenii Noi","Пепений Ной","Pepenii Noi",0,831200,47.65281,28.338
+singerei,Răzălăi,Рэзэлэй,Răzălăi,0,617522,47.64164,28.35762
+singerei,Romanovca,Романовка,Romanovca,0,831188,47.65753,28.29542
+singerei,Prepelița,Препелица,Prepelița,0,617555,47.58822,28.34053
+singerei,Clișcăuți,Клишкэуць,Clișcăuți,0,831190,47.60885,28.29169
+singerei,Mihailovca,Михайловка,Mihailovca,0,617810,47.59016,28.26242
+singerei,Șestaci,Шестачь,Șestaci,0,831191,47.62248,28.28981
+singerei,Rădoaia,Рэдоая,Rădoaia,0,617531,47.72435,28.16179
+singerei,"Tăura Veche","Тэура Веке","Tăura Veche",0,617348,47.53889,27.951
+singerei,"Tăura Nouă","Тэура Ноуэ","Tăura Nouă",0,617719,47.54875,27.90402
+singerei,"Sîngereii Noi","Сынджереий Ной","Sîngereii Noi",0,617721,47.72296,28.08596
+singerei,Mărinești,Мэринешть,Mărinești,0,831061,47.72547,28.06064
+singerei,Țambula,Цамбула,Țambula,0,617210,47.69689,27.92447
+singerei,Octeabriscoe,Октябрьское,Octeabriscoe,0,,,
+singerei,Pălăria,Пэлэрия,Pălăria,0,617630,47.68579,27.93854
+soroca,Soroca,Сорока,Soroca,0,617367,48.15659,28.28489
+soroca,Bădiceni,Бэдичень,Bădiceni,0,618626,48.20337,28.05257
+soroca,Grigorăuca,Григорэука,Grigorăuca,0,829705,48.20897,28.09648
+soroca,Băxani,Бэксань,Băxani,0,618617,48.12605,28.09244
+soroca,Bulboci,Булбочь,Bulboci,0,618545,48.04166,28.08247
+soroca,"Bulbocii Noi","Булбочий Ной","Bulbocii Noi",0,829699,48.05933,28.11636
+soroca,"Căinarii Vechi","Кэинарий Векь","Căinarii Vechi",0,618116,48.00569,28.12103
+soroca,Floriceni,Флоричень,Floriceni,0,829698,48.02075,28.01503
+soroca,Cosăuți,Косэуць,Cosăuți,0,618003,48.2266,28.28037
+soroca,Iorjnița,Йоржница,Iorjnița,0,829709,48.19281,28.21387
+soroca,Cremenciug,Кременчуг,Cremenciug,0,617968,48.27567,28.08459
+soroca,Livezi,Ливезь,Livezi,0,617892,48.23552,28.04897
+soroca,Sobari,Собарь,Sobari,0,829706,48.23297,28.0642
+soroca,Valea,Валя,Valea,0,829707,48.24408,28.06163
+soroca,Dărcăuți,Дэркэуць,Dărcăuți,0,618392,48.22626,27.98341
+soroca,"Dărcăuții Noi","Дэркэуций Ной","Dărcăuții Noi",0,829704,48.21018,27.99863
+soroca,Mălcăuți,Мэлкэуць,Mălcăuți,0,617857,48.21472,27.94341
+soroca,Dubna,Дубна,Dubna,0,618364,48.01398,28.31275
+soroca,Egoreni,Егорень,Egoreni,0,617075,48.20162,28.35953
+soroca,Holoșnița,Холошница,Holoșnița,0,618257,48.24767,28.17638
+soroca,Cureșnița,Курешница,Cureșnița,0,617942,48.2285,28.17503
+soroca,Hristici,Христич,Hristici,0,618092,48.11859,28.1781
+soroca,Iarova,Ярова,Iarova,0,617079,48.31731,28.04502
+soroca,Balinți,Балинць,Balinți,0,829708,48.32292,28.0215
+soroca,"Balinții Noi","Балинций Ной","Balinții Noi",0,,,
+soroca,Nimereuca,Нимереука,Nimereuca,0,617765,48.11296,28.53361
+soroca,Cerlina,Черлина,Cerlina,0,618439,48.08149,28.6079
+soroca,Oclanda,Окланда,Oclanda,0,617661,48.28925,28.05826
+soroca,Ocolina,Околина,Ocolina,0,617655,48.1216,28.25721
+soroca,Țepilova,Цепилова,Țepilova,0,617204,48.12363,28.22795
+soroca,Parcani,Паркань,Parcani,0,617627,48.0617,28.28659
+soroca,Voloave,Волоаве,Voloave,0,617105,48.09331,28.28726
+soroca,Pîrlița,Пырлица,Pîrlița,0,617535,48.07524,28.20928
+soroca,Vanțina,Ванцина,Vanțina,0,829712,48.09787,28.18906
+soroca,"Vanțina Mică","Ванцина Микэ","Vanțina Mică",0,,,
+soroca,Racovăț,Раковэц,Racovăț,0,617529,48.07892,28.40257
+soroca,Redi-Cereșnovăț,Редь-Черешновэц,Redi-Cereșnovăț,0,617517,48.06339,28.31266
+soroca,"Regina Maria","Реджина Мария","Regina Maria",0,617992,48.05666,28.14176
+soroca,Lugovoe,Луговое,Lugovoe,0,829713,48.06942,28.1806
+soroca,Rublenița,Рубленица,Rublenița,0,617491,48.16959,28.21129
+soroca,"Rublenița Nouă","Рубленица Ноуэ","Rublenița Nouă",0,829703,48.15277,28.13617
+soroca,Rudi,Рудь,Rudi,0,617490,48.33076,27.89906
+soroca,Schineni,Скинень,Schineni,0,617400,48.09338,28.09504
+soroca,"Schinenii Noi","Скинений Ной","Schinenii Noi",0,829700,48.07173,28.10275
+soroca,Stoicani,Стойкань,Stoicani,0,617303,48.02644,28.36167
+soroca,Soloneț,Солонец,Soloneț,0,617370,47.99888,28.40455
+soroca,Șeptelici,Шептелич,Șeptelici,0,617429,48.20039,28.15557
+soroca,Șolcani,Шолкань,Șolcani,0,617415,48.17221,28.11025
+soroca,"Cureșnița Nouă","Курешница Ноуэ","Cureșnița Nouă",0,829702,48.18031,28.12141
+soroca,"Tătărăuca Veche","Тэтэрэука Веке","Tătărăuca Veche",0,617349,48.29843,27.98229
+soroca,Decebal,Дечебал,Decebal,0,,,
+soroca,Niorcani,Нёркань,Niorcani,0,,,
+soroca,"Slobozia Nouă","Слобозия Ноуэ","Slobozia Nouă",0,829564,48.2602,27.98438
+soroca,"Tătărăuca Nouă","Тэтэрэука Ноуэ","Tătărăuca Nouă",0,617256,48.31681,27.97303
+soroca,Tolocănești,Толокэнешть,Tolocănești,0,829568,48.30665,27.91056
+soroca,Trifăuți,Трифэуць,Trifăuți,0,617218,48.16129,28.37909
+soroca,Vasilcău,Василкэу,Vasilcău,0,617143,48.13916,28.42214
+soroca,Inundeni,Инундень,Inundeni,0,829710,48.12839,28.35493
+soroca,Ruslanovca,Руслановка,Ruslanovca,0,829711,48.1187,28.37176
+soroca,Vărăncău,Вэрэнкэу,Vărăncău,0,617102,48.06723,28.5126
+soroca,Slobozia-Cremene,Слобозия-Кремене,Slobozia-Cremene,0,617385,48.03656,28.42059
+soroca,Slobozia-Vărăncău,Слобозия-Вэрэнкэу,Slobozia-Vărăncău,0,,,
+soroca,Vădeni,Вэдень,Vădeni,0,617111,48.0118,28.22477
+soroca,Dumbrăveni,Думбрэвень,Dumbrăveni,0,618359,48.05209,28.2252
+soroca,Visoca,Висока,Visoca,0,617117,48.24549,27.9225
+soroca,Volovița,Воловица,Volovița,0,617106,48.10306,28.32052
+soroca,"Alexandru cel Bun","Александру чел Бун","Alexandru cel Bun",0,829715,48.09667,28.34013
+soroca,Zastînca,Застынка,Zastînca,0,824096,48.13119,28.29348
+straseni,Strășeni,Стрэшень,Strășeni,0,617302,47.14216,28.60774
+straseni,Făgureni,Фэгурень,Făgureni,0,617940,47.1466,28.56321
+straseni,Bucovăț,Буковэц,Bucovăț,0,618459,47.19064,28.45802
+straseni,Rassvet,Рассвет,Rassvet,0,829813,47.20565,28.4277
+straseni,Căpriana,Кэприяна,Căpriana,0,618138,47.11778,28.50249
+straseni,Chirianca,Кириянка,Chirianca,0,618080,47.2567,28.53019
+straseni,Codreanca,Кодрянка,Codreanca,0,618053,47.28662,28.59203
+straseni,Lupa-Recea,Лупа-Реча,Lupa-Recea,0,617875,47.31436,28.59233
+straseni,Cojușna,Кожушна,Cojușna,0,617982,47.09459,28.66188
+straseni,Dolna,Долна,Dolna,0,617541,47.12189,28.27033
+straseni,Gălești,Гэлешть,Gălești,0,618309,47.22704,28.49136
+straseni,"Găleștii Noi","Гэлештий Ной","Găleștii Noi",0,829812,47.20985,28.49621
+straseni,Ghelăuza,Гелэуза,Ghelăuza,0,618293,47.19264,28.59607
+straseni,Saca,Сака,Saca,0,829798,47.19425,28.61142
+straseni,Greblești,Греблешть,Greblești,0,618239,47.23962,28.61011
+straseni,Mărtinești,Мэртинешть,Mărtinești,0,617835,47.23528,28.60694
+straseni,Lozova,Лозова,Lozova,0,617884,47.13569,28.38369
+straseni,Stejăreni,Стежэрень,Stejăreni,0,617311,47.10825,28.417
+straseni,Micăuți,Микэуць,Micăuți,0,617815,47.17058,28.74798
+straseni,Gornoe,Горное,Gornoe,0,,,
+straseni,Micleușeni,Миклеушень,Micleușeni,0,617805,47.12795,28.30872
+straseni,Huzun,Хузун,Huzun,0,618210,47.12176,28.32321
+straseni,Negrești,Негрешть,Negrești,0,617768,47.17971,28.62365
+straseni,Onești,Онешть,Onești,0,617645,47.28101,28.54729
+straseni,Pănășești,Пэнэшешть,Pănășești,0,617629,47.15556,28.52021
+straseni,Ciobanca,Чобанка,Ciobanca,0,,,
+straseni,Rădeni,Рэдень,Rădeni,0,617516,47.20677,28.69864
+straseni,Drăgușeni,Дрэгушень,Drăgușeni,0,618583,47.21464,28.66607
+straseni,Zamciogi,Замчоджь,Zamciogi,0,617051,47.20502,28.72216
+straseni,Romănești,Ромэнешть,Romănești,0,829811,47.22554,28.71143
+straseni,Recea,Реча,Recea,0,617521,47.22443,28.57792
+straseni,Roșcani,Рошкань,Roșcani,0,617494,47.14809,28.67769
+straseni,Scoreni,Скорень,Scoreni,0,617399,47.06824,28.60794
+straseni,Sireți,Сирець,Sireți,0,617406,47.13407,28.71369
+straseni,Tătărești,Тэтэрешть,Tătărești,0,617257,47.20472,28.53758
+straseni,Țigănești,Цигэнешть,Țigănești,0,617199,47.30093,28.55057
+straseni,Voinova,Войнова,Voinova,0,617098,47.27131,28.48755
+straseni,Vorniceni,Ворничень,Vorniceni,0,617104,47.1527,28.43077
+straseni,Zubrești,Зубрешть,Zubrești,0,617035,47.2417,28.5241
+soldanesti,Șoldănești,Шолдэнешть,Șoldănești,0,617372,47.81618,28.79841
+soldanesti,Alcedar,Алчедар,Alcedar,0,618656,47.86828,28.87503
+soldanesti,Curătura,Курэтура,Curătura,0,617944,47.87614,28.91177
+soldanesti,Odaia,Одая,Odaia,0,831045,47.8563,28.84709
+soldanesti,Chipeșca,Кипешка,Chipeșca,0,618085,47.76223,28.60792
+soldanesti,"Climăuții de Jos","Климэуций де Жос","Climăuții de Jos",0,617749,47.94804,28.79658
+soldanesti,Cot,Кот,Cot,0,617997,47.98005,28.7784
+soldanesti,Cobîlea,Кобыля,Cobîlea,0,,,
+soldanesti,"Cotiujenii Mari","Котюжений Марь","Cotiujenii Mari",0,617988,47.84503,28.55514
+soldanesti,Cobîlea,Кобыля,Cobîlea,1,,,
+soldanesti,Cușelăuca,Кушелэука,Cușelăuca,0,618012,47.8787,28.55636
+soldanesti,Cușmirca,Кушмирка,Cușmirca,0,617938,47.90535,28.70545
+soldanesti,Dobrușa,Добруша,Dobrușa,0,618386,47.78655,28.59342
+soldanesti,Recești,Речешть,Recești,0,617519,47.78808,28.56314
+soldanesti,Zahorna,Захорна,Zahorna,0,617056,47.7956,28.5543
+soldanesti,Fuzăuca,Фузэука,Fuzăuca,0,618315,47.74237,28.74698
+soldanesti,Găuzeni,Гэузень,Găuzeni,0,618297,47.75539,28.56462
+soldanesti,Glinjeni,Глинжень,Glinjeni,0,,,
+soldanesti,Mihuleni,Михулень,Mihuleni,0,617816,47.8306,28.83727
+soldanesti,Olișcani,Олишкань,Olișcani,0,617647,47.80004,28.70943
+soldanesti,Parcani,Паркань,Parcani,0,824100,47.81796,28.83693
+soldanesti,Pohoarna,Похоарна,Pohoarna,0,617576,47.8312,28.49837
+soldanesti,Poiana,Пояна,Poiana,0,617559,47.88679,28.85641
+soldanesti,Răspopeni,Рэспопень,Răspopeni,0,617524,47.7429,28.62025
+soldanesti,Rogojeni,Рогожень,Rogojeni,0,824101,47.82579,28.40739
+soldanesti,Rogojeni,Рогожень,Rogojeni,1,824101,47.82579,28.40739
+soldanesti,Salcia,Салчия,Salcia,0,617470,47.9486,28.734
+soldanesti,Lelina,Лелина,Lelina,0,831048,47.925,28.74722
+soldanesti,Sămășcani,Сэмэшкань,Sămășcani,0,617465,47.75476,28.69259
+soldanesti,Șestaci,Шестачь,Șestaci,0,617425,47.86013,28.75453
+soldanesti,Șipca,Шипка,Șipca,0,617422,47.8484,28.80834
+soldanesti,Vadul-Rașcov,Вадул-Рашков,Vadul-Rașcov,0,617163,47.92948,28.82333
+soldanesti,Socola,Сокола,Socola,0,617375,47.90698,28.81557
+stefan-voda,"Ștefan Vodă","Штефан Водэ","Ștefan Vodă",0,617284,46.51294,29.66223
+stefan-voda,Alava,Алава,Alava,0,618658,46.50929,29.56825
+stefan-voda,Lazo,Лазо,Lazo,0,617917,46.4872,29.57567
+stefan-voda,Antonești,Антонешть,Antonești,0,618637,46.49387,29.84724
+stefan-voda,Brezoaia,Брезоая,Brezoaia,0,618513,46.52225,29.45658
+stefan-voda,Carahasani,Карахасань,Carahasani,0,618136,46.46633,29.81175
+stefan-voda,Căplani,Кэплань,Căplani,0,618140,46.38521,29.87242
+stefan-voda,Cioburciu,Чобурчиу,Cioburciu,0,618424,46.60133,29.70678
+stefan-voda,Copceac,Копчак,Copceac,0,618027,46.45087,29.5228
+stefan-voda,Crocmaz,Крокмаз,Crocmaz,0,618022,46.45135,29.98525
+stefan-voda,Ermoclia,Ермоклия,Ermoclia,0,617065,46.58045,29.51203
+stefan-voda,Feștelița,Фештелица,Feștelița,0,618338,46.54333,29.56658
+stefan-voda,"Marianca de Jos","Марианка де Жос","Marianca de Jos",0,617745,46.52075,29.60439
+stefan-voda,Olănești,Олэнешть,Olănești,0,617648,46.49659,29.92115
+stefan-voda,Palanca,Паланка,Palanca,0,617633,46.40861,30.09611
+stefan-voda,Popeasca,Попяска,Popeasca,0,617566,46.59995,29.5343
+stefan-voda,Purcari,Пуркарь,Purcari,0,617542,46.53814,29.86192
+stefan-voda,Viișoara,Виишоара,Viișoara,0,831482,46.54637,29.82538
+stefan-voda,Răscăieți,Рэскэець,Răscăieți,0,617525,46.57346,29.78265
+stefan-voda,"Răscăieții Noi","Рэскэеций Ной","Răscăieții Noi",0,,,
+stefan-voda,Semionovca,Семёновка,Semionovca,0,617444,46.51678,29.5136
+stefan-voda,Slobozia,Слобозия,Slobozia,0,617387,46.5082,29.73871
+stefan-voda,Ștefănești,Штефэнешть,Ștefănești,0,617316,46.44563,29.68944
+stefan-voda,Talmaza,Талмаза,Talmaza,0,617272,46.63679,29.66651
+stefan-voda,Tudora,Тудора,Tudora,0,617190,46.43661,30.04492
+stefan-voda,Volintiri,Волинтирь,Volintiri,0,617107,46.42733,29.60632
+taraclia,Taraclia,Тараклия,Taraclia,0,617270,45.90321,28.66628
+taraclia,"Albota de Jos","Албота де Жос","Albota de Jos",0,617746,45.94228,28.48573
+taraclia,Hagichioi,Хаджикёй,Hagichioi,0,618105,45.92402,28.46332
+taraclia,Hîrtop,Хыртоп,Hîrtop,0,618285,45.91866,28.49216
+taraclia,"Albota de Sus","Албота де Сус","Albota de Sus",0,617130,45.96996,28.47545
+taraclia,Roșița,Рошица,Roșița,0,617496,46.0319,28.47549
+taraclia,Sofievca,Софиевка,Sofievca,0,617376,46.00923,28.47079
+taraclia,Aluatu,Алуату,Aluatu,0,618641,45.86557,28.58304
+taraclia,Balabanu,Балабану,Balabanu,0,618614,45.93387,28.57603
+taraclia,Budăi,Будэй,Budăi,0,618495,45.84727,28.46403
+taraclia,Dermengi,Дерменджи,Dermengi,0,,,
+taraclia,Cairaclia,Кайраклия,Cairaclia,0,618115,45.77805,28.62344
+taraclia,Cealîc,Чалык,Cealîc,0,617418,45.99565,28.55279
+taraclia,Samurza,Самурза,Samurza,0,617463,45.97603,28.56103
+taraclia,"Cortenul Nou","Кортенул Ноу","Cortenul Nou",0,,,
+taraclia,Corten,Кортен,Corten,0,618071,46.01504,28.73567
+taraclia,Musaitu,Мусаиту,Musaitu,0,617781,45.82047,28.502
+taraclia,Novosiolovca,Новосёловка,Novosiolovca,0,824164,45.9003,28.59856
+taraclia,Tvardița,Твардица,Tvardița,0,617187,46.14826,28.96491
+taraclia,"Valea Perjei","Валя Пержей","Valea Perjei",0,617156,46.02895,28.92769
+taraclia,Vinogradovca,Виноградовка,Vinogradovca,0,617119,45.80263,28.5327
+taraclia,Chirilovca,Кириловка,Chirilovca,0,618082,45.81556,28.57338
+taraclia,Ciumai,Чумай,Ciumai,0,618409,45.78117,28.56727
+taraclia,Mirnoe,Мирное,Mirnoe,0,864988,45.73541,28.57811
+taraclia,Salcia,Салчия,Salcia,0,824165,45.87376,28.51319
+taraclia,Orehovca,Ореховка,Orehovca,0,618560,45.9075,28.52836
+taraclia,Borceag,Борчаг,Borceag,0,,,
+telenesti,Telenești,Теленешть,Telenești,0,617254,47.50179,28.36478
+telenesti,Mihălașa,Михэлаша,Mihălașa,0,617814,47.49551,28.34111
+telenesti,"Mihălașa Nouă","Михэлаша Ноуэ","Mihălașa Nouă",0,831244,47.5033,28.2982
+telenesti,Bănești,Бэнешть,Bănești,0,618601,47.57026,28.38368
+telenesti,"Băneștii Noi","Бэнештий Ной","Băneștii Noi",0,617700,47.58244,28.40018
+telenesti,Bogzești,Богзешть,Bogzești,0,618548,47.42176,28.42713
+telenesti,"Brînzenii Noi","Брынзений Ной","Brînzenii Noi",0,617696,47.65834,28.48577
+telenesti,"Brînzenii Vechi","Брынзений Векь","Brînzenii Vechi",0,617343,47.65768,28.47298
+telenesti,Budăi,Будэй,Budăi,0,618493,47.45728,28.34828
+telenesti,Căzănești,Кэзэнешть,Căzănești,0,618112,47.61354,28.47415
+telenesti,Vadul-Leca,Вадул-Лека,Vadul-Leca,0,617166,47.62498,28.46358
+telenesti,"Vadul-Leca Nou","Вадул-Лека Ноу","Vadul-Leca Nou",0,831199,47.61611,28.43492
+telenesti,Chiștelnița,Киштелница,Chiștelnița,0,618068,47.5688,28.66106
+telenesti,"Chițcanii Vechi","Кицканий Векь","Chițcanii Vechi",0,617335,47.59182,28.50075
+telenesti,"Chițcanii Noi","Кицканий Ной","Chițcanii Noi",0,831196,47.56474,28.48533
+telenesti,Ciulucani,Чулукань,Ciulucani,0,618410,47.50528,28.34306
+telenesti,Cîșla,Кышла,Cîșla,0,617927,47.49345,28.22609
+telenesti,"Codrul Nou","Кодрул Ноу","Codrul Nou",0,831256,47.54669,28.57567
+telenesti,Coropceni,Коропчень,Coropceni,0,618017,47.47496,28.52209
+telenesti,Crăsnășeni,Крэснэшень,Crăsnășeni,0,617980,47.433,28.39828
+telenesti,Ghiliceni,Гиличень,Ghiliceni,0,618276,47.48136,28.2022
+telenesti,Cucioaia,Кучоая,Cucioaia,0,617956,47.46022,28.18563
+telenesti,"Cucioaia Nouă","Кучоая Ноуэ","Cucioaia Nouă",0,831113,47.48463,28.16608
+telenesti,Hirișeni,Хиришень,Hirișeni,0,618271,47.4357,28.28283
+telenesti,Inești,Инешть,Inești,0,618185,47.50458,28.39703
+telenesti,Leușeni,Леушень,Leușeni,0,617901,47.48283,28.43561
+telenesti,Mîndrești,Мындрешть,Mîndrești,0,617778,47.50525,28.27687
+telenesti,Codru,Кодру,Codru,0,831243,47.46459,28.2682
+telenesti,Negureni,Негурень,Negureni,0,617766,47.60149,28.5086
+telenesti,Chersac,Керсак,Chersac,0,831050,47.63703,28.58272
+telenesti,Dobrușa,Добруша,Dobrușa,0,831051,47.614,28.55649
+telenesti,Nucăreni,Нукэрень,Nucăreni,0,618186,47.59757,28.58379
+telenesti,Ordășei,Ордэшей,Ordășei,0,617640,47.68507,28.49824
+telenesti,Pistruieni,Пиструень,Pistruieni,0,617588,47.69232,28.48974
+telenesti,Hîrtop,Хыртоп,Hîrtop,0,831070,47.70612,28.48418
+telenesti,"Pistruienii Noi","Пиструений Ной","Pistruienii Noi",0,831069,47.69858,28.41761
+telenesti,Ratuș,Ратуш,Ratuș,0,824115,47.53923,28.50408
+telenesti,Mîndra,Мындра,Mîndra,0,831224,47.5362,28.52533
+telenesti,"Sărătenii Noi","Сэрэтений Ной","Sărătenii Noi",0,831225,47.50851,28.49967
+telenesti,Zăicani,Зэикань,Zăicani,0,617059,47.52222,28.50273
+telenesti,"Zăicanii Noi","Зэиканий Ной","Zăicanii Noi",0,,,
+telenesti,"Sărătenii Vechi","Сэрэтений Векь","Sărătenii Vechi",0,617322,47.52652,28.55447
+telenesti,Zahareuca,Захареука,Zahareuca,0,831255,47.53137,28.59979
+telenesti,Scorțeni,Скорцень,Scorțeni,0,617398,47.64151,28.64563
+telenesti,Suhuluceni,Сухулучень,Suhuluceni,0,617292,47.46555,28.51973
+telenesti,Ghermănești,Гермэнешть,Ghermănești,0,618288,47.44011,28.51692
+telenesti,Tîrșiței,Тыршицей,Tîrșiței,0,617321,47.69076,28.57721
+telenesti,Flutura,Флутура,Flutura,0,831261,47.68833,28.5475
+telenesti,Țînțăreni,Цынцэрень,Țînțăreni,0,617195,47.57195,28.56297
+telenesti,Văsieni,Вэсиень,Văsieni,0,617140,47.46002,28.44351
+telenesti,Verejeni,Вережень,Verejeni,0,617137,47.53343,28.46988
+telenesti,Zgărdești,Згэрдешть,Zgărdești,0,617046,47.53058,28.1905
+telenesti,Bondareuca,Бондареука,Bondareuca,0,,,
+telenesti,Ciofu,Чофу,Ciofu,0,831026,47.56283,28.21909
+ungheni,Ungheni,Унгень,Ungheni,0,617180,47.21023,27.80013
+ungheni,Cornești,Корнешть,Cornești,0,618020,47.37009,27.99784
+ungheni,Romanovca,Романовка,Romanovca,0,617497,47.37468,27.97082
+ungheni,Agronomovca,Агрономовка,Agronomovca,0,618661,47.34875,27.89244
+ungheni,"Negurenii Noi","Негурений Ной","Negurenii Noi",0,863769,47.39682,27.8899
+ungheni,"Zăzulenii Noi","Зэзулений Ной","Zăzulenii Noi",0,617667,47.38906,27.87416
+ungheni,Alexeevca,Алексеевка,Alexeevca,0,618646,47.26899,27.93695
+ungheni,Lidovca,Лидовка,Lidovca,0,617900,47.27736,27.89859
+ungheni,Săghieni,Сэгиень,Săghieni,0,829837,47.24654,27.97469
+ungheni,"Boghenii Noi","Богений Ной","Boghenii Noi",0,617698,47.42777,28.00796
+ungheni,"Boghenii Vechi","Богений Векь","Boghenii Vechi",0,617344,47.39679,28.02783
+ungheni,Izvoreni,Изворень,Izvoreni,0,829889,47.43076,27.97632
+ungheni,Mircești,Мирчешть,Mircești,0,617802,47.40362,27.99903
+ungheni,Poiana,Пояна,Poiana,0,831034,47.3904,28.00165
+ungheni,Buciumeni,Бучумень,Buciumeni,0,618500,47.3709,27.71315
+ungheni,Buciumeni,Бучумень,Buciumeni,1,618500,47.3709,27.71315
+ungheni,Florești,Флорешть,Florești,0,829890,47.38525,27.71635
+ungheni,Bumbăta,Бумбэта,Bumbăta,0,618481,47.34125,27.97414
+ungheni,Bușila,Бушила,Bușila,0,618472,47.38926,27.80995
+ungheni,Cetireni,Четирень,Cetireni,0,618435,47.21999,27.91548
+ungheni,Chirileni,Кирилень,Chirileni,0,618084,47.38005,27.77645
+ungheni,Cioropcani,Чоропкань,Cioropcani,0,863770,47.39622,27.69421
+ungheni,Bulhac,Булхак,Bulhac,0,618484,47.4284,27.74332
+ungheni,Stolniceni,Столничень,Stolniceni,0,617307,47.41111,27.71389
+ungheni,Condrătești,Кондрэтешть,Condrătești,0,618040,47.41384,28.10499
+ungheni,Curtoaia,Куртоая,Curtoaia,0,617939,47.39268,28.1019
+ungheni,Cornești,Корнешть,Cornești,0,618020,47.37009,27.99784
+ungheni,Cornova,Корнова,Cornova,0,618018,47.39467,28.17313
+ungheni,Costuleni,Костулень,Costuleni,0,617999,47.08083,27.91156
+ungheni,"Florițoaia Veche","Флорицоая Веке","Florițoaia Veche",0,617354,47.20146,27.90447
+ungheni,"Florițoaia Nouă","Флорицоая Ноуэ","Florițoaia Nouă",0,617737,47.16557,27.93126
+ungheni,Grozasca,Грозаска,Grozasca,0,618223,47.17793,27.89796
+ungheni,Hîrcești,Хырчешть,Hîrcești,0,618272,47.39417,28.08658
+ungheni,Drujba,Дружба,Drujba,0,831237,47.43237,28.07336
+ungheni,Leordoaia,Леордоая,Leordoaia,0,831234,47.33772,28.13766
+ungheni,Mînzătești,Мынзэтешть,Mînzătești,0,617777,47.3969,28.06697
+ungheni,Veverița,Веверица,Veverița,0,831036,47.34528,28.10304
+ungheni,Măcărești,Мэкэрешть,Măcărești,0,617870,47.05266,27.97251
+ungheni,Frăsinești,Фрэсинешть,Frăsinești,0,618326,47.03611,28.00294
+ungheni,Măgurele,Мэгуреле,Măgurele,0,617871,47.46034,27.97055
+ungheni,Mănoilești,Мэноилешть,Mănoilești,0,617847,47.23729,27.87919
+ungheni,"Novaia Nicolaevca","Новая Николаевка","Novaia Nicolaevca",0,829836,47.26956,27.84437
+ungheni,Rezina,Резина,Rezina,0,617503,47.21578,27.87646
+ungheni,Vulpești,Вулпешть,Vulpești,0,617092,47.23583,27.90806
+ungheni,"Morenii Noi","Морений Ной","Morenii Noi",0,617678,47.11756,27.912
+ungheni,Șicovăț,Шиковэц,Șicovăț,0,617424,47.10783,27.90595
+ungheni,Năpădeni,Нэпэдень,Năpădeni,0,617773,47.40145,28.14729
+ungheni,"Negurenii Vechi","Негурений Векь","Negurenii Vechi",0,617328,47.41261,27.88049
+ungheni,Coșeni,Кошень,Coșeni,0,618011,47.44188,27.92538
+ungheni,Țîghira,Цыгира,Țîghira,0,617197,47.44642,27.89993
+ungheni,"Zăzulenii Vechi","Зэзулений Векь","Zăzulenii Vechi",0,617319,47.40869,27.85843
+ungheni,Petrești,Петрешть,Petrești,0,617597,47.30636,27.74644
+ungheni,Petrești,Петрешть,Petrești,1,617597,47.30636,27.74644
+ungheni,Medeleni,Меделень,Medeleni,0,617829,47.29566,27.69182
+ungheni,Pîrlița,Пырлица,Pîrlița,0,617537,47.31778,27.87192
+ungheni,Hristoforovca,Христофоровка,Hristoforovca,0,618091,47.35731,27.91859
+ungheni,"Rădenii Vechi","Рэдений Векь","Rădenii Vechi",0,617325,47.30066,28.00052
+ungheni,Sculeni,Скулень,Sculeni,0,617396,47.33013,27.62511
+ungheni,Blindești,Блиндешть,Blindești,0,829835,47.31338,27.68
+ungheni,Floreni,Флорень,Floreni,0,829882,47.34678,27.66458
+ungheni,Gherman,Герман,Gherman,0,618289,47.36261,27.60542
+ungheni,Sinești,Синешть,Sinești,0,617409,47.39647,28.04809
+ungheni,Pojarna,Пожарна,Pojarna,0,831035,47.3324,28.09111
+ungheni,Teșcureni,Тешкурень,Teșcureni,0,617246,47.41125,27.95138
+ungheni,Todirești,Тодирешть,Todirești,0,617235,47.31695,27.82245
+ungheni,Grăseni,Грэсень,Grăseni,0,829891,47.35663,27.83779
+ungheni,Unțești,Унцешть,Unțești,0,617176,47.23,27.91
+ungheni,"Valea Mare","Валя Маре","Valea Mare",0,617157,47.14177,27.83162
+ungheni,"Buzduganii de Jos","Буздуганий де Жос","Buzduganii de Jos",0,617751,47.14487,27.822
+ungheni,"Buzduganii de Sus","Буздуганий де Сус","Buzduganii de Sus",0,617134,47.15829,27.86379
+ungheni,"Morenii Vechi","Морений Векь","Morenii Vechi",0,617329,47.1325,27.86974
+ungheni,Zagarancea,Загаранча,Zagarancea,0,617058,47.24504,27.766
+ungheni,Elizavetovca,Елизаветовка,Elizavetovca,0,829838,47.2425,27.76111
+ungheni,Semeni,Семень,Semeni,0,617442,47.26861,27.75194
+gagauzia,Comrat,Комрат,Comrat,0,618405,46.29488,28.65713
+gagauzia,Ceadîr-Lunga,Чадыр-Лунга,Ceadîr-Lunga,0,618450,46.06169,28.83078
+gagauzia,Vulcănești,Вулкэнешть,Vulcănești,0,617096,45.68492,28.40613
+gagauzia,Vulcănești,Вулкэнешть,Vulcănești,1,617096,45.68492,28.40613
+gagauzia,Avdarma,Авдарма,Avdarma,0,618629,46.25158,28.83814
+gagauzia,Baurci,Баурчи,Baurci,0,618589,46.09623,28.67635
+gagauzia,Beșalma,Бешалма,Beșalma,0,618572,46.16913,28.64695
+gagauzia,Beșghioz,Бешгёз,Beșghioz,0,618571,46.11916,28.87439
+gagauzia,Bugeac,Буджяк,Bugeac,0,618491,46.36554,28.6625
+gagauzia,Carbalia,Карбалия,Carbalia,0,618133,45.87235,28.44935
+gagauzia,Cazaclia,Казаклия,Cazaclia,0,618114,46.00729,28.66272
+gagauzia,Chiriet-Lunga,Кириет-Лунга,Chiriet-Lunga,0,618079,46.20924,28.94521
+gagauzia,Chirsova,Кирсова,Chirsova,0,618072,46.23062,28.64755
+gagauzia,Cioc-Maidan,Чок-Майдан,Cioc-Maidan,0,,,
+gagauzia,Cișmichioi,Чишмикёй,Cișmichioi,0,618428,45.54694,28.38115
+gagauzia,"Chioselia Rusă","Кёселия Русэ","Chioselia Rusă",0,617489,46.08494,28.51184
+gagauzia,Congaz,Конгаз,Congaz,0,618404,46.10744,28.59303
+gagauzia,"Congazcicul de Sus","Конгазчикул де Сус","Congazcicul de Sus",0,618037,46.33158,28.56418
+gagauzia,"Congazcicul de Jos","Конгазчикул де Жос","Congazcicul de Jos",0,618038,46.31229,28.57169
+gagauzia,Dudulești,Дудулешть,Dudulești,0,618360,46.32724,28.51537
+gagauzia,Copceac,Копчак,Copceac,0,618028,45.84916,28.69201
+gagauzia,Cotovscoe,Котовское,Cotovscoe,0,618144,46.16203,28.51417
+gagauzia,Dezghingea,Дезгинджя,Dezghingea,0,618390,46.42207,28.61791
+gagauzia,Etulia,Етулия,Etulia,0,618348,45.53874,28.44169
+gagauzia,"Etulia Nouă","Етулия Ноуэ","Etulia Nouă",0,864976,45.5162,28.43801
+gagauzia,Etulia,Етулия,Etulia,1,618348,45.53874,28.44169
+gagauzia,Ferapontievca,Ферапонтьевка,Ferapontievca,0,618339,46.23235,28.77441
+gagauzia,Gaidar,Гайдар,Gaidar,0,618294,46.10836,28.76617
+gagauzia,Joltai,Жолтай,Joltai,0,618350,46.17905,28.87277
+gagauzia,Svetlîi,Светлый,Svetlîi,0,617281,46.01743,28.56822
+gagauzia,Alexeevca,Алексеевка,Alexeevca,0,618647,46.02539,28.56835
+gagauzia,Tomai,Томай,Tomai,0,617230,46.18546,28.76634
+stanga-nistrului,Tiraspol,Тирасполь,Tiraspol,0,617239,46.84275,29.6284
+stanga-nistrului,Camenca,Каменка,Camenca,0,618453,48.03233,28.69899
+stanga-nistrului,Solnecinoe,Солнечное,Solnecinoe,0,,,
+stanga-nistrului,Crasnoe,Красное,Crasnoe,0,617973,46.643,29.823
+stanga-nistrului,Dnestrovsc,Днестровск,Dnestrovsc,0,618387,46.624,29.906
+stanga-nistrului,Dubăsari,Дубэсарь,Dubăsari,0,618365,47.26562,29.16667
+stanga-nistrului,Grigoriopol,Григориополь,Grigoriopol,0,,,
+stanga-nistrului,Crasnoe,Красное,Crasnoe,0,617973,46.643,29.823
+stanga-nistrului,Maiac,Маяк,Maiac,0,617830,47.23727,29.38498
+stanga-nistrului,Rîbnița,Рыбница,Rîbnița,0,617486,47.76817,29.01
+stanga-nistrului,Slobozia,Слобозия,Slobozia,0,617381,46.72927,29.70446
+stanga-nistrului,"Tiraspolul Nou","Тирасполул Ноу","Tiraspolul Nou",0,617053,46.83,29.564
+stanga-nistrului,Andreevca,Андреевка,Andreevca,0,618639,47.76417,29.16912
+stanga-nistrului,Pîcalova,Пыкалова,Pîcalova,0,617591,47.76249,29.10902
+stanga-nistrului,Șmalena,Шмалена,Șmalena,0,617417,47.75808,29.07468
+stanga-nistrului,Beloci,Белочь,Beloci,0,618581,47.88696,28.9782
+stanga-nistrului,Bîcioc,Бычок,Bîcioc,0,618462,46.92482,29.48148
+stanga-nistrului,Novovladimirovca,Нововладимировка,Novovladimirovca,0,617704,46.93987,29.52017
+stanga-nistrului,"Blijnii Hutor","Ближний Хутор","Blijnii Hutor",0,618556,46.88754,29.64651
+stanga-nistrului,Broșteni,Броштень,Broșteni,0,618508,47.88132,29.26781
+stanga-nistrului,Butor,Бутор,Butor,0,618469,47.04225,29.40528
+stanga-nistrului,India,Индия,India,0,829969,47.04618,29.3869
+stanga-nistrului,Butuceni,Бутучень,Butuceni,0,618467,47.52915,29.02907
+stanga-nistrului,Caragaș,Карагаш,Caragaș,0,618135,46.78095,29.68298
+stanga-nistrului,Caterinovca,Катериновка,Caterinovca,0,618123,47.93408,28.86799
+stanga-nistrului,Sadchi,Садки,Sadchi,0,831047,47.89931,28.86066
+stanga-nistrului,Carmanova,Карманова,Carmanova,0,618130,47.26023,29.50241
+stanga-nistrului,Cotovca,Котовка,Cotovca,0,617995,47.28432,29.47846
+stanga-nistrului,Fedoseevca,Федосеевка,Fedoseevca,0,618341,47.2333,29.53729
+stanga-nistrului,Mocearovca,Мочаровка,Mocearovca,0,617794,47.23949,29.5505
+stanga-nistrului,Cioburciu,Чобурчиу,Cioburciu,0,618423,46.68521,29.7538
+stanga-nistrului,Cobasna,Кобасна,Cobasna,0,,,
+stanga-nistrului,"Suhaia Rîbnița","Сухая Рыбница","Suhaia Rîbnița",0,830830,47.80079,29.18141
+stanga-nistrului,Cobasna,Кобасна,Cobasna,1,,,
+stanga-nistrului,Colosova,Колосова,Colosova,0,618043,47.33667,29.56222
+stanga-nistrului,"Crasnaia Besarabia","Красная Бессарабия","Crasnaia Besarabia",0,617979,47.28442,29.58763
+stanga-nistrului,Pobeda,Победа,Pobeda,0,703078,47.35151,29.4976
+stanga-nistrului,"Comisarovca Nouă","Комисаровка Ноуэ","Comisarovca Nouă",0,617714,47.33056,29.34722
+stanga-nistrului,Bosca,Боска,Bosca,0,618531,47.30559,29.36715
+stanga-nistrului,"Coșnița Nouă","Кошница Ноуэ","Coșnița Nouă",0,617731,47.31351,29.33126
+stanga-nistrului,"Pohrebea Nouă","Похребя Ноуэ","Pohrebea Nouă",0,617726,47.30987,29.37919
+stanga-nistrului,Corotna,Коротна,Corotna,0,618016,46.63326,29.85633
+stanga-nistrului,Crasnencoe,Красненькое,Crasnencoe,0,617977,47.84813,29.14029
+stanga-nistrului,Dimitrova,Димитрова,Dimitrova,0,830824,47.87773,29.14351
+stanga-nistrului,Ivanovca,Ивановка,Ivanovca,0,618172,47.87784,29.17411
+stanga-nistrului,"Crasnîi Octeabri","Красный Октябрь","Crasnîi Octeabri",0,,,
+stanga-nistrului,Alexandrovca,Александровка,Alexandrovca,0,618648,48.03039,28.55387
+stanga-nistrului,"Crasnîi Vinogradari","Красный Виноградарь","Crasnîi Vinogradari",0,617969,47.29848,29.27926
+stanga-nistrului,Afanasievca,Афанасьевка,Afanasievca,0,829937,47.32272,29.25345
+stanga-nistrului,"Alexandrovca Nouă","Александровка Ноуэ","Alexandrovca Nouă",0,617742,47.29956,29.3031
+stanga-nistrului,Calinovca,Калиновка,Calinovca,0,829938,47.31186,29.25025
+stanga-nistrului,"Lunga Nouă","Лунга Ноуэ","Lunga Nouă",0,617729,47.2856,29.27442
+stanga-nistrului,Crasnogorca,Красногорка,Crasnogorca,0,617975,46.96396,29.4603
+stanga-nistrului,Cuzmin,Кузмин,Cuzmin,0,617934,48.09577,28.63047
+stanga-nistrului,Voitovca,Войтовка,Voitovca,0,829717,48.10571,28.60489
+stanga-nistrului,Delacău,Делакэу,Delacău,0,618396,47.12854,29.29906
+stanga-nistrului,"Crasnaia Gorca","Красная Горка","Crasnaia Gorca",0,617978,47.13187,29.31861
+stanga-nistrului,"Doibani I","Дойбань I","Doibani I",0,,,
+stanga-nistrului,"Doibani II","Дойбань II","Doibani II",0,,,
+stanga-nistrului,Coicova,Койкова,Coicova,0,617984,47.40908,29.24394
+stanga-nistrului,Dubău,Дубэу,Dubău,0,618361,47.4302,29.28036
+stanga-nistrului,"Goianul Nou","Гоянул Ноу","Goianul Nou",0,617666,47.3861,29.31948
+stanga-nistrului,Dzerjinscoe,Дзержинское,Dzerjinscoe,0,618353,47.22443,29.183
+stanga-nistrului,Frunză,Фрунзэ,Frunză,0,618321,46.82889,29.88629
+stanga-nistrului,"Andriașevca Nouă","Андрияшевка Ноуэ","Andriașevca Nouă",0,617741,46.83555,29.95429
+stanga-nistrului,"Andriașevca Veche","Андрияшевка Веке","Andriașevca Veche",0,617358,46.82078,29.97098
+stanga-nistrului,Novocotovsc,Новокотовск,Novocotovsc,0,617712,46.76726,29.95757
+stanga-nistrului,Prioziornoe,Приозёрное,Prioziornoe,0,617146,46.79536,29.93161
+stanga-nistrului,Uiutnoe,Уютное,Uiutnoe,0,617167,46.84174,29.8673
+stanga-nistrului,Novosavițcaia,Новосавицкая,Novosavițcaia,1,617710,46.80349,29.8678
+stanga-nistrului,Ghidirim,Гидирим,Ghidirim,0,618278,47.71425,28.97919
+stanga-nistrului,Goian,Гоян,Goian,0,618243,47.37799,29.16228
+stanga-nistrului,Iagorlîc,Ягорлык,Iagorlîc,0,617085,47.39038,29.16064
+stanga-nistrului,Haraba,Хараба,Haraba,0,618303,47.89461,29.08737
+stanga-nistrului,Harmațca,Хармацка,Harmațca,0,618301,47.42261,29.08812
+stanga-nistrului,Hîrjău,Хыржэу,Hîrjău,0,617064,47.80476,29.00771
+stanga-nistrului,"Mihailovca Nouă","Михайловка Ноуэ","Mihailovca Nouă",0,617808,47.79493,29.1227
+stanga-nistrului,Sărăței,Сэрэцей,Sărăței,0,617455,47.82766,29.02161
+stanga-nistrului,Hîrtop,Хыртоп,Hîrtop,0,618202,47.25364,29.36615
+stanga-nistrului,Bruslachi,Бруслаки,Bruslachi,0,618506,47.27995,29.37963
+stanga-nistrului,Marian,Мариан,Marian,0,829967,47.23478,29.332
+stanga-nistrului,Mocreachi,Мокряки,Mocreachi,0,617792,47.27366,29.38121
+stanga-nistrului,"Hlinaia (Grigoriopol)","Хлиная (Григориополь)","Hlinaia (Grigoriopol)",0,,,
+stanga-nistrului,Hlinaia,Хлиная,Hlinaia,0,618197,46.63735,29.81526
+stanga-nistrului,"Hlinaia (Slobozia)","Хлиная (Слобозия)","Hlinaia (Slobozia)",0,,,
+stanga-nistrului,Hlinaia,Хлиная,Hlinaia,0,618197,46.63735,29.81526
+stanga-nistrului,Hristoforovca,Христофоровка,Hristoforovca,0,,,
+stanga-nistrului,Hrușca,Хрушка,Hrușca,0,618220,48.11176,28.57095
+stanga-nistrului,Frunzăuca,Фрунзэука,Frunzăuca,0,829718,48.15635,28.58691
+stanga-nistrului,Jura,Жура,Jura,0,617040,47.51768,29.04272
+stanga-nistrului,Lenin,Ленин,Lenin,0,617910,47.66906,29.19017
+stanga-nistrului,Pervomaisc,Первомайск,Pervomaisc,0,617602,46.73253,29.9617
+stanga-nistrului,Pobeda,Победа,Pobeda,0,703078,47.35151,29.4976
+stanga-nistrului,Stanislavca,Станиславка,Stanislavca,0,830831,47.69407,29.20547
+stanga-nistrului,Lunga,Лунга,Lunga,0,617879,47.24302,29.18722
+stanga-nistrului,Mălăiești,Мэлэешть,Mălăiești,0,617863,46.98367,29.5548
+stanga-nistrului,Cernița,Черница,Cernița,0,618437,47.03015,29.51932
+stanga-nistrului,Mihailovca,Михайловка,Mihailovca,0,617811,47.48465,29.11837
+stanga-nistrului,Mocra,Мокра,Mocra,0,617793,47.62829,29.15214
+stanga-nistrului,Basarabca,Басарабка,Basarabca,0,618568,47.57677,29.16063
+stanga-nistrului,Șevcenco,Шевченко,Șevcenco,0,694174,47.58786,29.18359
+stanga-nistrului,Zaporojeț,Запорожец,Zaporojeț,0,617050,47.58893,29.13789
+stanga-nistrului,"Molochișul Mare","Молокишул Маре","Molochișul Mare",0,618534,47.85739,29.04697
+stanga-nistrului,Nezavertailovca,Незавертайловка,Nezavertailovca,0,617763,46.59694,29.93763
+stanga-nistrului,Ocnița,Окница,Ocnița,0,617660,48.13278,28.63558
+stanga-nistrului,Ofatinți,Офатинць,Ofatinți,0,617091,47.66593,28.99829
+stanga-nistrului,"Novaia Jizni","Новая Жизнь","Novaia Jizni",0,830817,47.65558,29.07818
+stanga-nistrului,Parcani,Паркань,Parcani,0,617628,46.8509,29.51513
+stanga-nistrului,Pervomaisc,Первомайск,Pervomaisc,0,617602,46.73253,29.9617
+stanga-nistrului,Plopi,Плопь,Plopi,0,617582,47.95977,29.16068
+stanga-nistrului,Podoima,Подойма,Podoima,0,,,
+stanga-nistrului,Podoimița,Подоймица,Podoimița,0,617579,48.00472,28.75611
+stanga-nistrului,Popencu,Попенку,Popencu,0,617570,47.59988,29.0064
+stanga-nistrului,Chirov,Киров,Chirov,0,618074,47.65053,29.09722
+stanga-nistrului,Vladimirovca,Владимировка,Vladimirovca,0,617114,46.84498,29.82898
+stanga-nistrului,Zăzuleni,Зэзулень,Zăzuleni,0,617036,47.61371,28.99116
+stanga-nistrului,Rașcov,Рашков,Rașcov,0,617526,47.95668,28.8239
+stanga-nistrului,Iantarnoe,Янтарное,Iantarnoe,0,831046,47.9026,28.84023
+stanga-nistrului,Rotari,Ротарь,Rotari,0,824097,48.10427,28.81269
+stanga-nistrului,Bodeni,Бодень,Bodeni,0,829722,48.08121,28.78114
+stanga-nistrului,Socolovca,Соколовка,Socolovca,0,829720,48.06167,28.83659
+stanga-nistrului,Severinovca,Севериновка,Severinovca,0,617438,48.06398,28.72466
+stanga-nistrului,Slobozia-Rașcov,Слобозия-Рашков,Slobozia-Rașcov,0,617389,47.95086,28.94837
+stanga-nistrului,Sovietscoe,Советское,Sovietscoe,0,830827,47.95425,29.14467
+stanga-nistrului,Vasilievca,Васильевка,Vasilievca,0,617142,47.93963,29.11102
+stanga-nistrului,Speia,Спея,Speia,0,617363,46.98283,29.32558
+stanga-nistrului,Stroiești,Строешть,Stroiești,0,617300,47.88944,28.93327
+stanga-nistrului,Sucleia,Суклея,Sucleia,0,617291,46.82379,29.66468
+stanga-nistrului,Șipca,Шипка,Șipca,0,617423,47.16683,29.50936
+stanga-nistrului,Vesioloe,Весёлое,Vesioloe,0,617125,47.20243,29.55423
+stanga-nistrului,Tașlîc,Ташлык,Tașlîc,0,617260,47.0743,29.39424
+stanga-nistrului,Teiu,Тею,Teiu,0,,,
+stanga-nistrului,Tocmagiu,Токмаджиу,Tocmagiu,0,617232,46.94462,29.37822
+stanga-nistrului,Tîrnauca,Тырнаука,Tîrnauca,0,617247,46.81242,29.5545
+stanga-nistrului,Țîbuleuca,Цыбулеука,Țîbuleuca,0,617200,47.40472,29.10606
+stanga-nistrului,Ulmu,Улму,Ulmu,0,824118,47.74717,29.10569
+stanga-nistrului,"Ulmul Mic","Улмул Мик","Ulmul Mic",0,830825,47.75333,29.12162
+stanga-nistrului,"Lîsaia Gora","Лысая Гора","Lîsaia Gora",0,830826,47.74251,29.0763
+stanga-nistrului,"Vadul Turcului","Вадул Туркулуй","Vadul Turcului",0,617162,47.93057,28.98683
+stanga-nistrului,"Molochișul Mic","Молокишул Мик","Molochișul Mic",0,617850,47.93365,29.03365
+stanga-nistrului,"Valea Adîncă","Валя Адынкэ","Valea Adîncă",0,617160,48.00456,28.83826
+stanga-nistrului,Constantinovca,Константиновка,Constantinovca,0,618032,47.98784,28.8586
+stanga-nistrului,Vărăncău,Вэрэнкэу,Vărăncău,0,617103,47.70498,29.11779
+stanga-nistrului,Buschi,Буски,Buschi,0,830828,47.71577,29.07297
+stanga-nistrului,Gherșunovca,Гершуновка,Gherșunovca,0,618287,47.71898,29.16468
+stanga-nistrului,Vinogradnoe,Виноградное,Vinogradnoe,0,617120,47.08322,29.49096
+stanga-nistrului,Vladimirovca,Владимировка,Vladimirovca,0,617114,46.84498,29.82898
+stanga-nistrului,Constantinovca,Константиновка,Constantinovca,0,618032,47.98784,28.8586
+stanga-nistrului,Nicolscoe,Никольское,Nicolscoe,0,617758,46.87881,29.86117
