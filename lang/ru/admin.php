@@ -14,6 +14,8 @@ return [
         'work' => 'Проекты и задачи',
         'crm' => 'CRM',
         'social' => 'Соцсеть',
+        'events' => 'Мероприятия',
+        'notifications' => 'Уведомления',
     ],
     'modules' => [
         'audit' => 'Журнал событий',

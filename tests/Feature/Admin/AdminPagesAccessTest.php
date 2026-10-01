@@ -69,6 +69,12 @@ dataset('admin pages', [
     'groups' => ['/admin/groups', 'groups.read'],
     'moderation queue' => ['/admin/moderation', 'moderation.queue.read'],
     'moderation actions' => ['/admin/moderation-actions', 'moderation.queue.read'],
+    'events' => ['/admin/events', 'events.read'],
+    'calendar' => ['/admin/calendar', 'events.read'],
+    'notification center' => ['/admin/notification-center', 'notifications.read'],
+    'notification settings' => ['/admin/notification-settings', 'notifications.preferences'],
+    'notification defaults' => ['/admin/notification-defaults', 'notifications.defaults.manage'],
+    'announcements' => ['/admin/announcements', 'notifications.broadcast'],
 ]);
 
 it('opens every admin page for the super admin', function (string $url) {

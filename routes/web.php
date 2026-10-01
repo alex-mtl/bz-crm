@@ -1,10 +1,12 @@
 <?php
 
+use App\Http\Controllers\AnnouncementController;
 use App\Http\Controllers\Auth\AccountStatusController;
 use App\Http\Controllers\Auth\DemoSignInController;
 use App\Http\Controllers\Auth\EmailVerificationController;
 use App\Http\Controllers\Auth\InvitationController;
 use App\Http\Controllers\Auth\OAuthController;
+use App\Http\Controllers\EventCalendarController;
 use App\Http\Controllers\ExportController;
 use App\Http\Controllers\HealthController;
 use App\Http\Controllers\ImpersonationController;
@@ -36,9 +38,18 @@ Route::middleware('auth')->group(function (): void {
     Route::get('/imports/template', [ExportController::class, 'importTemplate'])->name('imports.template');
     // Files of posts (ТЗ §68): only for those who see the post.
     Route::get('/social/attachments/{attachment}', SocialAttachmentController::class)->name('social.attachment');
+    // Events (ФО §6.7): the .ics file of an event and the files attached to it — for those who see the event.
+    Route::get('/events/{event}/ics', [EventCalendarController::class, 'ics'])->name('events.ics');
+    Route::get('/events/attachments/{attachment}', [EventCalendarController::class, 'attachment'])->name('events.attachment');
+    // Confirmation of reading a critical notice (ФО §6.13).
+    Route::post('/announcements/{announcement}/acknowledge', [AnnouncementController::class, 'acknowledge'])->name('announcements.acknowledge');
     // Return from an impersonation (Д-19).
     Route::post('/impersonation/leave', [ImpersonationController::class, 'leave'])->name('impersonation.leave');
 });
+
+// iCal feed for external calendars (ФО §6.7): no session, the secret token in the address is the key.
+Route::get('/calendar/feed/{token}.ics', [EventCalendarController::class, 'feed'])
+    ->where('token', '[A-Za-z0-9]{48}')->middleware('throttle:60,1')->name('calendar.feed');
 
 // Quick sign-in as a demo persona (Д-5). Never registered in production; the action checks again.
 if (! app()->isProduction()) {

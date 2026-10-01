@@ -58,6 +58,7 @@ class AdminPanelProvider extends PanelProvider
                 AccountWidget::class,
             ])
             ->renderHook(PanelsRenderHook::BODY_START, fn (): View => view('filament.impersonation-banner'))
+            ->renderHook(PanelsRenderHook::BODY_START, fn (): View => view('filament.critical-banner'))
             ->renderHook(PanelsRenderHook::AUTH_LOGIN_FORM_AFTER, fn (): View => view('auth.login-extras'))
             ->renderHook(PanelsRenderHook::AUTH_REGISTER_FORM_AFTER, fn (): View => view('auth.provider-buttons'))
             ->middleware([

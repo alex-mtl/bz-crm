@@ -14,6 +14,8 @@ return [
         'work' => 'Proiecte și sarcini',
         'crm' => 'CRM',
         'social' => 'Rețea socială',
+        'events' => 'Evenimente',
+        'notifications' => 'Notificări',
     ],
     'modules' => [
         'audit' => 'Jurnalul evenimentelor',

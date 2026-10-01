@@ -117,6 +117,20 @@ final readonly class EventVisibility
         return $this->authorization->can($user, 'events.create', $territory);
     }
 
+    /**
+     * Does the user hold the right to create events for an area at all (not only "their own" ones)?
+     */
+    public function mayAddressTerritories(User $user): bool
+    {
+        foreach ($this->authorization->grantsFor($user, 'events.create') as $grant) {
+            if ($grant['data'] === null) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
     public function mayAddressEveryone(User $user): bool
     {
         foreach ($this->authorization->grantsFor($user, 'events.create') as $grant) {

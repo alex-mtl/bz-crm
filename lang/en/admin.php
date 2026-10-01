@@ -14,6 +14,8 @@ return [
         'work' => 'Projects and tasks',
         'crm' => 'CRM',
         'social' => 'Social network',
+        'events' => 'Events',
+        'notifications' => 'Notifications',
     ],
     'modules' => [
         'audit' => 'Event journal',
