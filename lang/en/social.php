@@ -156,4 +156,7 @@ return [
             'unmute' => 'Unmute',
         ],
     ],
+    'digest' => [
+        'new_posts' => 'New post in the feed: :count|New posts in the feed: :count',
+    ],
 ];

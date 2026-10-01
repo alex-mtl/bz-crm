@@ -7,6 +7,7 @@ namespace App\Domain\Groups;
 use App\Domain\Audit\Enums\EventCategory;
 use App\Domain\Audit\EventType;
 use App\Domain\Audit\EventTypeRegistry;
+use App\Domain\Notifications\NotificationCategories;
 use App\Domain\People\PersonReferences;
 use Illuminate\Support\ServiceProvider;
 
@@ -34,6 +35,10 @@ final class GroupsServiceProvider extends ServiceProvider
             new EventType('groups.invitation.declined', EventCategory::Business),
             new EventType('groups.invitation.revoked', EventCategory::Business),
         );
+
+        $this->callAfterResolving(NotificationCategories::class, function (NotificationCategories $categories): void {
+            $categories->register('groups', 'groups');
+        });
 
         $this->callAfterResolving(PersonReferences::class, function (PersonReferences $references): void {
             $references->register('group_members', 'person_id', ['group_id']);

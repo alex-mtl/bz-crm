@@ -18,6 +18,7 @@ use App\Domain\Identity\Enums\UserStatus;
 use App\Domain\Identity\Models\User;
 use App\Domain\Messaging\Discussions;
 use App\Domain\Messaging\Models\Message;
+use App\Domain\Notifications\Retraction;
 use App\Domain\Organization\Models\OrgUnit;
 use App\Domain\People\Models\Person;
 use App\Domain\Projects\Models\Project;
@@ -166,6 +167,20 @@ final readonly class ManageGroups
         }
 
         DB::transaction(fn () => $this->drop($group, $member, 'removed'));
+        $this->retractIfUnseen($group, $person->id);
+    }
+
+    /**
+     * ТЗ §37: a person who can no longer see the group (a secret one they were invited to or removed from) keeps
+     * the fact of the notifications about it, not the name of the group.
+     */
+    private function retractIfUnseen(Group $group, ?int $personId): void
+    {
+        $user = $personId !== null ? User::query()->where('person_id', $personId)->first() : null;
+        $this->access->forget();
+        if ($user !== null && ! $this->access->canSee($user, $group)) {
+            app(Retraction::class)->retract('group', $group->id, [$user->id]);
+        }
     }
 
     /**
@@ -313,6 +328,7 @@ final readonly class ManageGroups
             $invitation->update(['status' => GroupInvitation::REVOKED, 'answered_at' => now()]);
             $this->journal->record('groups.invitation.revoked', $invitation->group, [], ['person_id' => $invitation->person_id, 'link' => $invitation->isLink()]);
         });
+        $this->retractIfUnseen($invitation->group, $invitation->person_id);
     }
 
     /**

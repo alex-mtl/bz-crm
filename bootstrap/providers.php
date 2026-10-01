@@ -5,9 +5,11 @@ use App\Domain\Audit\AuditServiceProvider;
 use App\Domain\Catalogs\CatalogsServiceProvider;
 use App\Domain\CRM\CrmServiceProvider;
 use App\Domain\CustomObjects\CustomObjectsServiceProvider;
+use App\Domain\Events\EventsServiceProvider;
 use App\Domain\Geo\GeoServiceProvider;
 use App\Domain\Groups\GroupsServiceProvider;
 use App\Domain\Identity\IdentityServiceProvider;
+use App\Domain\Notifications\NotificationsServiceProvider;
 use App\Domain\Organization\OrganizationServiceProvider;
 use App\Domain\People\PeopleServiceProvider;
 use App\Domain\Profiles\ProfilesServiceProvider;
@@ -22,6 +24,7 @@ return [
     AppServiceProvider::class,
     AuditServiceProvider::class,
     AccessServiceProvider::class,
+    NotificationsServiceProvider::class,
     CatalogsServiceProvider::class,
     GeoServiceProvider::class,
     OrganizationServiceProvider::class,
@@ -34,6 +37,7 @@ return [
     CrmServiceProvider::class,
     GroupsServiceProvider::class,
     SocialServiceProvider::class,
+    EventsServiceProvider::class,
     ModuleDeclarationsServiceProvider::class,
     AdminPanelProvider::class,
 ];

@@ -15,10 +15,13 @@ use App\Domain\Catalogs\CatalogRegistry;
 use App\Domain\CRM\CrmCatalogs;
 use App\Domain\CRM\CrmPermissions;
 use App\Domain\CustomObjects\CustomObjectPermissions;
+use App\Domain\Events\EventCatalogs;
+use App\Domain\Events\EventPermissions;
 use App\Domain\Geo\GeoCatalogs;
 use App\Domain\Geo\GeoPermissions;
 use App\Domain\Groups\GroupPermissions;
 use App\Domain\Identity\IdentityPermissions;
+use App\Domain\Notifications\NotificationPermissions;
 use App\Domain\Organization\OrganizationPermissions;
 use App\Domain\People\PeopleCatalogs;
 use App\Domain\People\PeoplePermissions;
@@ -50,6 +53,8 @@ final class ModuleDeclarationsServiceProvider extends ServiceProvider
         CustomObjectPermissions::class => 'custom_objects',
         GroupPermissions::class => 'groups',
         SocialPermissions::class => 'social',
+        EventPermissions::class => 'events',
+        NotificationPermissions::class => 'notifications',
     ];
 
     /** @var array<class-string, string> catalog list class => module code */
@@ -59,6 +64,7 @@ final class ModuleDeclarationsServiceProvider extends ServiceProvider
         TaskCatalogs::class => 'tasks',
         CrmCatalogs::class => 'crm',
         SocialCatalogs::class => 'social',
+        EventCatalogs::class => 'events',
     ];
 
     public function boot(PermissionRegistry $permissions, CatalogRegistry $catalogs): void

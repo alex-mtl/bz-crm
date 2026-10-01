@@ -30,6 +30,8 @@ return [
         'custom_objects' => 'Constructor',
         'groups' => 'Grupuri',
         'social' => 'Rețea socială',
+        'events' => 'Evenimente',
+        'notifications' => 'Notificări',
     ],
     'fields' => [
         'name' => 'Nume',

@@ -18,6 +18,7 @@ return [
         'appeal_priorities' => 'Приоритеты обращений',
         'reaction_types' => 'Реакции',
         'report_reasons' => 'Причины жалоб',
+        'event_types' => 'Типы мероприятий',
     ],
     'proposal_statuses' => [
         'pending' => 'На рассмотрении',

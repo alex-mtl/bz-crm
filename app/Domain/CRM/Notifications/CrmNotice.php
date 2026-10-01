@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Domain\CRM\Notifications;
 
+use App\Domain\Notifications\Concerns\RoutesByPreference;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Notification;
@@ -15,6 +16,7 @@ use Illuminate\Notifications\Notification;
 final class CrmNotice extends Notification implements ShouldQueue
 {
     use Queueable;
+    use RoutesByPreference;
 
     public const string LEAD_ASSIGNED = 'lead_assigned';
 
@@ -26,12 +28,9 @@ final class CrmNotice extends Notification implements ShouldQueue
 
     public function __construct(public readonly string $kind, public readonly string $title, public readonly string $url) {}
 
-    /**
-     * @return list<string>
-     */
-    public function via(object $notifiable): array
+    public function category(): string
     {
-        return ['database'];
+        return 'crm';
     }
 
     /**

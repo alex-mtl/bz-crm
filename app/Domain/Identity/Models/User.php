@@ -14,6 +14,7 @@ use Filament\Models\Contracts\FilamentUser;
 use Filament\Models\Contracts\HasName;
 use Filament\Panel;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Illuminate\Contracts\Translation\HasLocalePreference;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -39,7 +40,7 @@ use SensitiveParameter;
  * @property array<string>|null $app_authentication_recovery_codes
  * @property-read Person $person
  */
-class User extends Authenticatable implements FilamentUser, HasAppAuthentication, HasAppAuthenticationRecovery, HasName, MustVerifyEmail
+class User extends Authenticatable implements FilamentUser, HasAppAuthentication, HasAppAuthenticationRecovery, HasLocalePreference, HasName, MustVerifyEmail
 {
     /** @use HasFactory<UserFactory> */
     use HasFactory, Notifiable;
@@ -86,6 +87,14 @@ class User extends Authenticatable implements FilamentUser, HasAppAuthentication
     public function routeNotificationForMail(): ?string
     {
         return $this->email ?? $this->person->email;
+    }
+
+    /**
+     * Notifications and letters are written in the language of the one who reads them, not of the one who caused them.
+     */
+    public function preferredLocale(): ?string
+    {
+        return in_array($this->locale, (array) config('app.supported_locales'), true) ? $this->locale : null;
     }
 
     public function isActive(): bool

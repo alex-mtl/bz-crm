@@ -12,6 +12,8 @@ use App\Domain\Audit\EventType;
 use App\Domain\Audit\EventTypeRegistry;
 use App\Domain\Identity\Events\UserDeactivated;
 use App\Domain\Identity\Models\User;
+use App\Domain\Notifications\Digests;
+use App\Domain\Notifications\NotificationCategories;
 use App\Domain\People\Models\Person;
 use App\Domain\People\PersonReferences;
 use App\Domain\Tasks\Console\EscalateTasksCommand;
@@ -21,6 +23,7 @@ use App\Domain\Tasks\Models\TaskPerson;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Query\Builder as QueryBuilder;
+use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\ServiceProvider;
@@ -56,6 +59,26 @@ final class TasksServiceProvider extends ServiceProvider
         }
         $this->callAfterResolving(Schedule::class, function (Schedule $schedule): void {
             $schedule->command('tasks:escalate')->hourly()->withoutOverlapping();
+        });
+
+        $this->callAfterResolving(NotificationCategories::class, function (NotificationCategories $categories): void {
+            $categories->register('tasks', 'tasks', [NotificationCategories::IN_APP, NotificationCategories::EMAIL]);
+        });
+
+        $this->callAfterResolving(Digests::class, function (Digests $digests): void {
+            // The reader's own open tasks: overdue, and due in the week after the period.
+            $digests->section('tasks', function (User $user, Carbon $from, Carbon $to): ?array {
+                $mine = fn (): Builder => Task::query()->notDeleted()->whereNotIn('status_code', Task::CLOSED)
+                    ->whereIn('id', TaskPerson::query()->where('person_id', $user->person_id)->where('role', TaskPerson::ASSIGNEE)->select('task_id'));
+                $overdue = $mine()->where('due_at', '<', $to)->count();
+                $due = $mine()->whereBetween('due_at', [$to, $to->copy()->addDays(7)])->orderBy('due_at')->limit(5)->get();
+                $lines = $due->map(fn (Task $task): string => $task->due_at?->isoFormat('D MMM').' — '.$task->title)->all();
+                if ($overdue > 0) {
+                    array_unshift($lines, __('tasks.digest.overdue', ['count' => $overdue]));
+                }
+
+                return $lines === [] ? null : ['title' => __('tasks.digest.title'), 'lines' => $lines, 'url' => '/admin/tasks'];
+            });
         });
 
         // Merging cards (ТЗ §27): tasks about the duplicate become tasks about the kept card.

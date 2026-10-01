@@ -14,10 +14,13 @@ use App\Domain\Audit\EventTypeRegistry;
 use App\Domain\CRM\Actions\ManageLeads;
 use App\Domain\CRM\Console\FindDuplicatesCommand;
 use App\Domain\CRM\Console\UnfreezeLeadsCommand;
+use App\Domain\CRM\Listeners\RecordEventAttendance;
 use App\Domain\CRM\Models\Appeal;
 use App\Domain\CRM\Models\Lead;
+use App\Domain\Events\Events\AttendanceMarked;
 use App\Domain\Geo\Models\Territory;
 use App\Domain\Identity\Models\User;
+use App\Domain\Notifications\NotificationCategories;
 use App\Domain\Organization\OrgStructure;
 use App\Domain\People\Events\PersonSaved;
 use App\Domain\People\Models\Person;
@@ -71,12 +74,19 @@ final class CrmServiceProvider extends ServiceProvider
             }
         });
 
+        // ФО §5.3: a visit of an event becomes a fact in the feed of the person.
+        Event::listen(AttendanceMarked::class, RecordEventAttendance::class);
+
         if ($this->app->runningInConsole()) {
             $this->commands([UnfreezeLeadsCommand::class, FindDuplicatesCommand::class]);
         }
         $this->callAfterResolving(Schedule::class, function (Schedule $schedule): void {
             $schedule->command('crm:unfreeze-leads')->dailyAt('06:00')->withoutOverlapping();
             $schedule->command('crm:find-duplicates')->dailyAt('02:30')->withoutOverlapping();
+        });
+
+        $this->callAfterResolving(NotificationCategories::class, function (NotificationCategories $categories): void {
+            $categories->register('crm', 'crm');
         });
 
         $this->callAfterResolving(PersonReferences::class, function (PersonReferences $references): void {

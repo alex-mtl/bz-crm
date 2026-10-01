@@ -1,0 +1,7 @@
+code,name_ro,name_ru,name_en,is_system,unverified
+meeting,Întâlnire,Встреча,Meeting,0,ro|en
+training,Instruire,Обучение,Training,0,ro|en
+canvassing,Ieșire de agitație,Агитационный выход,Canvassing,0,ro|en
+staff_meeting,Ședința statului-major,Собрание штаба,Staff meeting,0,ro|en
+assembly,Adunare,Собрание,Assembly,0,ro|en
+other,Altele,Прочее,Other,1,ro|en

@@ -27,4 +27,8 @@ return [
         'reassign' => 'The assignee was deactivated — reassign the task: :title',
         'open' => 'Open',
     ],
+    'digest' => [
+        'title' => 'My tasks',
+        'overdue' => 'Overdue: :count',
+    ],
 ];

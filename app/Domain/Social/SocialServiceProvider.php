@@ -12,6 +12,8 @@ use App\Domain\Audit\EventType;
 use App\Domain\Audit\EventTypeRegistry;
 use App\Domain\Groups\Models\GroupMember;
 use App\Domain\Identity\Models\User;
+use App\Domain\Notifications\Digests;
+use App\Domain\Notifications\NotificationCategories;
 use App\Domain\Organization\OrgStructure;
 use App\Domain\People\PersonReferences;
 use App\Domain\Social\Console\PublishScheduledPostsCommand;
@@ -20,6 +22,7 @@ use App\Domain\Social\Models\Post;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Query\Builder as QueryBuilder;
+use Illuminate\Support\Carbon;
 use Illuminate\Support\ServiceProvider;
 
 final class SocialServiceProvider extends ServiceProvider
@@ -52,6 +55,28 @@ final class SocialServiceProvider extends ServiceProvider
         }
         $this->callAfterResolving(Schedule::class, function (Schedule $schedule): void {
             $schedule->command('social:tick')->everyMinute()->withoutOverlapping();
+        });
+
+        $this->callAfterResolving(NotificationCategories::class, function (NotificationCategories $categories): void {
+            $categories->register('social', 'social');
+            // A sanction is not something to unsubscribe from.
+            $categories->register('moderation', 'social', [NotificationCategories::IN_APP, NotificationCategories::EMAIL], mandatory: true);
+        });
+
+        $this->callAfterResolving(Digests::class, function (Digests $digests): void {
+            // What was published for the reader during the period — through the reader's own feed.
+            $digests->section('social', function (User $user, Carbon $from, Carbon $to): ?array {
+                $posts = $this->app->make(Feed::class)->query($user)->where('posts.author_person_id', '!=', $user->person_id)
+                    ->whereBetween('posts.published_at', [$from, $to]);
+                $count = (clone $posts)->count();
+                if ($count === 0) {
+                    return null;
+                }
+                $lines = (clone $posts)->with('author')->limit(3)->get()
+                    ->map(fn (Post $post): string => $post->author->fullName().': '.str($post->body ?? '')->limit(80))->all();
+
+                return ['title' => trans_choice('social.digest.new_posts', $count), 'lines' => $lines, 'url' => '/admin/feed'];
+            });
         });
 
         $this->callAfterResolving(PersonReferences::class, function (PersonReferences $references): void {

@@ -7,6 +7,7 @@ use App\Domain\Audit\JournalContext;
 use App\Domain\Catalogs\Actions\ImportReferenceCatalogs;
 use App\Domain\Geo\Actions\ImportTerritories;
 use App\Domain\Identity\Actions\EnsureStarterAuthProviders;
+use App\Domain\Notifications\SyncNotificationDefaults;
 use App\Domain\Tasks\TaskWorkflow;
 use Illuminate\Database\Seeder;
 
@@ -25,5 +26,6 @@ class ReferenceDataSeeder extends Seeder
         app(EnsureStarterAuthProviders::class)();
         app(ImportTerritories::class)();
         TaskWorkflow::ensureDefaults();
+        app(SyncNotificationDefaults::class)();
     }
 }

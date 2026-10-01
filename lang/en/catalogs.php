@@ -18,6 +18,7 @@ return [
         'appeal_priorities' => 'Appeal priorities',
         'reaction_types' => 'Reactions',
         'report_reasons' => 'Report reasons',
+        'event_types' => 'Event types',
     ],
     'proposal_statuses' => [
         'pending' => 'Pending',

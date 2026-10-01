@@ -366,6 +366,46 @@ return [
                 'viewed' => 'Edit history of a post viewed',
             ],
         ],
+        'events' => [
+            'event' => [
+                'created' => 'Event created',
+                'updated' => 'Event updated',
+                'cancelled' => 'Event cancelled',
+            ],
+            'invitation' => [
+                'sent' => 'Invitation to an event sent',
+                'bulk_sent' => 'Bulk invitation to an event',
+                'withdrawn' => 'Invitation to an event withdrawn',
+            ],
+            'rsvp' => [
+                'set' => 'Answer to an invitation',
+            ],
+            'attendance' => [
+                'marked' => 'Attendance marked',
+            ],
+            'results' => [
+                'published' => 'Results of an event published',
+            ],
+            'reminder' => [
+                'sent' => 'Reminder of an event sent',
+            ],
+            'feed' => [
+                'created' => 'Calendar subscription created',
+                'revoked' => 'Calendar subscription revoked',
+            ],
+        ],
+        'notifications' => [
+            'announcement' => [
+                'sent' => 'Announcement sent',
+            ],
+            'critical' => [
+                'sent' => 'Critical notice sent',
+                'acknowledged' => 'Reading of a critical notice confirmed',
+            ],
+            'defaults' => [
+                'changed' => 'Notification defaults of a role changed',
+            ],
+        ],
     ],
     'on_behalf_of' => 'on behalf of :name',
 ];

@@ -366,6 +366,46 @@ return [
                 'viewed' => 'Vizualizarea istoricului editărilor postării',
             ],
         ],
+        'events' => [
+            'event' => [
+                'created' => 'Eveniment creat',
+                'updated' => 'Eveniment modificat',
+                'cancelled' => 'Eveniment anulat',
+            ],
+            'invitation' => [
+                'sent' => 'Invitație la eveniment trimisă',
+                'bulk_sent' => 'Invitare în masă la eveniment',
+                'withdrawn' => 'Invitație la eveniment retrasă',
+            ],
+            'rsvp' => [
+                'set' => 'Răspuns la invitație',
+            ],
+            'attendance' => [
+                'marked' => 'Prezență marcată',
+            ],
+            'results' => [
+                'published' => 'Rezultatele evenimentului publicate',
+            ],
+            'reminder' => [
+                'sent' => 'Memento despre eveniment trimis',
+            ],
+            'feed' => [
+                'created' => 'Abonare la calendar creată',
+                'revoked' => 'Abonare la calendar revocată',
+            ],
+        ],
+        'notifications' => [
+            'announcement' => [
+                'sent' => 'Anunț trimis',
+            ],
+            'critical' => [
+                'sent' => 'Notificare critică trimisă',
+                'acknowledged' => 'Citirea notificării critice confirmată',
+            ],
+            'defaults' => [
+                'changed' => 'Setările implicite de notificare ale rolului modificate',
+            ],
+        ],
     ],
     'on_behalf_of' => 'în numele lui :name',
 ];

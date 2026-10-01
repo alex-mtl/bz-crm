@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Domain\Social\Notifications;
 
+use App\Domain\Notifications\Concerns\RoutesByPreference;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Notification;
@@ -15,6 +16,7 @@ use Illuminate\Notifications\Notification;
 final class SocialNotice extends Notification implements ShouldQueue
 {
     use Queueable;
+    use RoutesByPreference;
 
     public const string NEW_POST = 'new_post';
 
@@ -33,12 +35,9 @@ final class SocialNotice extends Notification implements ShouldQueue
      */
     public function __construct(public readonly string $kind, public readonly array $replace = [], public readonly ?int $postId = null) {}
 
-    /**
-     * @return list<string>
-     */
-    public function via(object $notifiable): array
+    public function category(): string
     {
-        return ['database'];
+        return in_array($this->kind, [self::WARNING, self::MUTED, self::HIDDEN], true) ? 'moderation' : 'social';
     }
 
     /**
@@ -63,6 +62,7 @@ final class SocialNotice extends Notification implements ShouldQueue
             ]] : [],
             'kind' => 'social_'.$this->kind,
             'post_id' => $this->postId,
+            'subject' => $this->postId !== null ? ['post', $this->postId] : null,
         ];
     }
 }

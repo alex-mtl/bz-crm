@@ -22,6 +22,14 @@ final class ImpersonationNotice extends Notification implements ShouldQueue
     public function __construct(public readonly Impersonation $impersonation) {}
 
     /**
+     * Stored with the notification; "security" is mandatory — it is not a matter of preferences.
+     */
+    public function category(): string
+    {
+        return 'security';
+    }
+
+    /**
      * @return list<string>
      */
     public function via(object $notifiable): array

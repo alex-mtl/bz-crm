@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Domain\Tasks\Notifications;
 
+use App\Domain\Notifications\Concerns\RoutesByPreference;
 use App\Domain\Tasks\Models\Task;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -17,6 +18,7 @@ use Illuminate\Notifications\Notification;
 final class TaskNotice extends Notification implements ShouldQueue
 {
     use Queueable;
+    use RoutesByPreference;
 
     public const string ESCALATED = 'escalated';
 
@@ -24,12 +26,9 @@ final class TaskNotice extends Notification implements ShouldQueue
 
     public function __construct(public readonly string $kind, public readonly Task $task) {}
 
-    /**
-     * @return list<string>
-     */
-    public function via(object $notifiable): array
+    public function category(): string
     {
-        return ['database'];
+        return 'tasks';
     }
 
     /**
@@ -59,6 +58,7 @@ final class TaskNotice extends Notification implements ShouldQueue
                 'shouldMarkAsRead' => true,
             ]],
             'task_id' => $task->id,
+            'subject' => ['task', $task->id],
             'kind' => $kind,
         ];
     }

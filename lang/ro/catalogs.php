@@ -18,6 +18,7 @@ return [
         'appeal_priorities' => 'Priorități ale adresărilor',
         'reaction_types' => 'Reacții',
         'report_reasons' => 'Motive de reclamație',
+        'event_types' => 'Tipuri de evenimente',
     ],
     'proposal_statuses' => [
         'pending' => 'În examinare',

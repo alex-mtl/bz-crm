@@ -30,6 +30,8 @@ return [
         'custom_objects' => 'Constructor',
         'groups' => 'Groups',
         'social' => 'Social network',
+        'events' => 'Events',
+        'notifications' => 'Notifications',
     ],
     'fields' => [
         'name' => 'Name',

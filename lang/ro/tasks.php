@@ -27,4 +27,8 @@ return [
         'reassign' => 'Executorul a fost dezactivat — reatribuiți sarcina: :title',
         'open' => 'Deschide',
     ],
+    'digest' => [
+        'title' => 'Sarcinile mele',
+        'overdue' => 'Întârziate: :count',
+    ],
 ];

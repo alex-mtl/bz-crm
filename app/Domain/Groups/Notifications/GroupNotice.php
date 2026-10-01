@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Domain\Groups\Notifications;
 
+use App\Domain\Notifications\Concerns\RoutesByPreference;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Notification;
@@ -15,6 +16,7 @@ use Illuminate\Notifications\Notification;
 final class GroupNotice extends Notification implements ShouldQueue
 {
     use Queueable;
+    use RoutesByPreference;
 
     public const string INVITED = 'invited';
 
@@ -24,12 +26,9 @@ final class GroupNotice extends Notification implements ShouldQueue
 
     public function __construct(public readonly string $kind, public readonly string $groupName, public readonly int $groupId) {}
 
-    /**
-     * @return list<string>
-     */
-    public function via(object $notifiable): array
+    public function category(): string
     {
-        return ['database'];
+        return 'groups';
     }
 
     /**
@@ -52,6 +51,7 @@ final class GroupNotice extends Notification implements ShouldQueue
             ]],
             'kind' => 'group_'.$this->kind,
             'group_id' => $this->groupId,
+            'subject' => ['group', $this->groupId],
         ];
     }
 }

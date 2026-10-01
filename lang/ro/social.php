@@ -156,4 +156,7 @@ return [
             'unmute' => 'Ridicarea restricției',
         ],
     ],
+    'digest' => [
+        'new_posts' => 'Postare nouă în flux: :count|Postări noi în flux: :count',
+    ],
 ];

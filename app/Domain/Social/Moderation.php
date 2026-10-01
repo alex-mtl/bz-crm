@@ -11,6 +11,7 @@ use App\Domain\Groups\GroupAccess;
 use App\Domain\Groups\Models\Group;
 use App\Domain\Groups\Models\GroupMember;
 use App\Domain\Identity\Models\User;
+use App\Domain\Notifications\Retraction;
 use App\Domain\People\Models\Person;
 use App\Domain\Social\Exceptions\SocialRuleViolation;
 use App\Domain\Social\Models\Comment;
@@ -121,6 +122,10 @@ final readonly class Moderation
             $this->resolveReports($actor, $target, ModerationReport::UPHELD);
             $this->journal->record('social.content.hidden', $target, [], ['reason' => $reason, 'author_person_id' => $target->author_person_id]);
         });
+        if ($target instanceof Post) {
+            // ТЗ §37: what was sent about the post no longer shows its content to those who lost sight of it.
+            app(Retraction::class)->retractFromThoseWhoLostAccess('post', $target->id, fn (User $user): bool => $this->visibility->canSee($user, $target));
+        }
         $target->author->user?->notify(new SocialNotice(SocialNotice::HIDDEN, ['reason' => $reason], $this->postOf($target)->id));
     }
 

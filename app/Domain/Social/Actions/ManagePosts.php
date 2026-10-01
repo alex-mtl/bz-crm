@@ -13,6 +13,7 @@ use App\Domain\Geo\Models\Territory;
 use App\Domain\Groups\GroupAccess;
 use App\Domain\Groups\Models\Group;
 use App\Domain\Identity\Models\User;
+use App\Domain\Notifications\Retraction;
 use App\Domain\People\Models\Person;
 use App\Domain\Social\Exceptions\SocialRuleViolation;
 use App\Domain\Social\Models\PollOption;
@@ -210,7 +211,7 @@ final readonly class ManagePosts
         }
         $audience = $this->audience($actor, $data);
 
-        return DB::transaction(function () use ($post, $audience): Post {
+        $post = DB::transaction(function () use ($post, $audience): Post {
             $old = $post->visibility;
             $post->update(['visibility' => $audience['visibility']]);
             $this->syncAudience($post, $audience);
@@ -222,6 +223,9 @@ final readonly class ManagePosts
 
             return $post;
         });
+        $this->retractFromThoseWhoLostAccess($post);
+
+        return $post;
     }
 
     public function delete(User $actor, Post $post): void
@@ -233,6 +237,15 @@ final readonly class ManagePosts
             PostPin::query()->where('post_id', $post->id)->delete();
             $this->journal->record('social.post.deleted', $post);
         });
+        $this->retractFromThoseWhoLostAccess($post);
+    }
+
+    /**
+     * ТЗ §37: whoever no longer sees the post keeps the fact of a notification about it, not its content.
+     */
+    private function retractFromThoseWhoLostAccess(Post $post): void
+    {
+        app(Retraction::class)->retractFromThoseWhoLostAccess('post', $post->id, fn (User $user): bool => $this->visibility->canSee($user, $post));
     }
 
     public function vote(User $actor, Post $post, int $optionId): void
