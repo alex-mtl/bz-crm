@@ -75,6 +75,8 @@ dataset('admin pages', [
     'notification settings' => ['/admin/notification-settings', 'notifications.preferences'],
     'notification defaults' => ['/admin/notification-defaults', 'notifications.defaults.manage'],
     'announcements' => ['/admin/announcements', 'notifications.broadcast'],
+    'messenger' => ['/admin/messenger', 'chats.read'],
+    'messaging policies' => ['/admin/messaging-policies', 'messaging.policies.manage'],
 ]);
 
 it('opens every admin page for the super admin', function (string $url) {

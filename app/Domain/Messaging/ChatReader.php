@@ -13,6 +13,7 @@ use App\Domain\Messaging\Models\ChatMember;
 use App\Domain\Messaging\Models\Message;
 use App\Domain\Messaging\Models\MessagePollVote;
 use App\Domain\Messaging\Models\MessageReaction;
+use App\Domain\People\Models\Person;
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
@@ -266,6 +267,35 @@ final readonly class ChatReader
         $this->journal->record('messaging.chat.investigated', $chat, [], ['reason' => $reason]);
 
         return Message::query()->with('author')->where('chat_id', $chat->id)->where('status', Message::SENT)->orderBy('id')->get();
+    }
+
+    /**
+     * The chats of a person, for an investigation: who they talk to is itself protected, so this takes the same
+     * right and the same reason, and is journaled as well.
+     *
+     * @return list<array{chat: Chat, title: string}>
+     */
+    public function investigationChats(User $actor, Person $person, string $reason): array
+    {
+        $this->authorization->authorize($actor, 'chats.read.investigation');
+        $reason = trim($reason);
+        if ($reason === '') {
+            throw MessagingRuleViolation::because('reason_required');
+        }
+        $this->journal->record('messaging.chat.investigated', $person, [], ['reason' => $reason, 'listing' => true]);
+
+        $rows = [];
+        $chats = Chat::query()->whereIn('id', ChatMember::query()->where('person_id', $person->id)->select('chat_id'))->orderByDesc('last_message_at')->get();
+        foreach ($chats as $chat) {
+            $rows[] = ['chat' => $chat, 'title' => match (true) {
+                $chat->isDirect() => ChatMember::query()->with('person')->where('chat_id', $chat->id)->get()
+                    ->map(fn (ChatMember $member): string => $member->person->fullName())->implode(' ↔ '),
+                $chat->isSubject() => $this->subjects->title($chat) ?? __('messaging.ui.discussion'),
+                default => $chat->title ?? __('messaging.ui.chat'),
+            }];
+        }
+
+        return $rows;
     }
 
     /**

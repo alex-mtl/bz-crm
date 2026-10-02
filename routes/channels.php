@@ -17,3 +17,6 @@ Broadcast::channel('chat.{chatId}', function (User $user, int $chatId): bool {
 });
 
 Broadcast::channel('messenger.{userId}', fn (User $user, int $userId): bool => $user->id === $userId);
+
+// The panel's own channel of a user (the bell subscribes to it): one's own only.
+Broadcast::channel('App.Domain.Identity.Models.User.{userId}', fn (User $user, int $userId): bool => $user->id === $userId);

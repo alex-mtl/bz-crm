@@ -121,6 +121,18 @@ final class AccessServiceProvider extends ServiceProvider
         $authorization->addRelation('people.read', AuthorizationService::RELATION_OWN, $ownPerson,
             fn (User $user, Builder $q) => $q->whereKey($q->getModel() instanceof User ? $user->id : $user->person_id));
         $authorization->addObjectRule('profile.own.update', fn (User $user, object $subject): bool => $subject instanceof Person && $subject->id === $user->person_id);
+        // Д-26: everyone sees the cards of their own chain of command — the direct manager and those above — so
+        // that even a volunteer, who otherwise sees only the people they work with, can write to their head.
+        $personOf = fn (object $subject): ?int => match (true) {
+            $subject instanceof Person => $subject->id,
+            $subject instanceof User => $subject->person_id,
+            default => null,
+        };
+        $authorization->addRelation('people.read', AuthorizationService::RELATION_RELATED,
+            fn (User $user, object $subject): bool => in_array($personOf($subject), $org->managerChain($user->person_id), true),
+            fn (User $user, Builder $q) => $q->whereIn(
+                $q->getModel()->qualifyColumn($q->getModel() instanceof User ? 'person_id' : 'id'), $org->managerChain($user->person_id),
+            ));
 
         // Д-10 (phase 2): a "possibly the same person" hint reaches the existing person's direct manager.
         $authorization->addRelation('people.link_hints.read', AuthorizationService::RELATION_GRANT,

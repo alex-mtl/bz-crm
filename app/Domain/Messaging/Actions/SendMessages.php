@@ -160,6 +160,13 @@ final readonly class SendMessages
         if ($message->isDeleted()) {
             return;
         }
+        // A message that was never sent leaves no mark: it is simply withdrawn, files included.
+        if ($message->status === Message::SCHEDULED) {
+            Storage::disk('local')->delete($message->attachments()->pluck('path')->all());
+            $message->delete();
+
+            return;
+        }
 
         DB::transaction(function () use ($actor, $message, $chat, $own): void {
             $message->update(['deleted_at' => now(), 'deleted_by_user_id' => $actor->id, 'pinned_at' => null]);

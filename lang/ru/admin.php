@@ -16,6 +16,7 @@ return [
         'social' => 'Соцсеть',
         'events' => 'Мероприятия',
         'notifications' => 'Уведомления',
+        'messenger' => 'Мессенджер',
     ],
     'modules' => [
         'audit' => 'Журнал событий',

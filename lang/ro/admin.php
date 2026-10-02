@@ -16,6 +16,7 @@ return [
         'social' => 'Rețea socială',
         'events' => 'Evenimente',
         'notifications' => 'Notificări',
+        'messenger' => 'Mesagerie',
     ],
     'modules' => [
         'audit' => 'Jurnalul evenimentelor',

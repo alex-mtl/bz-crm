@@ -10,9 +10,11 @@ use App\Domain\Audit\Enums\EventCategory;
 use App\Domain\Audit\EventType;
 use App\Domain\Audit\EventTypeRegistry;
 use App\Domain\Identity\Models\User;
+use App\Domain\Messaging\ChatSubjects;
 use App\Domain\Projects\Models\Project;
 use App\Domain\Projects\Models\ProjectMember;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Query\Builder as QueryBuilder;
 use Illuminate\Support\ServiceProvider;
 
@@ -30,6 +32,17 @@ final class ProjectsServiceProvider extends ServiceProvider
             new EventType('projects.budget.changed', EventCategory::Business),
             new EventType('projects.template.saved', EventCategory::Admin),
         );
+
+        // The discussion of a project is read by whoever may read the project (ТЗ §21).
+        $this->callAfterResolving(ChatSubjects::class, function (ChatSubjects $subjects): void {
+            $subjects->register(
+                Project::class,
+                fn (User $user, Model $project): bool => $project instanceof Project
+                    && $this->app->make(AuthorizationService::class)->can($user, 'projects.read', $project),
+                fn (Model $project): string => $project instanceof Project ? $project->name : '',
+                fn (Model $project): string => '/admin/projects/'.$project->getKey(),
+            );
+        });
 
         $this->callAfterResolving(AuthorizationService::class, function (AuthorizationService $authorization): void {
             $authorization->registerLocator(Project::class, new UnitColumnLocator('org_unit_id', 'territory_id'));

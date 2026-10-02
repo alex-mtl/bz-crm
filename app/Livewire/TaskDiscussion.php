@@ -10,6 +10,7 @@ use App\Domain\Messaging\Discussions;
 use App\Domain\Messaging\Models\Message;
 use App\Domain\Tasks\Actions\ManageTasks;
 use App\Domain\Tasks\Models\Task;
+use App\Filament\Pages\Messenger;
 use DomainException;
 use Filament\Facades\Filament;
 use Illuminate\Auth\Access\AuthorizationException;
@@ -54,8 +55,8 @@ final class TaskDiscussion extends Component
     {
         $chat = app(Discussions::class)->findFor($this->task());
         /** @var Collection<int, Message> $messages */
-        $messages = $chat !== null ? $chat->messages()->with('author')->get() : collect();
+        $messages = $chat !== null ? $chat->messages()->with('author')->where('status', Message::SENT)->get() : collect();
 
-        return view('livewire.task-discussion', ['messages' => $messages]);
+        return view('livewire.task-discussion', ['messages' => $messages, 'messengerUrl' => $chat !== null ? Messenger::getUrl(['chat' => $chat->id]) : null]);
     }
 }

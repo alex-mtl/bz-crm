@@ -7,6 +7,7 @@ use App\Domain\Identity\Models\User;
 use Database\Seeders\Demo\CrmDemoSeeder;
 use Database\Seeders\Demo\EventsDemoSeeder;
 use Database\Seeders\Demo\IdentityDemoSeeder;
+use Database\Seeders\Demo\MessagingDemoSeeder;
 use Database\Seeders\Demo\NotificationsDemoSeeder;
 use Database\Seeders\Demo\OrganizationDemoSeeder;
 use Database\Seeders\Demo\Personas;
@@ -48,6 +49,7 @@ class DemoSeeder extends Seeder
                 CrmDemoSeeder::class,
                 SocialDemoSeeder::class,
                 EventsDemoSeeder::class,
+                MessagingDemoSeeder::class,
                 NotificationsDemoSeeder::class,
             ]);
         } finally {

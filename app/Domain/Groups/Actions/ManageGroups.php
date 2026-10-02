@@ -365,7 +365,7 @@ final readonly class ManageGroups
             return new Collection;
         }
 
-        return $this->discussions->forSubject($group)->messages()->with('author')->get();
+        return $this->discussions->forSubject($group)->messages()->with('author')->where('status', Message::SENT)->get();
     }
 
     /**

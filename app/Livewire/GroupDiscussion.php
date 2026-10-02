@@ -8,6 +8,8 @@ use App\Domain\Groups\Actions\ManageGroups;
 use App\Domain\Groups\GroupAccess;
 use App\Domain\Groups\Models\Group;
 use App\Domain\Identity\Models\User;
+use App\Domain\Messaging\Discussions;
+use App\Filament\Pages\Messenger;
 use DomainException;
 use Filament\Facades\Filament;
 use Illuminate\Auth\Access\AuthorizationException;
@@ -54,6 +56,12 @@ final class GroupDiscussion extends Component
 
     public function render(): View
     {
-        return view('livewire.task-discussion', ['messages' => app(ManageGroups::class)->messages($this->actor(), $this->group())]);
+        $group = $this->group();
+        $chat = app(Discussions::class)->findFor($group);
+
+        return view('livewire.task-discussion', [
+            'messages' => app(ManageGroups::class)->messages($this->actor(), $group),
+            'messengerUrl' => $chat !== null ? Messenger::getUrl(['chat' => $chat->id]) : null,
+        ]);
     }
 }

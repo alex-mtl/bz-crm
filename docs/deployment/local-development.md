@@ -31,8 +31,13 @@ docker compose exec app php artisan migrate --seed
 | Mailpit (перехваченная почта) | http://localhost:8126 |
 | Vite dev-сервер | http://localhost:5174 |
 | MySQL с хоста (для GUI-клиента) | `127.0.0.1:3316` |
+| Reverb (WebSocket мессенджера) | `ws://localhost:8180` |
 
-Порты меняются в `.env`: `APP_PORT`, `MAILPIT_UI_PORT`, `VITE_PORT`, `FORWARD_DB_PORT`.
+Порты меняются в `.env`: `APP_PORT`, `MAILPIT_UI_PORT`, `VITE_PORT`, `FORWARD_DB_PORT`, `REVERB_CLIENT_PORT`.
+
+**Real-time (ADR-012).** В `.env` нужно заполнить `REVERB_APP_ID`, `REVERB_APP_KEY`, `REVERB_APP_SECRET` любыми случайными значениями (в `.env.example` они пустые) и перезапустить контейнеры `app` и `reverb`. Без Reverb поставьте `BROADCAST_CONNECTION=log` — мессенджер будет обновляться опросом раз в 20 секунд.
+
+**Антивирус (ADR-012).** По умолчанию выключен (`ATTACHMENT_SCANNER=none`). Чтобы включить: `docker compose --profile antivirus up -d clamav` (первый запуск скачивает базы сигнатур, несколько минут; контейнеру нужно около 1,5 ГБ памяти), затем `ATTACHMENT_SCANNER=clamav` в `.env`.
 
 Локальный администратор создаётся сидером `LocalAdminSeeder` только в окружениях `local`/`testing`; логин и пароль — `SEED_ADMIN_EMAIL` / `SEED_ADMIN_PASSWORD` в `.env`.
 

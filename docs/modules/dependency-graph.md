@@ -70,6 +70,8 @@ flowchart BT
 | Access | Identity, Organization, Geo\Territory, People, Audit | Роли, разрешения, две оси scopes (территория и оргструктура), наследуемый и выданный территориальный доступ (Д-3), делегирование; единственная точка проверки прав |
 | Profiles | People, Organization, Access, Audit | Открытый профиль с видимостью полей и конфиденциальные слои (фаза 2). Круги видимости строятся на `OrgStructure` и `TerritorialAccess` |
 
+**Уточнение фазы 6.** Messaging не импортирует Tasks, Projects и Groups: модуль объекта сам регистрирует в `Messaging\ChatSubjects` правило доступа к своему обсуждению, название и ссылку. Создание задачи из ветки — на стороне панели: она берёт выжимку у Messaging и вызывает действие Tasks. Social, Events и Messaging зависят от порта `Files\AttachmentScanner`; адаптер ClamAV — в `Infrastructure\Antivirus` ([ADR-012](../decisions/ADR-012-messenger-realtime-antivirus.md)).
+
 **Уточнение фазы 5.** С фазы 5 Tasks, CRM, Groups, Social и Events зависят от Notifications: регистрируют в нём свои категории уведомлений и секции дайджеста, а их классы уведомлений используют общий трейт маршрутизации. CRM слушает событие `Events\AttendanceMarked` и ведёт факт «посещение мероприятия» в ленте человека — таблицы Events он не читает.
 
 **Уточнение фазы 3.** Модули, у которых есть колонки, указывающие на человека, регистрируют их в `People\PersonReferences` (в своих сервис-провайдерах) — слияние карточек перенаправляет ссылки, не зная об этих модулях ([ADR-009](../decisions/ADR-009-crm-registry-merge-import.md)). `PersonLocator` в Access читает территорию и ответственное подразделение карточки для людей вне оргструктуры.
@@ -78,7 +80,7 @@ flowchart BT
 | Files | Access, Audit | Вложения и версии документов |
 | Notifications | Identity, Access, People, Audit | Уведомление не раскрывает то, что получатель не вправе видеть (ТЗ §37) |
 | CustomObjects | People, Access, Audit | Не обходит общую авторизацию (ТЗ §42). С фазы 3 — пользовательские поля карточки человека; значения следуют правам на саму запись |
-| Messaging | People, Access, Files, Notifications | Минимальная модель чата (обсуждение задачи / проекта, `Discussions`) — с фазы 2; Files и Notifications — с фазы 5–6 |
+| Messaging | People, Identity, Access, Catalogs, Files, Notifications, Audit | Обсуждения объектов (`Discussions`) — с фазы 2; полный мессенджер — с фазы 6. Об объектах обсуждений знает только через реестр `ChatSubjects` |
 | Tasks | People, Organization, Access, Messaging, Files, Notifications | Задача ссылается на чат обсуждения (ТЗ §21) |
 | Projects | Tasks, Organization, People, Access | |
 | CRM | People, Profiles, Organization, Geo\Territory, Access, Tasks, CustomObjects, Catalogs, событие Events | `Lead` ссылается на `Person`, не дублирует его (ТЗ §26). Узнаёт о новых и изменённых карточках по событию `PersonSaved`; сообщает о перемещениях доменными событиями `LeadStageChanged`, `AppealStatusChanged` |
@@ -102,4 +104,5 @@ flowchart BT
 | `Storage` | Files |
 | `Maps` | Geo |
 | `Calendar` | Events (Google Calendar, ICS, iCal) |
+| `Antivirus` | Files (`AttachmentScanner`: ClamAV или «без проверки») — с фазы 6 |
 | `AI` | через `AiService` (ТЗ §45) |

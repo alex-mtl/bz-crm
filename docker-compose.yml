@@ -80,6 +80,16 @@ services:
       retries: 20
     networks: [bz]
 
+  # Antivirus for uploaded files (ADR-012). Optional: `docker compose --profile antivirus up -d clamav`
+  # and ATTACHMENT_SCANNER=clamav in .env. The first start downloads the signature databases (a few minutes).
+  clamav:
+    image: clamav/clamav:stable
+    profiles: [antivirus]
+    volumes:
+      - clamav-data:/var/lib/clamav
+    restart: unless-stopped
+    networks: [bz]
+
   mailpit:
     image: axllent/mailpit:latest
     ports:
@@ -107,6 +117,7 @@ networks:
 volumes:
   mysql-data:
   redis-data:
+  clamav-data:
   vendor:
   framework:
   node_modules:

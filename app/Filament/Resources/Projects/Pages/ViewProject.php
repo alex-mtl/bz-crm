@@ -6,12 +6,14 @@ namespace App\Filament\Resources\Projects\Pages;
 
 use App\Domain\Access\AuthorizationService;
 use App\Domain\Identity\Models\User;
+use App\Domain\Messaging\Discussions;
 use App\Domain\People\Models\Person;
 use App\Domain\Projects\Actions\ManageProjects;
 use App\Domain\Projects\Models\Project;
 use App\Domain\Projects\Models\ProjectMember;
 use App\Domain\Projects\Models\ProjectPhase;
 use App\Domain\Projects\ProjectDashboard;
+use App\Filament\Pages\Messenger;
 use App\Filament\Pages\ProjectGantt;
 use App\Filament\Resources\Projects\ProjectResource;
 use App\Filament\Resources\Tasks\TaskResource;
@@ -76,6 +78,9 @@ class ViewProject extends ViewRecord
         return [
             Action::make('tasks')->label(__('admin.tasks.plural'))->color('gray')->url(fn (): string => ProjectResource::tasksUrl($this->project())),
             Action::make('gantt')->label(__('admin.views.gantt'))->color('gray')->url(fn (): string => ProjectGantt::getUrl(['project' => $this->project()->id])),
+            // The chat of the project (ФО §6.6.2): read and written by those who may read the project.
+            Action::make('discussion')->label(__('messaging.ui.types.subject'))->color('gray')->icon('heroicon-o-chat-bubble-left-right')
+                ->action(fn () => redirect(Messenger::getUrl(['chat' => app(Discussions::class)->forSubject($this->project())->id]))),
             Action::make('newTask')->label(__('admin.projects.new_task'))
                 ->visible(fn (): bool => app(AuthorizationService::class)->can($this->actor(), 'tasks.create'))
                 ->url(fn (): string => TaskResource::getUrl('create', ['project' => $this->project()->id])),

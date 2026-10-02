@@ -16,6 +16,7 @@ return [
         'social' => 'Social network',
         'events' => 'Events',
         'notifications' => 'Notifications',
+        'messenger' => 'Messenger',
     ],
     'modules' => [
         'audit' => 'Event journal',

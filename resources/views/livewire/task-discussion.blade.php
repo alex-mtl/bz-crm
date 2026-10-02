@@ -3,7 +3,11 @@
         @forelse ($messages as $message)
             <div class="rounded-lg bg-gray-50 px-3 py-2 text-sm dark:bg-white/5">
                 <div class="mb-1 text-xs text-gray-500">{{ $message->author->fullName() }} · {{ $message->created_at->isoFormat('LLL') }}</div>
-                <div class="whitespace-pre-line">{{ $message->body }}</div>
+                @if ($message->deleted_at)
+                    <div class="italic text-gray-500">{{ __('messaging.ui.deleted') }}</div>
+                @else
+                    <div class="whitespace-pre-line">{{ $message->body }}</div>
+                @endif
             </div>
         @empty
             <p class="text-sm text-gray-500">{{ __('admin.tasks.no_messages') }}</p>
@@ -15,8 +19,12 @@
         @if ($error)
             <p class="text-sm text-danger-600">{{ $error }}</p>
         @endif
-        <div>
+        <div class="flex items-center gap-3">
             <x-filament::button type="submit" size="sm">{{ __('admin.tasks.send') }}</x-filament::button>
+            @if ($messengerUrl ?? null)
+                {{-- The same chat with threads, files and search (phase 6). --}}
+                <a class="text-xs underline" href="{{ $messengerUrl }}">{{ __('messaging.ui.open_in_messenger') }}</a>
+            @endif
         </div>
     </form>
 </div>
