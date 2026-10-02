@@ -406,6 +406,35 @@ return [
                 'changed' => 'Setările implicite de notificare ale rolului modificate',
             ],
         ],
+        'messaging' => [
+            'chat' => [
+                'created' => 'Chat creat',
+                'archived' => 'Chat trimis în arhivă',
+                'investigated' => 'Chat citit în cadrul unei investigații',
+            ],
+            'member' => [
+                'added' => 'Membru adăugat în chat',
+                'removed' => 'Membru a părăsit chatul',
+                'role_changed' => 'Rolul membrului în chat schimbat',
+            ],
+            'link' => [
+                'created' => 'Link de invitație în chat creat',
+                'revoked' => 'Link de invitație în chat revocat',
+            ],
+            'message' => [
+                'deleted' => 'Mesaj șters de moderatorul chatului',
+            ],
+            'attachment' => [
+                'infected' => 'Atașament șters de antivirus',
+            ],
+            'policy' => [
+                'changed' => 'Regula mesajelor personale modificată',
+            ],
+            'retention' => [
+                'changed' => 'Termenul de păstrare a mesajelor modificat',
+                'purged' => 'Mesaje mai vechi decât termenul de păstrare șterse',
+            ],
+        ],
     ],
     'on_behalf_of' => 'în numele lui :name',
 ];

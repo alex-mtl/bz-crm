@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace App\Domain\Messaging;
 
+use App\Domain\Identity\Models\User;
+use App\Domain\Messaging\Events\ChatUpdated;
 use App\Domain\Messaging\Models\Chat;
 use App\Domain\Messaging\Models\ChatMember;
 use App\Domain\Messaging\Models\Message;
@@ -40,6 +42,15 @@ final class Discussions
     {
         $this->syncMembers($chat, [$authorPersonId]);
 
-        return Message::query()->create(['chat_id' => $chat->id, 'author_person_id' => $authorPersonId, 'body' => trim($body)]);
+        $message = Message::query()->create(['chat_id' => $chat->id, 'author_person_id' => $authorPersonId, 'body' => trim($body)]);
+        // The same chat is open in the messenger (phase 6): keep its order, read state and listeners in step.
+        $chat->update(['last_message_at' => now()]);
+        ChatMember::query()->where('chat_id', $chat->id)->where('person_id', $authorPersonId)
+            ->update(['last_read_message_id' => $message->id, 'last_delivered_message_id' => $message->id]);
+        $userIds = User::query()->whereIn('person_id', ChatMember::query()->where('chat_id', $chat->id)->select('person_id'))
+            ->pluck('id')->map(fn ($id): int => (int) $id)->all();
+        event(new ChatUpdated($chat->id, 'message', $message->id, $userIds));
+
+        return $message;
     }
 }

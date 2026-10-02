@@ -28,6 +28,8 @@ return [
         'moderation' => 'Deciziile moderatorilor',
         'events' => 'Evenimente: invitații și modificări',
         'event_reminders' => 'Mementouri despre evenimente',
+        'messages' => 'Mesaje în chaturi',
+        'mentions' => 'Mențiuni în chaturi',
     ],
     'channels' => [
         'in_app' => 'În sistem',

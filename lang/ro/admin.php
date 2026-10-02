@@ -34,6 +34,7 @@ return [
         'social' => 'Rețea socială',
         'events' => 'Evenimente',
         'notifications' => 'Notificări',
+        'messaging' => 'Mesagerie',
     ],
     'fields' => [
         'name' => 'Nume',

@@ -406,6 +406,35 @@ return [
                 'changed' => 'Notification defaults of a role changed',
             ],
         ],
+        'messaging' => [
+            'chat' => [
+                'created' => 'Chat created',
+                'archived' => 'Chat archived',
+                'investigated' => 'Chat read for an investigation',
+            ],
+            'member' => [
+                'added' => 'Member added to a chat',
+                'removed' => 'Member left a chat',
+                'role_changed' => 'Role of a chat member changed',
+            ],
+            'link' => [
+                'created' => 'Invitation link to a chat created',
+                'revoked' => 'Invitation link to a chat revoked',
+            ],
+            'message' => [
+                'deleted' => 'Message deleted by a moderator of the chat',
+            ],
+            'attachment' => [
+                'infected' => 'Attachment removed by the antivirus',
+            ],
+            'policy' => [
+                'changed' => 'Rule of direct messages changed',
+            ],
+            'retention' => [
+                'changed' => 'Retention term of messages changed',
+                'purged' => 'Messages older than the retention term removed',
+            ],
+        ],
     ],
     'on_behalf_of' => 'on behalf of :name',
 ];

@@ -19,6 +19,8 @@ return Application::configure(basePath: dirname(__DIR__))
         then: fn () => Route::middleware(['web', 'auth', 'throttle:120,1'])->prefix('api/v1')->name('api.v1.')
             ->group(__DIR__.'/../routes/api.php'),
     )
+    // WebSocket channels (ADR-012): authorized through the session of the panel.
+    ->withBroadcasting(__DIR__.'/../routes/channels.php', ['middleware' => ['web', 'auth']])
     ->withMiddleware(function (Middleware $middleware): void {
         // Global, so Filament and Livewire requests also get a journal context.
         $middleware->append(AssignJournalContext::class);

@@ -14,6 +14,7 @@ use App\Domain\Events\Models\EventAttachment;
 use App\Domain\Events\Models\EventAttendee;
 use App\Domain\Events\Models\EventReminder;
 use App\Domain\Events\Notifications\EventNotice;
+use App\Domain\Files\FileGate;
 use App\Domain\Geo\Models\Territory;
 use App\Domain\Groups\GroupAccess;
 use App\Domain\Groups\Models\Group;
@@ -453,6 +454,8 @@ final readonly class ManageEvents
      */
     private function attach(User $actor, Event $event, array $file, string $kind): void
     {
+        // ФО §6.6.4, ADR-012: an infected file is refused before it reaches the storage.
+        app(FileGate::class)->ensureAcceptable($file['source'], $file['name']);
         $extension = Str::lower(pathinfo($file['name'], PATHINFO_EXTENSION));
         $path = 'events/'.$event->id.'/'.Str::uuid().($extension !== '' ? '.'.$extension : '');
         Storage::disk('local')->put($path, (string) file_get_contents($file['source']));

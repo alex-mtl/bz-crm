@@ -9,6 +9,7 @@ use App\Domain\Events\EventsServiceProvider;
 use App\Domain\Geo\GeoServiceProvider;
 use App\Domain\Groups\GroupsServiceProvider;
 use App\Domain\Identity\IdentityServiceProvider;
+use App\Domain\Messaging\MessagingServiceProvider;
 use App\Domain\Notifications\NotificationsServiceProvider;
 use App\Domain\Organization\OrganizationServiceProvider;
 use App\Domain\People\PeopleServiceProvider;
@@ -31,6 +32,7 @@ return [
     IdentityServiceProvider::class,
     PeopleServiceProvider::class,
     ProfilesServiceProvider::class,
+    MessagingServiceProvider::class,
     TasksServiceProvider::class,
     ProjectsServiceProvider::class,
     CustomObjectsServiceProvider::class,

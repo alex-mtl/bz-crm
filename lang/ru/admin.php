@@ -34,6 +34,7 @@ return [
         'social' => 'Соцсеть',
         'events' => 'Мероприятия',
         'notifications' => 'Уведомления',
+        'messaging' => 'Мессенджер',
     ],
     'fields' => [
         'name' => 'Имя',

@@ -30,6 +30,15 @@ services:
     command: php artisan schedule:work
     restart: unless-stopped
 
+  # WebSocket server of the messenger (ADR-012). Browsers connect to the published port;
+  # the application publishes to it inside the network as reverb:8080.
+  reverb:
+    <<: *app
+    command: php artisan reverb:start --host=0.0.0.0 --port=8080
+    ports:
+      - "${REVERB_CLIENT_PORT:-8180}:8080"
+    restart: unless-stopped
+
   nginx:
     image: nginx:1.27-alpine
     ports:

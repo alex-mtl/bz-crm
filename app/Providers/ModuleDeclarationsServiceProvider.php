@@ -21,6 +21,7 @@ use App\Domain\Geo\GeoCatalogs;
 use App\Domain\Geo\GeoPermissions;
 use App\Domain\Groups\GroupPermissions;
 use App\Domain\Identity\IdentityPermissions;
+use App\Domain\Messaging\MessagingPermissions;
 use App\Domain\Notifications\NotificationPermissions;
 use App\Domain\Organization\OrganizationPermissions;
 use App\Domain\People\PeopleCatalogs;
@@ -54,6 +55,7 @@ final class ModuleDeclarationsServiceProvider extends ServiceProvider
         GroupPermissions::class => 'groups',
         SocialPermissions::class => 'social',
         EventPermissions::class => 'events',
+        MessagingPermissions::class => 'messaging',
         NotificationPermissions::class => 'notifications',
     ];
 

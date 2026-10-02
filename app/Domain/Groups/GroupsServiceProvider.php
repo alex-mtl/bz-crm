@@ -7,8 +7,12 @@ namespace App\Domain\Groups;
 use App\Domain\Audit\Enums\EventCategory;
 use App\Domain\Audit\EventType;
 use App\Domain\Audit\EventTypeRegistry;
+use App\Domain\Groups\Models\Group;
+use App\Domain\Identity\Models\User;
+use App\Domain\Messaging\ChatSubjects;
 use App\Domain\Notifications\NotificationCategories;
 use App\Domain\People\PersonReferences;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\ServiceProvider;
 
 final class GroupsServiceProvider extends ServiceProvider
@@ -35,6 +39,16 @@ final class GroupsServiceProvider extends ServiceProvider
             new EventType('groups.invitation.declined', EventCategory::Business),
             new EventType('groups.invitation.revoked', EventCategory::Business),
         );
+
+        // The chat of a group belongs to its members (ФО §6.5).
+        $this->callAfterResolving(ChatSubjects::class, function (ChatSubjects $subjects): void {
+            $subjects->register(
+                Group::class,
+                fn (User $user, Model $group): bool => $group instanceof Group && $this->app->make(GroupAccess::class)->isMember($group, $user->person_id),
+                fn (Model $group): string => $group instanceof Group ? $group->name : '',
+                fn (Model $group): string => '/admin/groups/'.$group->getKey(),
+            );
+        });
 
         $this->callAfterResolving(NotificationCategories::class, function (NotificationCategories $categories): void {
             $categories->register('groups', 'groups');

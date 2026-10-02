@@ -12,6 +12,7 @@ use App\Domain\Audit\EventType;
 use App\Domain\Audit\EventTypeRegistry;
 use App\Domain\Identity\Events\UserDeactivated;
 use App\Domain\Identity\Models\User;
+use App\Domain\Messaging\ChatSubjects;
 use App\Domain\Notifications\Digests;
 use App\Domain\Notifications\NotificationCategories;
 use App\Domain\People\Models\Person;
@@ -22,6 +23,7 @@ use App\Domain\Tasks\Models\Task;
 use App\Domain\Tasks\Models\TaskPerson;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Query\Builder as QueryBuilder;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\DB;
@@ -59,6 +61,17 @@ final class TasksServiceProvider extends ServiceProvider
         }
         $this->callAfterResolving(Schedule::class, function (Schedule $schedule): void {
             $schedule->command('tasks:escalate')->hourly()->withoutOverlapping();
+        });
+
+        // The discussion of a task is read by whoever may read the task (ТЗ §21).
+        $this->callAfterResolving(ChatSubjects::class, function (ChatSubjects $subjects): void {
+            $subjects->register(
+                Task::class,
+                fn (User $user, Model $task): bool => $task instanceof Task && $task->deleted_at === null
+                    && $this->app->make(AuthorizationService::class)->can($user, 'tasks.read', $task),
+                fn (Model $task): string => $task instanceof Task ? $task->title : '',
+                fn (Model $task): string => '/admin/tasks/'.$task->getKey(),
+            );
         });
 
         $this->callAfterResolving(NotificationCategories::class, function (NotificationCategories $categories): void {

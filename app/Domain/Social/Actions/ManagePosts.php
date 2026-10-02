@@ -9,6 +9,7 @@ use App\Domain\Access\Models\Role;
 use App\Domain\Access\Scopes\ScopeType;
 use App\Domain\Access\TerritorialAccess;
 use App\Domain\Audit\EventJournal;
+use App\Domain\Files\FileGate;
 use App\Domain\Geo\Models\Territory;
 use App\Domain\Groups\GroupAccess;
 use App\Domain\Groups\Models\Group;
@@ -424,6 +425,8 @@ final readonly class ManagePosts
      */
     private function attach(Post $post, array $file, int $index): void
     {
+        // ФО §6.6.4, ADR-012: an infected file is refused before it reaches the storage.
+        app(FileGate::class)->ensureAcceptable($file['source'], $file['name']);
         $extension = Str::lower(pathinfo($file['name'], PATHINFO_EXTENSION));
         $path = 'social/posts/'.$post->id.'/'.Str::uuid().($extension !== '' ? '.'.$extension : '');
         Storage::disk('local')->put($path, (string) file_get_contents($file['source']));

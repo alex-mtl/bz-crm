@@ -34,6 +34,7 @@ return [
         'social' => 'Social network',
         'events' => 'Events',
         'notifications' => 'Notifications',
+        'messaging' => 'Messenger',
     ],
     'fields' => [
         'name' => 'Name',

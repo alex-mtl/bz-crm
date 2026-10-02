@@ -28,6 +28,8 @@ return [
         'moderation' => 'Decisions of moderators',
         'events' => 'Events: invitations and changes',
         'event_reminders' => 'Event reminders',
+        'messages' => 'Messages in chats',
+        'mentions' => 'Mentions in chats',
     ],
     'channels' => [
         'in_app' => 'In the system',
