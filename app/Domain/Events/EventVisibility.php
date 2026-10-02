@@ -19,12 +19,14 @@ use Illuminate\Database\Query\Builder as QueryBuilder;
  * Who sees an event (ФО §6.7 "уровень видимости как у постов") — decided in SQL, in this one place; lists,
  * the calendar, the iCal feed, notifications and the digest all start from visibleTo().
  *
- *   public   — everyone with events.read (a candidate only sees what is explicitly opened to them);
+ *   public   — everyone with events.read, candidates and volunteers included (Д-25);
  *   regional — the territories of the event overlap the viewer's territorial access, in either direction;
+ *              not for a candidate, who beyond public events sees only what they were invited to;
  *   group    — members of one of the event's groups;
  *   private  — the organizer and the invited.
  *
- * The organizer and every invited person see the event whatever its level.
+ * The organizer and every invited person see the event whatever its level. So do those who answer for the
+ * organizer by their role — the head of the unit, of the region, of the organization, the super admin (Д-24).
  */
 final readonly class EventVisibility
 {
@@ -49,14 +51,21 @@ final readonly class EventVisibility
         $personId = $user->person_id;
         $groupIds = $this->groups->groupIdsOf($personId);
         [$inside, $above] = $open ? $this->territoryPaths($personId) : [[], []];
+        // Д-24: whoever runs events by a role sees the events of the people of that role's scope — whatever
+        // their level. The scope is the one of events.update: the place where the organizer works.
+        $managed = $this->authorization->grantsFor($user, 'events.update') !== []
+            ? $this->authorization->scopeQuery($user, 'events.update', Event::query())->select('events.id')
+            : null;
 
-        return $query->where(function (Builder $where) use ($personId, $open, $groupIds, $inside, $above): void {
+        return $query->where(function (Builder $where) use ($personId, $groupIds, $inside, $above, $managed): void {
             $where->where('events.organizer_person_id', $personId)
                 ->orWhereExists(fn (QueryBuilder $sub) => $sub->selectRaw('1')->from('event_attendees as ev_a')
                     ->whereColumn('ev_a.event_id', 'events.id')->where('ev_a.person_id', $personId));
-            if ($open) {
-                $where->orWhere('events.visibility', Event::PUBLIC);
+            if ($managed !== null) {
+                $where->orWhereIn('events.id', $managed);
             }
+            // Д-25: what is public is for everyone who has an account — candidates and volunteers included.
+            $where->orWhere('events.visibility', Event::PUBLIC);
             if ($inside !== []) {
                 $where->orWhere(fn (Builder $regional) => $regional
                     ->where('events.visibility', Event::REGIONAL)
@@ -85,8 +94,8 @@ final readonly class EventVisibility
     }
 
     /**
-     * Running an event takes both the right and the sight of it: a head reaches the events of their people
-     * (the scope of the role), but not a private event or an event of a secret group they are not part of.
+     * Running an event takes both the right and the sight of it. For the holders of a role the two coincide
+     * (Д-24: a head sees the events of the people of their scope); for the organizer they always do.
      */
     public function authorizeManaging(User $user, string $code, Event $event): void
     {

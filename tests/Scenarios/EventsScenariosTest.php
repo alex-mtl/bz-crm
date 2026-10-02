@@ -53,7 +53,7 @@ function toldTo(string $persona): string
     return Personas::user($persona)->notifications()->get()->map(fn ($notification): string => json_encode($notification->data, JSON_UNESCAPED_UNICODE))->implode("\n");
 }
 
-it('keeps an invitation to a closed event out of sight of everyone outside it', function () {
+it('keeps a closed event out of sight of everyone but the invited and those who answer for its organizer', function () {
     $private = Events::event(Events::PRIVATE);
     $secret = Events::event(Events::SECRET);
     $planning = Events::event(Events::GROUP_PLANNING);
@@ -61,17 +61,21 @@ it('keeps an invitation to a closed event out of sight of everyone outside it', 
     expect(seesEvent('branch_a_employee_1', Events::PRIVATE))->toBeTrue()            // invited
         ->and(seesEvent('branch_a_employee_2', Events::PRIVATE))->toBeFalse()        // same branch, not invited
         ->and(seesEvent('branch_a_employee_3', Events::PRIVATE))->toBeFalse()        // the invitation was withdrawn
-        ->and(seesEvent('chisinau_head', Events::PRIVATE))->toBeFalse()              // not even the head above the organizer
-        ->and(seesEvent('super_admin', Events::PRIVATE))->toBeFalse()
-        // An event of the secret group: for its members only.
+        // Д-24: those who answer for the organizer see the event whatever its level — the head of her region, the super admin.
+        ->and(seesEvent('chisinau_head', Events::PRIVATE))->toBeTrue()
+        ->and(seesEvent('super_admin', Events::PRIVATE))->toBeTrue()
+        ->and(seesEvent('branch_b_head', Events::PRIVATE))->toBeFalse()              // a head of another branch
+        ->and(seesEvent('balti_head', Events::PRIVATE))->toBeFalse()
+        // An event of the secret group, held by the head of the organization: its members, and the super admin above her.
         ->and(seesEvent('chisinau_head', Events::SECRET))->toBeTrue()
         ->and(seesEvent('branch_a_head', Events::SECRET))->toBeFalse()               // invited to the group, has not accepted
-        ->and(seesEvent('super_admin', Events::SECRET))->toBeFalse()
+        ->and(seesEvent('super_admin', Events::SECRET))->toBeTrue()
         // An event of the closed group: Olga's request to join is still waiting.
         ->and(seesEvent('branch_a_employee_2', Events::GROUP_PLANNING))->toBeTrue()
         ->and(seesEvent('branch_b_employee_1', Events::GROUP_PLANNING))->toBeFalse()
-        // Whoever does not see an event does not run it, whatever the scope of their role.
-        ->and(fn () => app(ManageEvents::class)->cancel(Personas::user('chisinau_head'), $private, 'Motiv'))->toThrow(AuthorizationException::class)
+        // Seeing and running go together: the head of the region may change Ana's event, the head of branch B may not.
+        ->and(app(EventVisibility::class)->mayManage(Personas::user('chisinau_head'), 'events.update', $private))->toBeTrue()
+        ->and(fn () => app(ManageEvents::class)->cancel(Personas::user('branch_b_head'), $private, 'Motiv'))->toThrow(AuthorizationException::class)
         ->and(fn () => app(EventParticipation::class)->respond(Personas::user('branch_a_employee_2'), $private, EventAttendee::GOING))->toThrow(AuthorizationException::class);
 
     $maria = Personas::user('branch_a_employee_2');

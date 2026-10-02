@@ -19,8 +19,9 @@ use Illuminate\Database\Query\Builder as QueryBuilder;
  * Who sees a post (ФО §6.4.1, ТЗ §18) — decided on the server, in SQL, in this one place. The feed, the search,
  * the API, notifications and counters all start from visibleTo(), so a post invisible to a user appears nowhere.
  *
- *   public   — everyone with posts.read (a candidate only sees what is explicitly opened to them);
+ *   public   — everyone with posts.read, candidates and volunteers included (Д-25);
  *   regional — the territories of the post overlap the viewer's territorial access (Д-3), in either direction;
+ *              not for a candidate, who beyond public posts sees only what is explicitly opened to them;
  *   group    — members of one of the post's groups;
  *   targeted — the people on the list and the holders of the listed roles;
  *   private  — the author alone.
@@ -47,14 +48,15 @@ final readonly class PostVisibility
             return $query->whereRaw('1 = 0');
         }
 
-        // "Канд — только явно открытое": a grant narrowed to "related" opens groups and targeted posts only.
+        // "Канд — только явно открытое": a grant narrowed to "related" adds to public posts only groups and
+        // targeted posts — no regional ones.
         $open = array_filter($grants, fn (array $grant): bool => $grant['data'] === null) !== [];
         $personId = $user->person_id;
         $groupIds = $this->groups->groupIdsOf($personId);
         $roles = $this->roleCodes($user);
         [$inside, $above] = $open ? $this->territoryPaths($personId) : [[], []];
 
-        return $query->where(function (Builder $where) use ($personId, $withOwnUnpublished, $open, $groupIds, $roles, $inside, $above): void {
+        return $query->where(function (Builder $where) use ($personId, $withOwnUnpublished, $groupIds, $roles, $inside, $above): void {
             $where->where(fn (Builder $own) => $own
                 ->where('posts.author_person_id', $personId)
                 ->when(! $withOwnUnpublished, fn (Builder $q) => $q->where('posts.status', Post::PUBLISHED)));
@@ -62,11 +64,9 @@ final readonly class PostVisibility
             $where->orWhere(fn (Builder $others) => $others
                 ->where('posts.status', Post::PUBLISHED)
                 ->whereNull('posts.hidden_at')
-                ->where(function (Builder $audience) use ($personId, $open, $groupIds, $roles, $inside, $above): void {
-                    $audience->whereRaw('1 = 0');
-                    if ($open) {
-                        $audience->orWhere('posts.visibility', Post::PUBLIC);
-                    }
+                ->where(function (Builder $audience) use ($personId, $groupIds, $roles, $inside, $above): void {
+                    // Д-25: a public post is for everyone who has an account — candidates and volunteers included.
+                    $audience->where('posts.visibility', Post::PUBLIC);
                     if ($inside !== []) {
                         $audience->orWhere(fn (Builder $regional) => $regional
                             ->where('posts.visibility', Post::REGIONAL)

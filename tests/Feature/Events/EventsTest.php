@@ -35,7 +35,8 @@ beforeEach(function () {
     $this->people = app(EventParticipation::class);
     $this->visibility = app(EventVisibility::class);
     $this->event = fn (User $organizer, array $data = []): Event => $this->events->create($organizer, [
-        'title' => 'Întâlnire', 'type_code' => 'meeting', 'starts_at' => now()->addDays(2)->setTime(18, 0), ...$data,
+        // Exactly 48 hours ahead, whatever the time of day the suite runs at: the tests below travel in time.
+        'title' => 'Întâlnire', 'type_code' => 'meeting', 'starts_at' => now()->addDays(2), ...$data,
     ]);
     $this->sees = fn (User $user, Event $event): bool => $this->visibility->canSee($user, $event);
 });
@@ -88,11 +89,17 @@ it('shows an event by its visibility, and to the invited whatever the visibility
         ->and(($this->sees)($o->a2, $inGroup))->toBeFalse()
         ->and(($this->sees)($o->balti1, $private))->toBeTrue()
         ->and(($this->sees)($o->a2, $private))->toBeFalse()
-        ->and(($this->sees)($o->headA, $private))->toBeFalse()
-        ->and(($this->sees)($o->admin, $private))->toBeFalse()
-        // A candidate sees only what they were invited to.
+        // Д-24: those who answer for the organizer see the event whatever its level — the others do not.
+        ->and(($this->sees)($o->headA, $private))->toBeTrue()
+        ->and(($this->sees)($o->regionHead, $private))->toBeTrue()
+        ->and(($this->sees)($o->admin, $private))->toBeTrue()
+        ->and(($this->sees)($o->headB, $private))->toBeFalse()
+        ->and(($this->sees)($o->baltiHead, $private))->toBeFalse()
+        // A candidate sees public events (Д-25) and what they were invited to — nothing else.
         ->and(($this->sees)($candidate, $regional))->toBeTrue()
-        ->and(($this->sees)($candidate, $public))->toBeFalse()
+        ->and(($this->sees)($candidate, $public))->toBeTrue()
+        ->and(($this->sees)($candidate, $inGroup))->toBeFalse()
+        ->and(($this->sees)($candidate, $private))->toBeFalse()
         ->and($this->visibility->visibleTo($o->b1)->pluck('id')->all())->toEqualCanonicalizing([$public->id, $inGroup->id]);
 });
 
@@ -104,11 +111,11 @@ it('invites people the inviter can see, and withdraws an invitation together wit
         ->and($this->people->invite($o->a1, $event, [$o->a2->person_id]))->toBe(0)
         ->and(journalCount('events.invitation.sent'))->toBe(2)
         ->and(fn () => $this->people->invite($o->a2, $event, [$o->balti1->person_id]))->toThrow(AuthorizationException::class)
-        // Running an event takes the sight of it: the head of the organizer's branch does not see a private event until invited.
-        ->and(fn () => $this->people->invite($o->headA, $event, [$o->orgHead->person_id]))->toThrow(AuthorizationException::class)
-        ->and($this->people->invite($o->a1, $event, [$o->headA->person_id, $o->headB->person_id]))->toBe(2)
+        // Д-24: the head of the organizer's branch sees and runs the events of their people — a private one too.
         ->and($this->people->invite($o->headA, $event, [$o->regionHead->person_id]))->toBe(1)
-        // The head of another branch sees it now, and still does not run it.
+        // The head of another branch does not see it; once invited, sees it and still does not run it.
+        ->and(fn () => $this->people->invite($o->headB, $event, [$o->orgHead->person_id]))->toThrow(AuthorizationException::class)
+        ->and($this->people->invite($o->a1, $event, [$o->headB->person_id]))->toBe(1)
         ->and(fn () => $this->people->invite($o->headB, $event, [$o->orgHead->person_id]))->toThrow(AuthorizationException::class);
 
     $notice = $o->b1->notifications()->sole();
@@ -214,7 +221,7 @@ it('reminds the people going — once, however many times the scheduler runs', f
     expect($event->reminders()->pluck('minutes_before')->all())->toBe([1440, 60])
         ->and($this->events->sendDueReminders())->toBe(0);
 
-    $this->travel(30)->hours();   // 18 hours before the start: the "day before" reminder is due
+    $this->travel(30)->hours();   // 18 hours before the start: the "day before" reminder is due, the "hour before" one is not
 
     expect($this->events->sendDueReminders())->toBe(1)
         ->and($this->events->sendDueReminders())->toBe(0)

@@ -165,16 +165,24 @@ it('keeps drafts and scheduled posts to their author until they are published', 
         ->and(journalCount('social.post.published'))->toBe(2);
 });
 
-it('shows a candidate only what is explicitly opened to them: groups they were invited to and posts addressed to them', function () {
+it('shows public posts to candidates and volunteers; beyond them a candidate sees only what is explicitly opened', function () {
     $o = $this->org;
     $candidate = userWithRoles('candidate');
+    $volunteer = userWithRoles('volunteer');
     $group = $this->social->group($o->a1, 'Viitori colegi', Group::CLOSED, [$candidate]);
     $public = $this->social->post($o->orgHead, 'Anunț pentru toți', ['visibility' => Post::PUBLIC]);
     $inGroup = $this->social->post($o->a1, 'Bine ați venit', ['visibility' => Post::GROUP, 'group_ids' => [$group->id]]);
     $toHim = $this->social->post($o->a1, 'Vă așteptăm luni', ['visibility' => Post::TARGETED, 'person_ids' => [$candidate->person_id]]);
 
-    expect(($this->sees)($candidate, $public))->toBeFalse()
-        ->and(($this->inFeed)($candidate))->toBe([$toHim->id, $inGroup->id])
+    $regional = $this->social->centruPost();
+
+    // Д-25: a public post is for everyone with an account.
+    expect(($this->sees)($candidate, $public))->toBeTrue()
+        ->and(($this->sees)($volunteer, $public))->toBeTrue()
+        // A regional post is not: the candidate belongs to no territory yet.
+        ->and(($this->sees)($candidate, $regional))->toBeFalse()
+        ->and(($this->inFeed)($candidate))->toBe([$toHim->id, $inGroup->id, $public->id])
+        ->and(($this->inFeed)($volunteer))->toBe([$public->id])
         // A candidate reads, comments and reacts where admitted, but does not publish and does not join by themselves.
         ->and(app(ManageComments::class)->add($candidate, $inGroup, 'Mulțumesc!')->id)->toBeInt()
         ->and(fn () => $this->social->post($candidate, 'X', ['visibility' => Post::GROUP, 'group_ids' => [$group->id]]))->toThrow(AuthorizationException::class)
