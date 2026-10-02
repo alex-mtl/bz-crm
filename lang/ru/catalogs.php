@@ -19,6 +19,10 @@ return [
         'reaction_types' => 'Реакции',
         'report_reasons' => 'Причины жалоб',
         'event_types' => 'Типы мероприятий',
+        'house_types' => 'Типы домов',
+        'canvass_statuses' => 'Статусы контакта при обходе',
+        'street_types' => 'Виды улиц',
+        'vehicle_types' => 'Типы транспорта',
     ],
     'proposal_statuses' => [
         'pending' => 'На рассмотрении',

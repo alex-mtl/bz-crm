@@ -17,6 +17,7 @@ return [
         'events' => 'Events',
         'notifications' => 'Notifications',
         'messenger' => 'Messenger',
+        'field' => 'Field work',
     ],
     'modules' => [
         'audit' => 'Event journal',

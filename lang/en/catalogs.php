@@ -19,6 +19,10 @@ return [
         'reaction_types' => 'Reactions',
         'report_reasons' => 'Report reasons',
         'event_types' => 'Event types',
+        'house_types' => 'House types',
+        'canvass_statuses' => 'Canvass contact statuses',
+        'street_types' => 'Street kinds',
+        'vehicle_types' => 'Vehicle types',
     ],
     'proposal_statuses' => [
         'pending' => 'Pending',

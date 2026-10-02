@@ -1,0 +1,14 @@
+{
+    "name": "BZ — teren",
+    "short_name": "BZ teren",
+    "description": "Casele mele, apartamentele, rezultatul vizitei — și fără rețea.",
+    "start_url": "/field",
+    "scope": "/field",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#f8fafc",
+    "theme_color": "#b45309",
+    "icons": [
+        { "src": "/field/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+    ]
+}

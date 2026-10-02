@@ -1,0 +1,8 @@
+code,name_ro,name_ru,name_en,abbr,is_system,unverified
+street,Stradă,Улица,Street,str.,1,ro|en
+boulevard,Bulevard,Бульвар,Boulevard,bd.,1,ro|en
+lane,Stradelă,Переулок,Lane,str-la,1,ro|en
+road,Șosea,Шоссе,Road,șos.,1,ro|en
+square,Piață,Площадь,Square,p-ța,1,ro|en
+alley,Alee,Аллея,Alley,al.,1,ro|en
+way,Cale,Проезд,Way,cal.,1,ro|en

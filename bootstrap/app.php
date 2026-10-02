@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\V1\TrackerController;
 use App\Http\Middleware\ApplyImpersonation;
 use App\Http\Middleware\AssignJournalContext;
 use App\Http\Middleware\EnsureSessionEpoch;
@@ -16,8 +17,13 @@ return Application::configure(basePath: dirname(__DIR__))
         commands: __DIR__.'/../routes/console.php',
         health: '/up',
         // API v1 (ADR-010): the session of the panel, the same middleware as the screens, plus a throttle.
-        then: fn () => Route::middleware(['web', 'auth', 'throttle:120,1'])->prefix('api/v1')->name('api.v1.')
-            ->group(__DIR__.'/../routes/api.php'),
+        then: function (): void {
+            Route::middleware(['web', 'auth', 'throttle:120,1'])->prefix('api/v1')->name('api.v1.')
+                ->group(__DIR__.'/../routes/api.php');
+            // Trackers of vehicles (ADR-013): no session and no cookies — the tracker's key is the credential.
+            Route::post('api/v1/trackers/positions', TrackerController::class)
+                ->middleware('throttle:600,1')->name('api.v1.trackers.positions');
+        },
     )
     // WebSocket channels (ADR-012): authorized through the session of the panel.
     ->withBroadcasting(__DIR__.'/../routes/channels.php', ['middleware' => ['web', 'auth']])

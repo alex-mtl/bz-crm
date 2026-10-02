@@ -17,6 +17,7 @@ return [
         'events' => 'Мероприятия',
         'notifications' => 'Уведомления',
         'messenger' => 'Мессенджер',
+        'field' => 'Полевая работа',
     ],
     'modules' => [
         'audit' => 'Журнал событий',

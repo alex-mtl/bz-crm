@@ -30,6 +30,7 @@ return [
         'event_reminders' => 'Event reminders',
         'messages' => 'Messages in chats',
         'mentions' => 'Mentions in chats',
+        'field' => 'Field work: assignments, geozones',
     ],
     'channels' => [
         'in_app' => 'In the system',

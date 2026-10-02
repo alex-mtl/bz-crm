@@ -1,0 +1,3 @@
+code,name_ro,name_ru,name_en,multi_unit,is_system,unverified
+apartment_building,Bloc de locuit,Многоквартирный дом,Apartment building,1,1,ro|en
+private_house,Casă particulară,Частный дом,Private house,0,1,ro|en

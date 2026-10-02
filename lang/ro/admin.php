@@ -17,6 +17,7 @@ return [
         'events' => 'Evenimente',
         'notifications' => 'Notificări',
         'messenger' => 'Mesagerie',
+        'field' => 'Lucrul în teren',
     ],
     'modules' => [
         'audit' => 'Jurnalul evenimentelor',

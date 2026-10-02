@@ -4,3 +4,14 @@
 @source '../../../../resources/views/filament/**/*';
 @source '../../../../resources/views/auth/**/*';
 @source '../../../../resources/views/livewire/**/*';
+
+/* Maps of the field work (resources/js/field-map.js). Leaflet draws markers outside Tailwind's reach. */
+.bz-map { height: 32rem; border-radius: 0.75rem; z-index: 0; }
+.bz-map-small { height: 20rem; }
+.bz-dot { display: flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #fff; border-radius: 9999px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 0.4); color: #fff; font-size: 12px; font-weight: 700; }
+.bz-person { background: #7c3aed; }
+.bz-own { background: #b45309; }
+.bz-vehicle { background: #0f172a; border-radius: 6px; }
+.bz-house { background: #b45309; }
+.bz-corner { width: 18px; height: 18px; margin: 4px; background: #fff; border-color: #0f172a; cursor: grab; }

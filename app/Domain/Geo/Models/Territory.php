@@ -45,6 +45,8 @@ class Territory extends Model
 
     public const string SECTOR = 'sector';
 
+    public const string ELECTORAL_AREA = 'electoral_area';
+
     protected $fillable = [
         'parent_id', 'level', 'code', 'name_ro', 'name_ru', 'name_en', 'search_aliases', 'iso', 'geonameid',
         'latitude', 'longitude', 'railway_station', 'description', 'path', 'depth', 'sort_order', 'is_active',

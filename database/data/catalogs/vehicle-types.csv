@@ -1,0 +1,5 @@
+code,name_ro,name_ru,name_en,is_system,unverified
+car,Autoturism,Легковой автомобиль,Car,0,ro|en
+minibus,Microbuz,Микроавтобус,Minibus,0,ro|en
+truck,Camion,Грузовой автомобиль,Truck,0,ro|en
+other,Altele,Прочее,Other,1,ro|en

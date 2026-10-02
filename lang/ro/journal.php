@@ -165,6 +165,48 @@ return [
             ],
         ],
         'geo' => [
+            'street' => [
+                'renamed' => 'Denumirea străzii a fost corectată',
+                'merged' => 'Străzi comasate în nomenclatorul adreselor',
+            ],
+            'house' => [
+                'created' => 'Casă adăugată',
+                'updated' => 'Casă modificată',
+                'apartments_added' => 'Apartamente adăugate la casă',
+                'apartment_removed' => 'Apartament șters din casă',
+                'archived' => 'Casă trimisă în arhivă',
+                'restored' => 'Casă scoasă din arhivă',
+            ],
+            'assignment' => [
+                'created' => 'Agitator atribuit unei case sau unui teritoriu',
+                'ended' => 'Atribuirea agitatorului a fost retrasă',
+            ],
+            'visit' => [
+                'recorded' => 'Vizită la apartament înregistrată',
+            ],
+            'zone' => [
+                'created' => 'Geozonă creată',
+                'updated' => 'Geozonă modificată',
+                'archived' => 'Geozonă trimisă în arhivă',
+                'restored' => 'Geozonă scoasă din arhivă',
+            ],
+            'location' => [
+                'sharing_started' => 'Participantul a pornit partajarea locației',
+                'sharing_stopped' => 'Participantul a oprit partajarea locației',
+                'track_viewed' => 'Traseul participantului a fost vizualizat',
+                'purged' => 'Punctele de locație vechi au fost șterse',
+            ],
+            'vehicle' => [
+                'created' => 'Vehicul adăugat',
+                'updated' => 'Vehicul modificat',
+                'archived' => 'Vehicul trimis în arhivă',
+                'restored' => 'Vehicul scos din arhivă',
+                'tracker_key_issued' => 'Cheia trackerului a fost emisă',
+                'tracker_key_revoked' => 'Cheia trackerului a fost revocată',
+            ],
+            'settings' => [
+                'changed' => 'Setările lucrului în teren au fost modificate',
+            ],
             'territories' => [
                 'imported' => 'Nomenclatorul de teritorii încărcat',
             ],

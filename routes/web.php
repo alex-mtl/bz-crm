@@ -8,6 +8,7 @@ use App\Http\Controllers\Auth\InvitationController;
 use App\Http\Controllers\Auth\OAuthController;
 use App\Http\Controllers\EventCalendarController;
 use App\Http\Controllers\ExportController;
+use App\Http\Controllers\FieldAppController;
 use App\Http\Controllers\HealthController;
 use App\Http\Controllers\ImpersonationController;
 use App\Http\Controllers\LocaleController;
@@ -44,6 +45,8 @@ Route::middleware('auth')->group(function (): void {
     Route::get('/events/attachments/{attachment}', [EventCalendarController::class, 'attachment'])->name('events.attachment');
     // Files of messages (ТЗ §68): for the members of the chat, after the antivirus check.
     Route::get('/messenger/attachments/{attachment}', MessengerAttachmentController::class)->name('messenger.attachment');
+    // The agitator's application (ТЗ §33–34, ADR-013): works at the entrance with or without a network.
+    Route::get('/field', FieldAppController::class)->name('field.app');
     // Confirmation of reading a critical notice (ФО §6.13).
     Route::post('/announcements/{announcement}/acknowledge', [AnnouncementController::class, 'acknowledge'])->name('announcements.acknowledge');
     // Return from an impersonation (Д-19).

@@ -165,6 +165,48 @@ return [
             ],
         ],
         'geo' => [
+            'street' => [
+                'renamed' => 'Street name corrected',
+                'merged' => 'Streets merged in the address directory',
+            ],
+            'house' => [
+                'created' => 'House added',
+                'updated' => 'House changed',
+                'apartments_added' => 'Flats added to a house',
+                'apartment_removed' => 'Flat removed from a house',
+                'archived' => 'House archived',
+                'restored' => 'House restored from the archive',
+            ],
+            'assignment' => [
+                'created' => 'Canvasser assigned to a house or a territory',
+                'ended' => 'Canvasser\'s assignment ended',
+            ],
+            'visit' => [
+                'recorded' => 'Visit to a flat recorded',
+            ],
+            'zone' => [
+                'created' => 'Geozone created',
+                'updated' => 'Geozone changed',
+                'archived' => 'Geozone archived',
+                'restored' => 'Geozone restored from the archive',
+            ],
+            'location' => [
+                'sharing_started' => 'Participant turned location sharing on',
+                'sharing_stopped' => 'Participant stopped location sharing',
+                'track_viewed' => 'Participant\'s track viewed',
+                'purged' => 'Outdated location points removed',
+            ],
+            'vehicle' => [
+                'created' => 'Vehicle added',
+                'updated' => 'Vehicle changed',
+                'archived' => 'Vehicle archived',
+                'restored' => 'Vehicle restored from the archive',
+                'tracker_key_issued' => 'Tracker key issued',
+                'tracker_key_revoked' => 'Tracker key revoked',
+            ],
+            'settings' => [
+                'changed' => 'Field work settings changed',
+            ],
             'territories' => [
                 'imported' => 'Territory reference loaded',
             ],

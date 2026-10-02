@@ -30,6 +30,7 @@ return [
         'event_reminders' => 'Mementouri despre evenimente',
         'messages' => 'Mesaje în chaturi',
         'mentions' => 'Mențiuni în chaturi',
+        'field' => 'Lucrul în teren: atribuiri, geozone',
     ],
     'channels' => [
         'in_app' => 'În sistem',

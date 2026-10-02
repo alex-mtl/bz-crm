@@ -19,6 +19,10 @@ return [
         'reaction_types' => 'Reacții',
         'report_reasons' => 'Motive de reclamație',
         'event_types' => 'Tipuri de evenimente',
+        'house_types' => 'Tipuri de case',
+        'canvass_statuses' => 'Statutele contactului la vizită',
+        'street_types' => 'Feluri de străzi',
+        'vehicle_types' => 'Tipuri de vehicule',
     ],
     'proposal_statuses' => [
         'pending' => 'În examinare',

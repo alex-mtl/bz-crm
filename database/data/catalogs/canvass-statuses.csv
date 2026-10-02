@@ -1,0 +1,8 @@
+code,name_ro,name_ru,name_en,visited,contact,supporter,retry,color,is_system,unverified
+not_visited,Nevizitat,Не посещена,Not visited,0,0,0,0,gray,1,ro|en
+not_home,Nu a fost găsit,Не застали,Nobody home,1,0,0,1,amber,1,ro|en
+contacted,Contact stabilit,Контакт установлен,Contact made,1,1,0,0,blue,1,ro|en
+supporter,Susținător,Сторонник,Supporter,1,1,1,0,green,1,ro|en
+undecided,Nehotărât,Не определился,Undecided,1,1,0,0,violet,1,ro|en
+opposed,Împotrivă,Против,Opposed,1,1,0,0,red,1,ro|en
+refused,Refuz de a comunica,Отказ от общения,Refused to talk,1,0,0,0,slate,1,ro|en
