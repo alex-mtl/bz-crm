@@ -147,7 +147,7 @@ docker compose exec app vendor/bin/phpstan analyse --memory-limit=1G
 docker compose --profile e2e run --rm e2e       # браузерные тесты (Playwright) на демо-мире; в composer check не входят
 ```
 
-CI — `.github/workflows/ci.yml`: те же три проверки на MySQL 8.4 + Redis, плюс сборка ассетов.
+CI — `.github/workflows/ci.yml`: те же три проверки на MySQL 8.4 + Redis, плюс сборка ассетов. Запускается только вручную (GitHub → Actions → CI → Run workflow): на время разработки автозапуск при push и pull request отключён. Первый прогон на GitHub упал на шаге тестов — перед возвратом автозапуска его нужно разобрать.
 
 ## 9. Решения
 
