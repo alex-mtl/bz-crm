@@ -81,7 +81,8 @@ services:
     networks: [bz]
 
   # Antivirus for uploaded files (ADR-012). Optional: `docker compose --profile antivirus up -d clamav`
-  # and ATTACHMENT_SCANNER=clamav in .env. The first start downloads the signature databases (a few minutes).
+  # and then the super admin turns the protection on in the panel ("Состояние системы", Д-28).
+  # The first start downloads the signature databases (a few minutes).
   clamav:
     image: clamav/clamav:stable
     profiles: [antivirus]

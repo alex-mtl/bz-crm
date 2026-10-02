@@ -406,6 +406,12 @@ return [
                 'changed' => 'Setările implicite de notificare ale rolului modificate',
             ],
         ],
+        'files' => [
+            'antivirus' => [
+                'enabled' => 'Protecția antivirus a fișierelor a fost activată',
+                'disabled' => 'Protecția antivirus a fișierelor a fost dezactivată',
+            ],
+        ],
         'messaging' => [
             'chat' => [
                 'created' => 'Chat creat',

@@ -6,6 +6,7 @@ use App\Domain\Catalogs\CatalogsServiceProvider;
 use App\Domain\CRM\CrmServiceProvider;
 use App\Domain\CustomObjects\CustomObjectsServiceProvider;
 use App\Domain\Events\EventsServiceProvider;
+use App\Domain\Files\FilesServiceProvider;
 use App\Domain\Geo\GeoServiceProvider;
 use App\Domain\Groups\GroupsServiceProvider;
 use App\Domain\Identity\IdentityServiceProvider;
@@ -32,6 +33,7 @@ return [
     IdentityServiceProvider::class,
     PeopleServiceProvider::class,
     ProfilesServiceProvider::class,
+    FilesServiceProvider::class,
     MessagingServiceProvider::class,
     TasksServiceProvider::class,
     ProjectsServiceProvider::class,

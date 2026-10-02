@@ -6,7 +6,7 @@ namespace App\Domain\Messaging\Jobs;
 
 use App\Domain\Audit\EventJournal;
 use App\Domain\Audit\JournalContext;
-use App\Domain\Files\AttachmentScanner;
+use App\Domain\Files\FileGate;
 use App\Domain\Files\ScanVerdict;
 use App\Domain\Messaging\Events\ChatUpdated;
 use App\Domain\Messaging\Models\MessageAttachment;
@@ -30,14 +30,14 @@ final class ScanMessageAttachment implements ShouldQueue
 
     public function __construct(public readonly int $attachmentId) {}
 
-    public function handle(AttachmentScanner $scanner, EventJournal $journal, JournalContext $context): void
+    public function handle(FileGate $gate, EventJournal $journal, JournalContext $context): void
     {
         $attachment = MessageAttachment::query()->with('message')->find($this->attachmentId);
         if ($attachment === null || $attachment->scan_status !== MessageAttachment::PENDING) {
             return;
         }
         $verdict = Storage::disk('local')->exists($attachment->path)
-            ? $scanner->scan(Storage::disk('local')->path($attachment->path))
+            ? $gate->scan(Storage::disk('local')->path($attachment->path))
             : ScanVerdict::Infected;
 
         if ($verdict === ScanVerdict::Unavailable) {

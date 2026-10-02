@@ -23,6 +23,24 @@ final readonly class ClamAvScanner implements AttachmentScanner
         private float $timeout = 10.0,
     ) {}
 
+    public function reachable(): bool
+    {
+        try {
+            $socket = @stream_socket_client("tcp://{$this->host}:{$this->port}", $errno, $error, min($this->timeout, 2.0));
+            if ($socket === false) {
+                return false;
+            }
+            stream_set_timeout($socket, 2);
+            fwrite($socket, "zPING\0");
+            $answer = trim((string) fread($socket, 16), "\0\n\r ");
+            fclose($socket);
+
+            return $answer === 'PONG';
+        } catch (Throwable) {
+            return false;
+        }
+    }
+
     public function scan(string $absolutePath): ScanVerdict
     {
         try {

@@ -1,6 +1,7 @@
 <?php
 
 use App\Domain\Events\Actions\ManageEvents;
+use App\Domain\Files\AntivirusProtection;
 use App\Domain\Files\AttachmentScanner;
 use App\Domain\Files\Exceptions\FileRejected;
 use App\Domain\Files\ScanVerdict;
@@ -23,6 +24,7 @@ use App\Domain\Social\Models\Post;
 use App\Domain\Tasks\Actions\ManageTasks;
 use App\Domain\Tasks\TaskWorkflow;
 use App\Infrastructure\Antivirus\ClamAvScanner;
+use App\Support\Settings\SystemSettings;
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Storage;
@@ -41,7 +43,9 @@ beforeEach(function () {
     $this->reader = app(ChatReader::class);
     $this->access = app(ChatAccess::class);
     $this->say = fn ($user, Chat $chat, string $body, array $data = []): Message => $this->messages->send($user, $chat, ['body' => $body, ...$data]);
+    // The protection is turned on (Д-28) with a scanner that answers what the test needs.
     $this->scanner = function (ScanVerdict $verdict): void {
+        app(SystemSettings::class)->put(AntivirusProtection::SETTING, true);
         app()->bind(AttachmentScanner::class, fn (): AttachmentScanner => new class($verdict) implements AttachmentScanner
         {
             public function __construct(private readonly ScanVerdict $verdict) {}
@@ -49,6 +53,11 @@ beforeEach(function () {
             public function scan(string $absolutePath): ScanVerdict
             {
                 return $this->verdict;
+            }
+
+            public function reachable(): bool
+            {
+                return $this->verdict !== ScanVerdict::Unavailable;
             }
         });
     };

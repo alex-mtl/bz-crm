@@ -37,7 +37,7 @@ docker compose exec app php artisan migrate --seed
 
 **Real-time (ADR-012).** В `.env` нужно заполнить `REVERB_APP_ID`, `REVERB_APP_KEY`, `REVERB_APP_SECRET` любыми случайными значениями (в `.env.example` они пустые) и перезапустить контейнеры `app` и `reverb`. Без Reverb поставьте `BROADCAST_CONNECTION=log` — мессенджер будет обновляться опросом раз в 20 секунд.
 
-**Антивирус (ADR-012).** По умолчанию выключен (`ATTACHMENT_SCANNER=none`). Чтобы включить: `docker compose --profile antivirus up -d clamav` (первый запуск скачивает базы сигнатур, несколько минут; контейнеру нужно около 1,5 ГБ памяти), затем `ATTACHMENT_SCANNER=clamav` в `.env`.
+**Антивирус (ADR-012, Д-28).** По умолчанию отключён, контейнер не запускается. Чтобы включить: `docker compose --profile antivirus up -d clamav` (первый запуск скачивает базы сигнатур, несколько минут; контейнеру нужно около 1,5 ГБ памяти), затем под суперадмином — «Состояние системы» → «Антивирусная защита файлов» → «Включить». Отключается там же.
 
 Локальный администратор создаётся сидером `LocalAdminSeeder` только в окружениях `local`/`testing`; логин и пароль — `SEED_ADMIN_EMAIL` / `SEED_ADMIN_PASSWORD` в `.env`.
 

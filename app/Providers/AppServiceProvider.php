@@ -9,7 +9,6 @@ use App\Domain\Identity\Contracts\OAuthGateway;
 use App\Domain\Identity\Models\User;
 use App\Http\Impersonation\ImpersonationSession;
 use App\Infrastructure\Antivirus\ClamAvScanner;
-use App\Infrastructure\Antivirus\NullScanner;
 use App\Infrastructure\ExternalAuth\SocialiteOAuthGateway;
 use App\Support\Settings\SystemSettings;
 use Filament\Facades\Filament;
@@ -27,10 +26,10 @@ class AppServiceProvider extends ServiceProvider
     public function register(): void
     {
         $this->app->bind(OAuthGateway::class, SocialiteOAuthGateway::class);
-        // The antivirus (ADR-012): ClamAV where it is configured, nothing elsewhere.
-        $this->app->bind(AttachmentScanner::class, fn (): AttachmentScanner => config('files.scanner') === 'clamav'
-            ? new ClamAvScanner((string) config('files.clamav.host'), (int) config('files.clamav.port'), (float) config('files.clamav.timeout'))
-            : new NullScanner);
+        // The antivirus (ADR-012): ClamAV. Whether it is asked at all is the switch of the super admin (Д-28).
+        $this->app->bind(AttachmentScanner::class, fn (): AttachmentScanner => new ClamAvScanner(
+            (string) config('files.clamav.host'), (int) config('files.clamav.port'), (float) config('files.clamav.timeout'),
+        ));
     }
 
     public function boot(): void

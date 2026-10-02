@@ -2,6 +2,8 @@
 
 use App\Domain\Access\AuthorizationService;
 use App\Domain\Audit\Models\JournalEntry;
+use App\Domain\Files\AntivirusProtection;
+use App\Domain\Files\Exceptions\AntivirusUnavailable;
 use App\Domain\Messaging\Actions\ManageChats;
 use App\Domain\Messaging\Actions\SendMessages;
 use App\Domain\Messaging\ChatAccess;
@@ -242,6 +244,23 @@ it('lets the WebSocket channel of a chat be joined by its members only', functio
     $join('branch_a_employee_1', 'private-messenger.'.Personas::user('branch_a_head')->id)->assertForbidden();
     $this->flushSession();
     $join('super_admin', 'private-chat.'.$heads->id)->assertForbidden();
+});
+
+it('keeps the antivirus check off in the demo world, with the switch in the hands of the super admin only', function () {
+    $protection = app(AntivirusProtection::class);
+
+    // Д-28: off while the platform is developed and tested — the files of the demo world went in unchecked.
+    expect($protection->enabled())->toBeFalse()
+        ->and(MessageAttachment::query()->pluck('scan_status')->unique()->all())->toBe([MessageAttachment::SKIPPED])
+        ->and(fn () => $protection->set(Personas::user('security'), true))->toThrow(AuthorizationException::class)
+        ->and(fn () => $protection->set(Personas::user('org_head'), true))->toThrow(AuthorizationException::class)
+        // No antivirus service runs here: the super admin is told so instead of blocking every upload.
+        ->and(fn () => $protection->set(Personas::user('super_admin'), true))->toThrow(AntivirusUnavailable::class);
+
+    $this->actingAs(Personas::user('super_admin'))->get('/admin/system-status')->assertOk()
+        ->assertSee(__('system_status.antivirus'))->assertSee(__('system_status.antivirus_enable'));
+    $this->flushSession();
+    $this->actingAs(Personas::user('security'))->get('/admin/system-status')->assertForbidden();
 });
 
 it('gives the right to read chats from outside to nobody in the demo world', function () {

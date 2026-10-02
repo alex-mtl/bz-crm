@@ -30,4 +30,32 @@
             </div>
         </dl>
     </x-filament::section>
+
+    <x-filament::section>
+        <x-slot name="heading">{{ __('system_status.antivirus') }}</x-slot>
+        <x-slot name="description">{{ __('system_status.antivirus_hint') }}</x-slot>
+
+        <x-slot name="afterHeader">
+            {{ $this->switchAntivirusAction }}
+        </x-slot>
+
+        <dl class="divide-y divide-gray-100 dark:divide-white/5">
+            <div class="flex items-center justify-between py-3">
+                <dt class="text-sm font-medium">{{ __('system_status.antivirus') }}</dt>
+                <dd>
+                    <x-filament::badge :color="$antivirusEnabled ? 'success' : 'warning'">
+                        {{ $antivirusEnabled ? __('system_status.antivirus_on') : __('system_status.antivirus_off') }}
+                    </x-filament::badge>
+                </dd>
+            </div>
+            <div class="flex items-center justify-between py-3">
+                <dt class="text-sm font-medium">{{ __('system_status.antivirus_service') }}</dt>
+                <dd>
+                    <x-filament::badge :color="$antivirusReachable ? 'success' : ($antivirusEnabled ? 'danger' : 'gray')">
+                        {{ $antivirusReachable ? __('system_status.ok') : __('system_status.antivirus_service_down') }}
+                    </x-filament::badge>
+                </dd>
+            </div>
+        </dl>
+    </x-filament::section>
 </x-filament-panels::page>

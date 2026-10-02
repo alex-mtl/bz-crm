@@ -406,6 +406,12 @@ return [
                 'changed' => 'Notification defaults of a role changed',
             ],
         ],
+        'files' => [
+            'antivirus' => [
+                'enabled' => 'Antivirus protection of files was turned on',
+                'disabled' => 'Antivirus protection of files was turned off',
+            ],
+        ],
         'messaging' => [
             'chat' => [
                 'created' => 'Chat created',
