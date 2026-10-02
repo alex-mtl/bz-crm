@@ -42,7 +42,10 @@ it('holds the full official territory reference, also without the demo world', f
         ->and(Territory::query()->where(fn ($q) => $q->where('name_ro', '')->orWhere('name_ru', '')->orWhere('name_en', ''))->count())->toBe(0);
 
     $stats = app(ImportTerritories::class)();
-    expect($stats['created'])->toBe(0)->and(Territory::query()->count())->toBe(1728);
+    // The official reference stays as it was; the demo world adds its own invented polling districts below it (phase 7).
+    expect($stats['created'])->toBe(0)
+        ->and(Territory::query()->where('level', '!=', Territory::ELECTORAL_AREA)->count())->toBe(1728)
+        ->and(Territory::query()->where('level', Territory::ELECTORAL_AREA)->count())->toBe(4);
 });
 
 it('finds territories by their traditional forms but shows official names (Д-9)', function () {

@@ -23,7 +23,7 @@ final class FieldAppController
         $mayShare = $authorization->can($user, 'geo.locations.share');
         abort_unless($mayVisit || $mayShare, 403);
 
-        $asset = fn (string $file): string => '/field/'.$file.'?v='.(@filemtime(public_path('field/'.$file)) ?: 1);
+        $asset = fn (string $file): string => '/field-app/'.$file.'?v='.(@filemtime(public_path('field-app/'.$file)) ?: 1);
 
         return view('field.app', [
             'boot' => [

@@ -70,6 +70,8 @@ flowchart BT
 | Access | Identity, Organization, Geo\Territory, People, Audit | Роли, разрешения, две оси scopes (территория и оргструктура), наследуемый и выданный территориальный доступ (Д-3), делегирование; единственная точка проверки прав |
 | Profiles | People, Organization, Access, Audit | Открытый профиль с видимостью полей и конфиденциальные слои (фаза 2). Круги видимости строятся на `OrgStructure` и `TerritorialAccess` |
 
+**Уточнение фазы 7.** Полевая часть Geo знает о Tasks (задача «вернуться» — и отношение-допуск на её создание), об Events (мероприятие с точкой привязывается к геозонам; Events о Geo не знает — привязка идёт по событию сохранения модели) и о CRM (обращения жителей, привязанные к дому). Access получил общий локатор `TerritoryColumnLocator` для объектов, стоящих в одной территории. Событие `Geo\Events\VisitCompleted` — для геймификации, `GeoZoneCrossed` — для автоматизации ([ADR-013](../decisions/ADR-013-field-work-offline-maps.md)).
+
 **Уточнение фазы 6.** Messaging не импортирует Tasks, Projects и Groups: модуль объекта сам регистрирует в `Messaging\ChatSubjects` правило доступа к своему обсуждению, название и ссылку. Создание задачи из ветки — на стороне панели: она берёт выжимку у Messaging и вызывает действие Tasks. Social, Events и Messaging зависят от порта `Files\AttachmentScanner`; адаптер ClamAV — в `Infrastructure\Antivirus` ([ADR-012](../decisions/ADR-012-messenger-realtime-antivirus.md)).
 
 **Уточнение фазы 5.** С фазы 5 Tasks, CRM, Groups, Social и Events зависят от Notifications: регистрируют в нём свои категории уведомлений и секции дайджеста, а их классы уведомлений используют общий трейт маршрутизации. CRM слушает событие `Events\AttendanceMarked` и ведёт факт «посещение мероприятия» в ленте человека — таблицы Events он не читает.
@@ -87,7 +89,7 @@ flowchart BT
 | Groups | People, Identity, Organization, Geo\Territory, Projects, Access, Messaging, Audit | С фазы 4. Привязка группы к подразделению, территории или проекту; чат группы — `Discussions`. Files — когда появится модуль файлов: сейчас «файлы группы» — вложения её постов |
 | Social | Groups, People, Identity, Organization, Geo\Territory, Access, Catalogs, Audit | С фазы 4. Региональная видимость постов — по `Territory` (Д-1) и `TerritorialAccess` (Д-3); видимость групповых постов — `GroupAccess`. Реакции и причины жалоб — справочники. Notifications и Files — с фаз 5–6 ([ADR-010](../decisions/ADR-010-social-visibility-groups-api.md)) |
 | Events | Groups, People, Identity, Organization, Geo\Territory, Access, Catalogs, Notifications, Audit | С фазы 5. Видимость — по `Territory`, `TerritorialAccess` и `GroupAccess`, как у постов. Сообщает о посещении доменным событием `AttendanceMarked`. Гео-точка — пока координаты; карта — через `GeoService` в фазе 7 ([ADR-011](../decisions/ADR-011-events-and-notifications.md)) |
-| Geo (полевая часть) | Geo\Territory, People, Organization, Access, Tasks | Дома, квартиры, визиты, геозоны; все пространственные операции — только `GeoService` (ТЗ §32) |
+| Geo (полевая часть) | Geo\Territory, People, Identity, Organization, Access, Catalogs, Tasks, Events, CRM, Notifications, Audit | С фазы 7. Дома, квартиры, визиты, геозоны, местоположение, транспорт; все пространственные операции — только `GeoService` (ТЗ §32) |
 | Training | People, Access, Notifications | |
 | Communications | CRM, People, Access, Infrastructure/Chatwoot | Цепочка «канал → человек → лид/обращение → задача» (ТЗ §29) |
 | Gamification | события Tasks, Training, Geo, Events | XP только из подтверждённых доменных событий (ТЗ §36) |
@@ -102,7 +104,7 @@ flowchart BT
 | `Chatwoot` | Communications |
 | `Search` | все модули через `SearchService` (ТЗ §39) |
 | `Storage` | Files |
-| `Maps` | Geo |
+| `Maps` | Geo — плитки карты у внешнего провайдера, переключается в настройках (с фазы 7) |
 | `Calendar` | Events (Google Calendar, ICS, iCal) |
 | `Antivirus` | Files (`AttachmentScanner`: ClamAV или «без проверки») — с фазы 6 |
 | `AI` | через `AiService` (ТЗ §45) |

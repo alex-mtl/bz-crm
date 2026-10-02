@@ -66,6 +66,7 @@ return [
         'attempts' => 'Attempts',
         'agitators' => 'Canvassers',
         'agitator' => 'Canvasser',
+        'agitator_houses' => 'Field work: assigned houses',
         'archived' => 'Archived',
         'only_active' => 'Without archived',
         'my_houses' => 'My houses',

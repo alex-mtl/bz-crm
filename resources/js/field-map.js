@@ -110,11 +110,20 @@ function mount(el) {
     if (Object.keys(layers).length > 1 || config.boundaries) {
         L.control.layers(null, layers, { collapsed: false }).addTo(map);
     }
-    if (bounds.isValid()) {
-        map.fitBounds(bounds.pad(0.15), { maxZoom: 17 });
-    }
-    // The map may have been laid out while hidden (a tab, a modal).
-    setTimeout(() => map.invalidateSize(), 200);
+    // The block may get its size after the script has run (styles still loading, a tab, a modal): the view is
+    // fitted once the block has a size, and again whenever the size changes before the reader touches the map.
+    let touched = false;
+    map.on('mousedown touchstart wheel', () => {
+        touched = true;
+    });
+    const fit = () => {
+        map.invalidateSize();
+        if (!touched && el.offsetWidth > 0 && bounds.isValid()) {
+            map.fitBounds(bounds.pad(0.15), { maxZoom: 17 });
+        }
+    };
+    fit();
+    new ResizeObserver(fit).observe(el);
 }
 
 /**

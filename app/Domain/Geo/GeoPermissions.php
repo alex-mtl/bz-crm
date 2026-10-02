@@ -12,8 +12,12 @@ final class GeoPermissions
 {
     private const array LEADERS = ['super_admin', 'org_head', 'unit_head'];
 
-    /** "Св": an agitator works with the houses they answer for; "Т" on the map — with their own territories. */
-    private const array AGITATORS = ['employee:related', 'volunteer:related'];
+    /**
+     * "Св": an agitator works with the houses they answer for; "Т" on the map — with their own territories.
+     * HR holds the same by relation: HR gives people the roles of employee and volunteer, and nobody can grant
+     * more than they hold themselves (Д-17).
+     */
+    private const array AGITATORS = ['employee:related', 'volunteer:related', 'hr:related'];
 
     private const array EVERYONE_BUT_CANDIDATE = [
         'employee', 'volunteer', 'hr', 'security', 'psychologist', 'catalog_admin', 'inbox_operator', 'moderator',
@@ -35,7 +39,7 @@ final class GeoPermissions
             ['code' => 'geo.houses.manage', 'roles' => self::LEADERS],
             ['code' => 'geo.assignments.manage', 'roles' => self::LEADERS],
             // A visit is recorded by whoever answers for the house — a head too only in a house of their own.
-            ['code' => 'geo.visits.create', 'roles' => ['unit_head:related', ...self::AGITATORS]],
+            ['code' => 'geo.visits.create', 'roles' => ['org_head:related', 'unit_head:related', ...self::AGITATORS]],
             ['code' => 'geo.visits.read', 'roles' => [...self::LEADERS, ...self::AGITATORS]],
             ['code' => 'geo.notes.team.read', 'roles' => self::LEADERS],
             ['code' => 'geo.summary.read', 'roles' => self::LEADERS],

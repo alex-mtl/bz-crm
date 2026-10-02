@@ -66,6 +66,7 @@ return [
         'attempts' => 'Încercări',
         'agitators' => 'Agitatori',
         'agitator' => 'Agitator',
+        'agitator_houses' => 'Lucrul în teren: casele atribuite',
         'archived' => 'În arhivă',
         'only_active' => 'Fără cele arhivate',
         'my_houses' => 'Casele mele',

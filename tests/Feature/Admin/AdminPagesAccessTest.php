@@ -77,6 +77,13 @@ dataset('admin pages', [
     'announcements' => ['/admin/announcements', 'notifications.broadcast'],
     'messenger' => ['/admin/messenger', 'chats.read'],
     'messaging policies' => ['/admin/messaging-policies', 'messaging.policies.manage'],
+    'houses' => ['/admin/houses', 'geo.houses.read'],
+    'field map' => ['/admin/field-map', 'geo.map.read'],
+    'field summary' => ['/admin/field-summary', 'geo.summary.read'],
+    'geozones' => ['/admin/geo-zones', 'geo.zones.read'],
+    'streets' => ['/admin/streets', 'geo.addresses.manage'],
+    'vehicles' => ['/admin/vehicles', 'geo.vehicles.read'],
+    'field settings' => ['/admin/field-settings', 'system.settings.manage'],
 ]);
 
 it('opens every admin page for the super admin', function (string $url) {

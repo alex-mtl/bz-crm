@@ -66,6 +66,7 @@ return [
         'attempts' => 'Попыток',
         'agitators' => 'Агитаторы',
         'agitator' => 'Агитатор',
+        'agitator_houses' => 'Полевая работа: закреплённые дома',
         'archived' => 'В архиве',
         'only_active' => 'Без архивных',
         'my_houses' => 'Мои дома',

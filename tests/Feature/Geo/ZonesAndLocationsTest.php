@@ -112,6 +112,11 @@ it('binds an event to the geozones its point stands in, and tells those who answ
         ->and(($this->notices)($o->headA, 'field_zone_event'))->toBe(1)
         ->and($o->a1->notifications()->get()->pluck('data')->map(fn ($d) => json_encode($d, JSON_UNESCAPED_UNICODE))->implode(' '))->not->toContain('Întâlnire închisă');
 
+    // An event for the sector: bound when its audience is already written — so a1 (Centru) is told, b1 (Botanica) is not.
+    $events->create($o->headA, ['title' => 'Pentru sector', 'visibility' => Event::REGIONAL, 'territory_ids' => [$o->centru->id], ...$data]);
+    expect(($this->notices)($o->a1, 'field_zone_event'))->toBe(2)->and(($this->notices)($o->b1, 'field_zone_event'))->toBe(1);
+    GeoZoneLink::query()->where('subject_id', Event::query()->where('title', 'Pentru sector')->value('id'))->delete();
+
     // Moved out of the zone — unbound; a manual binding stays wherever the point is.
     $events->update($o->orgHead, $public, ['latitude' => 47.3, 'longitude' => 28.9]);
     app(ManageZones::class)->linkEvent($o->headA, $zone, $outside);

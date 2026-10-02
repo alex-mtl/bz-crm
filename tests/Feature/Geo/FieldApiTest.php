@@ -53,16 +53,16 @@ it('opens the application to those who work in the field, and keeps its shell ca
     $this->get('/field')->assertRedirect();
 
     $this->actingAs($this->org->a1)->get('/field')->assertOk()
-        ->assertSee('/field/app.js', false)->assertSee('/field/manifest.json', false)->assertSee('"may_visit":true', false)
+        ->assertSee('/field-app/app.js', false)->assertSee('/field-app/manifest.json', false)->assertSee('"may_visit":true', false)
         ->assertSee(__('geo.app.loading'));
     $this->flushSession();
     $this->actingAs(userWithRoles('candidate'))->get('/field')->assertForbidden();
 
     // The files the service worker keeps are there, and the worker itself is served from the root to cover /field.
-    foreach (['field/app.js', 'field/app.css', 'field/manifest.json', 'field/icon.svg', 'field-sw.js'] as $file) {
+    foreach (['field-app/app.js', 'field-app/app.css', 'field-app/manifest.json', 'field-app/icon.svg', 'field-sw.js'] as $file) {
         expect(file_exists(public_path($file)))->toBeTrue();
     }
-    expect(json_decode((string) file_get_contents(public_path('field/manifest.json')), true))->toMatchArray(['start_url' => '/field', 'scope' => '/field', 'display' => 'standalone'])
+    expect(json_decode((string) file_get_contents(public_path('field-app/manifest.json')), true))->toMatchArray(['start_url' => '/field', 'scope' => '/field', 'display' => 'standalone'])
         // Every string the application shows exists in every language.
         ->and(array_keys(trans('geo.app', [], 'ro')))->toEqualCanonicalizing(array_keys(trans('geo.app', [], 'ru')))
         ->and(array_keys(trans('geo.app', [], 'en')))->toEqualCanonicalizing(array_keys(trans('geo.app', [], 'ru')))

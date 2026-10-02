@@ -115,9 +115,11 @@ final class GeoServiceProvider extends ServiceProvider
         });
 
         // An event with a point on the map is bound to the geozones the point stands in (ФО §6.11).
+        // Bound once the action is through: by then the audience of the event is written, and whoever answers for
+        // the zone is told only if they see the event.
         OrganizationEvent::saved(function (OrganizationEvent $event): void {
             if ($event->wasRecentlyCreated || $event->wasChanged(['latitude', 'longitude', 'cancelled_at'])) {
-                $this->app->make(ZoneBindings::class)->eventChanged($event);
+                DB::afterCommit(fn () => $this->app->make(ZoneBindings::class)->eventChanged($event));
             }
         });
 

@@ -6,6 +6,7 @@ use App\Domain\Audit\JournalContext;
 use App\Domain\Identity\Models\User;
 use Database\Seeders\Demo\CrmDemoSeeder;
 use Database\Seeders\Demo\EventsDemoSeeder;
+use Database\Seeders\Demo\FieldDemoSeeder;
 use Database\Seeders\Demo\IdentityDemoSeeder;
 use Database\Seeders\Demo\MessagingDemoSeeder;
 use Database\Seeders\Demo\NotificationsDemoSeeder;
@@ -50,6 +51,7 @@ class DemoSeeder extends Seeder
                 SocialDemoSeeder::class,
                 EventsDemoSeeder::class,
                 MessagingDemoSeeder::class,
+                FieldDemoSeeder::class,
                 NotificationsDemoSeeder::class,
             ]);
         } finally {

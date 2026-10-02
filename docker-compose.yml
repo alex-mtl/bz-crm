@@ -91,6 +91,21 @@ services:
     restart: unless-stopped
     networks: [bz]
 
+  # Browser tests (ТЗ §51, ADR-013). Optional and heavy (the image is about 2 GB), never started by `up`:
+  #   docker compose --profile e2e run --rm e2e
+  # They run against the demo world of this environment (migrate:fresh --seed first).
+  e2e:
+    image: mcr.microsoft.com/playwright:v1.63.0-noble
+    profiles: [e2e]
+    working_dir: /e2e
+    volumes:
+      - ./e2e:/e2e
+      - e2e_node_modules:/e2e/node_modules
+    command: sh -c "npm install --no-audit --no-fund --silent && npx playwright test"
+    depends_on: [nginx, node]
+    ipc: host
+    networks: [bz]
+
   mailpit:
     image: axllent/mailpit:latest
     ports:
@@ -122,3 +137,4 @@ volumes:
   vendor:
   framework:
   node_modules:
+  e2e_node_modules:

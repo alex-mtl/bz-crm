@@ -9,6 +9,9 @@ use App\Domain\Access\AuthorizationService;
 use App\Domain\Access\Models\TerritoryGrant;
 use App\Domain\Access\TerritorialAccess;
 use App\Domain\Audit\Models\JournalEntry;
+use App\Domain\Geo\FieldAccess;
+use App\Domain\Geo\Models\FieldAssignment;
+use App\Domain\Geo\Models\House;
 use App\Domain\Geo\Models\Territory;
 use App\Domain\Identity\Models\User;
 use App\Domain\Organization\Models\OrgMembership;
@@ -245,6 +248,29 @@ class ViewPerson extends ViewRecord
         ];
     }
 
+    /**
+     * The houses and territories the person answers for in the field — shown to the person and to those who may
+     * open the house (or manage assignments in the territory).
+     *
+     * @return list<array{what: string, since: string}>
+     */
+    private function fieldAssignments(): array
+    {
+        $person = $this->person();
+        $viewer = $this->viewer();
+        $field = app(FieldAccess::class);
+        $isSelf = $viewer->person_id === $person->id;
+
+        return FieldAssignment::query()->current()->with(['house.address.street', 'territory'])->where('person_id', $person->id)->orderBy('id')->get()
+            ->filter(fn (FieldAssignment $assignment): bool => $isSelf || ($assignment->house !== null
+                ? $field->can($viewer, 'geo.houses.read', $assignment->house)
+                : $field->can($viewer, 'geo.assignments.manage', new House(['territory_id' => $assignment->territory_id]))))
+            ->map(fn (FieldAssignment $assignment): array => [
+                'what' => $assignment->house?->label() ?? __('geo.ui.by_territory', ['name' => (string) $assignment->territory?->name()]),
+                'since' => $assignment->assigned_at->isoFormat('LL'),
+            ])->values()->all();
+    }
+
     public function infolist(Schema $schema): Schema
     {
         $person = $this->person();
@@ -311,6 +337,13 @@ class ViewPerson extends ViewRecord
                         TextEntry::make('origin')->hiddenLabel(),
                         TextEntry::make('until')->hiddenLabel()->placeholder(''),
                     ]),
+            ]),
+            // ФО §6.11: «Привязка видима в его профиле и в карточке дома».
+            Section::make(__('geo.ui.agitator_houses'))->visible(fn (): bool => $this->fieldAssignments() !== [])->collapsible()->schema([
+                RepeatableEntry::make('field_assignments')->hiddenLabel()->columns(2)->state(fn (): array => $this->fieldAssignments())->schema([
+                    TextEntry::make('what')->hiddenLabel()->weight('bold'),
+                    TextEntry::make('since')->hiddenLabel(),
+                ]),
             ]),
             Section::make(__('admin.people.link_hints'))->collapsible()
                 ->visible(fn (): bool => app(AuthorizationService::class)->scopeQuery($viewer, 'people.link_hints.read', AccountLinkHint::query())

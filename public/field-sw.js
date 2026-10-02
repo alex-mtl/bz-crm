@@ -4,7 +4,7 @@
  * without a network. Data is not cached here: the houses live in IndexedDB, the API always goes to the network.
  */
 const CACHE = 'bz-field-v1';
-const SHELL = ['/field', '/field/app.js', '/field/app.css', '/field/manifest.json', '/field/icon.svg'];
+const SHELL = ['/field', '/field-app/app.js', '/field-app/app.css', '/field-app/manifest.json', '/field-app/icon.svg'];
 
 self.addEventListener('install', (event) => {
     event.waitUntil(
@@ -32,7 +32,7 @@ self.addEventListener('fetch', (event) => {
         return;
     }
     const path = url.pathname;
-    if (path !== '/field' && !path.startsWith('/field/')) {
+    if (path !== '/field' && !path.startsWith('/field-app/')) {
         return;
     }
 

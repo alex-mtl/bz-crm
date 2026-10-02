@@ -32,6 +32,7 @@ docker compose exec app php artisan migrate --seed
 | Vite dev-сервер | http://localhost:5174 |
 | MySQL с хоста (для GUI-клиента) | `127.0.0.1:3316` |
 | Reverb (WebSocket мессенджера) | `ws://localhost:8180` |
+| Приложение агитатора (работает и без сети) | http://localhost:8100/field |
 
 Порты меняются в `.env`: `APP_PORT`, `MAILPIT_UI_PORT`, `VITE_PORT`, `FORWARD_DB_PORT`, `REVERB_CLIENT_PORT`.
 
@@ -40,6 +41,10 @@ docker compose exec app php artisan migrate --seed
 **Антивирус (ADR-012, Д-28).** По умолчанию отключён, контейнер не запускается. Чтобы включить: `docker compose --profile antivirus up -d clamav` (первый запуск скачивает базы сигнатур, несколько минут; контейнеру нужно около 1,5 ГБ памяти), затем под суперадмином — «Состояние системы» → «Антивирусная защита файлов» → «Включить». Отключается там же.
 
 Локальный администратор создаётся сидером `LocalAdminSeeder` только в окружениях `local`/`testing`; логин и пароль — `SEED_ADMIN_EMAIL` / `SEED_ADMIN_PASSWORD` в `.env`.
+
+**Карты (ADR-013).** После `git pull` с новой зависимостью: `docker compose exec node npm install` (Leaflet). Плитки карты браузер берёт у внешнего провайдера — без интернета карта покажет дома и геозоны на пустом фоне.
+
+**Браузерные тесты (ADR-013).** `docker compose --profile e2e run --rm e2e` — Playwright в отдельном контейнере (образ около 2 ГБ скачивается при первом запуске). Тесты идут на демо-мире: перед запуском `migrate:fresh --seed`, после — тоже, если мир нужен чистым (тест записывает визиты).
 
 ## Повседневные команды
 
