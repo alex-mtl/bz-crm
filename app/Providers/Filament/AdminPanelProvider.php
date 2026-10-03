@@ -25,6 +25,7 @@ use Illuminate\Cookie\Middleware\EncryptCookies;
 use Illuminate\Foundation\Http\Middleware\PreventRequestForgery;
 use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\StartSession;
+use Illuminate\Support\HtmlString;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
 
 class AdminPanelProvider extends PanelProvider
@@ -42,6 +43,13 @@ class AdminPanelProvider extends PanelProvider
             ->multiFactorAuthentication([
                 AppAuthentication::make()->recoverable(),
             ])
+            // The organization's logo with its name (from the bunaziua website); larger on the sign-in pages.
+            ->brandName(fn (): string => (string) config('app.brand'))
+            ->brandLogo('/brand/logo.png')
+            ->darkModeBrandLogo('/brand/logo-dark.png')
+            ->brandLogoHeight(fn (): string => request()->routeIs('filament.admin.auth.*') ? '4rem' : '2.25rem')
+            ->favicon('/brand/icon-32.png')
+            ->renderHook(PanelsRenderHook::HEAD_END, fn (): HtmlString => new HtmlString('<link rel="apple-touch-icon" href="/brand/icon-180.png">'))
             ->colors([
                 'primary' => Color::Amber,
             ])

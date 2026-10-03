@@ -5,13 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex">
-    <title>{{ $title ?? config('app.name') }} — {{ config('app.name') }}</title>
+    <title>{{ $title ?? config('app.brand') }} — {{ config('app.brand') }}</title>
+    <link rel="icon" href="/brand/icon-32.png" type="image/png">
+    <link rel="apple-touch-icon" href="/brand/icon-180.png">
     @vite(['resources/css/app.css'])
 </head>
 <body class="min-h-screen bg-stone-100 text-stone-900 antialiased">
     <main class="mx-auto flex min-h-screen max-w-lg flex-col justify-center px-4 py-10">
         <div class="mb-6 flex items-center justify-between">
-            <span class="text-lg font-semibold">{{ config('app.name') }}</span>
+            <img src="/brand/logo.png" width="521" height="96" alt="{{ config('app.brand') }}" class="h-10 w-auto">
+
             <nav class="flex gap-2 text-sm" aria-label="{{ __('identity.fields.locale') }}">
                 @foreach (config('app.supported_locales') as $code)
                     <a href="{{ route('locale.switch', $code) }}"

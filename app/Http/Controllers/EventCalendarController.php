@@ -39,7 +39,7 @@ final class EventCalendarController
         abort_if($feed === null, 404);
         $feed->forceFill(['last_used_at' => now()])->saveQuietly();
 
-        return $this->calendar($calendar->ics($calendar->feedEvents($feed)->get(), (string) config('app.name')), 'calendar.ics', download: false);
+        return $this->calendar($calendar->ics($calendar->feedEvents($feed)->get(), (string) config('app.brand')), 'calendar.ics', download: false);
     }
 
     public function attachment(Request $request, EventAttachment $attachment, ManageEvents $events): BinaryFileResponse

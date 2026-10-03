@@ -16,6 +16,12 @@ return [
     'name' => env('APP_NAME', 'Laravel'),
 
     /*
+     * The name people see: the organization (the logo in public/brand comes from its website, the bunaziua
+     * project). APP_NAME stays the technical name — it is part of cookie, cache and queue key names.
+     */
+    'brand' => env('APP_BRAND', 'Platforma Civică Bună Ziua'),
+
+    /*
     |--------------------------------------------------------------------------
     | Application Environment
     |--------------------------------------------------------------------------

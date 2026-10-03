@@ -59,7 +59,7 @@ it('opens the application to those who work in the field, and keeps its shell ca
     $this->actingAs(userWithRoles('candidate'))->get('/field')->assertForbidden();
 
     // The files the service worker keeps are there, and the worker itself is served from the root to cover /field.
-    foreach (['field-app/app.js', 'field-app/app.css', 'field-app/manifest.json', 'field-app/icon.svg', 'field-sw.js'] as $file) {
+    foreach (['field-app/app.js', 'field-app/app.css', 'field-app/manifest.json', 'brand/icon-192.png', 'brand/icon-512.png', 'field-sw.js'] as $file) {
         expect(file_exists(public_path($file)))->toBeTrue();
     }
     expect(json_decode((string) file_get_contents(public_path('field-app/manifest.json')), true))->toMatchArray(['start_url' => '/field', 'scope' => '/field', 'display' => 'standalone'])

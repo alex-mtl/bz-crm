@@ -370,7 +370,7 @@
         const rejected = mine('rejected').length;
         return `
             <header class="bar">
-                ${back ? `<button class="icon" data-go="${back}" data-test="back" aria-label="${esc(t('back'))}">‹</button>` : '<span class="icon"></span>'}
+                ${back ? `<button class="icon" data-go="${back}" data-test="back" aria-label="${esc(t('back'))}">‹</button>` : '<img class="icon brand" src="/brand/icon-192.png" alt="">'}
                 <h1>${esc(title)}</h1>
                 <button class="net ${navigator.onLine ? 'on' : 'off'}" data-go="queue" data-test="net" data-online="${navigator.onLine ? '1' : '0'}">
                     ${navigator.onLine ? esc(t('online')) : esc(t('offline'))}

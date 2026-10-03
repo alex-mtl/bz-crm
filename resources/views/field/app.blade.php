@@ -4,9 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#b45309">
-    <title>{{ __('geo.app.title') }} — {{ config('app.name') }}</title>
+    <title>{{ __('geo.app.title') }} — {{ config('app.brand') }}</title>
     <link rel="manifest" href="/field-app/manifest.json">
-    <link rel="icon" href="/field-app/icon.svg" type="image/svg+xml">
+    <link rel="icon" href="/brand/icon-32.png" type="image/png">
+    <link rel="apple-touch-icon" href="/brand/icon-180.png">
     <link rel="stylesheet" href="{{ $style }}">
 </head>
 <body>

@@ -3,8 +3,8 @@
  * touched. It keeps the shell of the application (the page, its script and style) so the application opens
  * without a network. Data is not cached here: the houses live in IndexedDB, the API always goes to the network.
  */
-const CACHE = 'bz-field-v1';
-const SHELL = ['/field', '/field-app/app.js', '/field-app/app.css', '/field-app/manifest.json', '/field-app/icon.svg'];
+const CACHE = 'bz-field-v2';
+const SHELL = ['/field', '/field-app/app.js', '/field-app/app.css', '/field-app/manifest.json', '/brand/icon-32.png', '/brand/icon-192.png'];
 
 self.addEventListener('install', (event) => {
     event.waitUntil(
@@ -32,7 +32,7 @@ self.addEventListener('fetch', (event) => {
         return;
     }
     const path = url.pathname;
-    if (path !== '/field' && !path.startsWith('/field-app/')) {
+    if (path !== '/field' && !path.startsWith('/field-app/') && !path.startsWith('/brand/')) {
         return;
     }
 
