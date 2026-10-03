@@ -31,6 +31,9 @@ $DC exec -T app composer install --no-interaction --prefer-dist --optimize-autol
 
 $DC run --rm assets
 
+# The demo world posts messages while it is built: the WebSocket server should be listening by then.
+$DC up -d reverb
+
 if [ "$1" = "--fresh" ]; then
     $ART migrate:fresh --seed --force
 else

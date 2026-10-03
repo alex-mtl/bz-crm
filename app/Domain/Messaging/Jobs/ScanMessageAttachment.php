@@ -53,6 +53,6 @@ final class ScanMessageAttachment implements ShouldQueue
             $context->asSystem('queue:messaging:scan');
             $journal->record('messaging.attachment.infected', $attachment->message, [], ['file' => $attachment->original_name]);
         }
-        event(new ChatUpdated($attachment->message->chat_id, 'attachment', $attachment->message_id));
+        ChatUpdated::tell($attachment->message->chat_id, 'attachment', $attachment->message_id);
     }
 }

@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Domain\Messaging\Events;
 
+use Illuminate\Broadcasting\BroadcastException;
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Broadcasting\PrivateChannel;
 use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
@@ -29,6 +30,22 @@ final class ChatUpdated implements ShouldBroadcast
         public readonly ?int $messageId = null,
         public readonly array $userIds = [],
     ) {}
+
+    /**
+     * Tells the open screens. The signal is only a hint — the pages also poll — so a WebSocket server that is down
+     * must never undo what has just been done: where the broadcast runs at once (a sync queue), its failure is
+     * logged and swallowed.
+     *
+     * @param  list<int>  $userIds
+     */
+    public static function tell(int $chatId, string $what, ?int $messageId = null, array $userIds = []): void
+    {
+        try {
+            event(new self($chatId, $what, $messageId, $userIds));
+        } catch (BroadcastException $e) {
+            report($e);
+        }
+    }
 
     /**
      * @return list<PrivateChannel>

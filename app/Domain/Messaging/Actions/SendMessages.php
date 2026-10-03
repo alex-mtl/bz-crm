@@ -379,7 +379,7 @@ final readonly class SendMessages
     {
         $members = ChatMember::query()->where('chat_id', $chat->id)->get()->keyBy('person_id');
         $users = User::query()->where('status', UserStatus::Active)->whereIn('person_id', $members->keys())->get();
-        event(new ChatUpdated($chat->id, 'message', $message->id, $users->pluck('id')->map(fn ($id): int => (int) $id)->all()));
+        ChatUpdated::tell($chat->id, 'message', $message->id, $users->pluck('id')->map(fn ($id): int => (int) $id)->all());
 
         $mentioned = $message->mentioned()->pluck('people.id')->flip();
         $sender = $actor->person->fullName();
@@ -451,6 +451,6 @@ final readonly class SendMessages
     {
         $userIds = User::query()->whereIn('person_id', ChatMember::query()->where('chat_id', $chat->id)->select('person_id'))->pluck('id')
             ->map(fn ($id): int => (int) $id)->all();
-        event(new ChatUpdated($chat->id, $what, $messageId, $userIds));
+        ChatUpdated::tell($chat->id, $what, $messageId, $userIds);
     }
 }

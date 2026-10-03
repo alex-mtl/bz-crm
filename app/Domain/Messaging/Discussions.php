@@ -49,7 +49,7 @@ final class Discussions
             ->update(['last_read_message_id' => $message->id, 'last_delivered_message_id' => $message->id]);
         $userIds = User::query()->whereIn('person_id', ChatMember::query()->where('chat_id', $chat->id)->select('person_id'))
             ->pluck('id')->map(fn ($id): int => (int) $id)->all();
-        event(new ChatUpdated($chat->id, 'message', $message->id, $userIds));
+        ChatUpdated::tell($chat->id, 'message', $message->id, $userIds);
 
         return $message;
     }

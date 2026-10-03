@@ -46,5 +46,7 @@ set_key TRUSTED_PROXIES '*'
 set_key DEMO_HOSTNAME "$HOST"
 set_key DEMO_IP "$IP"
 
-chmod 600 .env
+# Readable by the application (www-data, uid 33) and by the deploying user's group; nobody else.
+sudo chown 33:"$(id -gn)" .env
+chmod 640 .env
 echo ".env created for $HOST ($IP)."

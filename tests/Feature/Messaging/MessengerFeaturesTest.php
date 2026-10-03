@@ -332,3 +332,19 @@ it('broadcasts only the fact of a change, to channels only the members may join'
     $auth($o->a2, 'private-chat.'.$chat->id)->assertForbidden();
     $auth($o->a2, 'private-messenger.'.$o->b1->id)->assertForbidden();
 });
+
+it('keeps a message when the WebSocket server is down', function () {
+    $o = $this->org;
+    // A WebSocket server nobody answers at, and the broadcast running at once — as while the demo world is built.
+    config([
+        'queue.default' => 'sync', 'broadcasting.default' => 'reverb',
+        'broadcasting.connections.reverb.key' => 'k', 'broadcasting.connections.reverb.secret' => 's', 'broadcasting.connections.reverb.app_id' => '1',
+        'broadcasting.connections.reverb.options' => ['host' => 'reverb.invalid', 'port' => 8080, 'scheme' => 'http', 'useTLS' => false],
+    ]);
+    $chat = $this->chats->createGroup($o->a1, 'Fără WebSocket', [$o->a2->person_id]);
+
+    $message = ($this->say)($o->a1, $chat, 'Se salvează oricum');
+
+    expect($message->exists)->toBeTrue()
+        ->and(Message::query()->where('chat_id', $chat->id)->where('body', 'Se salvează oricum')->exists())->toBeTrue();
+});

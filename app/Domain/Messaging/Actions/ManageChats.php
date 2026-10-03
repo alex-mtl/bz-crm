@@ -342,6 +342,6 @@ final readonly class ManageChats
     {
         $userIds = User::query()->whereIn('person_id', ChatMember::query()->where('chat_id', $chat->id)->select('person_id'))->pluck('id')
             ->map(fn ($id): int => (int) $id)->all();
-        event(new ChatUpdated($chat->id, $what, null, $userIds));
+        ChatUpdated::tell($chat->id, $what, null, $userIds);
     }
 }
