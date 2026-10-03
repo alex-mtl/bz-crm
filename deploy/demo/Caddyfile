@@ -1,18 +1,35 @@
 # The demo stand (docs/deployment/demo-server.md). Caddy terminates TLS and passes everything on:
 # /app/* — the WebSocket of Reverb, the rest — nginx and the application.
 
+{
+	# A browser opening https://<ip> sends no server name (SNI is never sent for an IP): answer with the IP's certificate.
+	default_sni {$DEMO_IP}
+}
+
 (app) {
 	encode gzip
 	reverse_proxy /app/* reverb:8080
 	reverse_proxy nginx:80
 }
 
-# The public name Amazon gives the machine: a certificate from a public CA, obtained and renewed by Caddy.
-{$DEMO_HOSTNAME} {
+# HTTPS on the bare address: Let's Encrypt issues certificates for IP addresses with the short-lived profile
+# (about six days); Caddy renews them by itself. The offline field app and location sharing need this.
+https://{$DEMO_IP} {
+	tls {
+		issuer acme {
+			profile shortlived
+		}
+	}
 	import app
 }
 
-# The bare address over plain HTTP — works whatever happens to certificates.
+# The same address over plain HTTP — works whatever happens to certificates.
 http://{$DEMO_IP} {
+	import app
+}
+
+# The public name Amazon gives the machine: plain HTTP only. Let's Encrypt refuses names under amazonaws.com
+# by policy, so a certificate for it cannot be had.
+http://{$DEMO_HOSTNAME} {
 	import app
 }

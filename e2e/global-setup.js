@@ -3,14 +3,20 @@ import net from 'node:net';
 /*
  * Inside the Docker network the application answers as nginx:80; the browser must see it as localhost:8100
  * (a secure context, and the address the application builds its links with). A plain TCP forwarder does that —
- * and the same for the asset server the panel pages load their styles from.
+ * and the same for the asset server and the WebSocket server the panel pages talk to.
+ *
+ * Against a stand on a server (E2E_BASE_URL set) nothing is forwarded: the browser goes there directly.
  */
 const FORWARD = [
     [8100, process.env.E2E_APP_HOST ?? 'nginx', 80],
     [5174, process.env.E2E_VITE_HOST ?? 'node', 5174],
+    [8180, process.env.E2E_REVERB_HOST ?? 'reverb', 8080],
 ];
 
 export default async function globalSetup() {
+    if (process.env.E2E_BASE_URL) {
+        return async () => {};
+    }
     const servers = await Promise.all(FORWARD.map(([port, host, target]) => new Promise((resolve, reject) => {
         const server = net.createServer((client) => {
             const upstream = net.connect(target, host);

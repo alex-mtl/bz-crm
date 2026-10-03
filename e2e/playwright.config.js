@@ -17,7 +17,8 @@ export default defineConfig({
     reporter: [['list']],
     globalSetup: './global-setup.js',
     use: {
-        baseURL: 'http://localhost:8100',
+        // A stand on a server: E2E_BASE_URL=https://… (docs/deployment/demo-server.md).
+        baseURL: process.env.E2E_BASE_URL ?? 'http://localhost:8100',
         locale: 'ro-RO',
         viewport: { width: 390, height: 844 },
         serviceWorkers: 'allow',

@@ -23,7 +23,8 @@ set_key() {
 
 set_key APP_ENV demo
 set_key APP_DEBUG false
-set_key APP_URL "https://$HOST"
+# HTTPS lives on the IP: Let's Encrypt refuses names under amazonaws.com (see the Caddyfile).
+set_key APP_URL "https://$IP"
 set_key APP_KEY "base64:$(head -c 32 /dev/urandom | base64)"
 set_key LOG_LEVEL info
 set_key DB_PASSWORD "$(secret 32)"
@@ -34,7 +35,7 @@ set_key REVERB_APP_SECRET "$(secret 32)"
 set_key REVERB_HOST reverb
 set_key REVERB_PORT 8080
 set_key REVERB_SCHEME http
-set_key REVERB_CLIENT_HOST "$HOST"
+set_key REVERB_CLIENT_HOST "$IP"
 set_key REVERB_CLIENT_PORT 443
 set_key REVERB_CLIENT_SCHEME https
 # Letters of the demo world go nowhere: its addresses do not exist.
