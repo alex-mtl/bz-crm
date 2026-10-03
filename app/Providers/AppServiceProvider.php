@@ -15,6 +15,7 @@ use Filament\Facades\Filament;
 use Illuminate\Auth\Events\Logout;
 use Illuminate\Auth\Notifications\ResetPassword;
 use Illuminate\Database\Events\MigrationsEnded;
+use Illuminate\Http\Middleware\TrustProxies;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\ServiceProvider;
 
@@ -34,6 +35,12 @@ class AppServiceProvider extends ServiceProvider
 
     public function boot(): void
     {
+        // Behind a TLS proxy the application must know the page came over HTTPS — or it builds http:// links.
+        $proxies = config('app.trusted_proxies');
+        if (is_string($proxies) && $proxies !== '') {
+            TrustProxies::at($proxies === '*' ? '*' : array_map('trim', explode(',', $proxies)));
+        }
+
         Event::listen(MigrationsEnded::class, fn () => SystemSettings::flush());
         // Signing out during an impersonation ends it (Д-19).
         Event::listen(Logout::class, function (): void {

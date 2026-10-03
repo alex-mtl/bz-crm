@@ -5,7 +5,8 @@ cd /var/www/html
 
 # storage/framework lives on a named volume (fast Linux FS); make sure its layout exists and is writable.
 mkdir -p storage/framework/cache/data storage/framework/sessions storage/framework/testing storage/framework/views
-chown -R www-data:www-data storage/framework
+# As root (php-fpm) this fixes the owner; a worker started as www-data owns these files already.
+chown -R www-data:www-data storage/framework 2>/dev/null || true
 
 # vendor/ lives on a named volume too: install it on first start (only the php-fpm container does this).
 if [ "$1" = "php-fpm" ]; then

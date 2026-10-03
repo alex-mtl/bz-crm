@@ -1,0 +1,125 @@
+# The demo stand on a server (docs/deployment/demo-server.md). Not for production: it seeds the fictional demo
+# world and shows the quick sign-in (Д-2, Д-5).
+#
+# Run from the project directory through deploy/demo/dc, which passes --project-directory and the .env file.
+# Only Caddy is published: ports 80 and 443. MySQL, Redis, nginx and Reverb are reachable inside the network only.
+
+name: bz-crm-demo
+
+x-app: &app
+  build:
+    context: ./docker/php
+  image: bz-crm-social/app:demo
+  volumes:
+    - ./:/var/www/html
+    - vendor:/var/www/html/vendor
+    - framework:/var/www/html/storage/framework
+  depends_on:
+    mysql:
+      condition: service_healthy
+    redis:
+      condition: service_healthy
+  restart: unless-stopped
+  networks: [bz]
+
+services:
+  app:
+    <<: *app
+
+  # The workers run as www-data, like php-fpm's workers: whatever they write in storage/ stays writable for all.
+  queue:
+    <<: *app
+    user: www-data
+    command: php artisan queue:work redis --queue=default --tries=3 --timeout=120
+
+  scheduler:
+    <<: *app
+    user: www-data
+    command: php artisan schedule:work
+
+  # WebSocket server of the messenger (ADR-012). Browsers reach it through Caddy at /app/*.
+  reverb:
+    <<: *app
+    user: www-data
+    command: php artisan reverb:start --host=0.0.0.0 --port=8080
+
+  nginx:
+    image: nginx:1.27-alpine
+    volumes:
+      - ./:/var/www/html:ro
+      - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on: [app]
+    restart: unless-stopped
+    networks: [bz]
+
+  # TLS and the only door to the outside: certificates are obtained and renewed by itself.
+  caddy:
+    image: caddy:2
+    environment:
+      DEMO_HOSTNAME: "${DEMO_HOSTNAME}"
+      DEMO_IP: "${DEMO_IP}"
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - ./deploy/demo/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on: [nginx, reverb]
+    restart: unless-stopped
+    networks: [bz]
+
+  mysql:
+    image: mysql:8.4
+    environment:
+      MYSQL_ROOT_PASSWORD: "${DB_ROOT_PASSWORD}"
+      MYSQL_DATABASE: "${DB_DATABASE}"
+      MYSQL_USER: "${DB_USERNAME}"
+      MYSQL_PASSWORD: "${DB_PASSWORD}"
+    command: ["--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci"]
+    volumes:
+      - mysql-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h 127.0.0.1 -p\"$$MYSQL_ROOT_PASSWORD\" --silent"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+    restart: unless-stopped
+    networks: [bz]
+
+  redis:
+    image: redis:7-alpine
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+    networks: [bz]
+
+  # Builds the front-end once per deployment (deploy/demo/deploy.sh); never runs as a service.
+  assets:
+    image: node:22-alpine
+    profiles: [build]
+    working_dir: /var/www/html
+    volumes:
+      - ./:/var/www/html
+      - node_modules:/var/www/html/node_modules
+      - vendor:/var/www/html/vendor:ro
+    command: sh -c "npm ci --no-audit --no-fund && npm run build"
+    networks: [bz]
+
+networks:
+  bz:
+
+volumes:
+  mysql-data:
+  redis-data:
+  vendor:
+  framework:
+  node_modules:
+  caddy-data:
+  caddy-config:

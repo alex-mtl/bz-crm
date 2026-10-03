@@ -1,0 +1,5 @@
+#!/bin/sh
+# docker compose of the demo stand, from anywhere: ./deploy/demo/dc ps | logs -f app | exec app php artisan …
+set -e
+ROOT=$(cd "$(dirname "$0")/../.." && pwd)
+exec docker compose --project-directory "$ROOT" --env-file "$ROOT/.env" -f "$ROOT/deploy/demo/compose.yml" "$@"

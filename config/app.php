@@ -68,6 +68,12 @@ return [
     'timezone' => 'UTC',
 
     /*
+     * Proxies in front of the application whose X-Forwarded-* headers are believed (the scheme, the client's
+     * address). Empty — none, as locally. On a server behind Caddy: "*", because only the proxy reaches nginx.
+     */
+    'trusted_proxies' => env('TRUSTED_PROXIES'),
+
+    /*
     |--------------------------------------------------------------------------
     | Application Locale Configuration
     |--------------------------------------------------------------------------

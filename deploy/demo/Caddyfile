@@ -1,0 +1,18 @@
+# The demo stand (docs/deployment/demo-server.md). Caddy terminates TLS and passes everything on:
+# /app/* — the WebSocket of Reverb, the rest — nginx and the application.
+
+(app) {
+	encode gzip
+	reverse_proxy /app/* reverb:8080
+	reverse_proxy nginx:80
+}
+
+# The public name Amazon gives the machine: a certificate from a public CA, obtained and renewed by Caddy.
+{$DEMO_HOSTNAME} {
+	import app
+}
+
+# The bare address over plain HTTP — works whatever happens to certificates.
+http://{$DEMO_IP} {
+	import app
+}
