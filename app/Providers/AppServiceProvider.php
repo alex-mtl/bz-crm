@@ -10,12 +10,14 @@ use App\Domain\Identity\Models\User;
 use App\Http\Impersonation\ImpersonationSession;
 use App\Infrastructure\Antivirus\ClamAvScanner;
 use App\Infrastructure\ExternalAuth\SocialiteOAuthGateway;
+use App\Support\Mail\DropFictionalRecipients;
 use App\Support\Settings\SystemSettings;
 use Filament\Facades\Filament;
 use Illuminate\Auth\Events\Logout;
 use Illuminate\Auth\Notifications\ResetPassword;
 use Illuminate\Database\Events\MigrationsEnded;
 use Illuminate\Http\Middleware\TrustProxies;
+use Illuminate\Mail\Events\MessageSending;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\ServiceProvider;
 
@@ -42,6 +44,8 @@ class AppServiceProvider extends ServiceProvider
         }
 
         Event::listen(MigrationsEnded::class, fn () => SystemSettings::flush());
+        // Letters to the fictional addresses of the demo world never leave the application.
+        Event::listen(MessageSending::class, [DropFictionalRecipients::class, 'handle']);
         // Signing out during an impersonation ends it (Д-19).
         Event::listen(Logout::class, function (): void {
             if (session()->isStarted()) {

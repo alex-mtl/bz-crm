@@ -15,7 +15,9 @@
         "laravel/reverb": "^1.12",
         "laravel/socialite": "^5.31",
         "laravel/tinker": "^3.0",
-        "openspout/openspout": "^4.23"
+        "openspout/openspout": "^4.23",
+        "symfony/http-client": "^8.1",
+        "symfony/mailgun-mailer": "^8.1"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
