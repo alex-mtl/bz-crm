@@ -141,13 +141,16 @@ class TaskResource extends Resource
             ]),
             Section::make(__('admin.tasks.people'))->columns(2)->schema([
                 Select::make('assignees')->label(__('admin.tasks.assignees'))->multiple()->searchable()
+                    ->options(fn (): array => static::assignableSearch(''))
                     ->getSearchResultsUsing(fn (string $search): array => static::assignableSearch($search))
                     ->getOptionLabelsUsing(fn (array $values): array => Person::query()->whereKey($values)->get()->mapWithKeys(fn (Person $p): array => [$p->id => $p->fullName()])->all())
                     ->helperText(__('admin.tasks.assignees_hint')),
                 Select::make('watchers')->label(__('admin.tasks.watchers'))->multiple()->searchable()
+                    ->options(fn (): array => static::assignableSearch(''))
                     ->getSearchResultsUsing(fn (string $search): array => static::assignableSearch($search))
                     ->getOptionLabelsUsing(fn (array $values): array => Person::query()->whereKey($values)->get()->mapWithKeys(fn (Person $p): array => [$p->id => $p->fullName()])->all()),
                 Select::make('subject_person_id')->label(__('admin.tasks.subject'))->searchable()
+                    ->options(fn (): array => PersonSearch::search(''))
                     ->getSearchResultsUsing(fn (string $search): array => PersonSearch::search($search))
                     ->getOptionLabelUsing(fn ($value): ?string => PersonSearch::label($value))
                     ->helperText(__('admin.tasks.subject_hint')),
@@ -225,6 +228,7 @@ class TaskResource extends Resource
                     BulkAction::make('bulkAssign')->label(__('admin.tasks.bulk_assign'))
                         ->visible(fn (): bool => static::allows('tasks.bulk'))
                         ->schema([Select::make('assignees')->label(__('admin.tasks.assignees'))->multiple()->searchable()->required()
+                            ->options(fn (): array => static::assignableSearch(''))
                             ->getSearchResultsUsing(fn (string $search): array => static::assignableSearch($search))])
                         ->action(fn (Collection $records, array $data) => static::bulk($records, ['assignee_ids' => array_map('intval', (array) $data['assignees'])])),
                 ]),

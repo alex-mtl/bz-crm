@@ -11,6 +11,7 @@ use App\Domain\Organization\Models\OrgMembership;
 use App\Domain\Organization\Models\OrgUnit;
 use App\Domain\Organization\OrgStructure;
 use App\Domain\People\Models\Person;
+use App\Domain\People\NameSearch;
 use App\Filament\Concerns\ChecksPermissions;
 use App\Filament\Resources\People\Pages\CreatePerson;
 use App\Filament\Resources\People\Pages\ListPeople;
@@ -78,6 +79,36 @@ class PersonResource extends Resource
         return static::allows('people.read');
     }
 
+    /**
+     * People in the search bar at the top of the panel — those the reader may see, by name as people type it
+     * (several words, Cyrillic or Latin).
+     */
+    public static function canGloballySearch(): bool
+    {
+        return static::canViewAny();
+    }
+
+    /**
+     * @return list<string>
+     */
+    public static function getGloballySearchableAttributes(): array
+    {
+        return ['first_name', 'last_name'];
+    }
+
+    /**
+     * @param  Builder<covariant Model>  $query
+     */
+    protected static function applyGlobalSearchAttributeConstraints(Builder $query, string $search): void
+    {
+        NameSearch::apply($query, $search);
+    }
+
+    public static function getGlobalSearchResultTitle(Model $record): string
+    {
+        return $record instanceof Person ? $record->fullName() : '';
+    }
+
     public static function canView(Model $record): bool
     {
         return static::allows('people.read', $record);
@@ -139,8 +170,7 @@ class PersonResource extends Resource
             ->columns([
                 TextColumn::make('last_name')->label(__('admin.fields.name'))
                     ->formatStateUsing(fn (Person $record): string => $record->fullName())
-                    ->searchable(query: fn (Builder $query, string $search) => $query->where(fn (Builder $w) => $w
-                        ->where('first_name', 'like', "%{$search}%")->orWhere('last_name', 'like', "%{$search}%")))
+                    ->searchable(query: fn (Builder $query, string $search) => NameSearch::apply($query, $search))
                     ->sortable(),
                 TextColumn::make('unit')->label(__('admin.org_units.singular'))->placeholder('—')
                     ->state(fn (Person $record): ?string => $membership($record)?->unit->name),

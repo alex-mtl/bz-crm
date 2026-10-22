@@ -90,8 +90,7 @@ class RegistrationApplicationResource extends Resource
             ->columns([
                 TextColumn::make('user.person.first_name')->label(__('admin.fields.name'))
                     ->formatStateUsing(fn (RegistrationApplication $record): string => $record->user->person->fullName())
-                    ->searchable(query: fn ($query, string $search) => $query->whereHas('user.person', fn ($query) => $query
-                        ->where('first_name', 'like', "%{$search}%")->orWhere('last_name', 'like', "%{$search}%"))),
+                    ->searchable(query: fn ($query, string $search) => $query->whereHas('user.person', fn ($query) => $query->matchingName($search))),
                 TextColumn::make('email')->label(__('identity.fields.email'))
                     ->state(fn (RegistrationApplication $record): ?string => $record->user->email ?? $record->user->person->email),
                 IconColumn::make('email_verified')->label(__('admin.applications.email_verified'))->boolean()

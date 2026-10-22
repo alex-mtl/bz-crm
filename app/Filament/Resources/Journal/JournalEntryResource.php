@@ -173,7 +173,7 @@ class JournalEntryResource extends Resource
                     ->options($enumOptions(ActorType::class, 'journal.actor_types.')),
                 SelectFilter::make('actor_user_id')->label(__('admin.journal.actor'))->searchable()
                     ->getSearchResultsUsing(fn (string $search): array => User::query()->with('person')
-                        ->whereHas('person', fn ($query) => $query->where('first_name', 'like', "%{$search}%")->orWhere('last_name', 'like', "%{$search}%"))
+                        ->whereHas('person', fn ($query) => $query->matchingName($search))
                         ->orWhere('email', 'like', "%{$search}%")->limit(20)->get()
                         ->mapWithKeys(fn (User $u): array => [$u->id => $u->person->fullName()])->all())
                     ->getOptionLabelUsing(fn ($value): ?string => User::query()->with('person')->find($value)?->person->fullName()),

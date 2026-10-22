@@ -87,8 +87,7 @@ final class SegmentQuery
             $query->where('people.created_at', '<=', Carbon::parse($criteria['created_to'])->endOfDay());
         }
         if (isset($criteria['search'])) {
-            $term = '%'.$criteria['search'].'%';
-            $query->where(fn (Builder $w) => $w->where('people.first_name', 'like', $term)->orWhere('people.last_name', 'like', $term));
+            $query->matchingName((string) $criteria['search']);
         }
 
         if (isset($criteria['territory_id'])) {

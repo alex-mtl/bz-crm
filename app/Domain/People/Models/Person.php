@@ -5,7 +5,9 @@ declare(strict_types=1);
 namespace App\Domain\People\Models;
 
 use App\Domain\Identity\Models\User;
+use App\Domain\People\NameSearch;
 use Database\Factories\PersonFactory;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasOne;
@@ -66,5 +68,15 @@ class Person extends Model
     public function fullName(): string
     {
         return trim($this->first_name.' '.($this->last_name ?? ''));
+    }
+
+    /**
+     * By name as people type it: several words in any order, Cyrillic or Latin (NameSearch).
+     *
+     * @param  Builder<Person>  $query
+     */
+    public function scopeMatchingName(Builder $query, string $term): void
+    {
+        NameSearch::apply($query, $term);
     }
 }

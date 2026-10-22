@@ -136,8 +136,7 @@ class UserResource extends Resource
             ->columns([
                 TextColumn::make('person.last_name')->label(__('admin.fields.name'))
                     ->formatStateUsing(fn (User $record): string => $record->person->fullName())
-                    ->searchable(query: fn ($query, string $search) => $query->whereHas('person', fn ($query) => $query
-                        ->where('first_name', 'like', "%{$search}%")->orWhere('last_name', 'like', "%{$search}%")))
+                    ->searchable(query: fn ($query, string $search) => $query->whereHas('person', fn ($query) => $query->matchingName($search)))
                     ->sortable(),
                 TextColumn::make('email')->label(__('identity.fields.email'))->searchable(),
                 TextColumn::make('status')->label(__('admin.fields.status'))->badge()

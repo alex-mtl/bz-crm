@@ -66,7 +66,7 @@ class AccessSimulator extends Page
         }
 
         return User::query()->with('person')
-            ->whereHas('person', fn ($q) => $q->where('first_name', 'like', "%{$this->search}%")->orWhere('last_name', 'like', "%{$this->search}%"))
+            ->whereHas('person', fn ($q) => $q->matchingName($this->search))
             ->limit(15)->get()->mapWithKeys(fn (User $u): array => [$u->id => $u->person->fullName().($u->email ? ' · '.$u->email : '')])->all();
     }
 

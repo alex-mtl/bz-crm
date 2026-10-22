@@ -96,7 +96,7 @@ class ViewTerritory extends ViewRecord
                     Select::make('person_id')->label(__('admin.fields.name'))->searchable()->required()
                         ->getSearchResultsUsing(fn (string $search): array => app(AuthorizationService::class)
                             ->scopeQuery($this->actor(), 'people.read', Person::query())
-                            ->where(fn ($query) => $query->where('first_name', 'like', "%{$search}%")->orWhere('last_name', 'like', "%{$search}%"))
+                            ->matchingName($search)
                             ->limit(20)->get()->mapWithKeys(fn (Person $p): array => [$p->id => $p->fullName()])->all()),
                 ])
                 ->action(fn (array $data) => $this->run(fn () => app(ManageTerritories::class)->assignResponsible(

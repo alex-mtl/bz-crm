@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Filament\Resources\Appeals;
 
 use App\Domain\CRM\Models\Appeal;
+use App\Domain\People\NameSearch;
 use App\Filament\Concerns\ChecksPermissions;
 use App\Filament\Resources\Appeals\Pages\CreateAppeal;
 use App\Filament\Resources\Appeals\Pages\ListAppeals;
@@ -144,7 +145,7 @@ class AppealResource extends Resource
                     // Found by its subject and by the name of the applicant.
                     ->searchable(query: fn (Builder $query, string $search) => $query->where(fn (Builder $where) => $where
                         ->where('title', 'like', "%{$search}%")
-                        ->orWhereHas('person', fn (Builder $person) => $person->where('first_name', 'like', "%{$search}%")->orWhere('last_name', 'like', "%{$search}%"))))
+                        ->orWhereHas('person', fn (Builder $person) => NameSearch::apply($person, $search))))
                     ->description(fn (Appeal $record): ?string => $record->person?->fullName()),
                 TextColumn::make('type_code')->label(__('admin.appeals.type'))->formatStateUsing(fn (string $state): string => $types[$state] ?? $state)->toggleable(),
                 TextColumn::make('status')->label(__('admin.fields.status'))->badge()

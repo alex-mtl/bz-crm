@@ -7,6 +7,7 @@ namespace App\Filament\Resources\Leads;
 use App\Domain\CRM\Models\Lead;
 use App\Domain\CRM\Models\Pipeline;
 use App\Domain\CRM\Models\PipelineStage;
+use App\Domain\People\NameSearch;
 use App\Filament\Concerns\ChecksPermissions;
 use App\Filament\Resources\Leads\Pages\CreateLead;
 use App\Filament\Resources\Leads\Pages\ListLeads;
@@ -147,8 +148,7 @@ class LeadResource extends Resource
                 TextColumn::make('person.last_name')->label(__('admin.leads.person'))
                     ->formatStateUsing(fn (Lead $record): string => $record->person->fullName())
                     ->description(fn (Lead $record): ?string => $record->title)
-                    ->searchable(query: fn (Builder $query, string $search) => $query->whereHas('person', fn (Builder $p) => $p
-                        ->where('first_name', 'like', "%{$search}%")->orWhere('last_name', 'like', "%{$search}%"))),
+                    ->searchable(query: fn (Builder $query, string $search) => $query->whereHas('person', fn (Builder $p) => NameSearch::apply($p, $search))),
                 TextColumn::make('pipeline_id')->label(__('admin.leads.pipeline'))->formatStateUsing(fn (Lead $record): string => $record->pipeline->name()),
                 TextColumn::make('stage_id')->label(__('admin.leads.stage'))->formatStateUsing(fn (Lead $record): string => $record->stage->name())
                     ->color(fn (Lead $record): ?string => $record->isStageOverdue() ? 'danger' : null)

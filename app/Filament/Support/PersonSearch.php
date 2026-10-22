@@ -26,7 +26,7 @@ final class PersonSearch
             return [];
         }
         $query = app(AuthorizationService::class)->scopeQuery($viewer, 'people.read', Person::query())
-            ->where(fn (Builder $q) => $q->where('first_name', 'like', "%{$term}%")->orWhere('last_name', 'like', "%{$term}%"));
+            ->matchingName($term);
         if ($activeUsersOnly) {
             $query->whereHas('user', fn (Builder $u) => $u->where('status', 'active'));
         }
