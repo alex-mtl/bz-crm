@@ -19,7 +19,7 @@
 /* Kanban (resources/views/filament/pages/task-board.blade.php): every status in its own colour (--bz-c, set per column and
    per button), a scroll bar above the board as well as below, the board fitting the screen. */
 .bz-board-top { overflow-x: auto; overflow-y: hidden; margin-bottom: 0.5rem; }
-.bz-board { height: calc(100dvh - 15rem); min-height: 24rem; }
+.bz-board { height: calc(100dvh - 17rem); min-height: 24rem; }
 .bz-column { background: color-mix(in srgb, var(--bz-c) 10%, #f3f4f6); border-top: 4px solid var(--bz-c); }
 .dark .bz-column { background: color-mix(in srgb, var(--bz-c) 12%, transparent); }
 .bz-column-head { position: sticky; top: -0.5rem; z-index: 1; margin: -0.5rem -0.5rem 0; padding: 0.5rem 0.75rem; background: inherit; }
