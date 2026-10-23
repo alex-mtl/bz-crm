@@ -97,15 +97,25 @@ class TaskBoard extends Page
             ->orderBy('name')->pluck('name', 'id')->all();
     }
 
+    /** Each status has its own colour on the board; a status added later takes the colour of its category. */
+    private const array STATUS_COLORS = [
+        'draft' => '#9ca3af', 'backlog' => '#8b5cf6', 'todo' => '#3b82f6', 'in_progress' => '#f59e0b',
+        'blocked' => '#ef4444', 'on_hold' => '#f97316', 'in_review' => '#06b6d4', 'done' => '#22c55e', 'canceled' => '#78716c',
+    ];
+
+    private const array CATEGORY_COLORS = ['none' => '#9ca3af', 'todo' => '#3b82f6', 'in_progress' => '#f59e0b', 'done' => '#22c55e'];
+
     /**
-     * @return array<string, array{label: string, tasks: Collection<int, Task>}>
+     * @return array<string, array{label: string, color: string, tasks: Collection<int, Task>}>
      */
     public function getColumnsProperty(): array
     {
         $tasks = $this->visibleTasks()->with('assignees')->orderBy('due_at')->limit(500)->get()->groupBy('status_code');
+        $workflow = app(TaskWorkflow::class);
         $columns = [];
         foreach (Options::catalog('task_statuses') as $code => $label) {
-            $columns[$code] = ['label' => $label, 'tasks' => $tasks->get($code, collect())];
+            $color = self::STATUS_COLORS[$code] ?? self::CATEGORY_COLORS[$workflow->category($code)] ?? self::CATEGORY_COLORS['none'];
+            $columns[$code] = ['label' => $label, 'color' => $color, 'tasks' => $tasks->get($code, collect())];
         }
 
         return $columns;

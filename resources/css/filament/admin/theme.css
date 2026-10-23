@@ -15,3 +15,17 @@
 .bz-vehicle { background: #0f172a; border-radius: 6px; }
 .bz-house { background: #b45309; }
 .bz-corner { width: 18px; height: 18px; margin: 4px; background: #fff; border-color: #0f172a; cursor: grab; }
+
+/* Kanban (resources/views/filament/pages/task-board.blade.php): every status in its own colour (--bz-c, set per column and
+   per button), a scroll bar above the board as well as below, the board fitting the screen. */
+.bz-board-top { overflow-x: auto; overflow-y: hidden; margin-bottom: 0.5rem; }
+.bz-board { height: calc(100dvh - 15rem); min-height: 24rem; }
+.bz-column { background: color-mix(in srgb, var(--bz-c) 10%, #f3f4f6); border-top: 4px solid var(--bz-c); }
+.dark .bz-column { background: color-mix(in srgb, var(--bz-c) 12%, transparent); }
+.bz-column-head { position: sticky; top: -0.5rem; z-index: 1; margin: -0.5rem -0.5rem 0; padding: 0.5rem 0.75rem; background: inherit; }
+.bz-status-dot { width: 0.6rem; height: 0.6rem; border-radius: 9999px; background: var(--bz-c); }
+.bz-card { border-left: 4px solid var(--bz-c); }
+.bz-move { border: 1px solid color-mix(in srgb, var(--bz-c) 55%, transparent); color: color-mix(in srgb, var(--bz-c) 75%, #111827);
+    background: color-mix(in srgb, var(--bz-c) 10%, transparent); }
+.bz-move:hover { background: color-mix(in srgb, var(--bz-c) 22%, transparent); }
+.dark .bz-move { color: color-mix(in srgb, var(--bz-c) 70%, #fff); }
