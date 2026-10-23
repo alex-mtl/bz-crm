@@ -28,7 +28,7 @@
     "Regards,": "Toate cele bune,",
     "Register": "Înregistrare",
     "Reset Password": "Resetare parolă",
-    "Reset your password": "Reset your password",
+    "Reset your password": "Resetarea parolei",
     "results": "rezultate",
     "Server Error": "Eroare de server",
     "Service Unavailable": "Serviciu indisponibil",
@@ -46,7 +46,7 @@
     "Unable to write the encrypted environment file.": "Unable to write the encrypted environment file.",
     "Unauthorized": "Nepermis",
     "Verify Email Address": "Verifică adresă de e-mail",
-    "Verify your email address": "Verify your email address",
+    "Verify your email address": "Confirmați adresa de e-mail",
     "Whoops!": "Oops!",
     "You are receiving this email because we received a password reset request for your account.": "Primiți acest mesaj pentru că a fost înregistrată o solicitare de resetare a parolei pentru contul asociat acestei adrese de e-mail."
 }
