@@ -49,7 +49,9 @@ class AdminPanelProvider extends PanelProvider
             ->darkModeBrandLogo('/brand/logo-dark.png')
             ->brandLogoHeight(fn (): string => request()->routeIs('filament.admin.auth.*') ? '4rem' : '2.25rem')
             ->favicon('/brand/icon-32.png')
-            ->renderHook(PanelsRenderHook::HEAD_END, fn (): HtmlString => new HtmlString('<link rel="apple-touch-icon" href="/brand/icon-180.png">'))
+            // Installable as an application (PWA): manifest + iOS tags in the head, the install prompt at the end.
+            ->renderHook(PanelsRenderHook::HEAD_END, fn (): View => view('filament.pwa-head'))
+            ->renderHook(PanelsRenderHook::BODY_END, fn (): View => view('filament.pwa-install'))
             ->colors([
                 'primary' => Color::Amber,
             ])

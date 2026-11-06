@@ -1,0 +1,15 @@
+{
+    "id": "/admin",
+    "name": "Bună Ziua — CRM",
+    "short_name": "Bună Ziua CRM",
+    "description": "Panoul organizației: oameni, evenimente, mesaje.",
+    "start_url": "/admin",
+    "scope": "/admin",
+    "display": "standalone",
+    "background_color": "#f8fafc",
+    "theme_color": "#d97706",
+    "icons": [
+        { "src": "/brand/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+        { "src": "/brand/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+    ]
+}
