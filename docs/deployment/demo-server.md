@@ -15,10 +15,10 @@
 
 - выпускает и продлевает сертификат Let's Encrypt **на IP-адрес** (короткоживущий, около 6 дней; продлевает сам). Браузер не сообщает имя сайта при обращении по IP, поэтому этот сертификат отдаётся по умолчанию (`default_sni`);
 - по IP отвечает и по обычному HTTP — это работает при любой судьбе сертификатов;
-- имя Amazon обслуживает только по HTTP: Let's Encrypt по своей политике не выдаёт сертификаты на имена `*.amazonaws.com` (ответ `rejectedIdentifier`), обойти это нельзя. Для HTTPS по имени нужен свой домен с A-записью на `35.88.203.152` — тогда достаточно вписать его в `Caddyfile`;
+- имя Amazon обслуживает только по HTTP: Let's Encrypt по своей политике не выдаёт сертификаты на имена `*.amazonaws.com` (ответ `rejectedIdentifier`), обойти это нельзя. Для HTTPS по имени нужен свой домен с A-записью на `35.88.203.152` — тогда достаточно вписать его в `Caddyfile` (так подключён `team.bunaziua.org`). `Caddyfile` примонтирован в контейнер отдельным файлом: после его обновления `caddy reload` видит старую версию — нужен `./deploy/demo/dc up -d --force-recreate caddy`;
 - `/app/*` (WebSocket мессенджера) отдаёт в Reverb, всё остальное — в nginx.
 
-MySQL, Redis, nginx и Reverb наружу не открыты. WebSocket браузер открывает на `wss://35.88.203.152` (`REVERB_CLIENT_HOST`).
+MySQL, Redis, nginx и Reverb наружу не открыты. WebSocket браузер открывает на `wss://team.bunaziua.org` (`REVERB_CLIENT_HOST`); `APP_URL` — тоже домен, от него строятся ссылки в письмах.
 
 nginx спрашивает адрес контейнера PHP у DNS Docker при каждом запросе: после перезапуска контейнер может получить другой адрес, и запомненный при старте давал бы 502. Приложение доверяет заголовкам прокси (`TRUSTED_PROXIES=*`) — иначе на HTTPS-странице оно строило бы http-ссылки на стили и скрипты.
 
@@ -31,7 +31,7 @@ nginx спрашивает адрес контейнера PHP у DNS Docker п�
 С рабочего ПК, из каталога проекта:
 
 ```bash
-git archive --format=tar HEAD | ssh aws-bz 'tar -x -C /opt/bz-crm --exclude=storage --exclude=bootstrap/cache'
+git archive --format=tar HEAD | ssh aws-bz 'sudo tar -x -C /opt/bz-crm --exclude=storage --exclude=bootstrap/cache'
 ```
 
 ```bash
