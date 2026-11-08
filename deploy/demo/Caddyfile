@@ -23,6 +23,12 @@ https://{$DEMO_IP} {
 	import app
 }
 
+# The organization's own name for the stand (A record → the stand's IP): an ordinary Let's Encrypt certificate,
+# HTTP redirects to HTTPS. The panel is installed as an application (PWA) from this address.
+team.bunaziua.org {
+	import app
+}
+
 # The same address over plain HTTP — works whatever happens to certificates.
 http://{$DEMO_IP} {
 	import app
